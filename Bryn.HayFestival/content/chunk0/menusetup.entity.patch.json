@@ -1,0 +1,27 @@
+{
+	"tempHash": "0013C71D9BC15CE0",
+	"tbluHash": "0033523805EE9077",
+	"patch": [
+		{
+			"AddEntity": [
+				"cafe9640adb61b8a",
+				{
+					"parent": "573c0d2d6b81503f",
+					"name": "_scene_hay",
+					"factory": "[assembly:/templates/ui/mapexportentities.template?/menumap.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/templates/ui/mapexportentities.template?/menumap.entitytemplate].pc_entityblueprint",
+					"properties": {
+						"m_pMetaDataResource": {
+							"type": "ZRuntimeResourceID",
+							"value": {
+								"resource": "0031D2C83F511992",
+								"flag": "5F"
+							}
+						}
+					}
+				}
+			]
+		}
+	],
+	"patchVersion": 6
+}

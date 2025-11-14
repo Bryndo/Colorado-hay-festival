@@ -1,0 +1,109 @@
+{
+    "scene": "assembly:/_pro/scenes/missions/colorado/mission_hay/scene_hay.entity",
+    "actors": [],
+    "entrances": [
+        {
+            "id": "7f01dcd4-bfd7-4258-abb9-0dc243290e72",
+            "isDefaultSpawn": true,
+            "isPreferredSpawn": true,
+            "WorldTransform": "-0.5807031, 0.8141155, 0, -0.8141155, -0.5807031, 0, 0, 0, 1, -113.2376, -17.35346, 51.0198"
+        }
+    ],
+    "Exits": [
+        {
+            "id": "54d88eb5-02ee-4085-9090-8079b4d0b2d3",
+            "WorldTransform": "-0.998851, 0.04792, 0, -0.04792, -0.998851, 0, 0, 0, 1, 4.907217, -70.98348, 13.28284",
+            "RequireKey": false
+        },
+        {
+            "id": "ce3f1351-2dda-4d49-9b78-f26eb61986d4",
+            "WorldTransform": "0.656064, -0.754705, 0, 0.754705, 0.656064, 0, 0, 0, 1, -79.02529, 125.912, 11.71467",
+            "RequireKey": false
+        },
+        {
+            "id": "1391a49d-4d91-4a88-8321-f2f475380032",
+            "WorldTransform": "-0.896842, 0.442351, 0, -0.442351, -0.896842, 0, 0, 0, 1, -78.9972, 13.27118, 12.9184",
+            "RequireKey": false
+        },
+        {
+            "id": "33c4dd3d-e22d-418d-834b-2fd090dfbed9",
+            "WorldTransform": "0, 1, 0, -1, 0, 0, 0, 0, 1, -107.5592, 73.1764, 12.91781",
+            "RequireKey": false
+        },
+        {
+            "id": "5b7e1d0b-8fc9-4fde-a9d1-337fe2b1c9a8",
+            "WorldTransform": "-0.9998711, -0.01605624, 0, 0.01605624, -0.9998711, 0, 0, 0, 1, 62.575, 61.059, 12.918",
+            "RequireKey": true
+        },
+        {
+            "id": "da5938ab-3fdf-48b0-a9c9-fa9dc630c877",
+            "WorldTransform": "-0.9998711, -0.01605624, 0, 0.01605624, -0.9998711, 0, 0, 0, 1, 62.575, 61.059, 12.918",
+            "RequireKey": true
+        }
+    ],
+    "AgencyPickups": [
+        {
+            "id": "933b53e8-2a24-4c2e-b621-fae4adb2e8ef",
+            "WorldTransform": "-1, 0, 0, 0, -1, 0, 0, 0, 1, -50.63159, 61.02791, 14.09794",
+            "AllowOutfits": false,
+            "AllowLargerItems": false,
+            "UnlockedByDefault": false
+        },
+        {
+            "id": "98f0c484-fc8d-4523-a64c-9bab1a9fd101",
+            "WorldTransform": "0.92388, 0, -0.382682, 0.382682, 0, 0.92388, 0, -1, 0, -3.935134, 47.64205, 13.71039",
+            "AllowOutfits": false,
+            "AllowLargerItems": false,
+            "UnlockedByDefault": false
+        },
+        {
+            "id": "83d6fd0c-7985-4932-b880-6321c8c4b494",
+            "WorldTransform": "1, 0, 0, 0, 0, -1, 0, 1, 0, -76.81226, 122.3078, 16.56798",
+            "AllowOutfits": false,
+            "AllowLargerItems": false,
+            "UnlockedByDefault": false
+        },
+        {
+            "id": "3cc5761a-563a-4431-be7b-10de8a3f7118",
+            "WorldTransform": "-1, 0, 0, 0, -1, 0, 0, 0, 1, 54.69453, 69.93156, 14.37309",
+            "AllowOutfits": false,
+            "AllowLargerItems": false,
+            "UnlockedByDefault": false
+        },
+        {
+            "id": "41169b77-287f-4f77-9583-0fada78d1e25",
+            "WorldTransform": "0, 0, -1, 0.884604, -0.466343, 0, -0.466343, -0.884604, 0, 52.19236, 16.02478, 16.16954",
+            "AllowOutfits": false,
+            "AllowLargerItems": false,
+            "UnlockedByDefault": false
+        },
+        {
+            "id": "737686c7-acfc-4ca7-b71e-9fbdfa60900e",
+            "WorldTransform": "0.707106, 0.707108, 0, 0, 0, 1, 0.707108, -0.707106, 0, 41.87705, -49.09999, 13.19074",
+            "AllowOutfits": true,
+            "AllowLargerItems": true,
+            "UnlockedByDefault": true
+        },
+        {
+            "id": "719d505d-dbac-4da4-a3cb-9c0eee7ce4e9",
+            "WorldTransform": "0.675884, -0.737008, -1E-06, 0.044227, 0.040558, 0.998198, -0.73568, -0.674666, 0.060008, -57.14534, 14.34138, 25.84699",
+            "AllowOutfits": true,
+            "AllowLargerItems": true,
+            "UnlockedByDefault": false
+        },
+        {
+            "id": "7e1d7335-17a4-4f1a-85f1-f1f80dd2a0a5",
+            "WorldTransform": "-0.808674, 0.588008, -0.017124, 0.132925, 0.21101, 0.968404, 0.573042, 0.780847, -0.248799, 16.19831, 115.6283, 18.78786",
+            "AllowOutfits": true,
+            "AllowLargerItems": true,
+            "UnlockedByDefault": false
+        },
+        {
+            "id": "a4caccd1-e8d6-44a9-ae44-d3edf5802b7c",
+            "WorldTransform": "-0.425556, 0.904932, 0, -0.075004, -0.035272, 0.996559, 0.901818, 0.424092, 0.082884, -87.68864, 42.68453, 13.10844",
+            "AllowOutfits": true,
+            "AllowLargerItems": true,
+            "UnlockedByDefault": false
+        }
+    ]
+}

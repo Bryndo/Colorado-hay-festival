@@ -1,0 +1,99 @@
+{
+	"tempHash": "002E8CE288D49A5A",
+	"tbluHash": "00736FB418F1741D",
+	"rootEntity": "cafe7827946d221b",
+	"entities": {
+		"cafecd3614ee3ce5": {
+			"parent": "cafe7827946d221b",
+			"name": "HeroA",
+			"factory": "[modules:/zcharsetcharactertype.class].pc_entitytype",
+			"blueprint": "[modules:/zcharsetcharactertype.class].pc_entityblueprint",
+			"properties": {
+				"m_aVariations": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["cafe08c472933a95"],
+					"postInit": true
+				}
+			}
+		},
+		"cafeac7576dbc6c0": {
+			"parent": "cafe7827946d221b",
+			"name": "Nude",
+			"factory": "[modules:/zcharsetcharactertype.class].pc_entitytype",
+			"blueprint": "[modules:/zcharsetcharactertype.class].pc_entityblueprint",
+			"properties": {
+				"m_aVariations": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["cafe90fb1b4dcf48"],
+					"postInit": true
+				}
+			}
+		},
+		"cafeb27c3fcbcfc2": {
+			"parent": "cafe7827946d221b",
+			"name": "Actor",
+			"factory": "[modules:/zcharsetcharactertype.class].pc_entitytype",
+			"blueprint": "[modules:/zcharsetcharactertype.class].pc_entityblueprint",
+			"properties": {
+				"m_aVariations": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["cafe7042e74867c7"],
+					"postInit": true
+				}
+			}
+		},
+		"cafe08c472933a95": {
+			"parent": "cafecd3614ee3ce5",
+			"name": "Var0",
+			"factory": "[modules:/zoutfitvariation.class].pc_entitytype",
+			"blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint"
+		},
+		"cafe7042e74867c7": {
+			"parent": "cafeb27c3fcbcfc2",
+			"name": "0",
+			"factory": "[modules:/zoutfitvariation.class].pc_entitytype",
+			"blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint",
+			"properties": {
+				"m_Outfit": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/characters/templates/hay/char_hay_guard.template?/outfit_hay_cleaver_m_actor_v0.entitytemplate].pc_entitytemplate",
+						"flag": "9F"
+					}
+				}
+			}
+		},
+		"cafe7827946d221b": {
+			"parent": null,
+			"name": "CHARSET_Hay_Cleaver",
+			"factory": "[assembly:/_pro/characters/templates/_sourcefiles/outfit.template?/charset_base.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/characters/templates/_sourcefiles/outfit.template?/charset_base.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_aCharacters": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						"cafeb27c3fcbcfc2",
+						"cafeac7576dbc6c0",
+						"cafecd3614ee3ce5"
+					]
+				}
+			}
+		},
+		"cafe90fb1b4dcf48": {
+			"parent": "cafeac7576dbc6c0",
+			"name": "Var0",
+			"factory": "[modules:/zoutfitvariation.class].pc_entitytype",
+			"blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint"
+		}
+	},
+	"propertyOverrides": [],
+	"overrideDeletes": [],
+	"pinConnectionOverrides": [],
+	"pinConnectionOverrideDeletes": [],
+	"externalScenes": [],
+	"subType": "template",
+	"quickEntityVersion": 3.1,
+	"extraFactoryDependencies": [],
+	"extraBlueprintDependencies": [],
+	"comments": []
+}

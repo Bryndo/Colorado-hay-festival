@@ -1,0 +1,69 @@
+{
+	"tempHash": "0026933ECADDAE67",
+	"tbluHash": "008420BEAB652733",
+	"rootEntity": "376c985c2486150d",
+	"entities": {
+		"46fab82752f83c64": {
+			"parent": "376c985c2486150d",
+			"name": "OutfitProfession",
+			"factory": "[modules:/zoutfitprofessionentity.class].pc_entitytype",
+			"blueprint": "[modules:/zoutfitprofessionentity.class].pc_entityblueprint",
+			"properties": {
+				"m_rKeywordProfession": {
+					"type": "SEntityTemplateReference",
+					"value": "27eb0eba9b0e14f1",
+					"postInit": true
+				}
+			}
+		},
+		"27eb0eba9b0e14f1": {
+			"parent": "376c985c2486150d",
+			"name": "Keyword_PROF_HAY_EVENTSECURITY",
+			"factory": "[modules:/zkeywordentity.class].pc_entitytype",
+			"blueprint": "[modules:/zkeywordentity.class].pc_entityblueprint",
+			"properties": {
+				"m_sKeyword": {
+					"type": "ZString",
+					"value": "PROF_HAY_EVENT_SECURITY"
+				},
+				"m_aHolders": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": []
+				},
+				"m_rHolder": {
+					"type": "SEntityTemplateReference",
+					"value": "376c985c2486150d",
+					"postInit": true
+				}
+			}
+		},
+		"376c985c2486150d": {
+			"parent": null,
+			"name": "Prof_Hay_Guard_Event_security",
+			"factory": "[modules:/zentity.class].pc_entitytype",
+			"blueprint": "[modules:/zentity.class].pc_entityblueprint",
+			"propertyAliases": {
+				"m_aHolders": [
+					{
+						"originalProperty": "m_aHolders",
+						"originalEntity": "27eb0eba9b0e14f1"
+					}
+				]
+			},
+			"exposedInterfaces": {
+				"ZKeywordEntity": "27eb0eba9b0e14f1",
+				"ZOutfitProfessionEntity": "46fab82752f83c64"
+			}
+		}
+	},
+	"propertyOverrides": [],
+	"overrideDeletes": [],
+	"pinConnectionOverrides": [],
+	"pinConnectionOverrideDeletes": [],
+	"externalScenes": [],
+	"subType": "template",
+	"quickEntityVersion": 3.1,
+	"extraFactoryDependencies": [],
+	"extraBlueprintDependencies": [],
+	"comments": []
+}

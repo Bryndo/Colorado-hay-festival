@@ -1,0 +1,495 @@
+{
+    "$schema": "https://raw.githubusercontent.com/atampy25/simple-mod-framework/main/Mod%20Manager/src/lib/manifest-schema.json",
+    "id": "Bryn.HayFestival",
+    "name": "Colorado Hay Festival",
+    "description": "Adds a Hay fest to Colorado",
+    "authors": ["Bryn"],
+    "frameworkVersion": "2.33.26",
+    "version": "1.0.0",
+    "blobsFolders": ["blobs"],
+    "contentFolders": ["content"],
+    "packagedefinition": [
+		{
+			"type": "entity",
+			"partition": "colorado",
+			"path": "[assembly:/_pro/scenes/missions/colorado/mission_hay/scene_hay.entity].entitytemplate"
+        },
+        {
+            "type": "entity",
+            "partition": "colorado",
+            "path": "[assembly:/_pro/scenes/missions/colorado_2/hay.brick].entitytype"
+        }
+    ],
+    "localisation": {
+        "english": {
+            "UI_CONTRACT_HAY_DESC": "Good evening 47, welcome to the annual hay festival in Colorado",
+            "UI_CONTRACT_HAY_TITLE": "Hay Festival",
+            "UI_STARTING_LOCATION_HAY_EVENT_ENTRANCE_NAME": "Car Park",
+            "UI_STARTING_LOCATION_HAY_EVENT_ENTRANCE_DESC": "Welcome to the Colorado Hay Festival",
+            "NPC_D_NAME": "Target ",
+            "NPC_D_DESC": "Target desc" 
+        }
+    },
+    "dependencies": [
+        
+        {
+            "runtimeID":"005E9A37D4ED9287",
+            "toChunk": 23
+        },
+        {
+            "runtimeID": "0065E9D6C2EE0B22",
+            "toChunk": 23
+        },
+        {
+            "runtimeID": "00A28C5A9ACC9B21",
+            "toChunk": 23
+        },
+        {
+            "runtimeID": "00F3FC74147A3198",
+            "toChunk": 23
+        },
+        {
+            "runtimeID": "0075D09D5F3B9001",
+            "toChunk": 23
+        },
+        {
+            "runtimeID": "008B5A9614D1DC9B",
+            "toChunk": 23
+        },
+        {
+            "runtimeID": "0037EA12C3ABB1D9",
+            "toChunk": 23
+        },
+        {
+            "runtimeID": "007442FA618AF9E1",
+            "toChunk": 23
+        },
+        {
+            "runtimeID": "00E01DEA47C512F8",
+            "toChunk": 23
+        },
+        {
+            "runtimeID": "0008E0EB4C2CD1CE3",
+            "toChunk": 23
+        },
+        {
+            "runtimeID": "0066468BAF5BA628",
+            "toChunk": 23
+        },
+        {
+            "runtimeID": "00D2E189DC3AF1D7",
+            "toChunk": 23
+        },
+        {
+            "runtimeID": "0074DC617F3B1A90",
+            "toChunk": 23
+        },
+        {
+            "runtimeID": "0060B7175CDD3098",
+            "toChunk": 23
+        },
+        {
+            "runtimeID": "00AD2AF175974D6E",
+            "toChunk": 23
+        },
+        {
+            "runtimeID": "008E0EB4C2CD1CE3",
+            "toChunk": 23
+        },
+        {
+            "runtimeID": "007CDB2F795BE792",
+            "toChunk": 23
+        },
+        {
+            "runtimeID": "001F73A39C572C66",
+            "toChunk": 23
+        },
+        {
+            "runtimeID": "004B3E3B8CE0C0FC",
+            "toChunk": 23
+        },
+        {
+            "runtimeID": "000EA5E86455165E",
+            "toChunk": 23
+        },
+        {
+            "runtimeID": "00B254A6F89F860E",
+            "toChunk": 23
+        },
+        {
+            "runtimeID": "001E5D692D434A68",
+            "toChunk": 23
+        },
+        {
+            "runtimeID": "00AB15F2680F0BC5",
+            "toChunk": 23
+        },
+        {
+            "runtimeID": "006F95845EA2CA30",
+            "toChunk": 23
+        },
+        {
+            "runtimeID": "00EC770BF4870F58",
+            "toChunk": 23
+        },
+        {
+            "runtimeID": "009735182D3D1B98",
+            "toChunk": 23
+        },
+        {
+          "runtimeID": "0066DA82A230668A",
+            "toChunk": 23
+        },
+        {
+          "runtimeID": "004D22D557E386C3",
+            "toChunk": 23
+        },
+        {
+          "runtimeID": "008EB73A1EC64F27",
+            "toChunk": 23
+        },
+        {
+            "runtimeID":"00D211E59AD2CDFC",
+            "toChunk": 23
+        },
+        {
+            "runtimeID":"003D38AB3D2B5306",
+            "toChunk": 23,
+            "Comment": "Grapevine"
+        },
+        {
+            "runtimeID":"0065B65875DBAA3F",
+            "toChunk": 23,
+            "Comment": "Grapevine texture"
+        },
+        {
+            "runtimeID":"0076AFCD983332D6",
+            "toChunk": 23,
+            "Comment": "Table stand winery"
+        },
+        {
+            "runtimeID":"0093F0555CA55CC6",
+            "toChunk": 23,
+            "Comment": "Grape vine B"
+        },
+        {
+            "runtimeID":"008CD71F22BA6A24",
+            "toChunk": 23,
+            "Comment": "Table Workshop_wood"
+        },
+        {
+            "runtimeID":"00EC6FD563BFBBFF",
+            "toChunk": 23,
+            "Comment": "Table Workshop_wood_2"
+        },
+        {
+            "runtimeID":"00727A51599A203F",
+            "toChunk": 23,
+            "Comment": "Wine barrel llama"
+        },
+        {
+            "runtimeID":"0044D4EC7AF14CD5",
+            "toChunk": 23,
+            "Comment": "Bus bar"
+        },
+        {
+            "runtimeID":"005D1F4B5D4D5C79",
+            "toChunk": 23,
+            "Comment": "Rotating car stand"
+        },
+        {
+            "runtimeID":"005D1F4B5D4D5C79",
+            "toChunk": 23,
+            "Comment": "Rotating car stand"
+        },
+        {
+            "runtimeID":"005D1F4B5D4D5C79",
+            "toChunk": 23,
+            "Comment": "Rotating car stand"
+        },
+        {
+            "runtimeID":"005D1F4B5D4D5C79",
+            "toChunk": 23,
+            "Comment": "Rotating car stand"
+        },
+        {
+            "runtimeID":"005D1F4B5D4D5C79",
+            "toChunk": 23,
+            "Comment": "Rotating car stand"
+        },
+        {
+            "runtimeID":"00427D97FFD7DA27",
+            "toChunk": 23,
+            "Comment": "Hedgebox_a"
+        },
+        {
+            "runtimeID":"00DDF35F6134FF66",
+            "toChunk": 23,
+            "Comment": "hiding bush"
+        },
+        {
+            "runtimeID":"003155F46F3A085A",
+            "toChunk": 23,
+            "Comment": "Potato sack"
+        },
+        {
+            "runtimeID":"0031D823F015F3DC",
+            "toChunk": 23,
+            "Comment": "paris table"
+        },
+        {
+            "runtimeID":"009ED4B19717C199",
+            "toChunk": 23,
+            "Comment": "cider bottle"
+        },
+        {
+            "runtimeID":"0054E313698F502B",
+            "toChunk": 23,
+            "Comment": "plant pot miami"
+        },
+        {
+            "runtimeID":"0013F13DE7B220D2",
+            "toChunk": 23,
+            "Comment": "underwater plant"
+        },
+        {
+            "runtimeID":"00D765E55A302750",
+            "toChunk": 23,
+            "Comment": "arcadeb"
+        },
+        {
+            "runtimeID":"00546EDAD2921FF7",
+            "toChunk": 23,
+            "Comment": "arcadec"
+        },
+        {
+            "runtimeID":"0060F5FD7682B91F",
+            "toChunk": 23,
+            "Comment": "arcade d"
+        },
+        {
+            "runtimeID":"0072F072DACDFB3D",
+            "toChunk": 23,
+            "Comment": "skunk_sound"
+        },
+        {
+            "runtimeID":"006C0A8C600B4169",
+            "toChunk": 23,
+            "Comment": "small fridge"
+        },
+        {
+            "runtimeID":"0004B230642E2D9C",
+            "toChunk": 23,
+            "Comment": "table control miami"
+        },
+        {
+            "runtimeID":"0074A90A4961E691",
+            "toChunk": 23,
+            "Comment": "sign florida"
+        },
+        {
+            "runtimeID":"00296A698F87C335",
+            "toChunk": 23,
+            "Comment": "another florida stand thing"
+        },
+        {
+            "runtimeID":"005C8DCEEDE8B190",
+            "toChunk": 23,
+            "Comment": "coconut balls"
+        },
+        {
+            "runtimeID":"00781980FB474C44",
+            "toChunk": 23,
+            "Comment": "cart"
+        },
+        {
+            "runtimeID":"0079DF16793D89A6",
+            "toChunk": 23,
+            "Comment": "sign no entry"
+        },
+        {
+            "runtimeID":"00B8A3EEC42C9918",
+            "toChunk": 23,
+            "Comment": "coffe machine trap"
+        },
+        {
+            "runtimeID":"00C8CD1CEDB408F9",
+            "toChunk": 23,
+            "Comment": "static decal skunk"
+        },
+        {
+            "runtimeID":"00EDB1AB915B208B",
+            "toChunk": 23,
+            "Comment": "outfits_miami"
+        },
+        {
+            "runtimeID":"00BC778557B4868B",
+            "toChunk": 23,
+            "Comment": "crowd miami"
+        },
+        {
+            "runtimeID":"00F7AC6E99B9E5BA",
+            "toChunk": 23,
+            "Comment": "crowd_miamim1"
+        },
+        {
+            "runtimeID":"00F0B6D9D0DD7A82",
+            "toChunk": 23,
+            "Comment": "crowd miami fat"
+        },
+        {
+            "runtimeID":"005B507D9EE07F4C",
+            "toChunk": 23,
+            "Comment": "crowd activity miami"
+        },
+        {
+            "runtimeID":"00FD493E6274EF17",
+            "toChunk": 23,
+            "Comment": "hole in board"
+        },
+        {
+            "runtimeID":"002381BAA0190E2D",
+            "toChunk": 23,
+            "Comment": "pict"
+        },
+        {
+            "runtimeID":"008503DBBCF9B4EE",
+            "toChunk": 23,
+            "Comment": "llama_soundbank"
+        },
+        {
+            "runtimeID":"00F694A4AD419A32",
+            "toChunk": 23,
+            "Comment": "crowdmap ressource miami"
+        },
+        {
+            "runtimeID":"004063094904769B",
+            "toChunk": 23,
+            "Comment": "quizel bulrush"
+        },
+        {
+            "runtimeID":"00A2D6EB96A2A7C4",
+            "toChunk": 23,
+            "Comment": "platanus"
+        },
+        {
+            "runtimeID":"00CB4F7FD262C173",
+            "toChunk": 23,
+            "Comment": "plantd"
+        },
+        {
+            "runtimeID":"002DA872BCDA9209",
+            "toChunk": 23,
+            "Comment": "tomato plant"
+        },
+        {
+            "runtimeID":"0069E0F8DC81AEF0",
+            "toChunk": 23,
+            "Comment": "free sample note"
+        },
+        {
+            "runtimeID":"001717EEC5C90A66",
+            "toChunk": 23,
+            "Comment": "muffin price"
+        },
+        {
+            "runtimeID":"005BFC092BBD49B3",
+            "toChunk": 23,
+            "Comment": "pink table"
+        },
+        {
+            "runtimeID":"00FD72C51BD9C72B",
+            "toChunk": 23,
+            "Comment": "signboard italy"
+        },
+        {
+            "runtimeID":"00EDB1AB915B208B",
+            "toChunk": 23,
+            "Comment": "outfits_miami"
+        },
+        {
+            "runtimeID":"00E15295C27AA6D9",
+            "toChunk": 23,
+            "Comment": "fan ceiling"
+        },
+        {
+            "runtimeID":"00A3B17E6CCFA063",
+            "toChunk": 23,
+            "Comment": "shelving skunk"
+        },
+        {
+            "runtimeID":"00A3B17E6CCFA063",
+            "toChunk": 23,
+            "Comment": "shelving unit skunk"
+        },
+        {
+            "runtimeID":"00EFCE0454AB1E1D",
+            "toChunk": 23,
+            "Comment": "bangkok sun"
+        },
+        {
+            "runtimeID":"0044C47D81A2CBFF",
+            "toChunk": 23,
+            "Comment": "fish distraction"
+        },
+        {
+            "runtimeID":"0036893EF6AC724D",
+            "toChunk": 23,
+            "Comment": "puff chair mumbai"
+        },
+        {
+            "runtimeID":"0057BFA711D2D343",
+            "toChunk": 23,
+            "Comment": "commode wodden worn"
+        },
+        {
+            "runtimeID":"00B6980478F9A126",
+            "toChunk": 23,
+            "Comment": "lamp ceiling chandelier"
+        },
+        {
+            "runtimeID":"00833D561D8031F0",
+            "toChunk": 23,
+            "Comment": "table picknick"
+        },
+        {
+            "runtimeID":"0055B7672CCE9595",
+            "toChunk": 23,
+            "Comment": "picture skunk d"
+        },
+        {
+            "runtimeID":"003B0E9E257F8D45",
+            "toChunk": 23,
+            "Comment": "picture baseball"
+        },
+        {
+            "runtimeID":"00794F1499980426",
+            "toChunk": 23,
+            "Comment": "bulldog carpet round"
+        },
+        {
+            "runtimeID":"005415E5BE265EFD",
+            "toChunk": 23,
+            "Comment": "billboard texture sapi"
+        },
+        {
+            "runtimeID":"00FFFA2BAB6327DE",
+            "toChunk": 23,
+            "Comment": "party balloon"
+        },
+        {
+            "runtimeID":"000A49239D6667BA",
+            "toChunk": 23,
+            "Comment": "counter"
+        },
+        {
+            "runtimeID":"00DDF35F6134FF66",
+            "toChunk": 23,
+            "Comment": "hiding bush"
+        }
+        
+
+
+        
+    ]
+}

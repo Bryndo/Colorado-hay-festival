@@ -1,0 +1,26 @@
+{
+    "hash_value": "0066EF92F47F329F",
+    "hash_path": "[assembly:/_pro/environment/geometry/levels/coastal_town_italy/church_square_banner_flags_a.wl2?/hay_fest_banner_a.prim].pc_prim",
+    "hash_offset": 0,
+    "hash_size": 2147484648,
+    "hash_resource_type": "PRIM",
+    "hash_reference_table_size": 31,
+    "hash_reference_table_dummy": 0,
+    "hash_size_final": 1000,
+    "hash_size_in_memory": 4294967295,
+    "hash_size_in_video_memory": 4294967295,
+    "hash_reference_data": [
+        {
+            "hash": "[assembly:/_pro/environment/materials/props/signs/hay_fest_banner_a.mi].pc_mi",
+            "flag": "5F"
+        },
+        {
+            "hash": "[assembly:/_pro/environment/materials/props/wires/rope_b.mi].pc_mi",
+            "flag": "5F"
+        },
+        {
+            "hash": "[assembly:/_pro/_test/janusk/materials/checker_a_cloth_blue.mi].pc_mi",
+            "flag": "5F"
+        }
+    ]
+}

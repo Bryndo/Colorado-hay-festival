@@ -1,0 +1,447 @@
+{
+	"tempHash": "004A69929FABA53C",
+	"tbluHash": "0031DDCAFAA81AED",
+	"rootEntity": "ff0bc57d1954ba15",
+	"entities": {
+		"5054490b18222f3e": {
+			"parent": "ff0bc57d1954ba15",
+			"name": "DistanceCondition",
+			"factory": "[modules:/zdistancecondition.class].pc_entitytype",
+			"blueprint": "[modules:/zdistancecondition.class].pc_entityblueprint",
+			"properties": {
+				"m_CompareMethod": {
+					"type": "ZDistanceCondition.ECompareMethod",
+					"value": "CM_LessThan"
+				},
+				"m_distance": { "type": "float32", "value": 30.0 },
+				"m_ObjectToMeasureFrom": {
+					"type": "ZDistanceCondition.EObjectType",
+					"value": "DT_ToCam"
+				},
+				"m_aSpatials": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["18d3bbf02d20b190"],
+					"postInit": true
+				}
+			}
+		},
+		"50d32ee6fd3255e5": {
+			"parent": "18d3bbf02d20b190",
+			"name": "Decals",
+			"factory": "[modules:/zentity.class].pc_entitytype",
+			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
+		},
+		"c5780ce8dd02ab32": {
+			"parent": "ff0bc57d1954ba15",
+			"name": "VisibleCondition",
+			"factory": "[assembly:/_pro/design/logic/conditions.template?/visiblecondition.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/logic/conditions.template?/visiblecondition.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_aRenderables": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["18d3bbf02d20b190"],
+					"postInit": true
+				}
+			}
+		},
+		"4e1a677bf361dab5": {
+			"parent": "1b3192d76b3392ad",
+			"name": "Wall base",
+			"factory": "[assembly:/_pro/environment/templates/levels/mumbai/mumbai_skywalk_c.template?/mappart_wall.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/levels/mumbai/mumbai_skywalk_c.template?/mappart_wall.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
+						"position": {
+							"x": -0.5837774276733398,
+							"y": -0.018032070249319077,
+							"z": 0.4577893912792206
+						}
+					}
+				},
+				"m_aData": {
+					"type": "TArray<SMapMarkerData>",
+					"value": [
+						{
+							"pathPoints": [
+								{ "x": -275.75, "y": -152.0 },
+								{ "x": -269.75, "y": -154.25 },
+								{ "x": -238.0, "y": -143.5 },
+								{ "x": -229.75, "y": -129.75 },
+								{ "x": -224.25, "y": -132.5 },
+								{ "x": -233.75, "y": -148.5 },
+								{ "x": -269.75, "y": -161.0 },
+								{ "x": -278.0, "y": -157.75 }
+							]
+						},
+						{
+							"pathPoints": [
+								{
+									"x": -0.04093270003795624,
+									"y": 2.7179501056671143
+								},
+								{
+									"x": -0.6408630013465881,
+									"y": 2.5044500827789307
+								},
+								{
+									"x": -1.3033599853515625,
+									"y": 2.007580041885376
+								},
+								{
+									"x": -1.8002300262451172,
+									"y": 1.440790057182312
+								},
+								{
+									"x": -2.1351499557495117,
+									"y": 0.6347579956054688
+								},
+								{
+									"x": -2.1682798862457275,
+									"y": -0.23384299874305725
+								},
+								{
+									"x": -1.947450041770935,
+									"y": -1.1392500400543213
+								},
+								{
+									"x": -1.4064099788665771,
+									"y": -1.9452799558639529
+								},
+								{
+									"x": -0.5010010004043579,
+									"y": -2.537839889526367
+								},
+								{
+									"x": 0.525862991809845,
+									"y": -2.762360095977783
+								},
+								{
+									"x": 1.5048799514770508,
+									"y": -2.600409984588623
+								},
+								{
+									"x": 2.207859992980957,
+									"y": -2.2544400691986084
+								},
+								{
+									"x": 2.8188300132751465,
+									"y": -1.643470048904419
+								},
+								{
+									"x": 3.205280065536499,
+									"y": -0.940496027469635
+								},
+								{
+									"x": 3.35617995262146,
+									"y": -0.04612730070948601
+								},
+								{
+									"x": 3.2347300052642822,
+									"y": 0.859279990196228
+								},
+								{
+									"x": 2.8924400806427,
+									"y": 1.5843499898910522
+								},
+								{
+									"x": 2.417649984359741,
+									"y": 2.103300094604492
+								},
+								{
+									"x": 1.817729949951172,
+									"y": 2.5118401050567627
+								},
+								{
+									"x": 1.1000299453735352,
+									"y": 2.7326700687408447
+								},
+								{
+									"x": 0.49642300605773926,
+									"y": 2.7731499671936035
+								}
+							]
+						}
+					]
+				},
+				"m_bIncludeInBaseMap": { "type": "bool", "value": true },
+				"m_bEnabled": { "type": "bool", "value": true },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "1b3192d76b3392ad",
+					"postInit": true
+				}
+			}
+		},
+		"a3db3a88bc6efba8": {
+			"parent": "18d3bbf02d20b190",
+			"name": "MassImpulseListener",
+			"factory": "[modules:/zmassimpulselistenerentity.class].pc_entitytype",
+			"blueprint": "[modules:/zmassimpulselistenerentity.class].pc_entityblueprint",
+			"properties": {
+				"m_aPhysicsAccessors": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [],
+					"postInit": true
+				}
+			},
+			"outputCopying": {
+				"OnHitByImpulse": {
+					"OnHitByImpulse": ["18d3bbf02d20b190"]
+				}
+			}
+		},
+		"1b3192d76b3392ad": {
+			"parent": "ff0bc57d1954ba15",
+			"name": "Map",
+			"factory": "[assembly:/templates/aspectdummy.aspect]([modules:/zspatialentity.class].entitytype,[modules:/zlocalgridaspect.class].entitytype).pc_entitytype",
+			"blueprint": "[assembly:/templates/aspectdummy.aspect]([modules:/zspatialentity.class].entitytype,[modules:/zlocalgridaspect.class].entitytype).pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
+						"position": { "x": 0.0, "y": 0.0, "z": 0.0 }
+					}
+				},
+				"m_fGridSize": { "type": "float32", "value": 0.125 },
+				"m_bIncludeInBaseMap": { "type": "bool", "value": true },
+				"m_bEnabled": { "type": "bool", "value": true },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "ff0bc57d1954ba15",
+					"postInit": true
+				}
+			},
+			"propertyAliases": {
+				"m_bEnabled": [
+					{
+						"originalProperty": "m_bEnabled",
+						"originalEntity": "4e1a677bf361dab5"
+					}
+				],
+				"m_bIncludeInBaseMap": [
+					{
+						"originalProperty": "m_bIncludeInBaseMap",
+						"originalEntity": "4e1a677bf361dab5"
+					}
+				]
+			}
+		},
+		"18d3bbf02d20b190": {
+			"parent": "ff0bc57d1954ba15",
+			"name": "car_stand_rotating_a_animated_a",
+			"factory": "0011916DC738DD40",
+			"blueprint": "[assembly:/templates/geometrytemplaterigidbody.template?/geomentity01.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -4.999784590267437,
+							"y": 0.0,
+							"z": -0.0
+						},
+						"position": {
+							"x": 0.0,
+							"y": 0.0,
+							"z": 0.6294670104980469
+						}
+					}
+				},
+				"m_bKinematic": { "type": "bool", "value": true },
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_STATIC"
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "ff0bc57d1954ba15",
+					"postInit": true
+				}
+			}
+		},
+		"7d2fbee0d52c8f73": {
+			"parent": "ff0bc57d1954ba15",
+			"name": "plastic_white_glossy_a_color_a",
+			"factory": "[assembly:/_pro/environment/materials/generic/plastic/plastic_white_glossy_a_color_a.mi].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/materials/generic/plastic/plastic_white_glossy_a_color_a.mi].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
+						"position": {
+							"x": 10.550600051879885,
+							"y": 29.30026054382324,
+							"z": 0.162991002202034
+						}
+					}
+				},
+				"ConstantColorRGB_02_Value_op": {
+					"type": "IRenderMaterialEntity.EModifierOperation",
+					"value": "eReplace"
+				},
+				"Active": { "type": "bool", "value": true },
+				"ConstantColorRGB_02_Value": {
+					"type": "SColorRGB",
+					"value": "#ffffff"
+				},
+				"Clients": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["ff0bc57d1954ba15"],
+					"postInit": true
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "ff0bc57d1954ba15",
+					"postInit": true
+				}
+			}
+		},
+		"ff0bc57d1954ba15": {
+			"parent": null,
+			"name": "car_stand_rotating_b",
+			"factory": "00F18D8451DAE177",
+			"blueprint": "[assembly:/templates/aspectdummy.aspect]([assembly:/templates/geometrytemplatenocoll.template?/geomentity01.entitytemplate].entitytype,[modules:/zexplosionblockeraspect.class].entitytype).pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
+						"position": {
+							"x": 11.705209732055664,
+							"y": 26.840309143066406,
+							"z": 9.999999974752427e-7
+						}
+					}
+				}
+			},
+			"propertyAliases": {
+				"ConstantColorRGB_02_Value": [
+					{
+						"originalProperty": "ConstantColorRGB_02_Value",
+						"originalEntity": "7d2fbee0d52c8f73"
+					}
+				],
+				"m_bEnabled": [
+					{
+						"originalProperty": "m_bEnabled",
+						"originalEntity": "1b3192d76b3392ad"
+					}
+				],
+				"m_bIncludeInBaseMap": [
+					{
+						"originalProperty": "m_bIncludeInBaseMap",
+						"originalEntity": "1b3192d76b3392ad"
+					}
+				]
+			}
+		},
+		"5bc225022eea5bd3": {
+			"parent": "ff0bc57d1954ba15",
+			"name": "ValueBool_Operation",
+			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_operation.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_operation.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_aValues": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["5054490b18222f3e", "c5780ce8dd02ab32"]
+				}
+			}
+		},
+		"93e964ec1202ff24": {
+			"parent": "ff0bc57d1954ba15",
+			"name": "Rotate",
+			"factory": "[modules:/zrotateentity.class].pc_entitytype",
+			"blueprint": "[modules:/zrotateentity.class].pc_entityblueprint",
+			"properties": {
+				"m_Geom": {
+					"type": "SEntityTemplateReference",
+					"value": "18d3bbf02d20b190"
+				},
+				"m_rUpdateCondition": {
+					"type": "SEntityTemplateReference",
+					"value": "5bc225022eea5bd3"
+				},
+				"m_fZAxisSpeed": {
+					"type": "float32",
+					"value": 0.10000000149011612
+				},
+				"m_bEnabled": { "type": "bool", "value": true },
+				"m_bUseLocalSpace": { "type": "bool", "value": true }
+			}
+		},
+		"cafe56bb1d194dcf": {
+			"parent": "18d3bbf02d20b190",
+			"name": "quadbike_a",
+			"factory": "[assembly:/_pro/vehicles/templates/vehicles_colorado_a.template?/quadbike_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/vehicles/templates/vehicles_colorado_a.template?/quadbike_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0.0031512678946546925,
+							"y": 0.024006927403816956,
+							"z": -14.923377404248455
+						},
+						"position": {
+							"x": 0.05431300029158592,
+							"y": -0.21046100556850433,
+							"z": -0.20886600017547607
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "18d3bbf02d20b190"
+				}
+			},
+			"subsets": {
+				"Activatable_NormalGameplay, IEntity": [],
+				"AudioEmitters": []
+			}
+		}
+	},
+	"propertyOverrides": [],
+	"overrideDeletes": [],
+	"pinConnectionOverrides": [],
+	"pinConnectionOverrideDeletes": [],
+	"externalScenes": [],
+	"subType": "template",
+	"quickEntityVersion": 3.1,
+	"extraFactoryDependencies": [
+		{ "resource": "0017C42DB84E20BC", "flag": "5F" },
+		{ "resource": "0087CB338A8BAB2E", "flag": "5F" },
+		{ "resource": "008714633C00CBDA", "flag": "5F" },
+		{
+			"resource": "[assembly:/_pro/environment/textures/constants/color_white.texture?/diffuse_a.tex](ascolormap).pc_tex",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/_pro/environment/textures/generic/plastic/plastic_white_glossy_a.texture?/normal_a.tex](asnormalmap).pc_tex",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/_pro/environment/textures/detailmaps/default.texture?/detail_a.tex](ascompoundnormal).pc_tex",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/_pro/environment/textures/generic/plastic/plastic_white_glossy_a.texture?/specular_a.tex](ascolormap).pc_tex",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/_pro/environment/textures/generic/plastic/plastic_white_glossy_a.texture?/diffuse_a.tex](ascolormap).pc_tex",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/_pro/environment/textures/constants/color_black.texture?/diffuse_a.tex](ascolormap).pc_tex",
+			"flag": "5F"
+		}
+	],
+	"extraBlueprintDependencies": [],
+	"comments": []
+}

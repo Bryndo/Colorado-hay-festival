@@ -1,0 +1,138 @@
+{
+	"tempHash": "001954C5A1AAB768",
+	"tbluHash": "00ECA973EC794283",
+	"rootEntity": "cafe47520ed727db",
+	"entities": {
+		"cafefad956f55356": {
+			"parent": "cafe47520ed727db",
+			"name": "HeroA",
+			"factory": "[modules:/zcharsetcharactertype.class].pc_entitytype",
+			"blueprint": "[modules:/zcharsetcharactertype.class].pc_entityblueprint",
+			"properties": {
+				"m_aVariations": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["cafe133a8cb6151d"],
+					"postInit": true
+				}
+			}
+		},
+		"cafeff4ee5ff9975": {
+			"parent": "cafe47520ed727db",
+			"name": "HeroC",
+			"factory": "[modules:/zcharsetcharactertype.class].pc_entitytype",
+			"blueprint": "[modules:/zcharsetcharactertype.class].pc_entityblueprint",
+			"properties": {
+				"m_aVariations": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["cafe4a80620a5ff1"],
+					"postInit": true
+				}
+			}
+		},
+		"cafe495e605cff5e": {
+			"parent": "cafe47520ed727db",
+			"name": "Actor",
+			"factory": "[modules:/zcharsetcharactertype.class].pc_entitytype",
+			"blueprint": "[modules:/zcharsetcharactertype.class].pc_entityblueprint",
+			"properties": {
+				"m_aVariations": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["cafeddc81195e846"],
+					"postInit": true
+				}
+			}
+		},
+		"cafef678ac5f34a8": {
+			"parent": "cafed37ed8fbc19f",
+			"name": "Var0",
+			"factory": "[modules:/zoutfitvariation.class].pc_entitytype",
+			"blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint"
+		},
+		"cafeddc81195e846": {
+			"parent": "cafe495e605cff5e",
+			"name": "0",
+			"factory": "[modules:/zoutfitvariation.class].pc_entitytype",
+			"blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint",
+			"properties": {
+				"m_Outfit": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/characters/templates/colorado/char_colorado_unique.template?/outfit_dwight_m_actor_v0.entitytemplate].pc_entitytemplate",
+						"flag": "9F"
+					}
+				}
+			}
+		},
+		"cafe9c537e6e32f4": {
+			"parent": "cafeb2c1293e4013",
+			"name": "Var0",
+			"factory": "[modules:/zoutfitvariation.class].pc_entitytype",
+			"blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint"
+		},
+		"cafe47520ed727db": {
+			"parent": null,
+			"name": "CHARSET_Dwight_M",
+			"factory": "[modules:/zoutfitvariationcollection.class].pc_entitytype",
+			"blueprint": "[modules:/zoutfitvariationcollection.class].pc_entityblueprint",
+			"properties": {
+				"m_aCharacters": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						"cafe495e605cff5e",
+						"cafeb2c1293e4013",
+						"cafefad956f55356",
+						"cafed37ed8fbc19f",
+						"cafeff4ee5ff9975"
+					],
+					"postInit": true
+				}
+			}
+		},
+		"cafe133a8cb6151d": {
+			"parent": "cafefad956f55356",
+			"name": "Var0",
+			"factory": "[modules:/zoutfitvariation.class].pc_entitytype",
+			"blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint"
+		},
+		"cafe4a80620a5ff1": {
+			"parent": "cafeff4ee5ff9975",
+			"name": "Var0",
+			"factory": "[modules:/zoutfitvariation.class].pc_entitytype",
+			"blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint"
+		},
+		"cafed37ed8fbc19f": {
+			"parent": "cafe47520ed727db",
+			"name": "HeroB",
+			"factory": "[modules:/zcharsetcharactertype.class].pc_entitytype",
+			"blueprint": "[modules:/zcharsetcharactertype.class].pc_entityblueprint",
+			"properties": {
+				"m_aVariations": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["cafef678ac5f34a8"]
+				}
+			}
+		},
+		"cafeb2c1293e4013": {
+			"parent": "cafe47520ed727db",
+			"name": "Nude",
+			"factory": "[modules:/zcharsetcharactertype.class].pc_entitytype",
+			"blueprint": "[modules:/zcharsetcharactertype.class].pc_entityblueprint",
+			"properties": {
+				"m_aVariations": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["cafe9c537e6e32f4"]
+				}
+			}
+		}
+	},
+	"propertyOverrides": [],
+	"overrideDeletes": [],
+	"pinConnectionOverrides": [],
+	"pinConnectionOverrideDeletes": [],
+	"externalScenes": [],
+	"subType": "template",
+	"quickEntityVersion": 3.1,
+	"extraFactoryDependencies": [],
+	"extraBlueprintDependencies": [],
+	"comments": []
+}
