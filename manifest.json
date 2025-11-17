@@ -1,8 +1,8 @@
 {
     "$schema": "https://raw.githubusercontent.com/atampy25/simple-mod-framework/main/Mod%20Manager/src/lib/manifest-schema.json",
     "id": "Bryn.HayFestival",
-    "name": "Colorado Hay Festival",
-    "description": "Adds a Hay fest to Colorado",
+    "name": "Colorado Harvest Festival",
+    "description": "Adds a Harvest Festival to Colorado",
     "authors": ["Bryn"],
     "frameworkVersion": "2.33.26",
     "version": "1.0.0",
@@ -20,14 +20,20 @@
             "path": "[assembly:/_pro/scenes/missions/colorado_2/hay.brick].entitytype"
         }
     ],
+    "localisedLines": {
+        "00ABB863126D4EC4": "UI_SPLASHSCREEN_HAY_DESC",
+		"005423EB173BC9C6": "UI_SPLASHSCREEN_HAY_TITLE"
+    },
     "localisation": {
         "english": {
-            "UI_CONTRACT_HAY_DESC": "Good evening 47, welcome to the annual hay festival in Colorado",
-            "UI_CONTRACT_HAY_TITLE": "Hay Festival",
+            "UI_CONTRACT_HAY_DESC": "Good evening 47, welcome to the annual Harvest festival in Colorado",
+            "UI_CONTRACT_HAY_TITLE": "Harvest Festival",
             "UI_STARTING_LOCATION_HAY_EVENT_ENTRANCE_NAME": "Car Park",
-            "UI_STARTING_LOCATION_HAY_EVENT_ENTRANCE_DESC": "Welcome to the Colorado Hay Festival",
-            "NPC_D_NAME": "Target ",
-            "NPC_D_DESC": "Target desc" 
+            "UI_STARTING_LOCATION_HAY_EVENT_ENTRANCE_DESC": "Welcome to the Colorado Harvest Festival",
+            "NPC_D_NAME": "Target",
+            "NPC_D_DESC": "Target desc",
+            "UI_SPLASHSCREEN_HAY_TITLE":"The Last Harvest",
+            "UI_SPLASHSCREEN_HAY_DESC":"Colorado, USA"
         }
     },
     "dependencies": [
