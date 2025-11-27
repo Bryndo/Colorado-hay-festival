@@ -3049,6 +3049,255 @@
 			"name": "CHARSET_Flamingo_Unique_FloridaMan_M",
 			"factory": "[assembly:/_pro/characters/templates/flamingo/char_flamingo_unique.template?/charset_flamingo_unique_floridaman_m.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/_pro/characters/templates/flamingo/char_flamingo_unique.template?/charset_flamingo_unique_floridaman_m.entitytemplate].pc_entityblueprint"
+		},
+		"cafe158d47a81466": {
+			"parent": "cafec189cf86f2ea",
+			"name": "ItemKey__Pistol_ Hackl 9S",
+			"factory": "[modules:/zitemrepositorykeyentity.class].pc_entitytype",
+			"blueprint": "[modules:/zitemrepositorykeyentity.class].pc_entityblueprint",
+			"properties": {
+				"m_RepositoryId": {
+					"type": "ZGuid",
+					"value": "1e11fbea-cd51-48bf-8316-a050772d6135"
+				}
+			}
+		},
+		"cafe2f286cfebdc9": {
+			"parent": "cafec189cf86f2ea",
+			"name": "Keyword_Prof_Class_Guard_Light",
+			"factory": "[assembly:/_pro/design/gamecore/keywords/keywordgenericprofessionclasses.template?/keyword_prof_class_guard_light.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/gamecore/keywords/keywordgenericprofessionclasses.template?/keyword_prof_class_guard_light.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_aHolders": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["cafec189cf86f2ea"],
+					"postInit": true
+				}
+			}
+		},
+		"cafec189cf86f2ea": {
+			"parent": "fffffffffffffffe",
+			"name": "Hay_guard_VIP",
+			"factory": "[modules:/zglobaloutfitkit.class].pc_entitytype",
+			"blueprint": "[modules:/zglobaloutfitkit.class].pc_entityblueprint",
+			"properties": {
+				"m_DamageMultipliers": {
+					"type": "SBodyPartDamageMultipliers",
+					"value": {
+						"m_fHeadDamageMultiplier": 3.0,
+						"m_fFaceDamageMultiplier": 3.0,
+						"m_fArmDamageMultiplier": 1.0,
+						"m_fLArmDamageScalar": 0.0,
+						"m_fRArmDamageScalar": 0.0,
+						"m_fHandDamageMultiplier": 0.5,
+						"m_fLHandDamageScalar": 0.0,
+						"m_fRHandDamageScalar": 0.0,
+						"m_fLegDamageMultiplier": 0.6000000238418579,
+						"m_fLLegDamageScalar": 0.0,
+						"m_fRLegDamageScalar": 0.0,
+						"m_fTorsoDamageMultiplier": 1.0,
+						"m_bApplyLeftRightScalars": false
+					}
+				},
+				"m_bHeroDisguiseAvailable": {
+					"type": "bool",
+					"value": true
+				},
+				"m_bWeaponsAllowed": { "type": "bool", "value": true },
+				"m_eSoundFootwearType": {
+					"type": "EHM5SoundFootwearType",
+					"value": "EFWT_BOOTS"
+				},
+				"m_sId": {
+					"type": "ZGuid",
+					"value": "524420d3-41d1-4ac4-8ffe-0625d4ee8467"
+				},
+				"m_pParentOutfit": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "958ef354a73d986e",
+						"externalScene": "[assembly:/_pro/scenes/bricks/globaldata.brick].pc_entitytype"
+					}
+				},
+				"m_sCommonName": {
+					"type": "ZString",
+					"value": "Hay VIP guards"
+				},
+				"m_sTitle": {
+					"type": "ZString",
+					"value": "Hay VIP guard"
+				},
+				"m_eOutfitAICategory": {
+					"type": "EOutfitAICategory",
+					"value": "OAC_Security"
+				},
+				"m_rNameTextResource": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/localization/hitman6/conversations/ui/pro/online/repository/outfits_npcs_miami.sweetmenutext?/outfits_miami_guard_eventsecurity_m_pro75012_name_dc5b1ccd-0997-4834-93a0-db7543e729cc.sweetline].pc_sweetline",
+						"flag": "5F"
+					}
+				},
+				"m_rDescriptionTextResource": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/localization/hitman6/conversations/ui/pro/online/repository/outfits_npcs_miami.sweetmenutext?/outfits_miami_guard_eventsecurity_m_pro75012_description_dc5b1ccd-0997-4834-93a0-db7543e729cc.sweetline].pc_sweetline",
+						"flag": "5F"
+					}
+				},
+				"m_rDefaultVoiceVariations": {
+					"type": "TArray<EActorVoiceVariation>",
+					"value": [
+						"eAVV_SOFTGRD01",
+						"eAVV_SOFTGRD02",
+						"eAVV_SOFTGRD03"
+					]
+				},
+				"m_eOutfitType": {
+					"type": "EOutfitType",
+					"value": "eOT_Guard"
+				},
+				"m_aCharSets": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["cafe16a18e29a94b"],
+					"postInit": true
+				},
+				"m_AvailableWeaponKeys": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						"cafe158d47a81466",
+						"cafec874b14b483c",
+						"cafe1b539202d5a9",
+						"cafeb0d5c3f2c200"
+					],
+					"postInit": true
+				},
+				"m_aWeaponsAllowedExceptionKeywords": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["cafe25154e0c00c5"],
+					"postInit": true
+				}
+			}
+		},
+		"cafe7751ef0a004a": {
+			"parent": "cafec189cf86f2ea",
+			"name": "Prof_Miami_Guard",
+			"factory": "[assembly:/_pro/design/actor/profession.template?/prof_miami_guard.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_miami_guard.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_aHolders": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["cafec189cf86f2ea"]
+				}
+			}
+		},
+		"cafe25154e0c00c5": {
+			"parent": "cafec189cf86f2ea",
+			"name": "Keyword_ITEM_SNIPER_RIFLE",
+			"factory": "[assembly:/_pro/design/gamecore/keywords/keyworditems.template?/keyword_item_sniper_rifle.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/gamecore/keywords/keyworditems.template?/keyword_item_sniper_rifle.entitytemplate].pc_entityblueprint"
+		},
+		"cafe1b539202d5a9": {
+			"parent": "cafec189cf86f2ea",
+			"name": "ItemKey_Shotgun02 NPC",
+			"factory": "[modules:/zitemrepositorykeyentity.class].pc_entitytype",
+			"blueprint": "[modules:/zitemrepositorykeyentity.class].pc_entityblueprint",
+			"properties": {
+				"m_RepositoryId": {
+					"type": "ZGuid",
+					"value": "7f31d897-a62f-448c-be0d-79d565e2faa7"
+				}
+			}
+		},
+		"cafe8f12ebc651af": {
+			"parent": "cafec189cf86f2ea",
+			"name": "Keyword_ActorIdentifier_Guard",
+			"factory": "[assembly:/_pro/design/actor/actoridentifierkeywords.template?/keyword_actoridentifier_guard.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/actor/actoridentifierkeywords.template?/keyword_actoridentifier_guard.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_aHolders": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["cafec189cf86f2ea"]
+				}
+			}
+		},
+		"cafe16a18e29a94b": {
+			"parent": "cafec189cf86f2ea",
+			"name": "CHARSET_Hay_VIP_guard",
+			"factory": "[assembly:/_pro/characters/templates/hay/char_hay_unique.template?/charset_VIP_guards.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/characters/templates/hay/char_hay_unique.template?/charset_VIP_guards.entitytemplate].pc_entityblueprint"
+		},
+		"cafeb0d5c3f2c200": {
+			"parent": "cafec189cf86f2ea",
+			"name": "ItemKey_AssaultRifle02 NPC",
+			"factory": "[modules:/zitemrepositorykeyentity.class].pc_entitytype",
+			"blueprint": "[modules:/zitemrepositorykeyentity.class].pc_entityblueprint",
+			"properties": {
+				"m_RepositoryId": {
+					"type": "ZGuid",
+					"value": "16edb112-58cc-4069-a7dd-ebd258b14044"
+				}
+			}
+		},
+		"cafe3f6de35ed725": {
+			"parent": "cafec189cf86f2ea",
+			"name": "Prof_Miami_Guard_EventSecurity",
+			"factory": "[assembly:/_pro/design/actor/profession.template?/prof_miami_guard_eventsecurity.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_miami_guard_eventsecurity.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_aHolders": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["cafec189cf86f2ea"]
+				}
+			}
+		},
+		"cafeba4f53e0a3c7": {
+			"parent": "cafec189cf86f2ea",
+			"name": "Keyword_Prof_Class_Default",
+			"factory": "[assembly:/_pro/design/gamecore/keywords/keywordgenericprofessionclasses.template?/keyword_prof_class_default.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/gamecore/keywords/keywordgenericprofessionclasses.template?/keyword_prof_class_default.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_aHolders": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["cafec189cf86f2ea"]
+				}
+			}
+		},
+		"cafe2cbc456c9eab": {
+			"parent": "cafec189cf86f2ea",
+			"name": "Prof_Miami",
+			"factory": "[assembly:/_pro/design/actor/profession.template?/prof_miami.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_miami.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_aHolders": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["cafec189cf86f2ea"]
+				}
+			}
+		},
+		"cafec874b14b483c": {
+			"parent": "cafec189cf86f2ea",
+			"name": "ItemKey_SMG02 NPC",
+			"factory": "[modules:/zitemrepositorykeyentity.class].pc_entitytype",
+			"blueprint": "[modules:/zitemrepositorykeyentity.class].pc_entityblueprint",
+			"properties": {
+				"m_RepositoryId": {
+					"type": "ZGuid",
+					"value": "3fd9825d-8aa5-48e0-97a9-ec8f541f871a"
+				}
+			}
+		},
+		"cafe0ee167525496": {
+			"parent": "cafec189cf86f2ea",
+			"name": "KeywordEntity_FOLEY_OUTFIT_COLOMBIAGUARD",
+			"factory": "[assembly:/_pro/design/gamecore/keywords/keywordsound.template?/keywordentity_foley_outfit_colombiaguard.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/gamecore/keywords/keywordsound.template?/keywordentity_foley_outfit_colombiaguard.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_rHolder": {
+					"type": "SEntityTemplateReference",
+					"value": "cafec189cf86f2ea"
+				}
+			}
 		}
 	},
 	"propertyOverrides": [],

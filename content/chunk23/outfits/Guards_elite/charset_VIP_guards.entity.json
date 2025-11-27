@@ -1,0 +1,197 @@
+{
+	"tempHash": "0023189C97E78272",
+	"tbluHash": "00E191EE2ECA8768",
+	"rootEntity": "cafee04c1d047298",
+	"entities": {
+		"cafe3f35679afcce": {
+			"parent": "cafee04c1d047298",
+			"name": "HeroA",
+			"factory": "[modules:/zcharsetcharactertype.class].pc_entitytype",
+			"blueprint": "[modules:/zcharsetcharactertype.class].pc_entityblueprint",
+			"properties": {
+				"m_aVariations": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["cafe6f10b81fdecc"],
+					"postInit": true
+				}
+			}
+		},
+		"cafe56caaff952f8": {
+			"parent": "cafee04c1d047298",
+			"name": "Nude",
+			"factory": "[modules:/zcharsetcharactertype.class].pc_entitytype",
+			"blueprint": "[modules:/zcharsetcharactertype.class].pc_entityblueprint",
+			"properties": {
+				"m_aVariations": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["cafed1afab7ac78a"],
+					"postInit": true
+				}
+			}
+		},
+		"cafe58aa692dcb91": {
+			"parent": "cafee04c1d047298",
+			"name": "Actor",
+			"factory": "[modules:/zcharsetcharactertype.class].pc_entitytype",
+			"blueprint": "[modules:/zcharsetcharactertype.class].pc_entityblueprint",
+			"properties": {
+				"m_aVariations": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						"cafe6b03bde4b879",
+						"cafee4a32a52e268",
+						"cafe7b6b4eb6bfbe",
+						"cafea11bb583d6b4",
+						"cafe4bcdd2d95112",
+						"cafe215c17a46d9d",
+						"cafe47f2da43cc0d"
+					],
+					"postInit": true
+				}
+			}
+		},
+		"cafe6f10b81fdecc": {
+			"parent": "cafe3f35679afcce",
+			"name": "Var0",
+			"factory": "[modules:/zoutfitvariation.class].pc_entitytype",
+			"blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint"
+		},
+		"cafe6b03bde4b879": {
+			"parent": "cafe58aa692dcb91",
+			"name": "0",
+			"factory": "[modules:/zoutfitvariation.class].pc_entitytype",
+			"blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint",
+			"properties": {
+				"m_Outfit": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/characters/templates/hay/char_hay_guard.template?/outfit_hay_guard_VIP_V0.entitytemplate].pc_entitytemplate",
+						"flag": "9F"
+					}
+				}
+			}
+		},
+		"cafee04c1d047298": {
+			"parent": null,
+			"name": "CHARSET_Guard_VIP_Hay",
+			"factory": "[assembly:/_pro/characters/templates/_sourcefiles/outfit.template?/charset_base.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/characters/templates/_sourcefiles/outfit.template?/charset_base.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_aCharacters": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						"cafe58aa692dcb91",
+						"cafe56caaff952f8",
+						"cafe3f35679afcce"
+					]
+				}
+			}
+		},
+		"cafed1afab7ac78a": {
+			"parent": "cafe56caaff952f8",
+			"name": "Var0",
+			"factory": "[modules:/zoutfitvariation.class].pc_entitytype",
+			"blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint"
+		},
+		"cafee4a32a52e268": {
+			"parent": "cafe58aa692dcb91",
+			"name": "1",
+			"factory": "[modules:/zoutfitvariation.class].pc_entitytype",
+			"blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint",
+			"properties": {
+				"m_Outfit": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/characters/templates/hay/char_hay_guard.template?/outfit_hay_guard_VIP_V1.entitytemplate].pc_entitytemplate",
+						"flag": "9F"
+					}
+				}
+			}
+		},
+		"cafe7b6b4eb6bfbe": {
+			"parent": "cafe58aa692dcb91",
+			"name": "2",
+			"factory": "[modules:/zoutfitvariation.class].pc_entitytype",
+			"blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint",
+			"properties": {
+				"m_Outfit": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/characters/templates/hay/char_hay_guard.template?/outfit_hay_guard_VIP_V2.entitytemplate].pc_entitytemplate",
+						"flag": "9F"
+					}
+				}
+			}
+		},
+		"cafea11bb583d6b4": {
+			"parent": "cafe58aa692dcb91",
+			"name": "3",
+			"factory": "[modules:/zoutfitvariation.class].pc_entitytype",
+			"blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint",
+			"properties": {
+				"m_Outfit": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/characters/templates/hay/char_hay_guard.template?/outfit_hay_guard_VIP_V3.entitytemplate].pc_entitytemplate",
+						"flag": "9F"
+					}
+				}
+			}
+		},
+		"cafe4bcdd2d95112": {
+			"parent": "cafe58aa692dcb91",
+			"name": "4",
+			"factory": "[modules:/zoutfitvariation.class].pc_entitytype",
+			"blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint",
+			"properties": {
+				"m_Outfit": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/characters/templates/hay/char_hay_guard.template?/outfit_hay_guard_VIP_V4.entitytemplate].pc_entitytemplate",
+						"flag": "9F"
+					}
+				}
+			}
+		},
+		"cafe215c17a46d9d": {
+			"parent": "cafe58aa692dcb91",
+			"name": "5",
+			"factory": "[modules:/zoutfitvariation.class].pc_entitytype",
+			"blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint",
+			"properties": {
+				"m_Outfit": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/characters/templates/hay/char_hay_guard.template?/outfit_hay_guard_VIP_V5.entitytemplate].pc_entitytemplate",
+						"flag": "9F"
+					}
+				}
+			}
+		},
+		"cafe47f2da43cc0d": {
+			"parent": "cafe58aa692dcb91",
+			"name": "6",
+			"factory": "[modules:/zoutfitvariation.class].pc_entitytype",
+			"blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint",
+			"properties": {
+				"m_Outfit": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/characters/templates/hay/char_hay_guard.template?/outfit_hay_guard_VIP_V6.entitytemplate].pc_entitytemplate",
+						"flag": "9F"
+					}
+				}
+			}
+		}
+	},
+	"propertyOverrides": [],
+	"overrideDeletes": [],
+	"pinConnectionOverrides": [],
+	"pinConnectionOverrideDeletes": [],
+	"externalScenes": [],
+	"subType": "template",
+	"quickEntityVersion": 3.1,
+	"extraFactoryDependencies": [],
+	"extraBlueprintDependencies": [],
+	"comments": []
+}
