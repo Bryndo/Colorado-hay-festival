@@ -29,7 +29,7 @@
             "UI_CONTRACT_HAY_DESC": "Good evening 47, welcome to the annual Harvest festival in Colorado",
             "UI_CONTRACT_HAY_TITLE": "Harvest Festival",
             "UI_STARTING_LOCATION_HAY_EVENT_ENTRANCE_NAME": "Car Park",
-            "UI_STARTING_LOCATION_HAY_EVENT_ENTRANCE_DESC": "Welcome to the Colorado Harvest Festival",
+            "UI_STARTING_LOCATION_HAY_EVENT_ENTRANCE_DESC": "Welcome to the Colorado Harvest Festival 47",
             "NPC_D_NAME": "Target",
             "NPC_D_DESC": "Target desc",
             "UI_SPLASHSCREEN_HAY_TITLE":"The Last Harvest",
@@ -559,24 +559,74 @@
             "Comment": "scarf_llama"
         },
         {
-            "runtimeID":"00DDF35F6134FF66",
+            "runtimeID":"00112422E6D0357C",
             "toChunk": 23,
-            "Comment": "hiding bush"
+            "Comment": "party girland"
         },
         {
-            "runtimeID":"00DDF35F6134FF66",
+            "runtimeID":"003B127F5DB9717C",
             "toChunk": 23,
-            "Comment": "hiding bush"
+            "Comment": "cabinet morgue c"
         },
         {
-            "runtimeID":"00DDF35F6134FF66",
+            "runtimeID":"005963EBB48C85E2",
             "toChunk": 23,
-            "Comment": "hiding bush"
+            "Comment": "cabinet morgue d"
         },
         {
-            "runtimeID":"00DDF35F6134FF66",
+            "runtimeID":"00A9713DE434A540",
             "toChunk": 23,
-            "Comment": "hiding bush"
+            "Comment": "morgue bed"
+        },
+        {
+            "runtimeID":"00CED8CFFCD03959",
+            "toChunk": 23,
+            "Comment": "hospital curtains"
+        },
+        {
+            "runtimeID":"00A71A397ACD11F2",
+            "toChunk": 23,
+            "Comment": "miami black carpet"
+        },
+        {
+            "runtimeID":"0051292F6F965539",
+            "toChunk": 23,
+            "Comment": "mobile home floor"
+        },
+        {
+            "runtimeID":"00CF9ECA3D398A24",
+            "toChunk": 23,
+            "Comment": "medina_c"
+        },
+        {
+            "runtimeID":"00904AA81D846093",
+            "toChunk": 23,
+            "Comment": "LVA bush skunk"
+        },
+        {
+            "runtimeID":"00904AA81D846093",
+            "toChunk": 23,
+            "Comment": "LVA bush skunk"
+        },
+        {
+            "runtimeID":"00904AA81D846093",
+            "toChunk": 23,
+            "Comment": "LVA bush skunk"
+        },
+        {
+            "runtimeID":"00904AA81D846093",
+            "toChunk": 23,
+            "Comment": "LVA bush skunk"
+        },
+        {
+            "runtimeID":"00904AA81D846093",
+            "toChunk": 23,
+            "Comment": "LVA bush skunk"
+        },
+        {
+            "runtimeID":"00904AA81D846093",
+            "toChunk": 23,
+            "Comment": "LVA bush skunk"
         }
         
 

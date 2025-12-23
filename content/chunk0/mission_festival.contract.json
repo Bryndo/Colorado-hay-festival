@@ -58,7 +58,7 @@
 		"CreationTimestamp": "2025-05-02T19:44:00.000Z",
 		"CreatorUserId": "5b01c03b-6e4f-4353-9674-769c8a863b96",
         "Type": "flashback",
-		"Subtype": "specialassignment",
+		"Subtype": "mission",
 		"Release": "3.0.0",
 		"Entitlements": []
 	},
