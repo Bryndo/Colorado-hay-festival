@@ -18,6 +18,16 @@
             "type": "entity",
             "partition": "colorado",
             "path": "[assembly:/_pro/scenes/missions/colorado_2/hay.brick].entitytype"
+        },
+        {
+			"type": "entity",
+			"partition": "colorado",
+			"path": "[assembly:/_pro/scenes/missions/colorado/mission_grim/scene_grim.entity].entitytemplate"
+        },
+        {
+            "type": "entity",
+            "partition": "colorado",
+            "path": "[assembly:/_pro/scenes/missions/colorado_2/grim.brick].entitytype"
         }
     ],
     "localisedLines": {
@@ -28,11 +38,13 @@
         "english": {
             "UI_CONTRACT_HAY_DESC": "Good evening 47, welcome to the annual Harvest festival in Colorado",
             "UI_CONTRACT_HAY_TITLE": "Harvest Festival",
+            "UI_CONTRACT_GRIM_DESC": "Good evening 47, welcome to the annual Harvest festival in Colorado",
+            "UI_CONTRACT_GRIM_TITLE": "Wolf in sheeps clothing",
             "UI_STARTING_LOCATION_HAY_EVENT_ENTRANCE_NAME": "Car Park",
             "UI_STARTING_LOCATION_HAY_EVENT_ENTRANCE_DESC": "Welcome to the Colorado Harvest Festival 47",
             "NPC_D_NAME": "Target",
             "NPC_D_DESC": "Target desc",
-            "UI_SPLASHSCREEN_HAY_TITLE":"The Last Harvest",
+            "UI_SPLASHSCREEN_HAY_TITLE":"False Prophets",
             "UI_SPLASHSCREEN_HAY_DESC":"Colorado, USA"
         }
     },
@@ -604,29 +616,59 @@
             "Comment": "LVA bush skunk"
         },
         {
-            "runtimeID":"00904AA81D846093",
+            "runtimeID":"008212BFA23B7C71",
             "toChunk": 23,
-            "Comment": "LVA bush skunk"
+            "Comment": "birdcage_mumbai"
         },
         {
-            "runtimeID":"00904AA81D846093",
+            "runtimeID":"0019D5945EE57B17",
             "toChunk": 23,
-            "Comment": "LVA bush skunk"
+            "Comment": "shisha_divider_c"
         },
         {
-            "runtimeID":"00904AA81D846093",
+            "runtimeID":"000FB204A9544540",
             "toChunk": 23,
-            "Comment": "LVA bush skunk"
+            "Comment": "chair_wooden_small"
         },
         {
-            "runtimeID":"00904AA81D846093",
+            "runtimeID":"004A9F3ADA769D16",
             "toChunk": 23,
-            "Comment": "LVA bush skunk"
+            "Comment": "pallet_large_oranges"
         },
         {
-            "runtimeID":"00904AA81D846093",
+            "runtimeID":"002A61E26CAE7BF8",
             "toChunk": 23,
-            "Comment": "LVA bush skunk"
+            "Comment": "shanty wood shelf"
+        },
+        {
+            "runtimeID":"000CE9B1C42C956F",
+            "toChunk": 23,
+            "Comment": "antique drawers"
+        },
+        {
+            "runtimeID":"00F752DE19E40009",
+            "toChunk": 23,
+            "Comment": "dugong"
+        },
+        {
+            "runtimeID":"00CD84B1D3584898",
+            "toChunk": 23,
+            "Comment": "colomb billboard"
+        },
+        {
+            "runtimeID":"00CD84B1D3584898",
+            "toChunk": 23,
+            "Comment": "proj map"
+        },
+        {
+            "runtimeID":"002978EF7EA21E13",
+            "toChunk": 23,
+            "Comment": "box cache"
+        },
+        {
+            "runtimeID":"003AD3F21E98B697",
+            "toChunk": 23,
+            "Comment": "billb"
         }
         
 
