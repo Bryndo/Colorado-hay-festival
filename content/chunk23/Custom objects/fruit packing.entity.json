@@ -1,0 +1,4800 @@
+{
+	"tempHash": "00BEA62FF957F4B1",
+	"tbluHash": "001EE38B30F96C9C",
+	"rootEntity": "cc306e23f1c7dce9",
+	"entities": {
+		"268308f7e0454612": {
+			"parent": "0611e1d7933f4ddf",
+			"name": "fruit_packing_shed_panel_a",
+			"factory": "[assembly:/_pro/environment/geometry/levels/colarado/colarado_farmhouse_fruit_packing_shed_a.wl2?/fruit_packing_shed_panel_a.prim].pc_entitytype",
+			"blueprint": "[assembly:/templates/geometrytemplatestaticcoll.template?/geomentity01.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
+						"position": {
+							"x": -7.050824165344238,
+							"y": 9.00852394104004,
+							"z": 0.7398560047149658
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "0611e1d7933f4ddf",
+					"postInit": true
+				}
+			}
+		},
+		"c5d8465ec7d6ce81": {
+			"parent": "cc306e23f1c7dce9",
+			"name": "Decals",
+			"factory": "[modules:/zentity.class].pc_entitytype",
+			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
+		},
+		"821a738ac5c43743": {
+			"parent": "268308f7e0454612",
+			"name": "metal_bolt_b03",
+			"factory": "[assembly:/_pro/environment/geometry/props/decorative/metal_support_angle_a.wl2?/metal_bolt_c.prim].pc_entitytype",
+			"blueprint": "[assembly:/templates/geometrytemplatenocoll.template?/geomentity01.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0.0, "y": 90.0, "z": 0.0 },
+						"position": {
+							"x": 0.05445700138807297,
+							"y": -0.21498100459575653,
+							"z": -0.14312399923801422
+						}
+					}
+				},
+				"m_ResourceID": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/environment/geometry/props/decorative/metal_support_angle_a.wl2?/metal_bolt_a.prim].pc_prim",
+						"flag": "5F"
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "268308f7e0454612"
+				}
+			}
+		},
+		"f2dc309040bb4f33": {
+			"parent": "a659ea553a79eb3d",
+			"name": "metal_bolt_b02",
+			"factory": "[assembly:/_pro/environment/geometry/props/decorative/metal_support_angle_a.wl2?/metal_bolt_c.prim].pc_entitytype",
+			"blueprint": "[assembly:/templates/geometrytemplatenocoll.template?/geomentity01.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0.0, "y": 90.0, "z": 0.0 },
+						"position": {
+							"x": 0.05445671081542969,
+							"y": -0.2149810940027237,
+							"z": 0.13427899777889252
+						}
+					}
+				},
+				"m_ResourceID": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/environment/geometry/props/decorative/metal_support_angle_a.wl2?/metal_bolt_a.prim].pc_prim",
+						"flag": "5F"
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "a659ea553a79eb3d",
+					"postInit": true
+				}
+			}
+		},
+		"07f0c9b52dc15285": {
+			"parent": "7684613b53595e53",
+			"name": "metal_bolt_b01",
+			"factory": "[assembly:/_pro/environment/geometry/props/decorative/metal_support_angle_a.wl2?/metal_bolt_c.prim].pc_entitytype",
+			"blueprint": "[assembly:/templates/geometrytemplatenocoll.template?/geomentity01.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0.0, "y": 90.0, "z": 0.0 },
+						"position": {
+							"x": 0.05445700138807297,
+							"y": 0.21672099828720093,
+							"z": -0.14312399923801422
+						}
+					}
+				},
+				"m_ResourceID": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/environment/geometry/props/decorative/metal_support_angle_a.wl2?/metal_bolt_a.prim].pc_prim",
+						"flag": "5F"
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "7684613b53595e53",
+					"postInit": true
+				}
+			}
+		},
+		"398a429170d4588d": {
+			"parent": "6cc6c8faf21988a6",
+			"name": "metal_bolt_b",
+			"factory": "[assembly:/_pro/environment/geometry/props/decorative/metal_support_angle_a.wl2?/metal_bolt_c.prim].pc_entitytype",
+			"blueprint": "[assembly:/templates/geometrytemplatenocoll.template?/geomentity01.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0.0, "y": 90.0, "z": 0.0 },
+						"position": {
+							"x": 0.05445671081542969,
+							"y": 0.2167205959558487,
+							"z": 0.13427899777889252
+						}
+					}
+				},
+				"m_ResourceID": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/environment/geometry/props/decorative/metal_support_angle_a.wl2?/metal_bolt_a.prim].pc_prim",
+						"flag": "5F"
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "6cc6c8faf21988a6",
+					"postInit": true
+				}
+			}
+		},
+		"04d1710187519a8c": {
+			"parent": "01db9be9d53c70d9",
+			"name": "metal_bolt_b02",
+			"factory": "[assembly:/_pro/environment/geometry/props/decorative/metal_support_angle_a.wl2?/metal_bolt_c.prim].pc_entitytype",
+			"blueprint": "[assembly:/templates/geometrytemplatenocoll.template?/geomentity01.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0.0, "y": 90.0, "z": 0.0 },
+						"position": {
+							"x": 0.05445671081542969,
+							"y": -0.2149810940027237,
+							"z": 0.13427899777889252
+						}
+					}
+				},
+				"m_ResourceID": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/environment/geometry/props/decorative/metal_support_angle_a.wl2?/metal_bolt_a.prim].pc_prim",
+						"flag": "5F"
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "01db9be9d53c70d9",
+					"postInit": true
+				}
+			}
+		},
+		"1f799213df42380f": {
+			"parent": "9fe6e2f1dbbb3d39",
+			"name": "metal_bolt_b01",
+			"factory": "[assembly:/_pro/environment/geometry/props/decorative/metal_support_angle_a.wl2?/metal_bolt_c.prim].pc_entitytype",
+			"blueprint": "[assembly:/templates/geometrytemplatenocoll.template?/geomentity01.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0.0, "y": 90.0, "z": 0.0 },
+						"position": {
+							"x": 0.05445700138807297,
+							"y": 0.21672099828720093,
+							"z": -0.14312399923801422
+						}
+					}
+				},
+				"m_ResourceID": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/environment/geometry/props/decorative/metal_support_angle_a.wl2?/metal_bolt_a.prim].pc_prim",
+						"flag": "5F"
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "9fe6e2f1dbbb3d39",
+					"postInit": true
+				}
+			}
+		},
+		"025e8e275b34f17d": {
+			"parent": "7684613b53595e53",
+			"name": "metal_bolt_b02",
+			"factory": "[assembly:/_pro/environment/geometry/props/decorative/metal_support_angle_a.wl2?/metal_bolt_c.prim].pc_entitytype",
+			"blueprint": "[assembly:/templates/geometrytemplatenocoll.template?/geomentity01.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0.0, "y": 90.0, "z": 0.0 },
+						"position": {
+							"x": 0.05445671081542969,
+							"y": -0.2149810940027237,
+							"z": 0.13427899777889252
+						}
+					}
+				},
+				"m_ResourceID": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/environment/geometry/props/decorative/metal_support_angle_a.wl2?/metal_bolt_a.prim].pc_prim",
+						"flag": "5F"
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "7684613b53595e53",
+					"postInit": true
+				}
+			}
+		},
+		"8512849562c44b2c": {
+			"parent": "59d9f4e29a61cc18",
+			"name": "metal_bolt_b",
+			"factory": "[assembly:/_pro/environment/geometry/props/decorative/metal_support_angle_a.wl2?/metal_bolt_c.prim].pc_entitytype",
+			"blueprint": "[assembly:/templates/geometrytemplatenocoll.template?/geomentity01.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0.0, "y": 90.0, "z": 0.0 },
+						"position": {
+							"x": 0.05445671081542969,
+							"y": 0.2167205959558487,
+							"z": 0.13427899777889252
+						}
+					}
+				},
+				"m_ResourceID": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/environment/geometry/props/decorative/metal_support_angle_a.wl2?/metal_bolt_a.prim].pc_prim",
+						"flag": "5F"
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "59d9f4e29a61cc18",
+					"postInit": true
+				}
+			}
+		},
+		"9fe6e2f1dbbb3d39": {
+			"parent": "0611e1d7933f4ddf",
+			"name": "fruit_packing_shed_panel_a18",
+			"factory": "[assembly:/_pro/environment/geometry/levels/colarado/colarado_farmhouse_fruit_packing_shed_a.wl2?/fruit_packing_shed_panel_a.prim].pc_entitytype",
+			"blueprint": "[assembly:/templates/geometrytemplatestaticcoll.template?/geomentity01.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
+						"position": {
+							"x": -7.050824165344238,
+							"y": -2.254739999771118,
+							"z": 0.7398560047149658
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "0611e1d7933f4ddf",
+					"postInit": true
+				}
+			}
+		},
+		"e291f454a8201373": {
+			"parent": "a659ea553a79eb3d",
+			"name": "metal_bolt_b",
+			"factory": "[assembly:/_pro/environment/geometry/props/decorative/metal_support_angle_a.wl2?/metal_bolt_c.prim].pc_entitytype",
+			"blueprint": "[assembly:/templates/geometrytemplatenocoll.template?/geomentity01.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0.0, "y": 90.0, "z": 0.0 },
+						"position": {
+							"x": 0.05445671081542969,
+							"y": 0.2167205959558487,
+							"z": 0.13427899777889252
+						}
+					}
+				},
+				"m_ResourceID": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/environment/geometry/props/decorative/metal_support_angle_a.wl2?/metal_bolt_a.prim].pc_prim",
+						"flag": "5F"
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "a659ea553a79eb3d",
+					"postInit": true
+				}
+			}
+		},
+		"0f3d385778d33d26": {
+			"parent": "b994a6fbe8338079",
+			"name": "fruit_packing_shed_roof_glow",
+			"factory": "[assembly:/_pro/environment/geometry/levels/colarado/colarado_farmhouse_fruit_packing_shed_a.wl2?/fruit_packing_shed_roof_glow.prim].pc_entitytype",
+			"blueprint": "[assembly:/templates/geometrytemplatestaticcoll.template?/geomentity01.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
+						"position": { "x": 0.0, "y": 0.0, "z": 0.0 }
+					}
+				},
+				"m_eGlowType": {
+					"type": "ERenderGlowTypes",
+					"value": "ERENDERGLOWTYPE_TRAVERSAL"
+				},
+				"m_bCastShadows": { "type": "bool", "value": false },
+				"m_bVisible": { "type": "bool", "value": true },
+				"m_bVisibleInBoxReflection": {
+					"type": "bool",
+					"value": false
+				},
+				"m_bSmartStairSurface": { "type": "bool", "value": false },
+				"m_bPCCastShadows": { "type": "bool", "value": true },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "b994a6fbe8338079",
+					"postInit": true
+				}
+			}
+		},
+		"7684613b53595e53": {
+			"parent": "0611e1d7933f4ddf",
+			"name": "fruit_packing_shed_panel_a15",
+			"factory": "[assembly:/_pro/environment/geometry/levels/colarado/colarado_farmhouse_fruit_packing_shed_a.wl2?/fruit_packing_shed_panel_a.prim].pc_entitytype",
+			"blueprint": "[assembly:/templates/geometrytemplatestaticcoll.template?/geomentity01.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
+						"position": {
+							"x": -7.050824165344238,
+							"y": 2.5563740730285645,
+							"z": 0.7398560047149658
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "0611e1d7933f4ddf",
+					"postInit": true
+				}
+			}
+		},
+		"ce1dea65c5f6ae49": {
+			"parent": "268308f7e0454612",
+			"name": "metal_bolt_b02",
+			"factory": "[assembly:/_pro/environment/geometry/props/decorative/metal_support_angle_a.wl2?/metal_bolt_c.prim].pc_entitytype",
+			"blueprint": "[assembly:/templates/geometrytemplatenocoll.template?/geomentity01.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0.0, "y": 90.0, "z": 0.0 },
+						"position": {
+							"x": 0.05445671081542969,
+							"y": -0.2149810940027237,
+							"z": 0.13427899777889252
+						}
+					}
+				},
+				"m_ResourceID": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/environment/geometry/props/decorative/metal_support_angle_a.wl2?/metal_bolt_a.prim].pc_prim",
+						"flag": "5F"
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "268308f7e0454612"
+				}
+			}
+		},
+		"f634536c877ee20c": {
+			"parent": "59d9f4e29a61cc18",
+			"name": "metal_bolt_b01",
+			"factory": "[assembly:/_pro/environment/geometry/props/decorative/metal_support_angle_a.wl2?/metal_bolt_c.prim].pc_entitytype",
+			"blueprint": "[assembly:/templates/geometrytemplatenocoll.template?/geomentity01.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0.0, "y": 90.0, "z": 0.0 },
+						"position": {
+							"x": 0.05445700138807297,
+							"y": 0.21672099828720093,
+							"z": -0.14312399923801422
+						}
+					}
+				},
+				"m_ResourceID": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/environment/geometry/props/decorative/metal_support_angle_a.wl2?/metal_bolt_a.prim].pc_prim",
+						"flag": "5F"
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "59d9f4e29a61cc18",
+					"postInit": true
+				}
+			}
+		},
+		"6b396670049a871f": {
+			"parent": "01db9be9d53c70d9",
+			"name": "metal_bolt_b",
+			"factory": "[assembly:/_pro/environment/geometry/props/decorative/metal_support_angle_a.wl2?/metal_bolt_c.prim].pc_entitytype",
+			"blueprint": "[assembly:/templates/geometrytemplatenocoll.template?/geomentity01.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0.0, "y": 90.0, "z": 0.0 },
+						"position": {
+							"x": 0.05445671081542969,
+							"y": 0.2167205959558487,
+							"z": 0.13427899777889252
+						}
+					}
+				},
+				"m_ResourceID": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/environment/geometry/props/decorative/metal_support_angle_a.wl2?/metal_bolt_a.prim].pc_prim",
+						"flag": "5F"
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "01db9be9d53c70d9",
+					"postInit": true
+				}
+			}
+		},
+		"18eae466a68712bb": {
+			"parent": "b6c9c3ada448cae5",
+			"name": "metal_bolt_b03",
+			"factory": "[assembly:/_pro/environment/geometry/props/decorative/metal_support_angle_a.wl2?/metal_bolt_c.prim].pc_entitytype",
+			"blueprint": "[assembly:/templates/geometrytemplatenocoll.template?/geomentity01.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0.0, "y": 90.0, "z": 0.0 },
+						"position": {
+							"x": 0.05445700138807297,
+							"y": -0.21498100459575653,
+							"z": -0.14312399923801422
+						}
+					}
+				},
+				"m_ResourceID": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/environment/geometry/props/decorative/metal_support_angle_a.wl2?/metal_bolt_a.prim].pc_prim",
+						"flag": "5F"
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "b6c9c3ada448cae5",
+					"postInit": true
+				}
+			}
+		},
+		"c4570d7fa6bcbbca": {
+			"parent": "0611e1d7933f4ddf",
+			"name": "fruit_packing_shed_panel_a17",
+			"factory": "[assembly:/_pro/environment/geometry/levels/colarado/colarado_farmhouse_fruit_packing_shed_a.wl2?/fruit_packing_shed_panel_a.prim].pc_entitytype",
+			"blueprint": "[assembly:/templates/geometrytemplatestaticcoll.template?/geomentity01.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
+						"position": {
+							"x": -7.050824165344238,
+							"y": -0.6397609710693359,
+							"z": 0.7398560047149658
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "0611e1d7933f4ddf",
+					"postInit": true
+				}
+			}
+		},
+		"16051af591b6cdab": {
+			"parent": "9fe6e2f1dbbb3d39",
+			"name": "metal_bolt_b",
+			"factory": "[assembly:/_pro/environment/geometry/props/decorative/metal_support_angle_a.wl2?/metal_bolt_c.prim].pc_entitytype",
+			"blueprint": "[assembly:/templates/geometrytemplatenocoll.template?/geomentity01.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0.0, "y": 90.0, "z": 0.0 },
+						"position": {
+							"x": 0.05445671081542969,
+							"y": 0.2167205959558487,
+							"z": 0.13427899777889252
+						}
+					}
+				},
+				"m_ResourceID": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/environment/geometry/props/decorative/metal_support_angle_a.wl2?/metal_bolt_a.prim].pc_prim",
+						"flag": "5F"
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "9fe6e2f1dbbb3d39"
+				}
+			}
+		},
+		"62f143c65d5963a7": {
+			"parent": "6cc6c8faf21988a6",
+			"name": "metal_bolt_b03",
+			"factory": "[assembly:/_pro/environment/geometry/props/decorative/metal_support_angle_a.wl2?/metal_bolt_c.prim].pc_entitytype",
+			"blueprint": "[assembly:/templates/geometrytemplatenocoll.template?/geomentity01.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0.0, "y": 90.0, "z": 0.0 },
+						"position": {
+							"x": 0.05445700138807297,
+							"y": -0.21498100459575653,
+							"z": -0.14312399923801422
+						}
+					}
+				},
+				"m_ResourceID": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/environment/geometry/props/decorative/metal_support_angle_a.wl2?/metal_bolt_a.prim].pc_prim",
+						"flag": "5F"
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "6cc6c8faf21988a6",
+					"postInit": true
+				}
+			}
+		},
+		"01db9be9d53c70d9": {
+			"parent": "0611e1d7933f4ddf",
+			"name": "fruit_packing_shed_panel_a19",
+			"factory": "[assembly:/_pro/environment/geometry/levels/colarado/colarado_farmhouse_fruit_packing_shed_a.wl2?/fruit_packing_shed_panel_a.prim].pc_entitytype",
+			"blueprint": "[assembly:/templates/geometrytemplatestaticcoll.template?/geomentity01.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
+						"position": {
+							"x": -7.050824165344238,
+							"y": -3.868546962738037,
+							"z": 0.7398560047149658
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "0611e1d7933f4ddf",
+					"postInit": true
+				}
+			}
+		},
+		"3114fcf6014f59a9": {
+			"parent": "c4570d7fa6bcbbca",
+			"name": "metal_bolt_b01",
+			"factory": "[assembly:/_pro/environment/geometry/props/decorative/metal_support_angle_a.wl2?/metal_bolt_c.prim].pc_entitytype",
+			"blueprint": "[assembly:/templates/geometrytemplatenocoll.template?/geomentity01.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0.0, "y": 90.0, "z": 0.0 },
+						"position": {
+							"x": 0.05445700138807297,
+							"y": 0.21672099828720093,
+							"z": -0.14312399923801422
+						}
+					}
+				},
+				"m_ResourceID": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/environment/geometry/props/decorative/metal_support_angle_a.wl2?/metal_bolt_a.prim].pc_prim",
+						"flag": "5F"
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "c4570d7fa6bcbbca"
+				}
+			}
+		},
+		"fd55cf563505e308": {
+			"parent": "b6c9c3ada448cae5",
+			"name": "metal_bolt_b01",
+			"factory": "[assembly:/_pro/environment/geometry/props/decorative/metal_support_angle_a.wl2?/metal_bolt_c.prim].pc_entitytype",
+			"blueprint": "[assembly:/templates/geometrytemplatenocoll.template?/geomentity01.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0.0, "y": 90.0, "z": 0.0 },
+						"position": {
+							"x": 0.05445700138807297,
+							"y": 0.21672099828720093,
+							"z": -0.14312399923801422
+						}
+					}
+				},
+				"m_ResourceID": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/environment/geometry/props/decorative/metal_support_angle_a.wl2?/metal_bolt_a.prim].pc_prim",
+						"flag": "5F"
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "b6c9c3ada448cae5",
+					"postInit": true
+				}
+			}
+		},
+		"53c82af30a364825": {
+			"parent": "a659ea553a79eb3d",
+			"name": "metal_bolt_b01",
+			"factory": "[assembly:/_pro/environment/geometry/props/decorative/metal_support_angle_a.wl2?/metal_bolt_c.prim].pc_entitytype",
+			"blueprint": "[assembly:/templates/geometrytemplatenocoll.template?/geomentity01.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0.0, "y": 90.0, "z": 0.0 },
+						"position": {
+							"x": 0.05445700138807297,
+							"y": 0.21672099828720093,
+							"z": -0.14312399923801422
+						}
+					}
+				},
+				"m_ResourceID": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/environment/geometry/props/decorative/metal_support_angle_a.wl2?/metal_bolt_a.prim].pc_prim",
+						"flag": "5F"
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "a659ea553a79eb3d",
+					"postInit": true
+				}
+			}
+		},
+		"c9699334fe8e7521": {
+			"parent": "b6c9c3ada448cae5",
+			"name": "metal_bolt_b02",
+			"factory": "[assembly:/_pro/environment/geometry/props/decorative/metal_support_angle_a.wl2?/metal_bolt_c.prim].pc_entitytype",
+			"blueprint": "[assembly:/templates/geometrytemplatenocoll.template?/geomentity01.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0.0, "y": 90.0, "z": 0.0 },
+						"position": {
+							"x": 0.05445671081542969,
+							"y": -0.2149810940027237,
+							"z": 0.13427899777889252
+						}
+					}
+				},
+				"m_ResourceID": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/environment/geometry/props/decorative/metal_support_angle_a.wl2?/metal_bolt_a.prim].pc_prim",
+						"flag": "5F"
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "b6c9c3ada448cae5",
+					"postInit": true
+				}
+			}
+		},
+		"59d9f4e29a61cc18": {
+			"parent": "0611e1d7933f4ddf",
+			"name": "fruit_packing_shed_panel_a21",
+			"factory": "[assembly:/_pro/environment/geometry/levels/colarado/colarado_farmhouse_fruit_packing_shed_a.wl2?/fruit_packing_shed_panel_a.prim].pc_entitytype",
+			"blueprint": "[assembly:/templates/geometrytemplatestaticcoll.template?/geomentity01.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
+						"position": {
+							"x": -7.050824165344238,
+							"y": -7.091738224029541,
+							"z": 0.7398560047149658
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "0611e1d7933f4ddf",
+					"postInit": true
+				}
+			}
+		},
+		"76dac037499bdc98": {
+			"parent": "7684613b53595e53",
+			"name": "metal_bolt_b03",
+			"factory": "[assembly:/_pro/environment/geometry/props/decorative/metal_support_angle_a.wl2?/metal_bolt_c.prim].pc_entitytype",
+			"blueprint": "[assembly:/templates/geometrytemplatenocoll.template?/geomentity01.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0.0, "y": 90.0, "z": 0.0 },
+						"position": {
+							"x": 0.05445700138807297,
+							"y": -0.21498100459575653,
+							"z": -0.14312399923801422
+						}
+					}
+				},
+				"m_ResourceID": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/environment/geometry/props/decorative/metal_support_angle_a.wl2?/metal_bolt_a.prim].pc_prim",
+						"flag": "5F"
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "7684613b53595e53"
+				}
+			}
+		},
+		"2fb278744b926a87": {
+			"parent": "9fe6e2f1dbbb3d39",
+			"name": "metal_bolt_b03",
+			"factory": "[assembly:/_pro/environment/geometry/props/decorative/metal_support_angle_a.wl2?/metal_bolt_c.prim].pc_entitytype",
+			"blueprint": "[assembly:/templates/geometrytemplatenocoll.template?/geomentity01.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0.0, "y": 90.0, "z": 0.0 },
+						"position": {
+							"x": 0.05445700138807297,
+							"y": -0.21498100459575653,
+							"z": -0.14312399923801422
+						}
+					}
+				},
+				"m_ResourceID": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/environment/geometry/props/decorative/metal_support_angle_a.wl2?/metal_bolt_a.prim].pc_prim",
+						"flag": "5F"
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "9fe6e2f1dbbb3d39"
+				}
+			}
+		},
+		"5a37b67a17246fd1": {
+			"parent": "d75d427fdc6f136a",
+			"name": "metal_bolt_b",
+			"factory": "[assembly:/_pro/environment/geometry/props/decorative/metal_support_angle_a.wl2?/metal_bolt_c.prim].pc_entitytype",
+			"blueprint": "[assembly:/templates/geometrytemplatenocoll.template?/geomentity01.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0.0, "y": 90.0, "z": 0.0 },
+						"position": {
+							"x": 0.05445671081542969,
+							"y": 0.2167205959558487,
+							"z": 0.13427899777889252
+						}
+					}
+				},
+				"m_ResourceID": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/environment/geometry/props/decorative/metal_support_angle_a.wl2?/metal_bolt_a.prim].pc_prim",
+						"flag": "5F"
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "d75d427fdc6f136a",
+					"postInit": true
+				}
+			}
+		},
+		"a8dc303ee4543e2b": {
+			"parent": "4140a8ea1a71317b",
+			"name": "metal_bolt_b03",
+			"factory": "[assembly:/_pro/environment/geometry/props/decorative/metal_support_angle_a.wl2?/metal_bolt_c.prim].pc_entitytype",
+			"blueprint": "[assembly:/templates/geometrytemplatenocoll.template?/geomentity01.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0.0, "y": 90.0, "z": 0.0 },
+						"position": {
+							"x": 0.05445700138807297,
+							"y": -0.21498100459575653,
+							"z": -0.14312399923801422
+						}
+					}
+				},
+				"m_ResourceID": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/environment/geometry/props/decorative/metal_support_angle_a.wl2?/metal_bolt_a.prim].pc_prim",
+						"flag": "5F"
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "4140a8ea1a71317b",
+					"postInit": true
+				}
+			}
+		},
+		"8ff139484b4c320b": {
+			"parent": "7684613b53595e53",
+			"name": "metal_bolt_b",
+			"factory": "[assembly:/_pro/environment/geometry/props/decorative/metal_support_angle_a.wl2?/metal_bolt_c.prim].pc_entitytype",
+			"blueprint": "[assembly:/templates/geometrytemplatenocoll.template?/geomentity01.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0.0, "y": 90.0, "z": 0.0 },
+						"position": {
+							"x": 0.05445671081542969,
+							"y": 0.2167205959558487,
+							"z": 0.13427899777889252
+						}
+					}
+				},
+				"m_ResourceID": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/environment/geometry/props/decorative/metal_support_angle_a.wl2?/metal_bolt_a.prim].pc_prim",
+						"flag": "5F"
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "7684613b53595e53"
+				}
+			}
+		},
+		"cc306e23f1c7dce9": {
+			"parent": null,
+			"name": "fruit_packing_shed_exterior",
+			"factory": "[assembly:/templates/aspectdummy.aspect]([assembly:/_pro/environment/geometry/levels/colarado/colarado_farmhouse_fruit_packing_shed_a.wl2?/fruit_packing_shed.prim].entitytype,[modules:/zexplosionblockeraspect.class].entitytype).pc_entitytype",
+			"blueprint": "[assembly:/templates/aspectdummy.aspect]([assembly:/templates/geometrytemplatestaticcoll.template?/geomentity01.entitytemplate].entitytype,[modules:/zexplosionblockeraspect.class].entitytype).pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
+						"position": {
+							"x": -8.680000305175781,
+							"y": 23.969999313354492,
+							"z": -0.009999999776482582
+						}
+					}
+				}
+			}
+		},
+		"f9f7739d8fea14a8": {
+			"parent": "0611e1d7933f4ddf",
+			"name": "fruit_packing_shed_panel_a02",
+			"factory": "[assembly:/_pro/environment/geometry/levels/colarado/colarado_farmhouse_fruit_packing_shed_a.wl2?/fruit_packing_shed_panel_a.prim].pc_entitytype",
+			"blueprint": "[assembly:/templates/geometrytemplatestaticcoll.template?/geomentity01.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
+						"position": {
+							"x": -7.050824165344238,
+							"y": 7.389570236206055,
+							"z": 0.7398560047149658
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "0611e1d7933f4ddf",
+					"postInit": true
+				}
+			}
+		},
+		"0931fb3db92776cb": {
+			"parent": "01db9be9d53c70d9",
+			"name": "metal_bolt_b03",
+			"factory": "[assembly:/_pro/environment/geometry/props/decorative/metal_support_angle_a.wl2?/metal_bolt_c.prim].pc_entitytype",
+			"blueprint": "[assembly:/templates/geometrytemplatenocoll.template?/geomentity01.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0.0, "y": 90.0, "z": 0.0 },
+						"position": {
+							"x": 0.05445700138807297,
+							"y": -0.21498100459575653,
+							"z": -0.14312399923801422
+						}
+					}
+				},
+				"m_ResourceID": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/environment/geometry/props/decorative/metal_support_angle_a.wl2?/metal_bolt_a.prim].pc_prim",
+						"flag": "5F"
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "01db9be9d53c70d9"
+				}
+			}
+		},
+		"9c2880cddc8ed06f": {
+			"parent": "f9f7739d8fea14a8",
+			"name": "metal_bolt_b02",
+			"factory": "[assembly:/_pro/environment/geometry/props/decorative/metal_support_angle_a.wl2?/metal_bolt_c.prim].pc_entitytype",
+			"blueprint": "[assembly:/templates/geometrytemplatenocoll.template?/geomentity01.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0.0, "y": 90.0, "z": 0.0 },
+						"position": {
+							"x": 0.05445671081542969,
+							"y": -0.2149810940027237,
+							"z": 0.13427899777889252
+						}
+					}
+				},
+				"m_ResourceID": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/environment/geometry/props/decorative/metal_support_angle_a.wl2?/metal_bolt_a.prim].pc_prim",
+						"flag": "5F"
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "f9f7739d8fea14a8"
+				}
+			}
+		},
+		"65d6d78f0bf4aec2": {
+			"parent": "4140a8ea1a71317b",
+			"name": "metal_bolt_b02",
+			"factory": "[assembly:/_pro/environment/geometry/props/decorative/metal_support_angle_a.wl2?/metal_bolt_c.prim].pc_entitytype",
+			"blueprint": "[assembly:/templates/geometrytemplatenocoll.template?/geomentity01.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0.0, "y": 90.0, "z": 0.0 },
+						"position": {
+							"x": 0.05445671081542969,
+							"y": -0.2149810940027237,
+							"z": 0.13427899777889252
+						}
+					}
+				},
+				"m_ResourceID": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/environment/geometry/props/decorative/metal_support_angle_a.wl2?/metal_bolt_a.prim].pc_prim",
+						"flag": "5F"
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "4140a8ea1a71317b",
+					"postInit": true
+				}
+			}
+		},
+		"a659ea553a79eb3d": {
+			"parent": "0611e1d7933f4ddf",
+			"name": "fruit_packing_shed_panel_a22",
+			"factory": "[assembly:/_pro/environment/geometry/levels/colarado/colarado_farmhouse_fruit_packing_shed_a.wl2?/fruit_packing_shed_panel_a.prim].pc_entitytype",
+			"blueprint": "[assembly:/templates/geometrytemplatestaticcoll.template?/geomentity01.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
+						"position": {
+							"x": -7.050824165344238,
+							"y": -8.70201587677002,
+							"z": 0.7398560047149658
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "0611e1d7933f4ddf",
+					"postInit": true
+				}
+			}
+		},
+		"4140a8ea1a71317b": {
+			"parent": "0611e1d7933f4ddf",
+			"name": "fruit_packing_shed_panel_a13",
+			"factory": "[assembly:/_pro/environment/geometry/levels/colarado/colarado_farmhouse_fruit_packing_shed_a.wl2?/fruit_packing_shed_panel_a.prim].pc_entitytype",
+			"blueprint": "[assembly:/templates/geometrytemplatestaticcoll.template?/geomentity01.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
+						"position": {
+							"x": -7.050824165344238,
+							"y": 5.78292989730835,
+							"z": 0.7398560047149658
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "0611e1d7933f4ddf",
+					"postInit": true
+				}
+			}
+		},
+		"234194c64cdd0ee1": {
+			"parent": "59d9f4e29a61cc18",
+			"name": "metal_bolt_b02",
+			"factory": "[assembly:/_pro/environment/geometry/props/decorative/metal_support_angle_a.wl2?/metal_bolt_c.prim].pc_entitytype",
+			"blueprint": "[assembly:/templates/geometrytemplatenocoll.template?/geomentity01.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0.0, "y": 90.0, "z": 0.0 },
+						"position": {
+							"x": 0.05445671081542969,
+							"y": -0.2149810940027237,
+							"z": 0.13427899777889252
+						}
+					}
+				},
+				"m_ResourceID": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/environment/geometry/props/decorative/metal_support_angle_a.wl2?/metal_bolt_a.prim].pc_prim",
+						"flag": "5F"
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "59d9f4e29a61cc18"
+				}
+			}
+		},
+		"a8c5ba05db9cd1d9": {
+			"parent": "6cc6c8faf21988a6",
+			"name": "metal_bolt_b02",
+			"factory": "[assembly:/_pro/environment/geometry/props/decorative/metal_support_angle_a.wl2?/metal_bolt_c.prim].pc_entitytype",
+			"blueprint": "[assembly:/templates/geometrytemplatenocoll.template?/geomentity01.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0.0, "y": 90.0, "z": 0.0 },
+						"position": {
+							"x": 0.05445671081542969,
+							"y": -0.2149810940027237,
+							"z": 0.13427899777889252
+						}
+					}
+				},
+				"m_ResourceID": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/environment/geometry/props/decorative/metal_support_angle_a.wl2?/metal_bolt_a.prim].pc_prim",
+						"flag": "5F"
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "6cc6c8faf21988a6",
+					"postInit": true
+				}
+			}
+		},
+		"6cc6c8faf21988a6": {
+			"parent": "0611e1d7933f4ddf",
+			"name": "fruit_packing_shed_panel_a14",
+			"factory": "[assembly:/_pro/environment/geometry/levels/colarado/colarado_farmhouse_fruit_packing_shed_a.wl2?/fruit_packing_shed_panel_a.prim].pc_entitytype",
+			"blueprint": "[assembly:/templates/geometrytemplatestaticcoll.template?/geomentity01.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
+						"position": {
+							"x": -7.050824165344238,
+							"y": 4.166737079620361,
+							"z": 0.7398560047149658
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "0611e1d7933f4ddf",
+					"postInit": true
+				}
+			}
+		},
+		"137b618a8cd866ff": {
+			"parent": "4140a8ea1a71317b",
+			"name": "metal_bolt_b01",
+			"factory": "[assembly:/_pro/environment/geometry/props/decorative/metal_support_angle_a.wl2?/metal_bolt_c.prim].pc_entitytype",
+			"blueprint": "[assembly:/templates/geometrytemplatenocoll.template?/geomentity01.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0.0, "y": 90.0, "z": 0.0 },
+						"position": {
+							"x": 0.05445700138807297,
+							"y": 0.21672099828720093,
+							"z": -0.14312399923801422
+						}
+					}
+				},
+				"m_ResourceID": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/environment/geometry/props/decorative/metal_support_angle_a.wl2?/metal_bolt_a.prim].pc_prim",
+						"flag": "5F"
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "4140a8ea1a71317b"
+				}
+			}
+		},
+		"6959478097874b55": {
+			"parent": "c4570d7fa6bcbbca",
+			"name": "metal_bolt_b02",
+			"factory": "[assembly:/_pro/environment/geometry/props/decorative/metal_support_angle_a.wl2?/metal_bolt_c.prim].pc_entitytype",
+			"blueprint": "[assembly:/templates/geometrytemplatenocoll.template?/geomentity01.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0.0, "y": 90.0, "z": 0.0 },
+						"position": {
+							"x": 0.05445671081542969,
+							"y": -0.2149810940027237,
+							"z": 0.13427899777889252
+						}
+					}
+				},
+				"m_ResourceID": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/environment/geometry/props/decorative/metal_support_angle_a.wl2?/metal_bolt_a.prim].pc_prim",
+						"flag": "5F"
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "c4570d7fa6bcbbca"
+				}
+			}
+		},
+		"7cb18c346f9a1d25": {
+			"parent": "d75d427fdc6f136a",
+			"name": "metal_bolt_b01",
+			"factory": "[assembly:/_pro/environment/geometry/props/decorative/metal_support_angle_a.wl2?/metal_bolt_c.prim].pc_entitytype",
+			"blueprint": "[assembly:/templates/geometrytemplatenocoll.template?/geomentity01.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0.0, "y": 90.0, "z": 0.0 },
+						"position": {
+							"x": 0.05445700138807297,
+							"y": 0.21672099828720093,
+							"z": -0.14312399923801422
+						}
+					}
+				},
+				"m_ResourceID": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/environment/geometry/props/decorative/metal_support_angle_a.wl2?/metal_bolt_a.prim].pc_prim",
+						"flag": "5F"
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "d75d427fdc6f136a",
+					"postInit": true
+				}
+			}
+		},
+		"ff31dd9abd984729": {
+			"parent": "c5d8465ec7d6ce81",
+			"name": "Fruit_Packing_Shed_A_Decal_Controller",
+			"factory": "[modules:/zstaticdecalcontrollerentity.class].pc_entitytype",
+			"blueprint": "[modules:/zstaticdecalcontrollerentity.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
+						"position": {
+							"x": -4.127540111541748,
+							"y": 6.00970983505249,
+							"z": 3.3668370246887207
+						}
+					}
+				},
+				"m_pDecalMesh": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/runtimeresources/decals/_pro/environment/templates/levels/colorado/fruit_packing_shed_a/fruit_packing_shed_a_decal_controller_b4e2421d425c430bb18ac65e773ee9a1.wl2?/fruit_packing_shed_a_decal_controller.prim].pc_prim",
+						"flag": "5F"
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cc306e23f1c7dce9"
+				}
+			}
+		},
+		"397c88554a01dbae": {
+			"parent": "c5d8465ec7d6ce81",
+			"name": "Decal_Puddle_A40",
+			"factory": "[modules:/zstaticdecalentity.class].pc_entitytype",
+			"blueprint": "[modules:/zstaticdecalentity.class].pc_entityblueprint",
+			"editorOnly": true,
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": 0.40491264697685825
+						},
+						"position": {
+							"x": -5.677969932556152,
+							"y": 3.235291004180908,
+							"z": 0.9976570010185242
+						}
+					}
+				},
+				"m_MaterialID": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/environment/materials/decals/ground/tyre_tracks_cart_a.mi].pc_mi",
+						"flag": "5F"
+					}
+				},
+				"m_pController": {
+					"type": "SEntityTemplateReference",
+					"value": "ff31dd9abd984729"
+				},
+				"m_vTiling": {
+					"type": "SVector2",
+					"value": {
+						"x": 0.9722399711608888,
+						"y": 0.7788559794425964
+					}
+				},
+				"m_vUVOffset": {
+					"type": "SVector2",
+					"value": {
+						"x": 0.007269099820405245,
+						"y": 0.002399920020252466
+					}
+				},
+				"m_vGlobalSize": {
+					"type": "SVector3",
+					"value": {
+						"x": 2.386929988861084,
+						"y": 3.8219199180603023,
+						"z": 0.011776300147175787
+					}
+				},
+				"m_nZBias": { "type": "uint8", "value": 2 },
+				"m_fAlpha": { "type": "float32", "value": 60.0 },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cc306e23f1c7dce9"
+				}
+			}
+		},
+		"ef612ec1b59edfb3": {
+			"parent": "c5d8465ec7d6ce81",
+			"name": "Decal_Puddle_A06",
+			"factory": "[modules:/zstaticdecalentity.class].pc_entitytype",
+			"blueprint": "[modules:/zstaticdecalentity.class].pc_entityblueprint",
+			"editorOnly": true,
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": 169.97569003109385
+						},
+						"position": {
+							"x": -0.8325682282447815,
+							"y": -5.374108791351318,
+							"z": 5.035036087036133
+						}
+					}
+				},
+				"m_MaterialID": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/environment/materials/decals/ground/decal_puddle_a.mi].pc_mi",
+						"flag": "5F"
+					}
+				},
+				"m_pController": {
+					"type": "SEntityTemplateReference",
+					"value": "ff31dd9abd984729"
+				},
+				"m_vTiling": {
+					"type": "SVector2",
+					"value": {
+						"x": 0.941428005695343,
+						"y": 0.8545770049095154
+					}
+				},
+				"m_vUVOffset": {
+					"type": "SVector2",
+					"value": {
+						"x": 0.017628399655222893,
+						"y": 0.026520799845457077
+					}
+				},
+				"m_vGlobalSize": {
+					"type": "SVector3",
+					"value": {
+						"x": 4.752389907836914,
+						"y": 3.578249931335449,
+						"z": 0.09163379669189452
+					}
+				},
+				"m_nZBias": { "type": "uint8", "value": 2 },
+				"m_fAlpha": { "type": "float32", "value": 20.0 },
+				"m_nMaxLOD": { "type": "uint8", "value": 5 },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cc306e23f1c7dce9"
+				}
+			}
+		},
+		"deff6cc4f04b305c": {
+			"parent": "c5d8465ec7d6ce81",
+			"name": "Decal_Puddle_A36",
+			"factory": "[modules:/zstaticdecalentity.class].pc_entitytype",
+			"blueprint": "[modules:/zstaticdecalentity.class].pc_entityblueprint",
+			"editorOnly": true,
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": -36.119208730907154
+						},
+						"position": {
+							"x": -5.926159858703613,
+							"y": -2.29121994972229,
+							"z": 0.9976570010185242
+						}
+					}
+				},
+				"m_MaterialID": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/environment/materials/decals/ground/tyre_tracks_cart_b.mi].pc_mi",
+						"flag": "5F"
+					}
+				},
+				"m_pController": {
+					"type": "SEntityTemplateReference",
+					"value": "ff31dd9abd984729"
+				},
+				"m_vTiling": {
+					"type": "SVector2",
+					"value": {
+						"x": 0.9722399711608888,
+						"y": 0.7788559794425964
+					}
+				},
+				"m_vUVOffset": {
+					"type": "SVector2",
+					"value": {
+						"x": 0.007269099820405245,
+						"y": 0.002399920020252466
+					}
+				},
+				"m_vGlobalSize": {
+					"type": "SVector3",
+					"value": {
+						"x": 2.386929988861084,
+						"y": 2.136100053787231,
+						"z": 0.011776300147175787
+					}
+				},
+				"m_nZBias": { "type": "uint8", "value": 2 },
+				"m_fAlpha": { "type": "float32", "value": 70.0 },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cc306e23f1c7dce9"
+				}
+			}
+		},
+		"8a1548be0503411d": {
+			"parent": "c5d8465ec7d6ce81",
+			"name": "Decal_Puddle_A19",
+			"factory": "[modules:/zstaticdecalentity.class].pc_entitytype",
+			"blueprint": "[modules:/zstaticdecalentity.class].pc_entityblueprint",
+			"editorOnly": true,
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": 87.86787634050624
+						},
+						"position": {
+							"x": 0.9825963973999025,
+							"y": -0.5981597900390625,
+							"z": 5.035036087036133
+						}
+					}
+				},
+				"m_MaterialID": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/environment/materials/decals/ground/decal_puddle_a.mi].pc_mi",
+						"flag": "5F"
+					}
+				},
+				"m_pController": {
+					"type": "SEntityTemplateReference",
+					"value": "ff31dd9abd984729"
+				},
+				"m_vTiling": {
+					"type": "SVector2",
+					"value": {
+						"x": 0.941428005695343,
+						"y": 0.768293023109436
+					}
+				},
+				"m_vUVOffset": {
+					"type": "SVector2",
+					"value": {
+						"x": 0.017628399655222893,
+						"y": 0.026520799845457077
+					}
+				},
+				"m_vGlobalSize": {
+					"type": "SVector3",
+					"value": {
+						"x": 4.752389907836914,
+						"y": 3.2169599533081055,
+						"z": 0.09163379669189452
+					}
+				},
+				"m_nZBias": { "type": "uint8", "value": 2 },
+				"m_fAlpha": { "type": "float32", "value": 20.0 },
+				"m_nMaxLOD": { "type": "uint8", "value": 5 },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cc306e23f1c7dce9"
+				}
+			}
+		},
+		"0e300e08fdcadf17": {
+			"parent": "c5d8465ec7d6ce81",
+			"name": "Decal_Puddle_A43",
+			"factory": "[modules:/zstaticdecalentity.class].pc_entitytype",
+			"blueprint": "[modules:/zstaticdecalentity.class].pc_entityblueprint",
+			"editorOnly": true,
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": 93.49813145496547
+						},
+						"position": {
+							"x": -5.747600078582764,
+							"y": 6.291289806365967,
+							"z": 0.9976570010185242
+						}
+					}
+				},
+				"m_MaterialID": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/environment/materials/decals/dirt/dirt_decal_a_silo_wall.mi].pc_mi",
+						"flag": "5F"
+					}
+				},
+				"m_pController": {
+					"type": "SEntityTemplateReference",
+					"value": "ff31dd9abd984729"
+				},
+				"m_vTiling": {
+					"type": "SVector2",
+					"value": {
+						"x": 0.9722399711608888,
+						"y": 0.7622759938240051
+					}
+				},
+				"m_vUVOffset": {
+					"type": "SVector2",
+					"value": {
+						"x": 0.007269099820405245,
+						"y": 0.002399920020252466
+					}
+				},
+				"m_vGlobalSize": {
+					"type": "SVector3",
+					"value": {
+						"x": 1.5389599800109863,
+						"y": 1.4396799802780151,
+						"z": 0.011776300147175787
+					}
+				},
+				"m_nZBias": { "type": "uint8", "value": 2 },
+				"m_fAlpha": { "type": "float32", "value": 50.0 },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cc306e23f1c7dce9"
+				}
+			}
+		},
+		"b3112d2d8e5b6c9b": {
+			"parent": "c5d8465ec7d6ce81",
+			"name": "Decal_Puddle_A10",
+			"factory": "[modules:/zstaticdecalentity.class].pc_entitytype",
+			"blueprint": "[modules:/zstaticdecalentity.class].pc_entityblueprint",
+			"editorOnly": true,
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0.0, "z": -90.0 },
+						"position": {
+							"x": -1.4937900304794312,
+							"y": 1.8549610376358032,
+							"z": 5.174439907073975
+						}
+					}
+				},
+				"m_MaterialID": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/environment/materials/decals/ground/decal_puddle_a.mi].pc_mi",
+						"flag": "5F"
+					}
+				},
+				"m_pController": {
+					"type": "SEntityTemplateReference",
+					"value": "ff31dd9abd984729"
+				},
+				"m_vTiling": {
+					"type": "SVector2",
+					"value": {
+						"x": 1.0322699546813965,
+						"y": 1.0024199485778809
+					}
+				},
+				"m_vUVOffset": {
+					"type": "SVector2",
+					"value": {
+						"x": 0.60098797082901,
+						"y": 0.026520799845457077
+					}
+				},
+				"m_vGlobalSize": {
+					"type": "SVector3",
+					"value": {
+						"x": 1.8865100145339968,
+						"y": 2.30115008354187,
+						"z": 0.3786999881267547
+					}
+				},
+				"m_nZBias": { "type": "uint8", "value": 2 },
+				"m_fAlpha": { "type": "float32", "value": 30.0 },
+				"m_nMaxLOD": { "type": "uint8", "value": 5 },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cc306e23f1c7dce9"
+				}
+			}
+		},
+		"c90becdcc847770b": {
+			"parent": "c5d8465ec7d6ce81",
+			"name": "Decal_Puddle_A07",
+			"factory": "[modules:/zstaticdecalentity.class].pc_entitytype",
+			"blueprint": "[modules:/zstaticdecalentity.class].pc_entityblueprint",
+			"editorOnly": true,
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": 51.7915737312713
+						},
+						"position": {
+							"x": 1.3981449604034424,
+							"y": 4.275351047515869,
+							"z": 5.035036087036133
+						}
+					}
+				},
+				"m_MaterialID": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/environment/materials/decals/ground/decal_puddle_a.mi].pc_mi",
+						"flag": "5F"
+					}
+				},
+				"m_pController": {
+					"type": "SEntityTemplateReference",
+					"value": "ff31dd9abd984729"
+				},
+				"m_vTiling": {
+					"type": "SVector2",
+					"value": {
+						"x": 0.941428005695343,
+						"y": 1.0086499452590942
+					}
+				},
+				"m_vUVOffset": {
+					"type": "SVector2",
+					"value": {
+						"x": 0.017628399655222893,
+						"y": 0.026520799845457077
+					}
+				},
+				"m_vGlobalSize": {
+					"type": "SVector3",
+					"value": {
+						"x": 4.752389907836914,
+						"y": 4.22337007522583,
+						"z": 0.09163379669189452
+					}
+				},
+				"m_nZBias": { "type": "uint8", "value": 2 },
+				"m_fAlpha": { "type": "float32", "value": 20.0 },
+				"m_nMaxLOD": { "type": "uint8", "value": 5 },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cc306e23f1c7dce9"
+				}
+			}
+		},
+		"f618520c0b3284e9": {
+			"parent": "c5d8465ec7d6ce81",
+			"name": "Decal_Puddle_A26",
+			"factory": "[modules:/zstaticdecalentity.class].pc_entitytype",
+			"blueprint": "[modules:/zstaticdecalentity.class].pc_entityblueprint",
+			"editorOnly": true,
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0.0, "z": -180.0 },
+						"position": {
+							"x": -4.9349188804626465,
+							"y": 3.363940954208374,
+							"z": 0.9976570010185242
+						}
+					}
+				},
+				"m_MaterialID": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/environment/materials/decals/ground/decal_puddle_a.mi].pc_mi",
+						"flag": "5F"
+					}
+				},
+				"m_pController": {
+					"type": "SEntityTemplateReference",
+					"value": "ff31dd9abd984729"
+				},
+				"m_vTiling": {
+					"type": "SVector2",
+					"value": {
+						"x": 0.2818880081176758,
+						"y": 1.0303900241851809
+					}
+				},
+				"m_vUVOffset": {
+					"type": "SVector2",
+					"value": {
+						"x": 0.7277659773826599,
+						"y": 0.002399920020252466
+					}
+				},
+				"m_vGlobalSize": {
+					"type": "SVector3",
+					"value": {
+						"x": 1.9220600128173828,
+						"y": 7.851280212402344,
+						"z": 0.011776300147175787
+					}
+				},
+				"m_nZBias": { "type": "uint8", "value": 2 },
+				"m_fAlpha": { "type": "float32", "value": 30.0 },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cc306e23f1c7dce9"
+				}
+			}
+		},
+		"f1f32ba6ef04f39e": {
+			"parent": "c5d8465ec7d6ce81",
+			"name": "Decal_Puddle_A25",
+			"factory": "[modules:/zstaticdecalentity.class].pc_entitytype",
+			"blueprint": "[modules:/zstaticdecalentity.class].pc_entityblueprint",
+			"editorOnly": true,
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0.0, "z": -180.0 },
+						"position": {
+							"x": -0.6879630088806152,
+							"y": 13.605899810791016,
+							"z": 3.1680541038513184
+						}
+					}
+				},
+				"m_MaterialID": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/environment/materials/decals/ground/decal_puddle_a.mi].pc_mi",
+						"flag": "5F"
+					}
+				},
+				"m_pController": {
+					"type": "SEntityTemplateReference",
+					"value": "ff31dd9abd984729"
+				},
+				"m_vTiling": {
+					"type": "SVector2",
+					"value": {
+						"x": 0.7941750288009644,
+						"y": 0.4652029871940613
+					}
+				},
+				"m_vUVOffset": {
+					"type": "SVector2",
+					"value": {
+						"x": 0.017628399655222893,
+						"y": 0.0016698800027370453
+					}
+				},
+				"m_vGlobalSize": {
+					"type": "SVector3",
+					"value": {
+						"x": 1.1461800336837769,
+						"y": 0.7707350254058838,
+						"z": 0.011776300147175787
+					}
+				},
+				"m_nZBias": { "type": "uint8", "value": 2 },
+				"m_fAlpha": { "type": "float32", "value": 70.0 },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cc306e23f1c7dce9"
+				}
+			}
+		},
+		"0fa1b92d3f7a42ed": {
+			"parent": "c5d8465ec7d6ce81",
+			"name": "Decal_Puddle_A02",
+			"factory": "[modules:/zstaticdecalentity.class].pc_entitytype",
+			"blueprint": "[modules:/zstaticdecalentity.class].pc_entityblueprint",
+			"editorOnly": true,
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0.0, "z": -180.0 },
+						"position": {
+							"x": -0.8750848770141602,
+							"y": 7.912789821624756,
+							"z": 4.995108127593994
+						}
+					}
+				},
+				"m_MaterialID": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/environment/materials/decals/ground/decal_puddle_a.mi].pc_mi",
+						"flag": "5F"
+					}
+				},
+				"m_pController": {
+					"type": "SEntityTemplateReference",
+					"value": "ff31dd9abd984729"
+				},
+				"m_vTiling": {
+					"type": "SVector2",
+					"value": {
+						"x": 1.0147199630737305,
+						"y": 1.0024199485778809
+					}
+				},
+				"m_vUVOffset": {
+					"type": "SVector2",
+					"value": {
+						"x": 0.017628399655222893,
+						"y": 0.026520799845457077
+					}
+				},
+				"m_vGlobalSize": {
+					"type": "SVector3",
+					"value": {
+						"x": 2.611949920654297,
+						"y": 2.5761799812316895,
+						"z": 0.011776300147175787
+					}
+				},
+				"m_nZBias": { "type": "uint8", "value": 2 },
+				"m_fAlpha": { "type": "float32", "value": 80.0 },
+				"m_nMaxLOD": { "type": "uint8", "value": 4 },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cc306e23f1c7dce9"
+				}
+			}
+		},
+		"18597c1bde5b70e9": {
+			"parent": "c5d8465ec7d6ce81",
+			"name": "Decal_Puddle_A35",
+			"factory": "[modules:/zstaticdecalentity.class].pc_entitytype",
+			"blueprint": "[modules:/zstaticdecalentity.class].pc_entityblueprint",
+			"editorOnly": true,
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": -72.33445941679658
+						},
+						"position": {
+							"x": -6.0004401206970215,
+							"y": 0.32715991139411926,
+							"z": 0.9976570010185242
+						}
+					}
+				},
+				"m_MaterialID": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/environment/materials/decals/ground/tyre_tracks_cart_b.mi].pc_mi",
+						"flag": "5F"
+					}
+				},
+				"m_pController": {
+					"type": "SEntityTemplateReference",
+					"value": "ff31dd9abd984729"
+				},
+				"m_vTiling": {
+					"type": "SVector2",
+					"value": {
+						"x": 0.9722399711608888,
+						"y": 0.7788559794425964
+					}
+				},
+				"m_vUVOffset": {
+					"type": "SVector2",
+					"value": {
+						"x": 0.007269099820405245,
+						"y": 0.002399920020252466
+					}
+				},
+				"m_vGlobalSize": {
+					"type": "SVector3",
+					"value": {
+						"x": 2.386929988861084,
+						"y": 2.136100053787231,
+						"z": 0.011776300147175787
+					}
+				},
+				"m_nZBias": { "type": "uint8", "value": 2 },
+				"m_fAlpha": { "type": "float32", "value": 70.0 },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cc306e23f1c7dce9"
+				}
+			}
+		},
+		"7f80ab7153850125": {
+			"parent": "c5d8465ec7d6ce81",
+			"name": "Decal_Puddle_A42",
+			"factory": "[modules:/zstaticdecalentity.class].pc_entitytype",
+			"blueprint": "[modules:/zstaticdecalentity.class].pc_entityblueprint",
+			"editorOnly": true,
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": 93.49813145496547
+						},
+						"position": {
+							"x": -6.038818836212158,
+							"y": -6.212109088897705,
+							"z": 0.9976570010185242
+						}
+					}
+				},
+				"m_MaterialID": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/environment/materials/decals/dirt/dirt_decal_a_silo_wall.mi].pc_mi",
+						"flag": "5F"
+					}
+				},
+				"m_pController": {
+					"type": "SEntityTemplateReference",
+					"value": "ff31dd9abd984729"
+				},
+				"m_vTiling": {
+					"type": "SVector2",
+					"value": {
+						"x": 0.9722399711608888,
+						"y": 0.7622759938240051
+					}
+				},
+				"m_vUVOffset": {
+					"type": "SVector2",
+					"value": {
+						"x": 0.007269099820405245,
+						"y": 0.002399920020252466
+					}
+				},
+				"m_vGlobalSize": {
+					"type": "SVector3",
+					"value": {
+						"x": 1.5389599800109863,
+						"y": 1.4396799802780151,
+						"z": 0.011776300147175787
+					}
+				},
+				"m_nZBias": { "type": "uint8", "value": 2 },
+				"m_fAlpha": { "type": "float32", "value": 50.0 },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cc306e23f1c7dce9"
+				}
+			}
+		},
+		"b8d94c205bc1a051": {
+			"parent": "c5d8465ec7d6ce81",
+			"name": "Decal_Puddle_A20",
+			"factory": "[modules:/zstaticdecalentity.class].pc_entitytype",
+			"blueprint": "[modules:/zstaticdecalentity.class].pc_entityblueprint",
+			"editorOnly": true,
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
+						"position": {
+							"x": 1.4213850498199463,
+							"y": 11.312459945678713,
+							"z": 3.1552979946136475
+						}
+					}
+				},
+				"m_MaterialID": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/environment/materials/decals/ground/decal_puddle_a.mi].pc_mi",
+						"flag": "5F"
+					}
+				},
+				"m_pController": {
+					"type": "SEntityTemplateReference",
+					"value": "ff31dd9abd984729"
+				},
+				"m_vTiling": {
+					"type": "SVector2",
+					"value": {
+						"x": 0.6841610074043274,
+						"y": 0.35444799065589905
+					}
+				},
+				"m_vUVOffset": {
+					"type": "SVector2",
+					"value": {
+						"x": 0.017628399655222893,
+						"y": 0.002399920020252466
+					}
+				},
+				"m_vGlobalSize": {
+					"type": "SVector3",
+					"value": {
+						"x": 3.236920118331909,
+						"y": 2.381150007247925,
+						"z": 0.04563729837536812
+					}
+				},
+				"m_nZBias": { "type": "uint8", "value": 2 },
+				"m_fAlpha": { "type": "float32", "value": 30.0 },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cc306e23f1c7dce9"
+				}
+			}
+		},
+		"1c8b0420d28e1d4b": {
+			"parent": "c5d8465ec7d6ce81",
+			"name": "Decal_Puddle_A",
+			"factory": "[modules:/zstaticdecalentity.class].pc_entitytype",
+			"blueprint": "[modules:/zstaticdecalentity.class].pc_entityblueprint",
+			"editorOnly": true,
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0.0, "z": -90.0 },
+						"position": {
+							"x": -5.78941011428833,
+							"y": -8.989599227905273,
+							"z": 5.042471885681152
+						}
+					}
+				},
+				"m_MaterialID": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/environment/materials/decals/ground/decal_puddle_a.mi].pc_mi",
+						"flag": "5F"
+					}
+				},
+				"m_pController": {
+					"type": "SEntityTemplateReference",
+					"value": "ff31dd9abd984729"
+				},
+				"m_vTiling": {
+					"type": "SVector2",
+					"value": {
+						"x": 0.5937209725379944,
+						"y": 0.804186999797821
+					}
+				},
+				"m_vUVOffset": {
+					"type": "SVector2",
+					"value": {
+						"x": 0.4062789976596832,
+						"y": 0.2247530072927475
+					}
+				},
+				"m_vGlobalSize": {
+					"type": "SVector3",
+					"value": {
+						"x": 2.015010118484497,
+						"y": 2.077850103378296,
+						"z": 0.10650400072336196
+					}
+				},
+				"m_nZBias": { "type": "uint8", "value": 2 },
+				"m_fAlpha": { "type": "float32", "value": 60.0 },
+				"m_nMaxLOD": { "type": "uint8", "value": 5 },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cc306e23f1c7dce9"
+				}
+			}
+		},
+		"e54daf63d013cc27": {
+			"parent": "c5d8465ec7d6ce81",
+			"name": "Decal_Puddle_A28",
+			"factory": "[modules:/zstaticdecalentity.class].pc_entitytype",
+			"blueprint": "[modules:/zstaticdecalentity.class].pc_entityblueprint",
+			"editorOnly": true,
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
+						"position": {
+							"x": -5.362578868865967,
+							"y": -3.658248901367187,
+							"z": 0.9976570010185242
+						}
+					}
+				},
+				"m_MaterialID": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/environment/materials/decals/ground/decal_puddle_a.mi].pc_mi",
+						"flag": "5F"
+					}
+				},
+				"m_pController": {
+					"type": "SEntityTemplateReference",
+					"value": "ff31dd9abd984729"
+				},
+				"m_vTiling": {
+					"type": "SVector2",
+					"value": {
+						"x": 0.37940001487731934,
+						"y": 0.8021550178527832
+					}
+				},
+				"m_vUVOffset": {
+					"type": "SVector2",
+					"value": {
+						"x": 0.008755600079894066,
+						"y": 0.23063400387763977
+					}
+				},
+				"m_vGlobalSize": {
+					"type": "SVector3",
+					"value": {
+						"x": 2.724570035934448,
+						"y": 6.112180233001709,
+						"z": 0.011776300147175787
+					}
+				},
+				"m_nZBias": { "type": "uint8", "value": 2 },
+				"m_fAlpha": { "type": "float32", "value": 30.0 },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cc306e23f1c7dce9"
+				}
+			}
+		},
+		"a7206ddcbb050837": {
+			"parent": "c5d8465ec7d6ce81",
+			"name": "Decal_Puddle_A22",
+			"factory": "[modules:/zstaticdecalentity.class].pc_entitytype",
+			"blueprint": "[modules:/zstaticdecalentity.class].pc_entityblueprint",
+			"editorOnly": true,
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": -0.1153364798823264
+						},
+						"position": {
+							"x": 2.628938913345337,
+							"y": 12.11223030090332,
+							"z": 3.1748979091644287
+						}
+					}
+				},
+				"m_MaterialID": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/environment/materials/decals/ground/decal_puddle_a.mi].pc_mi",
+						"flag": "5F"
+					}
+				},
+				"m_pController": {
+					"type": "SEntityTemplateReference",
+					"value": "ff31dd9abd984729"
+				},
+				"m_vTiling": {
+					"type": "SVector2",
+					"value": {
+						"x": 0.30730700492858887,
+						"y": 1.0615700483322144
+					}
+				},
+				"m_vUVOffset": {
+					"type": "SVector2",
+					"value": {
+						"x": 0.017628399655222893,
+						"y": 0.4517000019550323
+					}
+				},
+				"m_vGlobalSize": {
+					"type": "SVector3",
+					"value": {
+						"x": 0.7405009865760803,
+						"y": 3.842730045318603,
+						"z": 0.011776300147175787
+					}
+				},
+				"m_nZBias": { "type": "uint8", "value": 2 },
+				"m_fAlpha": { "type": "float32", "value": 45.0 },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cc306e23f1c7dce9"
+				}
+			}
+		},
+		"1aab71385b65b6e0": {
+			"parent": "c5d8465ec7d6ce81",
+			"name": "Decal_Puddle_A44",
+			"factory": "[modules:/zstaticdecalentity.class].pc_entitytype",
+			"blueprint": "[modules:/zstaticdecalentity.class].pc_entityblueprint",
+			"editorOnly": true,
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": -86.1121924783858
+						},
+						"position": {
+							"x": -5.526790142059326,
+							"y": -8.651359558105469,
+							"z": 0.9976570010185242
+						}
+					}
+				},
+				"m_MaterialID": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/environment/materials/decals/dirt/dirt_decal_a_silo_wall.mi].pc_mi",
+						"flag": "5F"
+					}
+				},
+				"m_pController": {
+					"type": "SEntityTemplateReference",
+					"value": "ff31dd9abd984729"
+				},
+				"m_vTiling": {
+					"type": "SVector2",
+					"value": {
+						"x": 0.9722399711608888,
+						"y": 0.7622759938240051
+					}
+				},
+				"m_vUVOffset": {
+					"type": "SVector2",
+					"value": {
+						"x": 0.007269099820405245,
+						"y": 0.002399920020252466
+					}
+				},
+				"m_vGlobalSize": {
+					"type": "SVector3",
+					"value": {
+						"x": 1.5389599800109863,
+						"y": 1.4396799802780151,
+						"z": 0.011776300147175787
+					}
+				},
+				"m_nZBias": { "type": "uint8", "value": 2 },
+				"m_fAlpha": { "type": "float32", "value": 50.0 },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cc306e23f1c7dce9"
+				}
+			}
+		},
+		"784f6945af415e58": {
+			"parent": "c5d8465ec7d6ce81",
+			"name": "Decal_Puddle_A01",
+			"factory": "[modules:/zstaticdecalentity.class].pc_entitytype",
+			"blueprint": "[modules:/zstaticdecalentity.class].pc_entityblueprint",
+			"editorOnly": true,
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0.0, "z": -90.0 },
+						"position": {
+							"x": -2.3130600452423096,
+							"y": 8.356481552124023,
+							"z": 5.042471885681152
+						}
+					}
+				},
+				"m_MaterialID": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/environment/materials/decals/ground/decal_puddle_a.mi].pc_mi",
+						"flag": "5F"
+					}
+				},
+				"m_pController": {
+					"type": "SEntityTemplateReference",
+					"value": "ff31dd9abd984729"
+				},
+				"m_vTiling": {
+					"type": "SVector2",
+					"value": {
+						"x": 0.329120010137558,
+						"y": 1.0024199485778809
+					}
+				},
+				"m_vUVOffset": {
+					"type": "SVector2",
+					"value": {
+						"x": 0.6708800196647644,
+						"y": 0.026520799845457077
+					}
+				},
+				"m_vGlobalSize": {
+					"type": "SVector3",
+					"value": {
+						"x": 0.7026249766349792,
+						"y": 1.820580005645752,
+						"z": 0.10650400072336196
+					}
+				},
+				"m_nZBias": { "type": "uint8", "value": 2 },
+				"m_fAlpha": { "type": "float32", "value": 70.0 },
+				"m_nMaxLOD": { "type": "uint8", "value": 4 },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cc306e23f1c7dce9"
+				}
+			}
+		},
+		"fdfeb89539588628": {
+			"parent": "c5d8465ec7d6ce81",
+			"name": "Decal_Puddle_A31",
+			"factory": "[modules:/zstaticdecalentity.class].pc_entitytype",
+			"blueprint": "[modules:/zstaticdecalentity.class].pc_entityblueprint",
+			"editorOnly": true,
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -90.0,
+							"y": -89.96872301314407,
+							"z": 90.0
+						},
+						"position": {
+							"x": -6.984818935394287,
+							"y": -6.856648921966553,
+							"z": 0.4217109978199005
+						}
+					}
+				},
+				"m_MaterialID": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/environment/materials/decals/ground/decal_puddle_a.mi].pc_mi",
+						"flag": "5F"
+					}
+				},
+				"m_pController": {
+					"type": "SEntityTemplateReference",
+					"value": "ff31dd9abd984729"
+				},
+				"m_vTiling": {
+					"type": "SVector2",
+					"value": {
+						"x": 0.29816100001335144,
+						"y": 1.208179950714111
+					}
+				},
+				"m_vUVOffset": {
+					"type": "SVector2",
+					"value": {
+						"x": 0.7277659773826599,
+						"y": 0.9171599745750428
+					}
+				},
+				"m_vGlobalSize": {
+					"type": "SVector3",
+					"value": {
+						"x": 1.2058600187301636,
+						"y": 12.108099937438965,
+						"z": 0.011776300147175787
+					}
+				},
+				"m_nZBias": { "type": "uint8", "value": 2 },
+				"m_fAlpha": { "type": "float32", "value": 30.0 },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cc306e23f1c7dce9"
+				}
+			}
+		},
+		"7f4c0f877f58ffcc": {
+			"parent": "c5d8465ec7d6ce81",
+			"name": "Decal_Puddle_A17",
+			"factory": "[modules:/zstaticdecalentity.class].pc_entitytype",
+			"blueprint": "[modules:/zstaticdecalentity.class].pc_entityblueprint",
+			"editorOnly": true,
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0.0, "z": -180.0 },
+						"position": {
+							"x": 3.154555082321167,
+							"y": 7.570210933685303,
+							"z": 4.995108127593994
+						}
+					}
+				},
+				"m_MaterialID": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/environment/materials/decals/ground/decal_puddle_a.mi].pc_mi",
+						"flag": "5F"
+					}
+				},
+				"m_pController": {
+					"type": "SEntityTemplateReference",
+					"value": "ff31dd9abd984729"
+				},
+				"m_vTiling": {
+					"type": "SVector2",
+					"value": {
+						"x": 0.2818880081176758,
+						"y": 1.0303900241851809
+					}
+				},
+				"m_vUVOffset": {
+					"type": "SVector2",
+					"value": {
+						"x": 0.7277659773826599,
+						"y": 0.002399920020252466
+					}
+				},
+				"m_vGlobalSize": {
+					"type": "SVector3",
+					"value": {
+						"x": 1.9220600128173828,
+						"y": 7.851280212402344,
+						"z": 0.011776300147175787
+					}
+				},
+				"m_nZBias": { "type": "uint8", "value": 2 },
+				"m_fAlpha": { "type": "float32", "value": 20.0 },
+				"m_nMaxLOD": { "type": "uint8", "value": 5 },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cc306e23f1c7dce9"
+				}
+			}
+		},
+		"78ef7284e347631a": {
+			"parent": "c5d8465ec7d6ce81",
+			"name": "Decal_Puddle_A29",
+			"factory": "[modules:/zstaticdecalentity.class].pc_entitytype",
+			"blueprint": "[modules:/zstaticdecalentity.class].pc_entityblueprint",
+			"editorOnly": true,
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0.0, "z": -180.0 },
+						"position": {
+							"x": -5.472350120544434,
+							"y": 7.389319896697998,
+							"z": 0.9976570010185242
+						}
+					}
+				},
+				"m_MaterialID": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/environment/materials/decals/ground/decal_puddle_a.mi].pc_mi",
+						"flag": "5F"
+					}
+				},
+				"m_pController": {
+					"type": "SEntityTemplateReference",
+					"value": "ff31dd9abd984729"
+				},
+				"m_vTiling": {
+					"type": "SVector2",
+					"value": {
+						"x": 0.42684999108314514,
+						"y": 0.6860510110855103
+					}
+				},
+				"m_vUVOffset": {
+					"type": "SVector2",
+					"value": {
+						"x": 0.7277659773826599,
+						"y": 0.002399920020252466
+					}
+				},
+				"m_vGlobalSize": {
+					"type": "SVector3",
+					"value": {
+						"x": 3.0653200149536133,
+						"y": 5.22750997543335,
+						"z": 0.011776300147175787
+					}
+				},
+				"m_nZBias": { "type": "uint8", "value": 2 },
+				"m_fAlpha": { "type": "float32", "value": 35.0 },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cc306e23f1c7dce9"
+				}
+			}
+		},
+		"e2f3926483aed01c": {
+			"parent": "c5d8465ec7d6ce81",
+			"name": "Decal_Puddle_A18",
+			"factory": "[modules:/zstaticdecalentity.class].pc_entitytype",
+			"blueprint": "[modules:/zstaticdecalentity.class].pc_entityblueprint",
+			"editorOnly": true,
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
+						"position": {
+							"x": -5.788448810577393,
+							"y": 6.737710952758789,
+							"z": 4.995108127593994
+						}
+					}
+				},
+				"m_MaterialID": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/environment/materials/decals/ground/decal_puddle_a.mi].pc_mi",
+						"flag": "5F"
+					}
+				},
+				"m_pController": {
+					"type": "SEntityTemplateReference",
+					"value": "ff31dd9abd984729"
+				},
+				"m_vTiling": {
+					"type": "SVector2",
+					"value": {
+						"x": 0.2818880081176758,
+						"y": 1.0303900241851809
+					}
+				},
+				"m_vUVOffset": {
+					"type": "SVector2",
+					"value": {
+						"x": 0.7277659773826599,
+						"y": 0.002399920020252466
+					}
+				},
+				"m_vGlobalSize": {
+					"type": "SVector3",
+					"value": {
+						"x": 1.9220600128173828,
+						"y": 7.851280212402344,
+						"z": 0.011776300147175787
+					}
+				},
+				"m_nZBias": { "type": "uint8", "value": 2 },
+				"m_fAlpha": { "type": "float32", "value": 20.0 },
+				"m_nMaxLOD": { "type": "uint8", "value": 5 },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cc306e23f1c7dce9"
+				}
+			}
+		},
+		"6f30b73825c24973": {
+			"parent": "c5d8465ec7d6ce81",
+			"name": "Decal_Puddle_A03",
+			"factory": "[modules:/zstaticdecalentity.class].pc_entitytype",
+			"blueprint": "[modules:/zstaticdecalentity.class].pc_entityblueprint",
+			"editorOnly": true,
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
+						"position": {
+							"x": -6.129209995269775,
+							"y": 9.422121047973633,
+							"z": 5.042471885681152
+						}
+					}
+				},
+				"m_MaterialID": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/environment/materials/decals/ground/decal_puddle_a.mi].pc_mi",
+						"flag": "5F"
+					}
+				},
+				"m_pController": {
+					"type": "SEntityTemplateReference",
+					"value": "ff31dd9abd984729"
+				},
+				"m_vTiling": {
+					"type": "SVector2",
+					"value": {
+						"x": 0.6447950005531311,
+						"y": 0.6137490272521973
+					}
+				},
+				"m_vUVOffset": {
+					"type": "SVector2",
+					"value": {
+						"x": 0.35521000623703003,
+						"y": 0.41519200801849365
+					}
+				},
+				"m_vGlobalSize": {
+					"type": "SVector3",
+					"value": {
+						"x": 1.376539945602417,
+						"y": 1.1146800518035889,
+						"z": 0.10650400072336196
+					}
+				},
+				"m_nZBias": { "type": "uint8", "value": 2 },
+				"m_fAlpha": { "type": "float32", "value": 35.0 },
+				"m_nMaxLOD": { "type": "uint8", "value": 4 },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cc306e23f1c7dce9"
+				}
+			}
+		},
+		"8991f232a3679bbc": {
+			"parent": "c5d8465ec7d6ce81",
+			"name": "Decal_Puddle_A12",
+			"factory": "[modules:/zstaticdecalentity.class].pc_entitytype",
+			"blueprint": "[modules:/zstaticdecalentity.class].pc_entityblueprint",
+			"editorOnly": true,
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
+						"position": {
+							"x": 1.9335269927978516,
+							"y": 7.499441146850586,
+							"z": 4.995108127593994
+						}
+					}
+				},
+				"m_MaterialID": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/environment/materials/decals/ground/decal_puddle_a.mi].pc_mi",
+						"flag": "5F"
+					}
+				},
+				"m_pController": {
+					"type": "SEntityTemplateReference",
+					"value": "ff31dd9abd984729"
+				},
+				"m_vTiling": {
+					"type": "SVector2",
+					"value": {
+						"x": 0.7351909875869751,
+						"y": 0.801239013671875
+					}
+				},
+				"m_vUVOffset": {
+					"type": "SVector2",
+					"value": {
+						"x": 0.017628399655222893,
+						"y": 0.22770200669765472
+					}
+				},
+				"m_vGlobalSize": {
+					"type": "SVector3",
+					"value": {
+						"x": 4.180850028991699,
+						"y": 5.092390060424805,
+						"z": 0.011776300147175787
+					}
+				},
+				"m_nZBias": { "type": "uint8", "value": 2 },
+				"m_fAlpha": { "type": "float32", "value": 20.0 },
+				"m_nMaxLOD": { "type": "uint8", "value": 5 },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cc306e23f1c7dce9"
+				}
+			}
+		},
+		"d5b1168b55b29ed2": {
+			"parent": "c5d8465ec7d6ce81",
+			"name": "Decal_Puddle_A04",
+			"factory": "[modules:/zstaticdecalentity.class].pc_entitytype",
+			"blueprint": "[modules:/zstaticdecalentity.class].pc_entityblueprint",
+			"editorOnly": true,
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
+						"position": {
+							"x": 2.9093589782714844,
+							"y": 3.297441005706787,
+							"z": 4.995108127593994
+						}
+					}
+				},
+				"m_MaterialID": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/environment/materials/decals/ground/decal_puddle_a.mi].pc_mi",
+						"flag": "5F"
+					}
+				},
+				"m_pController": {
+					"type": "SEntityTemplateReference",
+					"value": "ff31dd9abd984729"
+				},
+				"m_vTiling": {
+					"type": "SVector2",
+					"value": {
+						"x": 0.4728290140628814,
+						"y": 1.0024199485778809
+					}
+				},
+				"m_vUVOffset": {
+					"type": "SVector2",
+					"value": {
+						"x": 0.017628399655222893,
+						"y": 0.026520799845457077
+					}
+				},
+				"m_vGlobalSize": {
+					"type": "SVector3",
+					"value": {
+						"x": 2.2119200229644775,
+						"y": 6.371029853820801,
+						"z": 0.011776300147175787
+					}
+				},
+				"m_nZBias": { "type": "uint8", "value": 2 },
+				"m_fAlpha": { "type": "float32", "value": 50.0 },
+				"m_nMaxLOD": { "type": "uint8", "value": 5 },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cc306e23f1c7dce9"
+				}
+			}
+		},
+		"fefd42cd9ab7f9b8": {
+			"parent": "c5d8465ec7d6ce81",
+			"name": "Decal_Puddle_A24",
+			"factory": "[modules:/zstaticdecalentity.class].pc_entitytype",
+			"blueprint": "[modules:/zstaticdecalentity.class].pc_entityblueprint",
+			"editorOnly": true,
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": 89.88466352011768
+						},
+						"position": {
+							"x": 1.4383540153503418,
+							"y": 10.484660148620604,
+							"z": 3.1748979091644287
+						}
+					}
+				},
+				"m_MaterialID": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/environment/materials/decals/ground/decal_puddle_a.mi].pc_mi",
+						"flag": "5F"
+					}
+				},
+				"m_pController": {
+					"type": "SEntityTemplateReference",
+					"value": "ff31dd9abd984729"
+				},
+				"m_vTiling": {
+					"type": "SVector2",
+					"value": {
+						"x": 0.4499579966068268,
+						"y": 1.1213300228118896
+					}
+				},
+				"m_vUVOffset": {
+					"type": "SVector2",
+					"value": {
+						"x": 0.017628399655222893,
+						"y": 0.9781990051269532
+					}
+				},
+				"m_vGlobalSize": {
+					"type": "SVector3",
+					"value": {
+						"x": 0.8523939847946167,
+						"y": 4.0590500831604,
+						"z": 0.011776300147175787
+					}
+				},
+				"m_nZBias": { "type": "uint8", "value": 2 },
+				"m_fAlpha": { "type": "float32", "value": 45.0 },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cc306e23f1c7dce9"
+				}
+			}
+		},
+		"97e70f9573356ddb": {
+			"parent": "c5d8465ec7d6ce81",
+			"name": "Decal_Puddle_A05",
+			"factory": "[modules:/zstaticdecalentity.class].pc_entitytype",
+			"blueprint": "[modules:/zstaticdecalentity.class].pc_entityblueprint",
+			"editorOnly": true,
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": 169.9756337015292
+						},
+						"position": {
+							"x": -1.8465499877929688,
+							"y": 2.0980300903320312,
+							"z": 5.035036087036133
+						}
+					}
+				},
+				"m_MaterialID": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/environment/materials/decals/ground/decal_puddle_a.mi].pc_mi",
+						"flag": "5F"
+					}
+				},
+				"m_pController": {
+					"type": "SEntityTemplateReference",
+					"value": "ff31dd9abd984729"
+				},
+				"m_vTiling": {
+					"type": "SVector2",
+					"value": {
+						"x": 0.941428005695343,
+						"y": 1.0024199485778809
+					}
+				},
+				"m_vUVOffset": {
+					"type": "SVector2",
+					"value": {
+						"x": 0.017628399655222893,
+						"y": 0.026520799845457077
+					}
+				},
+				"m_vGlobalSize": {
+					"type": "SVector3",
+					"value": {
+						"x": 3.240880012512207,
+						"y": 3.314470052719116,
+						"z": 0.09163379669189452
+					}
+				},
+				"m_nZBias": { "type": "uint8", "value": 2 },
+				"m_fAlpha": { "type": "float32", "value": 25.0 },
+				"m_nMaxLOD": { "type": "uint8", "value": 5 },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cc306e23f1c7dce9"
+				}
+			}
+		},
+		"e6a7261c14ff9c36": {
+			"parent": "c5d8465ec7d6ce81",
+			"name": "Decal_Puddle_A14",
+			"factory": "[modules:/zstaticdecalentity.class].pc_entitytype",
+			"blueprint": "[modules:/zstaticdecalentity.class].pc_entityblueprint",
+			"editorOnly": true,
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
+						"position": {
+							"x": -0.38815879821777344,
+							"y": -3.441549062728882,
+							"z": 4.995108127593994
+						}
+					}
+				},
+				"m_MaterialID": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/environment/materials/decals/ground/decal_puddle_a.mi].pc_mi",
+						"flag": "5F"
+					}
+				},
+				"m_pController": {
+					"type": "SEntityTemplateReference",
+					"value": "ff31dd9abd984729"
+				},
+				"m_vTiling": {
+					"type": "SVector2",
+					"value": {
+						"x": 0.9920259714126588,
+						"y": 1.0303900241851809
+					}
+				},
+				"m_vUVOffset": {
+					"type": "SVector2",
+					"value": {
+						"x": 0.017628399655222893,
+						"y": 0.002399920020252466
+					}
+				},
+				"m_vGlobalSize": {
+					"type": "SVector3",
+					"value": {
+						"x": 2.13769006729126,
+						"y": 2.7995400428771973,
+						"z": 0.011776300147175787
+					}
+				},
+				"m_nZBias": { "type": "uint8", "value": 2 },
+				"m_fAlpha": { "type": "float32", "value": 30.0 },
+				"m_nMaxLOD": { "type": "uint8", "value": 5 },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cc306e23f1c7dce9"
+				}
+			}
+		},
+		"23887998dc43ffd3": {
+			"parent": "c5d8465ec7d6ce81",
+			"name": "Decal_Puddle_A37",
+			"factory": "[modules:/zstaticdecalentity.class].pc_entitytype",
+			"blueprint": "[modules:/zstaticdecalentity.class].pc_entityblueprint",
+			"editorOnly": true,
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": 0.40491264697685825
+						},
+						"position": {
+							"x": -5.740630149841309,
+							"y": -5.6302490234375,
+							"z": 0.9976570010185242
+						}
+					}
+				},
+				"m_MaterialID": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/environment/materials/decals/ground/tyre_tracks_cart_a.mi].pc_mi",
+						"flag": "5F"
+					}
+				},
+				"m_pController": {
+					"type": "SEntityTemplateReference",
+					"value": "ff31dd9abd984729"
+				},
+				"m_vTiling": {
+					"type": "SVector2",
+					"value": {
+						"x": 0.9722399711608888,
+						"y": 0.7788559794425964
+					}
+				},
+				"m_vUVOffset": {
+					"type": "SVector2",
+					"value": {
+						"x": 0.007269099820405245,
+						"y": 0.002399920020252466
+					}
+				},
+				"m_vGlobalSize": {
+					"type": "SVector3",
+					"value": {
+						"x": 2.386929988861084,
+						"y": 3.8219199180603023,
+						"z": 0.011776300147175787
+					}
+				},
+				"m_nZBias": { "type": "uint8", "value": 2 },
+				"m_fAlpha": { "type": "float32", "value": 60.0 },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cc306e23f1c7dce9"
+				}
+			}
+		},
+		"d8589127ae90eb50": {
+			"parent": "c5d8465ec7d6ce81",
+			"name": "Decal_Puddle_A27",
+			"factory": "[modules:/zstaticdecalentity.class].pc_entitytype",
+			"blueprint": "[modules:/zstaticdecalentity.class].pc_entityblueprint",
+			"editorOnly": true,
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0.0, "z": -180.0 },
+						"position": {
+							"x": -5.506558895111084,
+							"y": -7.094179153442383,
+							"z": 0.9611600041389464
+						}
+					}
+				},
+				"m_MaterialID": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/environment/materials/decals/ground/decal_puddle_a.mi].pc_mi",
+						"flag": "5F"
+					}
+				},
+				"m_pController": {
+					"type": "SEntityTemplateReference",
+					"value": "ff31dd9abd984729"
+				},
+				"m_vTiling": {
+					"type": "SVector2",
+					"value": {
+						"x": 0.42684999108314514,
+						"y": 1.0303900241851809
+					}
+				},
+				"m_vUVOffset": {
+					"type": "SVector2",
+					"value": {
+						"x": 0.7277659773826599,
+						"y": 0.002399920020252466
+					}
+				},
+				"m_vGlobalSize": {
+					"type": "SVector3",
+					"value": {
+						"x": 3.0653200149536133,
+						"y": 7.851280212402344,
+						"z": 0.08477059751749039
+					}
+				},
+				"m_nZBias": { "type": "uint8", "value": 2 },
+				"m_fAlpha": { "type": "float32", "value": 30.0 },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cc306e23f1c7dce9"
+				}
+			}
+		},
+		"b5b11efaffa4046b": {
+			"parent": "c5d8465ec7d6ce81",
+			"name": "Decal_Puddle_A39",
+			"factory": "[modules:/zstaticdecalentity.class].pc_entitytype",
+			"blueprint": "[modules:/zstaticdecalentity.class].pc_entityblueprint",
+			"editorOnly": true,
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": 72.94316973031226
+						},
+						"position": {
+							"x": -5.369558811187744,
+							"y": 5.845160961151123,
+							"z": 0.9976570010185242
+						}
+					}
+				},
+				"m_MaterialID": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/environment/materials/decals/ground/tyre_tracks_cart_b.mi].pc_mi",
+						"flag": "5F"
+					}
+				},
+				"m_pController": {
+					"type": "SEntityTemplateReference",
+					"value": "ff31dd9abd984729"
+				},
+				"m_vTiling": {
+					"type": "SVector2",
+					"value": {
+						"x": 0.9722399711608888,
+						"y": 0.7788559794425964
+					}
+				},
+				"m_vUVOffset": {
+					"type": "SVector2",
+					"value": {
+						"x": 0.007269099820405245,
+						"y": 0.002399920020252466
+					}
+				},
+				"m_vGlobalSize": {
+					"type": "SVector3",
+					"value": {
+						"x": 2.386929988861084,
+						"y": 2.136100053787231,
+						"z": 0.011776300147175787
+					}
+				},
+				"m_nZBias": { "type": "uint8", "value": 2 },
+				"m_fAlpha": { "type": "float32", "value": 90.0 },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cc306e23f1c7dce9"
+				}
+			}
+		},
+		"304eea8591a6d5bb": {
+			"parent": "c5d8465ec7d6ce81",
+			"name": "Decal_Puddle_A38",
+			"factory": "[modules:/zstaticdecalentity.class].pc_entitytype",
+			"blueprint": "[modules:/zstaticdecalentity.class].pc_entityblueprint",
+			"editorOnly": true,
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": 173.1808986600696
+						},
+						"position": {
+							"x": -5.45461893081665,
+							"y": -8.528359413146973,
+							"z": 0.9976570010185242
+						}
+					}
+				},
+				"m_MaterialID": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/environment/materials/decals/ground/tyre_tracks_cart_b.mi].pc_mi",
+						"flag": "5F"
+					}
+				},
+				"m_pController": {
+					"type": "SEntityTemplateReference",
+					"value": "ff31dd9abd984729"
+				},
+				"m_vTiling": {
+					"type": "SVector2",
+					"value": {
+						"x": 0.9722399711608888,
+						"y": 0.7788559794425964
+					}
+				},
+				"m_vUVOffset": {
+					"type": "SVector2",
+					"value": {
+						"x": 0.007269099820405245,
+						"y": 0.002399920020252466
+					}
+				},
+				"m_vGlobalSize": {
+					"type": "SVector3",
+					"value": {
+						"x": 2.386929988861084,
+						"y": 2.136100053787231,
+						"z": 0.011776300147175787
+					}
+				},
+				"m_nZBias": { "type": "uint8", "value": 2 },
+				"m_fAlpha": { "type": "float32", "value": 90.0 },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cc306e23f1c7dce9"
+				}
+			}
+		},
+		"4188ac20598003fe": {
+			"parent": "c5d8465ec7d6ce81",
+			"name": "Decal_Puddle_A32",
+			"factory": "[modules:/zstaticdecalentity.class].pc_entitytype",
+			"blueprint": "[modules:/zstaticdecalentity.class].pc_entityblueprint",
+			"editorOnly": true,
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": 93.49813145496547
+						},
+						"position": {
+							"x": -6.337728977203369,
+							"y": 2.6188321113586426,
+							"z": 0.9976570010185242
+						}
+					}
+				},
+				"m_MaterialID": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/environment/materials/decals/dirt/dirt_decal_a_silo_wall.mi].pc_mi",
+						"flag": "5F"
+					}
+				},
+				"m_pController": {
+					"type": "SEntityTemplateReference",
+					"value": "ff31dd9abd984729"
+				},
+				"m_vTiling": {
+					"type": "SVector2",
+					"value": {
+						"x": 0.9722399711608888,
+						"y": 0.6319599747657776
+					}
+				},
+				"m_vUVOffset": {
+					"type": "SVector2",
+					"value": {
+						"x": 0.007269099820405245,
+						"y": 0.002399920020252466
+					}
+				},
+				"m_vGlobalSize": {
+					"type": "SVector3",
+					"value": {
+						"x": 2.386929988861084,
+						"y": 1.2413100004196167,
+						"z": 0.011776300147175787
+					}
+				},
+				"m_nZBias": { "type": "uint8", "value": 2 },
+				"m_fAlpha": { "type": "float32", "value": 50.0 },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cc306e23f1c7dce9"
+				}
+			}
+		},
+		"bd2365b0a7db8b15": {
+			"parent": "c5d8465ec7d6ce81",
+			"name": "Decal_Puddle_A16",
+			"factory": "[modules:/zstaticdecalentity.class].pc_entitytype",
+			"blueprint": "[modules:/zstaticdecalentity.class].pc_entityblueprint",
+			"editorOnly": true,
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0.0, "z": -180.0 },
+						"position": {
+							"x": 3.154555082321167,
+							"y": -3.6705191135406494,
+							"z": 4.995108127593994
+						}
+					}
+				},
+				"m_MaterialID": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/environment/materials/decals/ground/decal_puddle_a.mi].pc_mi",
+						"flag": "5F"
+					}
+				},
+				"m_pController": {
+					"type": "SEntityTemplateReference",
+					"value": "ff31dd9abd984729"
+				},
+				"m_vTiling": {
+					"type": "SVector2",
+					"value": {
+						"x": 0.2818880081176758,
+						"y": 1.0303900241851809
+					}
+				},
+				"m_vUVOffset": {
+					"type": "SVector2",
+					"value": {
+						"x": 0.7277659773826599,
+						"y": 0.002399920020252466
+					}
+				},
+				"m_vGlobalSize": {
+					"type": "SVector3",
+					"value": {
+						"x": 1.9220600128173828,
+						"y": 7.851280212402344,
+						"z": 0.011776300147175787
+					}
+				},
+				"m_nZBias": { "type": "uint8", "value": 2 },
+				"m_fAlpha": { "type": "float32", "value": 45.0 },
+				"m_nMaxLOD": { "type": "uint8", "value": 5 },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cc306e23f1c7dce9"
+				}
+			}
+		},
+		"66b8a272d7097e1e": {
+			"parent": "f9f7739d8fea14a8",
+			"name": "metal_bolt_b01",
+			"factory": "[assembly:/_pro/environment/geometry/props/decorative/metal_support_angle_a.wl2?/metal_bolt_c.prim].pc_entitytype",
+			"blueprint": "[assembly:/templates/geometrytemplatenocoll.template?/geomentity01.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0.0, "y": 90.0, "z": 0.0 },
+						"position": {
+							"x": 0.05445700138807297,
+							"y": 0.21672099828720093,
+							"z": -0.14312399923801422
+						}
+					}
+				},
+				"m_ResourceID": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/environment/geometry/props/decorative/metal_support_angle_a.wl2?/metal_bolt_a.prim].pc_prim",
+						"flag": "5F"
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "f9f7739d8fea14a8"
+				}
+			}
+		},
+		"ea1c81f8047552e6": {
+			"parent": "c5d8465ec7d6ce81",
+			"name": "Decal_Puddle_A41",
+			"factory": "[modules:/zstaticdecalentity.class].pc_entitytype",
+			"blueprint": "[modules:/zstaticdecalentity.class].pc_entityblueprint",
+			"editorOnly": true,
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": -36.11925562857779
+						},
+						"position": {
+							"x": -6.364078998565674,
+							"y": -0.5248184204101562,
+							"z": 0.9976570010185242
+						}
+					}
+				},
+				"m_MaterialID": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/environment/materials/decals/ground/tyre_tracks_cart_b.mi].pc_mi",
+						"flag": "5F"
+					}
+				},
+				"m_pController": {
+					"type": "SEntityTemplateReference",
+					"value": "ff31dd9abd984729"
+				},
+				"m_vTiling": {
+					"type": "SVector2",
+					"value": {
+						"x": 0.9722399711608888,
+						"y": 0.7788559794425964
+					}
+				},
+				"m_vUVOffset": {
+					"type": "SVector2",
+					"value": {
+						"x": 0.007269099820405245,
+						"y": 0.002399920020252466
+					}
+				},
+				"m_vGlobalSize": {
+					"type": "SVector3",
+					"value": {
+						"x": 2.386929988861084,
+						"y": 2.136100053787231,
+						"z": 0.011776300147175787
+					}
+				},
+				"m_nZBias": { "type": "uint8", "value": 2 },
+				"m_fAlpha": { "type": "float32", "value": 70.0 },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cc306e23f1c7dce9"
+				}
+			}
+		},
+		"b6c9c3ada448cae5": {
+			"parent": "0611e1d7933f4ddf",
+			"name": "fruit_packing_shed_panel_a20",
+			"factory": "[assembly:/_pro/environment/geometry/levels/colarado/colarado_farmhouse_fruit_packing_shed_a.wl2?/fruit_packing_shed_panel_a.prim].pc_entitytype",
+			"blueprint": "[assembly:/templates/geometrytemplatestaticcoll.template?/geomentity01.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
+						"position": {
+							"x": -7.050824165344238,
+							"y": -5.471909999847412,
+							"z": 0.7398560047149658
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "0611e1d7933f4ddf",
+					"postInit": true
+				}
+			}
+		},
+		"b994a6fbe8338079": {
+			"parent": "cc306e23f1c7dce9",
+			"name": "fruit_packing_shed_roof_a",
+			"factory": "[assembly:/templates/aspectdummy.aspect]([assembly:/_pro/environment/geometry/levels/colarado/colarado_farmhouse_fruit_packing_shed_a.wl2?/fruit_packing_shed_roof_a.prim].entitytype,[modules:/zexplosionblockeraspect.class].entitytype).pc_entitytype",
+			"blueprint": "[assembly:/templates/aspectdummy.aspect]([assembly:/templates/geometrytemplatestaticcoll.template?/geomentity01.entitytemplate].entitytype,[modules:/zexplosionblockeraspect.class].entitytype).pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
+						"position": {
+							"x": -0.0032615659292787313,
+							"y": 0.0,
+							"z": -0.0021120000164955854
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cc306e23f1c7dce9"
+				}
+			}
+		},
+		"28ffb8d07c9c9d39": {
+			"parent": "d75d427fdc6f136a",
+			"name": "metal_bolt_b03",
+			"factory": "[assembly:/_pro/environment/geometry/props/decorative/metal_support_angle_a.wl2?/metal_bolt_c.prim].pc_entitytype",
+			"blueprint": "[assembly:/templates/geometrytemplatenocoll.template?/geomentity01.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0.0, "y": 90.0, "z": 0.0 },
+						"position": {
+							"x": 0.05445700138807297,
+							"y": -0.21498100459575653,
+							"z": -0.14312399923801422
+						}
+					}
+				},
+				"m_ResourceID": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/environment/geometry/props/decorative/metal_support_angle_a.wl2?/metal_bolt_a.prim].pc_prim",
+						"flag": "5F"
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "d75d427fdc6f136a",
+					"postInit": true
+				}
+			}
+		},
+		"b12375f4f3b81595": {
+			"parent": "f9f7739d8fea14a8",
+			"name": "metal_bolt_b03",
+			"factory": "[assembly:/_pro/environment/geometry/props/decorative/metal_support_angle_a.wl2?/metal_bolt_c.prim].pc_entitytype",
+			"blueprint": "[assembly:/templates/geometrytemplatenocoll.template?/geomentity01.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0.0, "y": 90.0, "z": 0.0 },
+						"position": {
+							"x": 0.05445700138807297,
+							"y": -0.21498100459575653,
+							"z": -0.14312399923801422
+						}
+					}
+				},
+				"m_ResourceID": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/environment/geometry/props/decorative/metal_support_angle_a.wl2?/metal_bolt_a.prim].pc_prim",
+						"flag": "5F"
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "f9f7739d8fea14a8"
+				}
+			}
+		},
+		"418a4062fb71c1c7": {
+			"parent": "c5d8465ec7d6ce81",
+			"name": "Decal_Puddle_A15",
+			"factory": "[modules:/zstaticdecalentity.class].pc_entitytype",
+			"blueprint": "[modules:/zstaticdecalentity.class].pc_entityblueprint",
+			"editorOnly": true,
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
+						"position": {
+							"x": -5.836880207061768,
+							"y": -4.91973876953125,
+							"z": 4.995108127593994
+						}
+					}
+				},
+				"m_MaterialID": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/environment/materials/decals/ground/decal_puddle_a.mi].pc_mi",
+						"flag": "5F"
+					}
+				},
+				"m_pController": {
+					"type": "SEntityTemplateReference",
+					"value": "ff31dd9abd984729"
+				},
+				"m_vTiling": {
+					"type": "SVector2",
+					"value": {
+						"x": 0.2818880081176758,
+						"y": 1.0303900241851809
+					}
+				},
+				"m_vUVOffset": {
+					"type": "SVector2",
+					"value": {
+						"x": 0.7277659773826599,
+						"y": 0.002399920020252466
+					}
+				},
+				"m_vGlobalSize": {
+					"type": "SVector3",
+					"value": {
+						"x": 1.9220600128173828,
+						"y": 7.851280212402344,
+						"z": 0.011776300147175787
+					}
+				},
+				"m_nZBias": { "type": "uint8", "value": 2 },
+				"m_fAlpha": { "type": "float32", "value": 45.0 },
+				"m_nMaxLOD": { "type": "uint8", "value": 5 },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cc306e23f1c7dce9"
+				}
+			}
+		},
+		"4d8a9d14c95a7b57": {
+			"parent": "c5d8465ec7d6ce81",
+			"name": "Decal_Puddle_A30",
+			"factory": "[modules:/zstaticdecalentity.class].pc_entitytype",
+			"blueprint": "[modules:/zstaticdecalentity.class].pc_entityblueprint",
+			"editorOnly": true,
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -90.0,
+							"y": -89.96872301314407,
+							"z": 90.0
+						},
+						"position": {
+							"x": -6.988540172576904,
+							"y": 5.436360836029053,
+							"z": 0.4211989939212799
+						}
+					}
+				},
+				"m_MaterialID": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/environment/materials/decals/ground/decal_puddle_a.mi].pc_mi",
+						"flag": "5F"
+					}
+				},
+				"m_pController": {
+					"type": "SEntityTemplateReference",
+					"value": "ff31dd9abd984729"
+				},
+				"m_vTiling": {
+					"type": "SVector2",
+					"value": {
+						"x": 0.29816100001335144,
+						"y": 0.9164959788322448
+					}
+				},
+				"m_vUVOffset": {
+					"type": "SVector2",
+					"value": {
+						"x": 0.7277659773826599,
+						"y": 0.9171599745750428
+					}
+				},
+				"m_vGlobalSize": {
+					"type": "SVector3",
+					"value": {
+						"x": 1.2058600187301636,
+						"y": 9.184929847717283,
+						"z": 0.011776300147175787
+					}
+				},
+				"m_nZBias": { "type": "uint8", "value": 2 },
+				"m_fAlpha": { "type": "float32", "value": 30.0 },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cc306e23f1c7dce9"
+				}
+			}
+		},
+		"eef63a9515e966d1": {
+			"parent": "9fe6e2f1dbbb3d39",
+			"name": "metal_bolt_b02",
+			"factory": "[assembly:/_pro/environment/geometry/props/decorative/metal_support_angle_a.wl2?/metal_bolt_c.prim].pc_entitytype",
+			"blueprint": "[assembly:/templates/geometrytemplatenocoll.template?/geomentity01.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0.0, "y": 90.0, "z": 0.0 },
+						"position": {
+							"x": 0.05445671081542969,
+							"y": -0.2149810940027237,
+							"z": 0.13427899777889252
+						}
+					}
+				},
+				"m_ResourceID": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/environment/geometry/props/decorative/metal_support_angle_a.wl2?/metal_bolt_a.prim].pc_prim",
+						"flag": "5F"
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "9fe6e2f1dbbb3d39"
+				}
+			}
+		},
+		"60b96863fe2d31e6": {
+			"parent": "c5d8465ec7d6ce81",
+			"name": "Decal_Puddle_A08",
+			"factory": "[modules:/zstaticdecalentity.class].pc_entitytype",
+			"blueprint": "[modules:/zstaticdecalentity.class].pc_entityblueprint",
+			"editorOnly": true,
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": 89.77476965783964
+						},
+						"position": {
+							"x": -4.937570095062256,
+							"y": 5.531260967254639,
+							"z": 5.035036087036133
+						}
+					}
+				},
+				"m_MaterialID": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/environment/materials/decals/ground/decal_puddle_a.mi].pc_mi",
+						"flag": "5F"
+					}
+				},
+				"m_pController": {
+					"type": "SEntityTemplateReference",
+					"value": "ff31dd9abd984729"
+				},
+				"m_vTiling": {
+					"type": "SVector2",
+					"value": {
+						"x": 0.941428005695343,
+						"y": 0.9240319728851318
+					}
+				},
+				"m_vUVOffset": {
+					"type": "SVector2",
+					"value": {
+						"x": 0.017628399655222893,
+						"y": 0.45735499262809753
+					}
+				},
+				"m_vGlobalSize": {
+					"type": "SVector3",
+					"value": {
+						"x": 5.042779922485352,
+						"y": 3.791450023651123,
+						"z": 0.09163379669189452
+					}
+				},
+				"m_nZBias": { "type": "uint8", "value": 2 },
+				"m_fAlpha": { "type": "float32", "value": 40.0 },
+				"m_nMaxLOD": { "type": "uint8", "value": 5 },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cc306e23f1c7dce9"
+				}
+			}
+		},
+		"3fdc4bd46055bfab": {
+			"parent": "c5d8465ec7d6ce81",
+			"name": "Decal_Puddle_A11",
+			"factory": "[modules:/zstaticdecalentity.class].pc_entitytype",
+			"blueprint": "[modules:/zstaticdecalentity.class].pc_entityblueprint",
+			"editorOnly": true,
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0.0, "z": -90.0 },
+						"position": {
+							"x": -1.2231199741363523,
+							"y": -5.425230026245117,
+							"z": 5.174439907073975
+						}
+					}
+				},
+				"m_MaterialID": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/environment/materials/decals/ground/decal_puddle_a.mi].pc_mi",
+						"flag": "5F"
+					}
+				},
+				"m_pController": {
+					"type": "SEntityTemplateReference",
+					"value": "ff31dd9abd984729"
+				},
+				"m_vTiling": {
+					"type": "SVector2",
+					"value": {
+						"x": 1.0322699546813965,
+						"y": 1.0024199485778809
+					}
+				},
+				"m_vUVOffset": {
+					"type": "SVector2",
+					"value": {
+						"x": 0.60098797082901,
+						"y": 0.026520799845457077
+					}
+				},
+				"m_vGlobalSize": {
+					"type": "SVector3",
+					"value": {
+						"x": 2.968209981918335,
+						"y": 3.257129907608032,
+						"z": 0.3786999881267547
+					}
+				},
+				"m_nZBias": { "type": "uint8", "value": 2 },
+				"m_fAlpha": { "type": "float32", "value": 30.0 },
+				"m_nMaxLOD": { "type": "uint8", "value": 5 },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cc306e23f1c7dce9"
+				}
+			}
+		},
+		"10c1c5efaa72b5ca": {
+			"parent": "d75d427fdc6f136a",
+			"name": "metal_bolt_b02",
+			"factory": "[assembly:/_pro/environment/geometry/props/decorative/metal_support_angle_a.wl2?/metal_bolt_c.prim].pc_entitytype",
+			"blueprint": "[assembly:/templates/geometrytemplatenocoll.template?/geomentity01.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0.0, "y": 90.0, "z": 0.0 },
+						"position": {
+							"x": 0.05445671081542969,
+							"y": -0.2149810940027237,
+							"z": 0.13427899777889252
+						}
+					}
+				},
+				"m_ResourceID": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/environment/geometry/props/decorative/metal_support_angle_a.wl2?/metal_bolt_a.prim].pc_prim",
+						"flag": "5F"
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "d75d427fdc6f136a",
+					"postInit": true
+				}
+			}
+		},
+		"9c1af6fc63753ab3": {
+			"parent": "6cc6c8faf21988a6",
+			"name": "metal_bolt_b01",
+			"factory": "[assembly:/_pro/environment/geometry/props/decorative/metal_support_angle_a.wl2?/metal_bolt_c.prim].pc_entitytype",
+			"blueprint": "[assembly:/templates/geometrytemplatenocoll.template?/geomentity01.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0.0, "y": 90.0, "z": 0.0 },
+						"position": {
+							"x": 0.05445700138807297,
+							"y": 0.21672099828720093,
+							"z": -0.14312399923801422
+						}
+					}
+				},
+				"m_ResourceID": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/environment/geometry/props/decorative/metal_support_angle_a.wl2?/metal_bolt_a.prim].pc_prim",
+						"flag": "5F"
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "6cc6c8faf21988a6"
+				}
+			}
+		},
+		"e911fdaccd77cffe": {
+			"parent": "f9f7739d8fea14a8",
+			"name": "metal_bolt_b",
+			"factory": "[assembly:/_pro/environment/geometry/props/decorative/metal_support_angle_a.wl2?/metal_bolt_c.prim].pc_entitytype",
+			"blueprint": "[assembly:/templates/geometrytemplatenocoll.template?/geomentity01.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0.0, "y": 90.0, "z": 0.0 },
+						"position": {
+							"x": 0.05445671081542969,
+							"y": 0.2167205959558487,
+							"z": 0.13427899777889252
+						}
+					}
+				},
+				"m_ResourceID": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/environment/geometry/props/decorative/metal_support_angle_a.wl2?/metal_bolt_a.prim].pc_prim",
+						"flag": "5F"
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "f9f7739d8fea14a8"
+				}
+			}
+		},
+		"b769a5f52289665f": {
+			"parent": "59d9f4e29a61cc18",
+			"name": "metal_bolt_b03",
+			"factory": "[assembly:/_pro/environment/geometry/props/decorative/metal_support_angle_a.wl2?/metal_bolt_c.prim].pc_entitytype",
+			"blueprint": "[assembly:/templates/geometrytemplatenocoll.template?/geomentity01.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0.0, "y": 90.0, "z": 0.0 },
+						"position": {
+							"x": 0.05445700138807297,
+							"y": -0.21498100459575653,
+							"z": -0.14312399923801422
+						}
+					}
+				},
+				"m_ResourceID": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/environment/geometry/props/decorative/metal_support_angle_a.wl2?/metal_bolt_a.prim].pc_prim",
+						"flag": "5F"
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "59d9f4e29a61cc18"
+				}
+			}
+		},
+		"1123b4a3acee9b3a": {
+			"parent": "c5d8465ec7d6ce81",
+			"name": "Decal_Puddle_A34",
+			"factory": "[modules:/zstaticdecalentity.class].pc_entitytype",
+			"blueprint": "[modules:/zstaticdecalentity.class].pc_entityblueprint",
+			"editorOnly": true,
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": -129.7223660884329
+						},
+						"position": {
+							"x": -4.512829780578613,
+							"y": -1.60139799118042,
+							"z": 0.9976570010185242
+						}
+					}
+				},
+				"m_MaterialID": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/environment/materials/decals/ground/tyre_tracks_cart_b.mi].pc_mi",
+						"flag": "5F"
+					}
+				},
+				"m_pController": {
+					"type": "SEntityTemplateReference",
+					"value": "ff31dd9abd984729"
+				},
+				"m_vTiling": {
+					"type": "SVector2",
+					"value": {
+						"x": 0.9722399711608888,
+						"y": 0.7788559794425964
+					}
+				},
+				"m_vUVOffset": {
+					"type": "SVector2",
+					"value": {
+						"x": 0.007269099820405245,
+						"y": 0.002399920020252466
+					}
+				},
+				"m_vGlobalSize": {
+					"type": "SVector3",
+					"value": {
+						"x": 2.386929988861084,
+						"y": 2.136100053787231,
+						"z": 0.011776300147175787
+					}
+				},
+				"m_nZBias": { "type": "uint8", "value": 2 },
+				"m_fAlpha": { "type": "float32", "value": 80.0 },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cc306e23f1c7dce9"
+				}
+			}
+		},
+		"685818960eb5f63f": {
+			"parent": "268308f7e0454612",
+			"name": "metal_bolt_b01",
+			"factory": "[assembly:/_pro/environment/geometry/props/decorative/metal_support_angle_a.wl2?/metal_bolt_c.prim].pc_entitytype",
+			"blueprint": "[assembly:/templates/geometrytemplatenocoll.template?/geomentity01.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0.0, "y": 90.0, "z": 0.0 },
+						"position": {
+							"x": 0.05445700138807297,
+							"y": 0.21672099828720093,
+							"z": -0.14312399923801422
+						}
+					}
+				},
+				"m_ResourceID": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/environment/geometry/props/decorative/metal_support_angle_a.wl2?/metal_bolt_a.prim].pc_prim",
+						"flag": "5F"
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "268308f7e0454612"
+				}
+			}
+		},
+		"d75d427fdc6f136a": {
+			"parent": "0611e1d7933f4ddf",
+			"name": "fruit_packing_shed_panel_a16",
+			"factory": "[assembly:/_pro/environment/geometry/levels/colarado/colarado_farmhouse_fruit_packing_shed_a.wl2?/fruit_packing_shed_panel_a.prim].pc_entitytype",
+			"blueprint": "[assembly:/templates/geometrytemplatestaticcoll.template?/geomentity01.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
+						"position": {
+							"x": -7.050824165344238,
+							"y": 0.96909099817276,
+							"z": 0.7398560047149658
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "0611e1d7933f4ddf",
+					"postInit": true
+				}
+			}
+		},
+		"48af682f19820f1a": {
+			"parent": "c4570d7fa6bcbbca",
+			"name": "metal_bolt_b03",
+			"factory": "[assembly:/_pro/environment/geometry/props/decorative/metal_support_angle_a.wl2?/metal_bolt_c.prim].pc_entitytype",
+			"blueprint": "[assembly:/templates/geometrytemplatenocoll.template?/geomentity01.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0.0, "y": 90.0, "z": 0.0 },
+						"position": {
+							"x": 0.05445700138807297,
+							"y": -0.21498100459575653,
+							"z": -0.14312399923801422
+						}
+					}
+				},
+				"m_ResourceID": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/environment/geometry/props/decorative/metal_support_angle_a.wl2?/metal_bolt_a.prim].pc_prim",
+						"flag": "5F"
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "c4570d7fa6bcbbca"
+				}
+			}
+		},
+		"b46125f05acf1ab4": {
+			"parent": "01db9be9d53c70d9",
+			"name": "metal_bolt_b01",
+			"factory": "[assembly:/_pro/environment/geometry/props/decorative/metal_support_angle_a.wl2?/metal_bolt_c.prim].pc_entitytype",
+			"blueprint": "[assembly:/templates/geometrytemplatenocoll.template?/geomentity01.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0.0, "y": 90.0, "z": 0.0 },
+						"position": {
+							"x": 0.05445700138807297,
+							"y": 0.21672099828720093,
+							"z": -0.14312399923801422
+						}
+					}
+				},
+				"m_ResourceID": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/environment/geometry/props/decorative/metal_support_angle_a.wl2?/metal_bolt_a.prim].pc_prim",
+						"flag": "5F"
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "01db9be9d53c70d9"
+				}
+			}
+		},
+		"0611e1d7933f4ddf": {
+			"parent": "cc306e23f1c7dce9",
+			"name": "fruit_packing_shed_platform_a",
+			"factory": "[assembly:/templates/aspectdummy.aspect]([assembly:/_pro/environment/geometry/levels/colarado/colarado_farmhouse_fruit_packing_shed_a.wl2?/fruit_packing_shed_platform_a.prim].entitytype,[modules:/zexplosionblockeraspect.class].entitytype).pc_entitytype",
+			"blueprint": "[assembly:/templates/aspectdummy.aspect]([assembly:/templates/geometrytemplatestaticcoll.template?/geomentity01.entitytemplate].entitytype,[modules:/zexplosionblockeraspect.class].entitytype).pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
+						"position": {
+							"x": 0.0032587049063295126,
+							"y": 0.00025558468769304454,
+							"z": 4.99934003528324e-6
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cc306e23f1c7dce9"
+				}
+			}
+		},
+		"832505baa307f4b8": {
+			"parent": "c5d8465ec7d6ce81",
+			"name": "Decal_Puddle_A21",
+			"factory": "[modules:/zstaticdecalentity.class].pc_entitytype",
+			"blueprint": "[modules:/zstaticdecalentity.class].pc_entityblueprint",
+			"editorOnly": true,
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0.0, "z": -180.0 },
+						"position": {
+							"x": 0.0647749975323677,
+							"y": 10.643110275268556,
+							"z": 3.1748979091644287
+						}
+					}
+				},
+				"m_MaterialID": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/environment/materials/decals/ground/decal_puddle_a.mi].pc_mi",
+						"flag": "5F"
+					}
+				},
+				"m_pController": {
+					"type": "SEntityTemplateReference",
+					"value": "ff31dd9abd984729"
+				},
+				"m_vTiling": {
+					"type": "SVector2",
+					"value": {
+						"x": 0.7941750288009644,
+						"y": 0.8252760171890259
+					}
+				},
+				"m_vUVOffset": {
+					"type": "SVector2",
+					"value": {
+						"x": 0.017628399655222893,
+						"y": 0.20366400480270383
+					}
+				},
+				"m_vGlobalSize": {
+					"type": "SVector3",
+					"value": {
+						"x": 2.202209949493408,
+						"y": 2.468100070953369,
+						"z": 0.011776300147175787
+					}
+				},
+				"m_nZBias": { "type": "uint8", "value": 2 },
+				"m_fAlpha": { "type": "float32", "value": 70.0 },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cc306e23f1c7dce9"
+				}
+			}
+		},
+		"fb4a69bbb2cfc6a9": {
+			"parent": "c5d8465ec7d6ce81",
+			"name": "Decal_Puddle_A09",
+			"factory": "[modules:/zstaticdecalentity.class].pc_entitytype",
+			"blueprint": "[modules:/zstaticdecalentity.class].pc_entityblueprint",
+			"editorOnly": true,
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": 89.77476965783964
+						},
+						"position": {
+							"x": 0.9818882942199708,
+							"y": -8.108959197998047,
+							"z": 5.035036087036133
+						}
+					}
+				},
+				"m_MaterialID": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/environment/materials/decals/ground/decal_puddle_a.mi].pc_mi",
+						"flag": "5F"
+					}
+				},
+				"m_pController": {
+					"type": "SEntityTemplateReference",
+					"value": "ff31dd9abd984729"
+				},
+				"m_vTiling": {
+					"type": "SVector2",
+					"value": {
+						"x": 0.941428005695343,
+						"y": 1.4639400243759155
+					}
+				},
+				"m_vUVOffset": {
+					"type": "SVector2",
+					"value": {
+						"x": 0.017628399655222893,
+						"y": 0.45735499262809753
+					}
+				},
+				"m_vGlobalSize": {
+					"type": "SVector3",
+					"value": {
+						"x": 5.042779922485352,
+						"y": 6.006760120391846,
+						"z": 0.09163379669189452
+					}
+				},
+				"m_nZBias": { "type": "uint8", "value": 2 },
+				"m_fAlpha": { "type": "float32", "value": 25.0 },
+				"m_nMaxLOD": { "type": "uint8", "value": 5 },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cc306e23f1c7dce9"
+				}
+			}
+		},
+		"284b21e12861ae50": {
+			"parent": "268308f7e0454612",
+			"name": "metal_bolt_b",
+			"factory": "[assembly:/_pro/environment/geometry/props/decorative/metal_support_angle_a.wl2?/metal_bolt_c.prim].pc_entitytype",
+			"blueprint": "[assembly:/templates/geometrytemplatenocoll.template?/geomentity01.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0.0, "y": 90.0, "z": 0.0 },
+						"position": {
+							"x": 0.05445671081542969,
+							"y": 0.2167205959558487,
+							"z": 0.13427899777889252
+						}
+					}
+				},
+				"m_ResourceID": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/environment/geometry/props/decorative/metal_support_angle_a.wl2?/metal_bolt_a.prim].pc_prim",
+						"flag": "5F"
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "268308f7e0454612"
+				}
+			}
+		},
+		"3d808c181834d8ce": {
+			"parent": "4140a8ea1a71317b",
+			"name": "metal_bolt_b",
+			"factory": "[assembly:/_pro/environment/geometry/props/decorative/metal_support_angle_a.wl2?/metal_bolt_c.prim].pc_entitytype",
+			"blueprint": "[assembly:/templates/geometrytemplatenocoll.template?/geomentity01.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0.0, "y": 90.0, "z": 0.0 },
+						"position": {
+							"x": 0.05445671081542969,
+							"y": 0.2167205959558487,
+							"z": 0.13427899777889252
+						}
+					}
+				},
+				"m_ResourceID": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/environment/geometry/props/decorative/metal_support_angle_a.wl2?/metal_bolt_a.prim].pc_prim",
+						"flag": "5F"
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "4140a8ea1a71317b"
+				}
+			}
+		},
+		"4e96f5565d6bf0fd": {
+			"parent": "c5d8465ec7d6ce81",
+			"name": "Decal_Puddle_A33",
+			"factory": "[modules:/zstaticdecalentity.class].pc_entitytype",
+			"blueprint": "[modules:/zstaticdecalentity.class].pc_entityblueprint",
+			"editorOnly": true,
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": -51.21923091988099
+						},
+						"position": {
+							"x": -6.368649005889893,
+							"y": 8.856012344360352,
+							"z": 0.9976570010185242
+						}
+					}
+				},
+				"m_MaterialID": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/environment/materials/decals/ground/tyre_tracks_cart_b.mi].pc_mi",
+						"flag": "5F"
+					}
+				},
+				"m_pController": {
+					"type": "SEntityTemplateReference",
+					"value": "ff31dd9abd984729"
+				},
+				"m_vTiling": {
+					"type": "SVector2",
+					"value": {
+						"x": 0.9722399711608888,
+						"y": 0.7788559794425964
+					}
+				},
+				"m_vUVOffset": {
+					"type": "SVector2",
+					"value": {
+						"x": 0.007269099820405245,
+						"y": 0.002399920020252466
+					}
+				},
+				"m_vGlobalSize": {
+					"type": "SVector3",
+					"value": {
+						"x": 2.386929988861084,
+						"y": 2.136100053787231,
+						"z": 0.011776300147175787
+					}
+				},
+				"m_nZBias": { "type": "uint8", "value": 2 },
+				"m_fAlpha": { "type": "float32", "value": 100.0 },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cc306e23f1c7dce9"
+				}
+			}
+		},
+		"888b2823f551a3ae": {
+			"parent": "c4570d7fa6bcbbca",
+			"name": "metal_bolt_b",
+			"factory": "[assembly:/_pro/environment/geometry/props/decorative/metal_support_angle_a.wl2?/metal_bolt_c.prim].pc_entitytype",
+			"blueprint": "[assembly:/templates/geometrytemplatenocoll.template?/geomentity01.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0.0, "y": 90.0, "z": 0.0 },
+						"position": {
+							"x": 0.05445671081542969,
+							"y": 0.2167205959558487,
+							"z": 0.13427899777889252
+						}
+					}
+				},
+				"m_ResourceID": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/environment/geometry/props/decorative/metal_support_angle_a.wl2?/metal_bolt_a.prim].pc_prim",
+						"flag": "5F"
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "c4570d7fa6bcbbca"
+				}
+			}
+		},
+		"25db6d05faecf3e6": {
+			"parent": "c5d8465ec7d6ce81",
+			"name": "Decal_Puddle_A13",
+			"factory": "[modules:/zstaticdecalentity.class].pc_entitytype",
+			"blueprint": "[modules:/zstaticdecalentity.class].pc_entityblueprint",
+			"editorOnly": true,
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0.0, "z": -90.0 },
+						"position": {
+							"x": 3.2807509899139404,
+							"y": 8.879011154174805,
+							"z": 4.995108127593994
+						}
+					}
+				},
+				"m_MaterialID": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/environment/materials/decals/ground/decal_puddle_a.mi].pc_mi",
+						"flag": "5F"
+					}
+				},
+				"m_pController": {
+					"type": "SEntityTemplateReference",
+					"value": "ff31dd9abd984729"
+				},
+				"m_vTiling": {
+					"type": "SVector2",
+					"value": {
+						"x": 0.6841610074043274,
+						"y": 0.35444799065589905
+					}
+				},
+				"m_vUVOffset": {
+					"type": "SVector2",
+					"value": {
+						"x": 0.017628399655222893,
+						"y": 0.002399920020252466
+					}
+				},
+				"m_vGlobalSize": {
+					"type": "SVector3",
+					"value": {
+						"x": 2.3094899654388428,
+						"y": 1.453320026397705,
+						"z": 0.011776300147175787
+					}
+				},
+				"m_nZBias": { "type": "uint8", "value": 2 },
+				"m_fAlpha": { "type": "float32", "value": 30.0 },
+				"m_nMaxLOD": { "type": "uint8", "value": 4 },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cc306e23f1c7dce9"
+				}
+			}
+		},
+		"d69494f35a175b08": {
+			"parent": "b6c9c3ada448cae5",
+			"name": "metal_bolt_b",
+			"factory": "[assembly:/_pro/environment/geometry/props/decorative/metal_support_angle_a.wl2?/metal_bolt_c.prim].pc_entitytype",
+			"blueprint": "[assembly:/templates/geometrytemplatenocoll.template?/geomentity01.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0.0, "y": 90.0, "z": 0.0 },
+						"position": {
+							"x": 0.05445671081542969,
+							"y": 0.2167205959558487,
+							"z": 0.13427899777889252
+						}
+					}
+				},
+				"m_ResourceID": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/environment/geometry/props/decorative/metal_support_angle_a.wl2?/metal_bolt_a.prim].pc_prim",
+						"flag": "5F"
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "b6c9c3ada448cae5"
+				}
+			}
+		},
+		"61d5cabc35f4236a": {
+			"parent": "a659ea553a79eb3d",
+			"name": "metal_bolt_b03",
+			"factory": "[assembly:/_pro/environment/geometry/props/decorative/metal_support_angle_a.wl2?/metal_bolt_c.prim].pc_entitytype",
+			"blueprint": "[assembly:/templates/geometrytemplatenocoll.template?/geomentity01.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0.0, "y": 90.0, "z": 0.0 },
+						"position": {
+							"x": 0.05445700138807297,
+							"y": -0.21498100459575653,
+							"z": -0.14312399923801422
+						}
+					}
+				},
+				"m_ResourceID": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/environment/geometry/props/decorative/metal_support_angle_a.wl2?/metal_bolt_a.prim].pc_prim",
+						"flag": "5F"
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "a659ea553a79eb3d"
+				}
+			}
+		},
+		"b2af4d165cf3f300": {
+			"parent": "c5d8465ec7d6ce81",
+			"name": "Decal_Puddle_A23",
+			"factory": "[modules:/zstaticdecalentity.class].pc_entitytype",
+			"blueprint": "[modules:/zstaticdecalentity.class].pc_entityblueprint",
+			"editorOnly": true,
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0.0, "z": 90.0 },
+						"position": {
+							"x": -0.5185059905052185,
+							"y": 11.8123197555542,
+							"z": 3.1708409786224365
+						}
+					}
+				},
+				"m_MaterialID": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/environment/materials/decals/ground/decal_puddle_a.mi].pc_mi",
+						"flag": "5F"
+					}
+				},
+				"m_pController": {
+					"type": "SEntityTemplateReference",
+					"value": "ff31dd9abd984729"
+				},
+				"m_vTiling": {
+					"type": "SVector2",
+					"value": {
+						"x": 0.9444460272789,
+						"y": 0.2263869941234589
+					}
+				},
+				"m_vUVOffset": {
+					"type": "SVector2",
+					"value": {
+						"x": 0.017628399655222893,
+						"y": 0.9788669943809508
+					}
+				},
+				"m_vGlobalSize": {
+					"type": "SVector3",
+					"value": {
+						"x": 3.3929901123046875,
+						"y": 0.9694420099258424,
+						"z": 0.04563729837536812
+					}
+				},
+				"m_nZBias": { "type": "uint8", "value": 2 },
+				"m_fAlpha": { "type": "float32", "value": 30.0 },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cc306e23f1c7dce9"
+				}
+			}
+		},
+		"cafe541de0729b29": {
+			"parent": "cc306e23f1c7dce9",
+			"name": "abandoned_building_kit_fox_roof_window_b_01",
+			"factory": "[assembly:/templates/aspectdummy.aspect]([assembly:/_pro/environment/geometry/levels/fox/abandoned_building_kit_fox_window_set_a.wl2?/abandoned_building_kit_fox_roof_window_b.prim].entitytype,[modules:/zexplosionblockeraspect.class].entitytype).pc_entitytype",
+			"blueprint": "[assembly:/templates/aspectdummy.aspect]([assembly:/templates/geometrytemplatestaticcoll.template?/geomentity01.entitytemplate].entitytype,[modules:/zexplosionblockeraspect.class].entitytype).pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0, "z": -90 },
+						"position": {
+							"x": -1.605374276638031,
+							"y": -1.655568161010742,
+							"z": 4.99787712097168
+						}
+					}
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 0.699999988079071,
+						"y": 0.699999988079071,
+						"z": 0.8999999761581421
+					}
+				},
+				"m_sVertexPaintSourceResourceId": {
+					"type": "ZString",
+					"value": "[assembly:/runtimeresources/vertexpaint/_pro/environment/templates/levels/fox/abandoned_building_fox_a/abandoned_building_kit_fox_roof_window_b_fb0e9125761345a99f3e5ca906e15233.vertexpaint].vertexpaint"
+				},
+				"m_VertexPaintData": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/runtimeresources/vertexpaint/_pro/environment/templates/levels/fox/abandoned_building_fox_a/abandoned_building_kit_fox_roof_window_b_fb0e9125761345a99f3e5ca906e15233.vertexdata].pc_vertexdata",
+						"flag": "5F"
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cc306e23f1c7dce9"
+				}
+			}
+		},
+		"cafe4b595cffafba": {
+			"parent": "cc306e23f1c7dce9",
+			"name": "abandoned_building_kit_fox_roof_window_b",
+			"factory": "[assembly:/templates/aspectdummy.aspect]([assembly:/_pro/environment/geometry/levels/fox/abandoned_building_kit_fox_window_set_a.wl2?/abandoned_building_kit_fox_roof_window_b.prim].entitytype,[modules:/zexplosionblockeraspect.class].entitytype).pc_entitytype",
+			"blueprint": "[assembly:/templates/aspectdummy.aspect]([assembly:/templates/geometrytemplatestaticcoll.template?/geomentity01.entitytemplate].entitytype,[modules:/zexplosionblockeraspect.class].entitytype).pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0, "z": -90 },
+						"position": {
+							"x": -1.605374276638031,
+							"y": 5.415568161010742,
+							"z": 4.99787712097168
+						}
+					}
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 0.699999988079071,
+						"y": 0.699999988079071,
+						"z": 0.8999999761581421
+					}
+				},
+				"m_sVertexPaintSourceResourceId": {
+					"type": "ZString",
+					"value": "[assembly:/runtimeresources/vertexpaint/_pro/environment/templates/levels/fox/abandoned_building_fox_a/abandoned_building_kit_fox_roof_window_b_fb0e9125761345a99f3e5ca906e15233.vertexpaint].vertexpaint"
+				},
+				"m_VertexPaintData": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/runtimeresources/vertexpaint/_pro/environment/templates/levels/fox/abandoned_building_fox_a/abandoned_building_kit_fox_roof_window_b_fb0e9125761345a99f3e5ca906e15233.vertexdata].pc_vertexdata",
+						"flag": "5F"
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cc306e23f1c7dce9"
+				}
+			}
+		}
+	},
+	"propertyOverrides": [],
+	"overrideDeletes": [],
+	"pinConnectionOverrides": [],
+	"pinConnectionOverrideDeletes": [],
+	"externalScenes": [],
+	"subType": "template",
+	"quickEntityVersion": 3.1,
+	"extraFactoryDependencies": [
+		{
+			"resource": "[assembly:/_pro/environment/geometry/levels/colarado/colarado_farmhouse_fruit_packing_shed_a.wl2?/fruit_packing_shed.prim].pc_prim",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/_pro/environment/geometry/levels/colarado/colarado_farmhouse_fruit_packing_shed_a.wl2?/fruit_packing_shed.prim].pc_coll",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/_pro/environment/geometry/levels/colarado/colarado_farmhouse_fruit_packing_shed_a.wl2?/fruit_packing_shed_platform_a.prim].pc_prim",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/_pro/environment/geometry/levels/colarado/colarado_farmhouse_fruit_packing_shed_a.wl2?/fruit_packing_shed_platform_a.prim].pc_coll",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/_pro/environment/geometry/levels/colarado/colarado_farmhouse_fruit_packing_shed_a.wl2?/fruit_packing_shed_panel_a.prim].pc_prim",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/_pro/environment/geometry/levels/colarado/colarado_farmhouse_fruit_packing_shed_a.wl2?/fruit_packing_shed_panel_a.prim].pc_coll",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/_pro/environment/geometry/levels/colarado/colarado_farmhouse_fruit_packing_shed_a.wl2?/fruit_packing_shed_roof_windows_a.prim].pc_prim",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/_pro/environment/geometry/levels/colarado/colarado_farmhouse_fruit_packing_shed_a.wl2?/fruit_packing_shed_roof_windows_a.prim].pc_coll",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/_pro/environment/geometry/levels/colarado/colarado_farmhouse_fruit_packing_shed_a.wl2?/fruit_packing_shed_roof_a.prim].pc_prim",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/_pro/environment/geometry/levels/colarado/colarado_farmhouse_fruit_packing_shed_a.wl2?/fruit_packing_shed_roof_a.prim].pc_coll",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/_pro/environment/geometry/levels/colarado/colarado_farmhouse_fruit_packing_shed_a.wl2?/fruit_packing_shed_roof_glow.prim].pc_prim",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/_pro/environment/geometry/levels/colarado/colarado_farmhouse_fruit_packing_shed_a.wl2?/fruit_packing_shed_roof_glow.prim].pc_coll",
+			"flag": "5F"
+		}
+	],
+	"extraBlueprintDependencies": [],
+	"comments": []
+}

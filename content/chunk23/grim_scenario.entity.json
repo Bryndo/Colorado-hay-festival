@@ -1344,6 +1344,49 @@
 					"postInit": true
 				}
 			}
+		},
+		"cafea54b1541c70c": {
+			"parent": "fffffffffffffffe",
+			"name": "Environment",
+			"factory": "[modules:/zentity.class].pc_entitytype",
+			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
+		},
+		"cafe5f830d0d2252": {
+			"parent": "cafea54b1541c70c",
+			"name": "Backdrop",
+			"factory": "[modules:/zentity.class].pc_entitytype",
+			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
+		},
+		"cafe32756d65a7f8": {
+			"parent": "cafe5f830d0d2252",
+			"name": "Sculpture_Palace_Napoleon_Horse_Small_00_04",
+			"factory": "[assembly:/_pro/environment/templates/props/sculptures/sculptures_palace.template?/sculpture_palace_napoleon_horse_small_00.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/sculptures/sculptures_palace.template?/sculpture_palace_napoleon_horse_small_00.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": -18.915547615231148
+						},
+						"position": {
+							"x": 7.47412109375,
+							"y": -0.991241991519928,
+							"z": 0.03779200091958046
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "b826924694c353a8",
+						"externalScene": "[assembly:/_pro/scenes/missions/colorado_2/location.brick].pc_entitytype"
+					},
+					"postInit": true
+				}
+			}
 		}
 	},
 	"propertyOverrides": [
