@@ -1,0 +1,99 @@
+{
+	"tempHash": "00730DA09EC490EC",
+	"tbluHash": "00C329675D12E589",
+	"rootEntity": "cafe4753a9bd15bf",
+	"entities": {
+		"cafe92aa20c71142": {
+			"parent": "cafe4753a9bd15bf",
+			"name": "HeroA",
+			"factory": "[modules:/zcharsetcharactertype.class].pc_entitytype",
+			"blueprint": "[modules:/zcharsetcharactertype.class].pc_entityblueprint",
+			"properties": {
+				"m_aVariations": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["cafebebfea6ddb75"],
+					"postInit": true
+				}
+			}
+		},
+		"cafe6f201dcd0408": {
+			"parent": "cafe4753a9bd15bf",
+			"name": "Nude",
+			"factory": "[modules:/zcharsetcharactertype.class].pc_entitytype",
+			"blueprint": "[modules:/zcharsetcharactertype.class].pc_entityblueprint",
+			"properties": {
+				"m_aVariations": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["cafe47292f16a6d3"],
+					"postInit": true
+				}
+			}
+		},
+		"cafe3eca6fcf2ef4": {
+			"parent": "cafe4753a9bd15bf",
+			"name": "Actor",
+			"factory": "[modules:/zcharsetcharactertype.class].pc_entitytype",
+			"blueprint": "[modules:/zcharsetcharactertype.class].pc_entityblueprint",
+			"properties": {
+				"m_aVariations": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["cafe83d784d5c1db"],
+					"postInit": true
+				}
+			}
+		},
+		"cafebebfea6ddb75": {
+			"parent": "cafe92aa20c71142",
+			"name": "Var0",
+			"factory": "[modules:/zoutfitvariation.class].pc_entitytype",
+			"blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint"
+		},
+		"cafe83d784d5c1db": {
+			"parent": "cafe3eca6fcf2ef4",
+			"name": "0",
+			"factory": "[modules:/zoutfitvariation.class].pc_entitytype",
+			"blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint",
+			"properties": {
+				"m_Outfit": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/characters/templates/hay/char_hay_guard.template?/outfit_hay_victoria_m_actor_v0.entitytemplate].pc_entitytemplate",
+						"flag": "9F"
+					}
+				}
+			}
+		},
+		"cafe4753a9bd15bf": {
+			"parent": null,
+			"name": "CHARSET_Victoria_Cleaver",
+			"factory": "[assembly:/_pro/characters/templates/_sourcefiles/outfit.template?/charset_base.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/characters/templates/_sourcefiles/outfit.template?/charset_base.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_aCharacters": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						"cafe3eca6fcf2ef4",
+						"cafe6f201dcd0408",
+						"cafe92aa20c71142"
+					]
+				}
+			}
+		},
+		"cafe47292f16a6d3": {
+			"parent": "cafe6f201dcd0408",
+			"name": "Var0",
+			"factory": "[modules:/zoutfitvariation.class].pc_entitytype",
+			"blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint"
+		}
+	},
+	"propertyOverrides": [],
+	"overrideDeletes": [],
+	"pinConnectionOverrides": [],
+	"pinConnectionOverrideDeletes": [],
+	"externalScenes": [],
+	"subType": "template",
+	"quickEntityVersion": 3.1,
+	"extraFactoryDependencies": [],
+	"extraBlueprintDependencies": [],
+	"comments": []
+}

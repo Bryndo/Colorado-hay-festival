@@ -95,233 +95,6 @@
 			"factory": "[assembly:/_pro/characters/templates/colorado/char_colorado_unique.template?/charset_dwight_m.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/_pro/characters/templates/colorado/char_colorado_unique.template?/charset_dwight_m.entitytemplate].pc_entityblueprint"
 		},
-		"cafefe2b1f590c34": {
-			"parent": "cafe2bf9bf3d844f",
-			"name": "Prof_Skunk_Unique_PrivateSecurityOfficer",
-			"factory": "[assembly:/_pro/design/actor/profession.template?/prof_hay_guard_event_security.entitytemplate].pc_entitytype",
-			"blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_hay_guard_event_security.entitytemplate].pc_entityblueprint",
-			"properties": {
-				"m_aHolders": {
-					"type": "TArray<SEntityTemplateReference>",
-					"value": ["cafe2bf9bf3d844f"],
-					"postInit": true
-				}
-			}
-		},
-		"cafe812ef37223f3": {
-			"parent": "cafe2bf9bf3d844f",
-			"name": "Keyword_Prof_Class_Default",
-			"factory": "007A51A2AFEC0D1A",
-			"blueprint": "00B0282A41C1CF2E",
-			"properties": {
-				"m_aHolders": {
-					"type": "TArray<SEntityTemplateReference>",
-					"value": ["cafe2bf9bf3d844f"],
-					"postInit": true
-				}
-			}
-		},
-		"cafe6241c083342f": {
-			"parent": "cafe2bf9bf3d844f",
-			"name": "Keyword_Prof_Class_Guard_Heavy",
-			"factory": "00364659808ED13C",
-			"blueprint": "003A7D4D8810414B",
-			"properties": {
-				"m_aHolders": {
-					"type": "TArray<SEntityTemplateReference>",
-					"value": ["cafe2bf9bf3d844f"],
-					"postInit": true
-				}
-			}
-		},
-		"cafe2bf9bf3d844f": {
-			"parent": "fffffffffffffffe",
-			"name": "Skunk_Guard_PrivateSecurityOfficer_M_PRO108145",
-			"factory": "[modules:/zglobaloutfitkit.class].pc_entitytype",
-			"blueprint": "[modules:/zglobaloutfitkit.class].pc_entityblueprint",
-			"properties": {
-				"m_DamageMultipliers": {
-					"type": "SBodyPartDamageMultipliers",
-					"value": {
-						"m_fHeadDamageMultiplier": 3.0,
-						"m_fFaceDamageMultiplier": 3.0,
-						"m_fArmDamageMultiplier": 1.0,
-						"m_fLArmDamageScalar": 0.0,
-						"m_fRArmDamageScalar": 0.0,
-						"m_fHandDamageMultiplier": 0.5,
-						"m_fLHandDamageScalar": 0.0,
-						"m_fRHandDamageScalar": 0.0,
-						"m_fLegDamageMultiplier": 0.6000000238418579,
-						"m_fLLegDamageScalar": 0.0,
-						"m_fRLegDamageScalar": 0.0,
-						"m_fTorsoDamageMultiplier": 1.0,
-						"m_bApplyLeftRightScalars": false
-					}
-				},
-				"m_bHeroDisguiseAvailable": {
-					"type": "bool",
-					"value": true
-				},
-				"m_bWeaponsAllowed": { "type": "bool", "value": true },
-				"m_eSoundFootwearType": {
-					"type": "EHM5SoundFootwearType",
-					"value": "EFWT_RUBBER_BOOTS"
-				},
-				"m_sId": {
-					"type": "ZGuid",
-					"value": "b210be64-ea03-4983-aa0f-8d18882a23c7"
-				},
-				"m_pParentOutfit": {
-					"type": "SEntityTemplateReference",
-					"value": {
-						"ref": "958ef354a73d986e",
-						"externalScene": "[assembly:/_pro/scenes/bricks/globaldata.brick].pc_entitytype"
-					}
-				},
-				"m_sCommonName": {
-					"type": "ZString",
-					"value": "Skunk_Guard_PrivateSecurityOfficer_M_PRO108145"
-				},
-				"m_sTitle": {
-					"type": "ZString",
-					"value": "Private Security Officer"
-				},
-				"m_eOutfitAICategory": {
-					"type": "EOutfitAICategory",
-					"value": "OAC_Cop"
-				},
-				"m_rNameTextResource": {
-					"type": "ZRuntimeResourceID",
-					"value": {
-						"resource": "[assembly:/localization/hitman6/conversations/ui/pro/online/repository/outfits_npcs_skunk.sweetmenutext?/outfits_skunk_guard_privatesecurityofficer_m_pro108145_name_b210be64-ea03-4983-aa0f-8d18882a23c7.sweetline].pc_sweetline",
-						"flag": "5F"
-					}
-				},
-				"m_rDescriptionTextResource": {
-					"type": "ZRuntimeResourceID",
-					"value": {
-						"resource": "[assembly:/localization/hitman6/conversations/ui/pro/online/repository/outfits_npcs_skunk.sweetmenutext?/outfits_skunk_guard_privatesecurityofficer_m_pro108145_description_b210be64-ea03-4983-aa0f-8d18882a23c7.sweetline].pc_sweetline",
-						"flag": "5F"
-					}
-				},
-				"m_rDefaultVoiceVariations": {
-					"type": "TArray<EActorVoiceVariation>",
-					"value": [
-						"eAVV_BDYGRD04",
-						"eAVV_BDYGRD05",
-						"eAVV_BDYGRD06",
-						"eAVV_BDYGRD07"
-					]
-				},
-				"m_eOutfitType": {
-					"type": "EOutfitType",
-					"value": "eOT_Guard"
-				},
-				"m_aCharSets": {
-					"type": "TArray<SEntityTemplateReference>",
-					"value": ["cafe354efc344c12"],
-					"postInit": true
-				},
-				"m_AvailableWeaponKeys": {
-					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"cafed9650041bbaa",
-						"cafe09ee17d58da8",
-						"cafe999b0b1cbb0b"
-					],
-					"postInit": true
-				},
-				"m_aWeaponsAllowedExceptionKeywords": {
-					"type": "TArray<SEntityTemplateReference>",
-					"value": ["cafeb492d34d312a"],
-					"postInit": true
-				}
-			}
-		},
-		"cafed9650041bbaa": {
-			"parent": "cafe2bf9bf3d844f",
-			"name": "ItemKey__Pistol_ Hackl 9R",
-			"factory": "[modules:/zitemrepositorykeyentity.class].pc_entitytype",
-			"blueprint": "[modules:/zitemrepositorykeyentity.class].pc_entityblueprint",
-			"properties": {
-				"m_RepositoryId": {
-					"type": "ZGuid",
-					"value": "1cae7d71-55c8-401a-9dfb-cd0909c4f6ee"
-				}
-			}
-		},
-		"cafe09ee17d58da8": {
-			"parent": "cafe2bf9bf3d844f",
-			"name": "ItemKey__Shotgun_ _NPC_ Tactical Bartoli 12G",
-			"factory": "[modules:/zitemrepositorykeyentity.class].pc_entitytype",
-			"blueprint": "[modules:/zitemrepositorykeyentity.class].pc_entityblueprint",
-			"properties": {
-				"m_RepositoryId": {
-					"type": "ZGuid",
-					"value": "901a3b51-51a0-4236-bdf2-23d20696b358"
-				}
-			}
-		},
-		"cafe354efc344c12": {
-			"parent": "cafe2bf9bf3d844f",
-			"name": "CHARSET_Skunk_Guard_Officer_M",
-			"factory": "[assembly:/_pro/characters/templates/skunk/char_skunk_guard.template?/charset_skunk_guard_officer_m.entitytemplate].pc_entitytype",
-			"blueprint": "[assembly:/_pro/characters/templates/skunk/char_skunk_guard.template?/charset_skunk_guard_officer_m.entitytemplate].pc_entityblueprint"
-		},
-		"cafe98b9244f3499": {
-			"parent": "cafe2bf9bf3d844f",
-			"name": "Prof_Skunk",
-			"factory": "[assembly:/_pro/design/actor/profession.template?/prof_skunk.entitytemplate].pc_entitytype",
-			"blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_skunk.entitytemplate].pc_entityblueprint",
-			"properties": {
-				"m_aHolders": {
-					"type": "TArray<SEntityTemplateReference>",
-					"value": ["cafe2bf9bf3d844f"]
-				}
-			}
-		},
-		"cafec1157583461d": {
-			"parent": "cafe2bf9bf3d844f",
-			"name": "KeywordEntity_FOLEY_OUTFIT_GUARD",
-			"factory": "[assembly:/_pro/design/gamecore/keywords/keywordsound.template?/keywordentity_foley_outfit_guard.entitytemplate].pc_entitytype",
-			"blueprint": "[assembly:/_pro/design/gamecore/keywords/keywordsound.template?/keywordentity_foley_outfit_guard.entitytemplate].pc_entityblueprint",
-			"properties": {
-				"m_rHolder": {
-					"type": "SEntityTemplateReference",
-					"value": "cafe2bf9bf3d844f"
-				}
-			}
-		},
-		"cafe999b0b1cbb0b": {
-			"parent": "cafe2bf9bf3d844f",
-			"name": "ItemKey__AR_ _NPC_ Fusil G1_4",
-			"factory": "[modules:/zitemrepositorykeyentity.class].pc_entitytype",
-			"blueprint": "[modules:/zitemrepositorykeyentity.class].pc_entityblueprint",
-			"properties": {
-				"m_RepositoryId": {
-					"type": "ZGuid",
-					"value": "16edb112-58cc-4069-a7dd-ebd258b14044"
-				}
-			}
-		},
-		"cafeb492d34d312a": {
-			"parent": "cafe2bf9bf3d844f",
-			"name": "Keyword_ITEM_SNIPER_RIFLE",
-			"factory": "[assembly:/_pro/design/gamecore/keywords/keyworditems.template?/keyword_item_sniper_rifle.entitytemplate].pc_entitytype",
-			"blueprint": "[assembly:/_pro/design/gamecore/keywords/keyworditems.template?/keyword_item_sniper_rifle.entitytemplate].pc_entityblueprint"
-		},
-		"cafed0ab6f6db9a1": {
-			"parent": "cafe2bf9bf3d844f",
-			"name": "Prof_Skunk_Guard",
-			"factory": "[assembly:/_pro/design/actor/profession.template?/prof_skunk_guard.entitytemplate].pc_entitytype",
-			"blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_skunk_guard.entitytemplate].pc_entityblueprint",
-			"properties": {
-				"m_aHolders": {
-					"type": "TArray<SEntityTemplateReference>",
-					"value": ["cafe2bf9bf3d844f"]
-				}
-			}
-		},
 		"cafeef252431d10e": {
 			"parent": "cafeef2c75b4ddb9",
 			"name": "Keyword_Prof_Class_Default",
@@ -1415,7 +1188,7 @@
 			}
 		},
 		"cafe4d65626d37f1": {
-			"parent": "fffffffffffffffe",
+			"parent": "cafe176b909d5ab6",
 			"name": "John_Cleaver",
 			"factory": "[modules:/zglobaloutfitkit.class].pc_entitytype",
 			"blueprint": "[modules:/zglobaloutfitkit.class].pc_entityblueprint",
@@ -3298,6 +3071,215 @@
 					"value": "cafec189cf86f2ea"
 				}
 			}
+		},
+		"cafe66b7a4296eb2": {
+			"parent": "cafe85f35a780ba6",
+			"name": "CHARSET_Victoria_Cleaver",
+			"factory": "[assembly:/_pro/characters/templates/hay/char_hay_unique.template?/charset_hay_victoria_m.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/characters/templates/hay/char_hay_unique.template?/charset_hay_victoria_m.entitytemplate].pc_entityblueprint"
+		},
+		"cafe792a99a71889": {
+			"parent": "cafe85f35a780ba6",
+			"name": "Keyword_FOLEY_OUTFIT_WORKER_CLOTH_MED",
+			"factory": "[assembly:/_pro/design/gamecore/keywords/keywordsound.template?/keyword_foley_outfit_worker_cloth_med.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/gamecore/keywords/keywordsound.template?/keyword_foley_outfit_worker_cloth_med.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_rHolder": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe85f35a780ba6",
+					"postInit": true
+				}
+			}
+		},
+		"cafe4fb5d3950259": {
+			"parent": "cafe85f35a780ba6",
+			"name": "Keyword_Prof_Class_Default",
+			"factory": "[assembly:/_pro/design/gamecore/keywords/keywordgenericprofessionclasses.template?/keyword_prof_class_default.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/gamecore/keywords/keywordgenericprofessionclasses.template?/keyword_prof_class_default.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_aHolders": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["cafe85f35a780ba6"],
+					"postInit": true
+				}
+			}
+		},
+		"cafe85f35a780ba6": {
+			"parent": "cafe176b909d5ab6",
+			"name": "Victoria_Cleaver",
+			"factory": "[modules:/zglobaloutfitkit.class].pc_entitytype",
+			"blueprint": "[modules:/zglobaloutfitkit.class].pc_entityblueprint",
+			"properties": {
+				"m_DamageMultipliers": {
+					"type": "SBodyPartDamageMultipliers",
+					"value": {
+						"m_fHeadDamageMultiplier": 3.0,
+						"m_fFaceDamageMultiplier": 3.0,
+						"m_fArmDamageMultiplier": 1.0,
+						"m_fLArmDamageScalar": 0.0,
+						"m_fRArmDamageScalar": 0.0,
+						"m_fHandDamageMultiplier": 0.5,
+						"m_fLHandDamageScalar": 0.0,
+						"m_fRHandDamageScalar": 0.0,
+						"m_fLegDamageMultiplier": 0.6000000238418579,
+						"m_fLLegDamageScalar": 0.0,
+						"m_fRLegDamageScalar": 0.0,
+						"m_fTorsoDamageMultiplier": 1.0,
+						"m_bApplyLeftRightScalars": false
+					}
+				},
+				"m_eActorType": {
+					"type": "EActorType",
+					"value": "eAT_Civilian"
+				},
+				"m_bIsFemale": { "type": "bool", "value": true },
+				"m_eActorCCClass": {
+					"type": "EActorCCPreset",
+					"value": "ACCP_CivilianFemale"
+				},
+				"m_bHeroDisguiseAvailable": {
+					"type": "bool",
+					"value": false
+				},
+				"m_eSoundFootwearType": {
+					"type": "EHM5SoundFootwearType",
+					"value": "EFWT_SNEAKERS"
+				},
+				"m_aCharSets": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["cafe66b7a4296eb2"]
+				},
+				"m_sId": {
+					"type": "ZGuid",
+					"value": "e73538d8-5201-40bd-a287-d462a731c377"
+				},
+				"m_pParentOutfit": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "f76365f15c816405",
+						"externalScene": "[assembly:/_pro/scenes/bricks/globaldata.brick].pc_entitytype"
+					}
+				},
+				"m_sCommonName": {
+					"type": "ZString",
+					"value": "Victoria Cleaver"
+				},
+				"m_sTitle": {
+					"type": "ZString",
+					"value": "Victoria Cleaver"
+				},
+				"m_rNameTextResource": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/localization/hitman6/conversations/ui/pro/online/repository/outfits_npcs_miami.sweetmenutext?/outfits_miami_worker_foodstands_f_pro74804_name_06b87b94-ddfd-43bf-b1c8-563c182c1af8.sweetline].pc_sweetline",
+						"flag": "5F"
+					}
+				},
+				"m_rDescriptionTextResource": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/localization/hitman6/conversations/ui/pro/online/repository/outfits_npcs_miami.sweetmenutext?/outfits_miami_worker_foodstands_f_pro74804_description_06b87b94-ddfd-43bf-b1c8-563c182c1af8.sweetline].pc_sweetline",
+						"flag": "5F"
+					}
+				},
+				"m_rDefaultVoiceVariations": {
+					"type": "TArray<EActorVoiceVariation>",
+					"value": []
+				},
+				"m_eOutfitType": {
+					"type": "EOutfitType",
+					"value": "eOT_None"
+				}
+			}
+		},
+		"cafe176b909d5ab6": {
+			"parent": "fffffffffffffffe",
+			"name": "Targets",
+			"factory": "[modules:/zentity.class].pc_entitytype",
+			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
+		},
+		"cafe1f5f37764cd6": {
+			"parent": "fffffffffffffffe",
+			"name": "Amos_Dexter",
+			"factory": "[modules:/zglobaloutfitkit.class].pc_entitytype",
+			"blueprint": "[modules:/zglobaloutfitkit.class].pc_entityblueprint",
+			"properties": {
+				"m_sId": {
+					"type": "ZGuid",
+					"value": "b748e37c-fbf8-439f-82e4-3d9e5c316368"
+				},
+				"m_pParentOutfit": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "6736fcbbd3e73209",
+						"externalScene": "[assembly:/_pro/scenes/bricks/globaldata.brick].pc_entitytype"
+					}
+				},
+				"m_eActorCCClass": {
+					"type": "EActorCCPreset",
+					"value": "ACCP_CivilianeMale"
+				},
+				"m_eActorType": {
+					"type": "EActorType",
+					"value": "eAT_Civilian"
+				},
+				"m_sCommonName": {
+					"type": "ZString",
+					"value": "Amos Dexter"
+				},
+				"m_sTitle": { "type": "ZString", "value": "Amos Dexter" },
+				"m_DamageMultipliers": {
+					"type": "SBodyPartDamageMultipliers",
+					"value": {
+						"m_fHeadDamageMultiplier": 3.0,
+						"m_fFaceDamageMultiplier": 1.5,
+						"m_fArmDamageMultiplier": 1.0,
+						"m_fLArmDamageScalar": 0.0,
+						"m_fRArmDamageScalar": 0.0,
+						"m_fHandDamageMultiplier": 0.5,
+						"m_fLHandDamageScalar": 0.0,
+						"m_fRHandDamageScalar": 0.0,
+						"m_fLegDamageMultiplier": 0.6000000238418579,
+						"m_fLLegDamageScalar": 0.0,
+						"m_fRLegDamageScalar": 0.0,
+						"m_fTorsoDamageMultiplier": 1.0,
+						"m_bApplyLeftRightScalars": false
+					}
+				},
+				"m_rDescriptionTextResource": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/localization/hitman6/conversations/ui/pro/online/repository/outfits_npcs_raccoon.sweetmenutext?/outfits_raccoon_target_lieutenant_m_description_33caaba6-7e28-4e9c-ad35-8e1d9a3f58f0.sweetline].pc_sweetline",
+						"flag": "5F"
+					}
+				},
+				"m_rNameTextResource": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/localization/hitman6/conversations/ui/pro/online/repository/outfits_npcs_raccoon.sweetmenutext?/outfits_raccoon_target_lieutenant_m_name_33caaba6-7e28-4e9c-ad35-8e1d9a3f58f0.sweetline].pc_sweetline",
+						"flag": "5F"
+					}
+				},
+				"m_eSoundFootwearType": {
+					"type": "EHM5SoundFootwearType",
+					"value": "EFWT_LEATHER"
+				},
+				"m_rDefaultVoiceVariations": {
+					"type": "TArray<EActorVoiceVariation>",
+					"value": ["eAVV_CIVMALE01"]
+				},
+				"m_aCharSets": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["cafea2f5c6dffe40"],
+					"postInit": true
+				}
+			}
+		},
+		"cafea2f5c6dffe40": {
+			"parent": "cafe1f5f37764cd6",
+			"name": "CHARSET_Amos_Dexter",
+			"factory": "[assembly:/_pro/characters/templates/colorado/char_colorado_unique.template?/charset_dexter_m.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/characters/templates/colorado/char_colorado_unique.template?/charset_dexter_m.entitytemplate].pc_entityblueprint"
 		}
 	},
 	"propertyOverrides": [],

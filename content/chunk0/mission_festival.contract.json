@@ -23,6 +23,20 @@
                         "RepositoryId": "3dabf80b-27f4-46c9-a4df-a5b60f3831f2"
                     }
                 }
+            },
+            {
+                "Id": "bc7e93e6-e9fa-4680-9d4a-6190aa32a038",
+                "Primary": true,
+                "RepeatSuccess": 1,
+                "RepeatFailed": 1,
+                "IsHidden": false,
+                "HUDTemplate": { "display": "Identify and eliminate John Cleaver" },
+                "SuccessEvent": {
+                    "EventName": "Kill",
+                    "EventValues": {
+                        "RepositoryId": "7f240875-8473-4153-926c-ba9e1dcfbd70"
+                    }
+                }
             }
         ],
         "Bricks": [ 
