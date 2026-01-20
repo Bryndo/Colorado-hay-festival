@@ -3,26 +3,6 @@
 	"tbluHash": "00EFDC336D1E8FCF",
 	"rootEntity": "9755b4d7a27f556b",
 	"entities": {
-		"1758f34093d03c74": {
-			"parent": "9755b4d7a27f556b",
-			"name": "fence_wire_top_end_a",
-			"factory": "[assembly:/templates/aspectdummy.aspect]([assembly:/_pro/environment/geometry/architecture/fences/fence_wire_a.wl2?/fence_wire_top_end_a.prim].entitytype,[modules:/zdisablecameracollisionaspect.class].entitytype).pc_entitytype",
-			"blueprint": "[assembly:/templates/aspectdummy.aspect]([assembly:/templates/geometrytemplatestaticcoll.template?/geomentity01.entitytemplate].entitytype,[modules:/zdisablecameracollisionaspect.class].entitytype).pc_entityblueprint",
-			"properties": {
-				"m_mTransform": {
-					"type": "SMatrix43",
-					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
-						"position": { "x": 0.0, "y": 0.0, "z": 0.0 }
-					}
-				},
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "9755b4d7a27f556b",
-					"postInit": true
-				}
-			}
-		},
 		"947e29c4eed40a2d": {
 			"parent": "9755b4d7a27f556b",
 			"name": "fence_wire_base_a05",
