@@ -36,7 +36,7 @@
     },
     "localisation": {
         "english": {
-            "UI_CONTRACT_HAY_DESC": "Good evening 47, welcome to the annual Harvest festival in Colorado",
+            "UI_CONTRACT_HAY_DESC": "Good afternoon 47, Welcome the the Rusty wheel ranch Harvest festival. What seems like a great excuse to get the whole town together hides a much more sinister truth. The famous Hollywood couple David and Victoria Dyers recently bought the property and are converting it into a self sustaining ecosystem. David is also the second leader of the Keeper Cult, an organization linked to the brainwashing and exploiting of countless young adults all around the world promissing eternal life for all those who join. It seems The Cleavers have created a self sustaining ecosystem with them at the top of the pyramid. Your mission is to eliminate David and Victoria as well as to gain as much intel as possible on this organisation and the location of the final leader of the cult. Good luck 47. ",
             "UI_CONTRACT_HAY_TITLE": "False Shepards",
             "UI_CONTRACT_GRIM_DESC": "Good evening 47, welcome to the annual Harvest festival in Colorado",
             "UI_CONTRACT_GRIM_TITLE": "Till death do us part",
@@ -44,7 +44,19 @@
             "UI_STARTING_LOCATION_HAY_EVENT_ENTRANCE_DESC": "Welcome to the Colorado Harvest Festival 47",
             "NPC_D_NAME": "Target",
             "NPC_D_DESC": "Target desc",
-            "UI_SPLASHSCREEN_HAY_TITLE":"False Prophets",
+            "UI_SPLASHSCREEN_HAY_TITLE":"False Shepards",
+            "UI_SPLASHSCREEN_HAY_DESC":"Colorado, USA"
+        },
+        "french": {
+            "UI_CONTRACT_HAY_DESC": "Good afternoon 47, Welcome the the Rusty wheel ranch Harvest festival. What seems like a great excuse to get the whole town together hides a much more sinister truth. The famous Hollywood couple David and Victoria Dyers recently bought the property and are converting it into a self sustaining ecosystem. David is also the second leader of the Keeper Cult, an organization linked to the brainwashing and exploiting of countless young adults all around the world promissing eternal life for all those who join. It seems The Cleavers have created a self sustaining ecosystem with them at the top of the pyramid. Your mission is to eliminate David and Victoria as well as to gain as much intel as possible on this organisation and the location of the final leader of the cult. Good luck 47. ",
+            "UI_CONTRACT_HAY_TITLE": "False Shepards",
+            "UI_CONTRACT_GRIM_DESC": "Good evening 47, welcome to the annual Harvest festival in Colorado",
+            "UI_CONTRACT_GRIM_TITLE": "Till death do us part",
+            "UI_STARTING_LOCATION_HAY_EVENT_ENTRANCE_NAME": "Car Park",
+            "UI_STARTING_LOCATION_HAY_EVENT_ENTRANCE_DESC": "Welcome to the Colorado Harvest Festival 47",
+            "NPC_D_NAME": "Target",
+            "NPC_D_DESC": "Target desc",
+            "UI_SPLASHSCREEN_HAY_TITLE":"False Shepards",
             "UI_SPLASHSCREEN_HAY_DESC":"Colorado, USA"
         }
     },
