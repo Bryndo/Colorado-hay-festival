@@ -2402,7 +2402,7 @@
 					"type": "ILightEntity.ELightType",
 					"value": "LT_SPOT"
 				},
-				"m_fDiffusePower": { "type": "float32", "value": 400.0 },
+				"m_fDiffusePower": { "type": "float32", "value": 0 },
 				"m_diffuseColor": {
 					"type": "SColorRGB",
 					"value": "#ffe2a8"
@@ -2726,21 +2726,13 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": 90.0 },
-						"position": {
-							"x": -3.9319589138031006,
-							"y": -0.9830499887466432,
-							"z": 14.58137035369873
-						}
+						"rotation": { "x": -90, "y": 0, "z": 0 },
+						"position": { "x": -1.0, "y": 0.8, "z": 13.0 }
 					}
 				},
 				"m_vPortalSize": {
 					"type": "SVector3",
-					"value": {
-						"x": 0.9172840118408204,
-						"y": 5.0,
-						"z": 1.1512999534606934
-					}
+					"value": { "x": 2, "y": 3.0, "z": 3.8 }
 				},
 				"m_bDisableCulling": { "type": "bool", "value": true },
 				"m_RoomRight": {
@@ -2760,103 +2752,59 @@
 			},
 			"subsets": { "Gates": ["140a5977719aedc9"] }
 		},
-		"cafe2fdf64d28046": {
+		"cafedf0037c8ab02": {
 			"parent": "cf49c89057597549",
-			"name": "prison_ext_roof_cornerout_1x6_b",
-			"factory": "[assembly:/_pro/environment/templates/kits/prison/prison_buildings_a.template?/prison_ext_roof_cornerout_1x6_b.entitytemplate].pc_entitytype",
-			"blueprint": "[assembly:/_pro/environment/templates/kits/prison/prison_buildings_a.template?/prison_ext_roof_cornerout_1x6_b.entitytemplate].pc_entityblueprint",
+			"name": "guard_hut_int_wall_4x4_a_01",
+			"factory": "[assembly:/_pro/environment/templates/kits/prison/prison_guard_huit_a.template?/guard_hut_int_wall_4x4_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/kits/prison/prison_guard_huit_a.template?/guard_hut_int_wall_4x4_a.entitytemplate].pc_entityblueprint",
 			"properties": {
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": -180.0 },
-						"position": { "x": -1.0, "y": -3.0, "z": 15.5 }
-					}
-				},
-				"m_PrimitiveScale": {
-					"type": "SVector3",
-					"value": { "x": 0.5, "y": 0.5, "z": 0.5 }
-				},
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "cf49c89057597549",
-					"postInit": true
-				}
-			}
-		},
-		"cafe6651aff5a484": {
-			"parent": "cf49c89057597549",
-			"name": "prison_ext_roof_cornerout_1x6_b_01",
-			"factory": "[assembly:/_pro/environment/templates/kits/prison/prison_buildings_a.template?/prison_ext_roof_cornerout_1x6_b.entitytemplate].pc_entitytype",
-			"blueprint": "[assembly:/_pro/environment/templates/kits/prison/prison_buildings_a.template?/prison_ext_roof_cornerout_1x6_b.entitytemplate].pc_entityblueprint",
-			"properties": {
-				"m_mTransform": {
-					"type": "SMatrix43",
-					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": 90.0 },
+						"rotation": { "x": -90, "y": 0.0, "z": -0.0 },
 						"position": {
-							"x": 1.9999990463256836,
-							"y": 0.0,
-							"z": 15.5
+							"x": -2.486533007621765,
+							"y": 5.307858943939209,
+							"z": 2.693046026825905
 						}
 					}
 				},
-				"m_PrimitiveScale": {
-					"type": "SVector3",
-					"value": { "x": 0.5, "y": 0.5, "z": 0.5 }
-				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
 					"value": "cf49c89057597549",
 					"postInit": true
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": { "x": 1.35, "y": 1, "z": 1.19 }
 				}
 			}
 		},
-		"cafed20dbfc19f58": {
+		"cafe456af8e01e57": {
 			"parent": "cf49c89057597549",
-			"name": "prison_ext_roof_cornerout_1x6_b_02",
-			"factory": "[assembly:/_pro/environment/templates/kits/prison/prison_buildings_a.template?/prison_ext_roof_cornerout_1x6_b.entitytemplate].pc_entitytype",
-			"blueprint": "[assembly:/_pro/environment/templates/kits/prison/prison_buildings_a.template?/prison_ext_roof_cornerout_1x6_b.entitytemplate].pc_entityblueprint",
+			"name": "guard_hut_int_wall_4x4_a_02",
+			"factory": "[assembly:/_pro/environment/templates/kits/prison/prison_guard_huit_a.template?/guard_hut_int_wall_4x4_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/kits/prison/prison_guard_huit_a.template?/guard_hut_int_wall_4x4_a.entitytemplate].pc_entityblueprint",
 			"properties": {
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
-						"position": { "x": -1.0, "y": 3.0, "z": 15.5 }
+						"rotation": { "x": -90, "y": 0.0, "z": -0.0 },
+						"position": {
+							"x": -2.486533007621765,
+							"y": 2.342858943939209,
+							"z": 2.693046026825905
+						}
 					}
-				},
-				"m_PrimitiveScale": {
-					"type": "SVector3",
-					"value": { "x": 0.5, "y": 0.5, "z": 0.5 }
 				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
 					"value": "cf49c89057597549",
 					"postInit": true
-				}
-			}
-		},
-		"cafeb65cfa535667": {
-			"parent": "cf49c89057597549",
-			"name": "prison_ext_roof_cornerout_1x6_b_03",
-			"factory": "[assembly:/_pro/environment/templates/kits/prison/prison_buildings_a.template?/prison_ext_roof_cornerout_1x6_b.entitytemplate].pc_entitytype",
-			"blueprint": "[assembly:/_pro/environment/templates/kits/prison/prison_buildings_a.template?/prison_ext_roof_cornerout_1x6_b.entitytemplate].pc_entityblueprint",
-			"properties": {
-				"m_mTransform": {
-					"type": "SMatrix43",
-					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": -90.0 },
-						"position": { "x": -4.0, "y": 0.0, "z": 15.5 }
-					}
 				},
 				"m_PrimitiveScale": {
 					"type": "SVector3",
-					"value": { "x": 0.5, "y": 0.5, "z": 0.5 }
-				},
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "cf49c89057597549",
-					"postInit": true
+					"value": { "x": 1.35, "y": 1, "z": 1.19 }
 				}
 			}
 		}
