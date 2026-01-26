@@ -2807,6 +2807,152 @@
 					"value": { "x": 1.35, "y": 1, "z": 1.19 }
 				}
 			}
+		},
+		"cafe180a74931138": {
+			"parent": "140a5977719aedc9",
+			"name": "New_floor_ext",
+			"factory": "[modules:/zentity.class].pc_entitytype",
+			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
+		},
+		"cafe4f7bf1561324": {
+			"parent": "cafe180a74931138",
+			"name": "guard_tower_platform_a_21",
+			"factory": "[assembly:/_pro/environment/geometry/levels/falcon/prison_guard_tower_a.wl2?/guard_tower_platform_col_fix_a.prim].pc_entitytype",
+			"blueprint": "[assembly:/templates/geometrytemplatestaticcoll.template?/geomentity01.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
+						"position": { "x": 1.0, "y": -2, "z": 12.95 }
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "140a5977719aedc9",
+					"postInit": true
+				}
+			}
+		},
+		"cafe03f269e0731d": {
+			"parent": "cafe180a74931138",
+			"name": "guard_tower_platform_a_22",
+			"factory": "[assembly:/_pro/environment/geometry/levels/falcon/prison_guard_tower_a.wl2?/guard_tower_platform_col_fix_a.prim].pc_entitytype",
+			"blueprint": "[assembly:/templates/geometrytemplatestaticcoll.template?/geomentity01.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
+						"position": { "x": -1, "y": -2, "z": 12.95 }
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "140a5977719aedc9",
+					"postInit": true
+				}
+			}
+		},
+		"cafea44804625c62": {
+			"parent": "cafe180a74931138",
+			"name": "guard_tower_platform_a_23",
+			"factory": "[assembly:/_pro/environment/geometry/levels/falcon/prison_guard_tower_a.wl2?/guard_tower_platform_col_fix_a.prim].pc_entitytype",
+			"blueprint": "[assembly:/templates/geometrytemplatestaticcoll.template?/geomentity01.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
+						"position": { "x": -3, "y": -2, "z": 12.95 }
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "140a5977719aedc9",
+					"postInit": true
+				}
+			}
+		},
+		"cafe713030b1d3ab": {
+			"parent": "cafe180a74931138",
+			"name": "guard_tower_platform_a_24",
+			"factory": "[assembly:/_pro/environment/geometry/levels/falcon/prison_guard_tower_a.wl2?/guard_tower_platform_col_fix_a.prim].pc_entitytype",
+			"blueprint": "[assembly:/templates/geometrytemplatestaticcoll.template?/geomentity01.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
+						"position": { "x": -3.0, "y": -0.0, "z": 12.95 }
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "140a5977719aedc9",
+					"postInit": true
+				}
+			}
+		},
+		"cafe19e32985c691": {
+			"parent": "cafe180a74931138",
+			"name": "guard_tower_platform_a_25",
+			"factory": "[assembly:/_pro/environment/geometry/levels/falcon/prison_guard_tower_a.wl2?/guard_tower_platform_col_fix_a.prim].pc_entitytype",
+			"blueprint": "[assembly:/templates/geometrytemplatestaticcoll.template?/geomentity01.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
+						"position": { "x": -3, "y": 2, "z": 13 }
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "140a5977719aedc9",
+					"postInit": true
+				}
+			}
+		},
+		"cafed814de28911e": {
+			"parent": "cafe180a74931138",
+			"name": "guard_tower_platform_a_26",
+			"factory": "[assembly:/_pro/environment/geometry/levels/falcon/prison_guard_tower_a.wl2?/guard_tower_platform_col_fix_a.prim].pc_entitytype",
+			"blueprint": "[assembly:/templates/geometrytemplatestaticcoll.template?/geomentity01.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
+						"position": { "x": 1, "y": 2, "z": 13 }
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "140a5977719aedc9",
+					"postInit": true
+				}
+			}
+		},
+		"cafea2fe168a58e5": {
+			"parent": "cafe180a74931138",
+			"name": "guard_tower_platform_a_27",
+			"factory": "[assembly:/_pro/environment/geometry/levels/falcon/prison_guard_tower_a.wl2?/guard_tower_platform_col_fix_a.prim].pc_entitytype",
+			"blueprint": "[assembly:/templates/geometrytemplatestaticcoll.template?/geomentity01.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
+						"position": { "x": 1, "y": 0, "z": 13 }
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "140a5977719aedc9",
+					"postInit": true
+				}
+			}
 		}
 	},
 	"propertyOverrides": [],
