@@ -12,8 +12,16 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
-						"position": { "x": -3.0, "y": -2.0, "z": 9.0 }
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": -3,
+							"y": -2,
+							"z": 9
+						}
 					}
 				},
 				"m_eidParent": {
@@ -32,8 +40,16 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
-						"position": { "x": -3.0, "y": 3.0, "z": 7.0 }
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": -3,
+							"y": 3,
+							"z": 7
+						}
 					}
 				},
 				"m_eidParent": {
@@ -52,8 +68,16 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": -90.0 },
-						"position": { "x": -3.0, "y": -3.0, "z": 13.0 }
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -90
+						},
+						"position": {
+							"x": -3,
+							"y": -3,
+							"z": 13
+						}
 					}
 				},
 				"m_eidParent": {
@@ -72,7 +96,11 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": 0.0, "y": -90.0, "z": 0.0 },
+						"rotation": {
+							"x": 0,
+							"y": -90,
+							"z": 0
+						},
 						"position": {
 							"x": -5.550006866455078,
 							"y": -4.78604793548584,
@@ -96,8 +124,16 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": 90.0 },
-						"position": { "x": 3.5, "y": 2.5, "z": 13.0 }
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 90
+						},
+						"position": {
+							"x": 3.5,
+							"y": 2.5,
+							"z": 13
+						}
 					}
 				},
 				"m_eidParent": {
@@ -116,8 +152,16 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": -90.0 },
-						"position": { "x": -4.0, "y": 0.0, "z": 13.0 }
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -90
+						},
+						"position": {
+							"x": -4,
+							"y": 0,
+							"z": 13
+						}
 					}
 				},
 				"m_eidParent": {
@@ -136,8 +180,16 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": -90.0 },
-						"position": { "x": -5.5, "y": -3.5, "z": 13.0 }
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -90
+						},
+						"position": {
+							"x": -5.5,
+							"y": -3.5,
+							"z": 13
+						}
 					}
 				},
 				"m_eidParent": {
@@ -156,8 +208,16 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": -180.0 },
-						"position": { "x": 3.5, "y": -4.5, "z": 13.0 }
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -180
+						},
+						"position": {
+							"x": 3.5,
+							"y": -4.5,
+							"z": 13
+						}
 					}
 				},
 				"m_eidParent": {
@@ -176,7 +236,11 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": -180.0 },
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -180
+						},
 						"position": {
 							"x": 1.2234669923782349,
 							"y": -0.6921411156654358,
@@ -200,14 +264,30 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": -90.0 },
-						"position": { "x": -4.75, "y": -3.5, "z": 13.0 }
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -90
+						},
+						"position": {
+							"x": -4.75,
+							"y": -3.5,
+							"z": 13
+						}
 					}
 				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
 					"value": "140a5977719aedc9",
 					"postInit": true
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 1,
+						"y": 1,
+						"z": 0.600000011920929
+					}
 				}
 			}
 		},
@@ -220,7 +300,11 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
 						"position": {
 							"x": -1.7765330076217651,
 							"y": 5.307858943939209,
@@ -244,7 +328,11 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": -90.0 },
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -90
+						},
 						"position": {
 							"x": -3.902215003967285,
 							"y": -1.1214189529418943,
@@ -255,19 +343,26 @@
 				"m_PrimitiveScale": {
 					"type": "SVector3",
 					"value": {
-						"x": 1.0,
+						"x": 1,
 						"y": 0.7533969879150391,
-						"z": 1.0
+						"z": 1
 					}
 				},
-				"m_fLODScale": { "type": "float32", "value": 1.5 },
+				"m_fLODScale": {
+					"type": "float32",
+					"value": 1.5
+				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
 					"value": "140a5977719aedc9",
 					"postInit": true
 				}
 			},
-			"subsets": { "AudioEmitters": ["140a5977719aedc9"] }
+			"subsets": {
+				"AudioEmitters": [
+					"140a5977719aedc9"
+				]
+			}
 		},
 		"4b8175d179d64bdc": {
 			"parent": "cf49c89057597549",
@@ -278,7 +373,11 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": -180.0 },
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -180
+						},
 						"position": {
 							"x": 2.2234671115875244,
 							"y": -0.6921411156654358,
@@ -302,7 +401,11 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": -90.0 },
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -90
+						},
 						"position": {
 							"x": -3.902215003967285,
 							"y": 0.8735740184783936,
@@ -313,19 +416,26 @@
 				"m_PrimitiveScale": {
 					"type": "SVector3",
 					"value": {
-						"x": 1.0,
+						"x": 1,
 						"y": 0.7533969879150391,
-						"z": 1.0
+						"z": 1
 					}
 				},
-				"m_fLODScale": { "type": "float32", "value": 1.5 },
+				"m_fLODScale": {
+					"type": "float32",
+					"value": 1.5
+				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
 					"value": "140a5977719aedc9",
 					"postInit": true
 				}
 			},
-			"subsets": { "AudioEmitters": ["140a5977719aedc9"] }
+			"subsets": {
+				"AudioEmitters": [
+					"140a5977719aedc9"
+				]
+			}
 		},
 		"1d8685f8eba8cb7a": {
 			"parent": "cf49c89057597549",
@@ -336,11 +446,15 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
 						"position": {
-							"x": -1.7765330076217651,
-							"y": 2.307858943939209,
-							"z": 0.014030460268259048
+							"x": -1.776534080505371,
+							"y": 2.3078572750091553,
+							"z": 0.01403045654296875
 						}
 					}
 				},
@@ -348,6 +462,14 @@
 					"type": "SEntityTemplateReference",
 					"value": "cf49c89057597549",
 					"postInit": true
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 1,
+						"y": 1,
+						"z": 0.600000011920929
+					}
 				}
 			}
 		},
@@ -360,8 +482,16 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": 90.0 },
-						"position": { "x": 0.0, "y": 4.0, "z": 11.0 }
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 90
+						},
+						"position": {
+							"x": 0,
+							"y": 4,
+							"z": 11
+						}
 					}
 				},
 				"m_eidParent": {
@@ -380,8 +510,16 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": -180.0 },
-						"position": { "x": 1.0, "y": -3.0, "z": 13.0 }
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -180
+						},
+						"position": {
+							"x": 1,
+							"y": -3,
+							"z": 13
+						}
 					}
 				},
 				"m_eidParent": {
@@ -400,8 +538,16 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
-						"position": { "x": -4.5, "y": 4.5, "z": 13.0 }
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": -4.5,
+							"y": 4.5,
+							"z": 13
+						}
 					}
 				},
 				"m_eidParent": {
@@ -420,8 +566,16 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": -180.0 },
-						"position": { "x": 2.0, "y": -2.0, "z": 13.0 }
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -180
+						},
+						"position": {
+							"x": 2,
+							"y": -2,
+							"z": 13
+						}
 					}
 				},
 				"m_eidParent": {
@@ -440,8 +594,16 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
-						"position": { "x": -3.0, "y": -4.0, "z": 5.0 }
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": -3,
+							"y": -4,
+							"z": 5
+						}
 					}
 				},
 				"m_eidParent": {
@@ -460,8 +622,16 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": -180.0 },
-						"position": { "x": -1.0, "y": 1.0, "z": 11.0 }
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -180
+						},
+						"position": {
+							"x": -1,
+							"y": 1,
+							"z": 11
+						}
 					}
 				},
 				"m_eidParent": {
@@ -480,8 +650,16 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": 90.0 },
-						"position": { "x": 0.0, "y": -3.0, "z": 5.0 }
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 90
+						},
+						"position": {
+							"x": 0,
+							"y": -3,
+							"z": 5
+						}
 					}
 				},
 				"m_eidParent": {
@@ -500,14 +678,30 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
-						"position": { "x": -1.0, "y": 3.75, "z": 13.0 }
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": -1,
+							"y": 3.7500033378601074,
+							"z": 13
+						}
 					}
 				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
 					"value": "140a5977719aedc9",
 					"postInit": true
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 1,
+						"y": 1.399999976158142,
+						"z": 0.6000000238418579
+					}
 				}
 			}
 		},
@@ -520,8 +714,16 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": -90.0 },
-						"position": { "x": -5.5, "y": -0.5, "z": 13.0 }
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -90
+						},
+						"position": {
+							"x": -5.5,
+							"y": -0.5,
+							"z": 13
+						}
 					}
 				},
 				"m_eidParent": {
@@ -540,8 +742,16 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
-						"position": { "x": -1.0, "y": 3.0, "z": 11.0 }
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": -1,
+							"y": 3,
+							"z": 11
+						}
 					}
 				},
 				"m_eidParent": {
@@ -560,7 +770,11 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": -180.0 },
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -180
+						},
 						"position": {
 							"x": 3.2234671115875244,
 							"y": 0.3078589141368866,
@@ -584,8 +798,16 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
-						"position": { "x": -3.0, "y": 3.0, "z": 13.0 }
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": -3,
+							"y": 3,
+							"z": 13
+						}
 					}
 				},
 				"m_eidParent": {
@@ -604,8 +826,16 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": -180.0 },
-						"position": { "x": -2.0, "y": -3.0, "z": 9.0 }
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -180
+						},
+						"position": {
+							"x": -2,
+							"y": -3,
+							"z": 9
+						}
 					}
 				},
 				"m_eidParent": {
@@ -624,8 +854,16 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": -180.0 },
-						"position": { "x": 0.0, "y": -3.0, "z": 9.0 }
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -180
+						},
+						"position": {
+							"x": 0,
+							"y": -3,
+							"z": 9
+						}
 					}
 				},
 				"m_eidParent": {
@@ -644,8 +882,16 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": -90.0 },
-						"position": { "x": -4.0, "y": 2.0, "z": 11.0 }
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -90
+						},
+						"position": {
+							"x": -4,
+							"y": 2,
+							"z": 11
+						}
 					}
 				},
 				"m_eidParent": {
@@ -664,7 +910,11 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
 						"position": {
 							"x": 2.2234671115875244,
 							"y": 2.307858943939209,
@@ -676,6 +926,14 @@
 					"type": "SEntityTemplateReference",
 					"value": "cf49c89057597549",
 					"postInit": true
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 1,
+						"y": 1,
+						"z": 0.600000011920929
+					}
 				}
 			}
 		},
@@ -688,11 +946,15 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
 						"position": {
-							"x": 0.22346700727939608,
+							"x": 0.22346700727939606,
 							"y": 0.3078589141368866,
-							"z": 0.014030460268259048
+							"z": 0.014000000432133675
 						}
 					}
 				},
@@ -700,6 +962,14 @@
 					"type": "SEntityTemplateReference",
 					"value": "cf49c89057597549",
 					"postInit": true
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 1,
+						"y": 1,
+						"z": 0.600000011920929
+					}
 				}
 			}
 		},
@@ -712,7 +982,11 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": -90.0 },
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -90
+						},
 						"position": {
 							"x": 1.9237689971923828,
 							"y": -1.0053590536117554,
@@ -724,11 +998,14 @@
 					"type": "SVector3",
 					"value": {
 						"x": 0.9172840118408204,
-						"y": 5.0,
+						"y": 5,
 						"z": 1.1512999534606934
 					}
 				},
-				"m_bDisableCulling": { "type": "bool", "value": true },
+				"m_bDisableCulling": {
+					"type": "bool",
+					"value": true
+				},
 				"m_RoomRight": {
 					"type": "SEntityTemplateReference",
 					"value": null
@@ -744,7 +1021,11 @@
 					"postInit": true
 				}
 			},
-			"subsets": { "Gates": ["140a5977719aedc9"] }
+			"subsets": {
+				"Gates": [
+					"140a5977719aedc9"
+				]
+			}
 		},
 		"3711fd9f9d1d7b34": {
 			"parent": "140a5977719aedc9",
@@ -755,14 +1036,30 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": -90.0 },
-						"position": { "x": -4.75, "y": 1.5, "z": 13.0 }
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -90
+						},
+						"position": {
+							"x": -4.75,
+							"y": 1.5,
+							"z": 13
+						}
 					}
 				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
 					"value": "140a5977719aedc9",
 					"postInit": true
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 1,
+						"y": 1,
+						"z": 0.600000011920929
+					}
 				}
 			}
 		},
@@ -775,8 +1072,16 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": 90.0 },
-						"position": { "x": 0.0, "y": -1.0, "z": 9.0 }
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 90
+						},
+						"position": {
+							"x": 0,
+							"y": -1,
+							"z": 9
+						}
 					}
 				},
 				"m_eidParent": {
@@ -795,14 +1100,30 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
-						"position": { "x": 1.0, "y": -3.75, "z": 13.0 }
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": 1,
+							"y": -3.75,
+							"z": 13
+						}
 					}
 				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
 					"value": "140a5977719aedc9",
 					"postInit": true
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 1,
+						"y": 1,
+						"z": 0.600000011920929
+					}
 				}
 			}
 		},
@@ -815,8 +1136,16 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": -180.0 },
-						"position": { "x": 0.0, "y": -3.0, "z": 13.0 }
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -180
+						},
+						"position": {
+							"x": 0,
+							"y": -3,
+							"z": 13
+						}
 					}
 				},
 				"m_eidParent": {
@@ -835,37 +1164,21 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
-						"position": { "x": -5.5, "y": 4.5, "z": 13.0 }
-					}
-				},
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "140a5977719aedc9",
-					"postInit": true
-				}
-			}
-		},
-		"59fe4b34b617b1a2": {
-			"parent": "cf49c89057597549",
-			"name": "guard_tower_platform_a_26",
-			"factory": "[assembly:/_pro/environment/geometry/levels/falcon/prison_guard_tower_a.wl2?/guard_tower_platform_col_fix_a.prim].pc_entitytype",
-			"blueprint": "[assembly:/templates/geometrytemplatestaticcoll.template?/geomentity01.entitytemplate].pc_entityblueprint",
-			"properties": {
-				"m_mTransform": {
-					"type": "SMatrix43",
-					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
 						"position": {
-							"x": 2.2234671115875244,
-							"y": 4.307858943939209,
-							"z": 0.014030460268259048
+							"x": -5.5,
+							"y": 4.5,
+							"z": 13
 						}
 					}
 				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
-					"value": "cf49c89057597549",
+					"value": "140a5977719aedc9",
 					"postInit": true
 				}
 			}
@@ -879,7 +1192,11 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
 						"position": {
 							"x": -1.7765330076217651,
 							"y": 4.307858943939209,
@@ -891,6 +1208,14 @@
 					"type": "SEntityTemplateReference",
 					"value": "cf49c89057597549",
 					"postInit": true
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 1,
+						"y": 1,
+						"z": 0.600000011920929
+					}
 				}
 			}
 		},
@@ -903,8 +1228,16 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
-						"position": { "x": -2.0, "y": 4.0, "z": 7.0 }
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": -2,
+							"y": 4,
+							"z": 7
+						}
 					}
 				},
 				"m_eidParent": {
@@ -923,7 +1256,11 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
 						"position": {
 							"x": -0.9898920059204102,
 							"y": 1.0723570585250854,
@@ -947,8 +1284,16 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
-						"position": { "x": -1.0, "y": -4.0, "z": 5.0 }
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": -1,
+							"y": -4,
+							"z": 5
+						}
 					}
 				},
 				"m_eidParent": {
@@ -967,8 +1312,16 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": 90.0 },
-						"position": { "x": 3.5, "y": 3.5, "z": 13.0 }
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 90
+						},
+						"position": {
+							"x": 3.5,
+							"y": 3.5,
+							"z": 13
+						}
 					}
 				},
 				"m_eidParent": {
@@ -987,8 +1340,16 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": -90.0 },
-						"position": { "x": -4.0, "y": 2.0, "z": 7.0 }
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -90
+						},
+						"position": {
+							"x": -4,
+							"y": 2,
+							"z": 7
+						}
 					}
 				},
 				"m_eidParent": {
@@ -1007,7 +1368,11 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
 						"position": {
 							"x": -1.7765330076217651,
 							"y": 0.3078589141368866,
@@ -1019,6 +1384,14 @@
 					"type": "SEntityTemplateReference",
 					"value": "cf49c89057597549",
 					"postInit": true
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 1,
+						"y": 1,
+						"z": 0.600000011920929
+					}
 				}
 			}
 		},
@@ -1031,8 +1404,16 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": -180.0 },
-						"position": { "x": -0.5, "y": -4.5, "z": 13.0 }
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -180
+						},
+						"position": {
+							"x": -0.5,
+							"y": -4.5,
+							"z": 13
+						}
 					}
 				},
 				"m_eidParent": {
@@ -1051,14 +1432,30 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
-						"position": { "x": -1.0, "y": -3.75, "z": 13.0 }
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": -0.9999980926513672,
+							"y": -3.7500016689300537,
+							"z": 13
+						}
 					}
 				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
 					"value": "140a5977719aedc9",
 					"postInit": true
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 1,
+						"y": 1,
+						"z": 0.600000011920929
+					}
 				}
 			}
 		},
@@ -1071,8 +1468,16 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
-						"position": { "x": -3.0, "y": 0.0, "z": 9.0 }
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": -3,
+							"y": 0,
+							"z": 9
+						}
 					}
 				},
 				"m_eidParent": {
@@ -1091,14 +1496,30 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": -90.0 },
-						"position": { "x": 2.75, "y": 3.5, "z": 13.0 }
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -90
+						},
+						"position": {
+							"x": 2.75,
+							"y": 3.5,
+							"z": 13
+						}
 					}
 				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
 					"value": "140a5977719aedc9",
 					"postInit": true
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 1,
+						"y": 1,
+						"z": 0.600000011920929
+					}
 				}
 			}
 		},
@@ -1111,17 +1532,25 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": 90.0 },
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 90
+						},
 						"position": {
 							"x": 1.9999990463256836,
-							"y": 0.0,
+							"y": 0,
 							"z": 15.5
 						}
 					}
 				},
 				"m_PrimitiveScale": {
 					"type": "SVector3",
-					"value": { "x": 0.5, "y": 0.5, "z": 0.5 }
+					"value": {
+						"x": 0.5,
+						"y": 0.5,
+						"z": 0.5
+					}
 				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
@@ -1139,8 +1568,16 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
-						"position": { "x": -1.0, "y": -2.0, "z": 5.0 }
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": -1,
+							"y": -2,
+							"z": 5
+						}
 					}
 				},
 				"m_eidParent": {
@@ -1159,7 +1596,11 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
 						"position": {
 							"x": -1.0081390142440796,
 							"y": -2.8938050270080566,
@@ -1170,8 +1611,8 @@
 				"m_PrimitiveScale": {
 					"type": "SVector3",
 					"value": {
-						"x": 1.0,
-						"y": 1.0,
+						"x": 1,
+						"y": 1,
 						"z": 1.0494199991226196
 					}
 				},
@@ -1191,8 +1632,16 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
-						"position": { "x": -1.5, "y": 4.5, "z": 13.0 }
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": -1.5,
+							"y": 4.5,
+							"z": 13
+						}
 					}
 				},
 				"m_eidParent": {
@@ -1211,7 +1660,11 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": -90.0 },
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -90
+						},
 						"position": {
 							"x": -2.7765328884124756,
 							"y": 2.307858943939209,
@@ -1235,7 +1688,11 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": -90.0 },
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -90
+						},
 						"position": {
 							"x": -2.7765328884124756,
 							"y": 0.3078589141368866,
@@ -1259,7 +1716,11 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": 90.0 },
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 90
+						},
 						"position": {
 							"x": -3.9319589138031006,
 							"y": 0.971675992012024,
@@ -1271,11 +1732,14 @@
 					"type": "SVector3",
 					"value": {
 						"x": 0.9172840118408204,
-						"y": 5.0,
+						"y": 5,
 						"z": 1.1512999534606934
 					}
 				},
-				"m_bDisableCulling": { "type": "bool", "value": true },
+				"m_bDisableCulling": {
+					"type": "bool",
+					"value": true
+				},
 				"m_RoomRight": {
 					"type": "SEntityTemplateReference",
 					"value": null
@@ -1291,7 +1755,11 @@
 					"postInit": true
 				}
 			},
-			"subsets": { "Gates": ["140a5977719aedc9"] }
+			"subsets": {
+				"Gates": [
+					"140a5977719aedc9"
+				]
+			}
 		},
 		"bcbce163b5a4dd85": {
 			"parent": "140a5977719aedc9",
@@ -1302,14 +1770,30 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": -90.0 },
-						"position": { "x": 2.75, "y": 1.5, "z": 13.0 }
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -90
+						},
+						"position": {
+							"x": 2.75,
+							"y": 1.5,
+							"z": 13
+						}
 					}
 				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
 					"value": "140a5977719aedc9",
 					"postInit": true
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 1,
+						"y": 1,
+						"z": 0.600000011920929
+					}
 				}
 			}
 		},
@@ -1322,8 +1806,16 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": -90.0 },
-						"position": { "x": -5.5, "y": -4.5, "z": 13.0 }
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -90
+						},
+						"position": {
+							"x": -5.5,
+							"y": -4.5,
+							"z": 13
+						}
 					}
 				},
 				"m_eidParent": {
@@ -1342,14 +1834,30 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": -90.0 },
-						"position": { "x": 2.75, "y": -1.5, "z": 13.0 }
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -90.00000683018916
+						},
+						"position": {
+							"x": 2.75,
+							"y": -1.5000030994415283,
+							"z": 13
+						}
 					}
 				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
 					"value": "140a5977719aedc9",
 					"postInit": true
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 1,
+						"y": 1,
+						"z": 0.600000011920929
+					}
 				}
 			}
 		},
@@ -1362,11 +1870,15 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
 						"position": {
-							"x": -4.0,
+							"x": -4,
 							"y": 1.9999990463256836,
-							"z": 13.0
+							"z": 13
 						}
 					}
 				},
@@ -1386,8 +1898,16 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": 90.0 },
-						"position": { "x": 2.0, "y": 0.0, "z": 13.0 }
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 90
+						},
+						"position": {
+							"x": 2,
+							"y": 0,
+							"z": 13
+						}
 					}
 				},
 				"m_eidParent": {
@@ -1406,8 +1926,16 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": 90.0 },
-						"position": { "x": 2.0, "y": 2.0, "z": 13.0 }
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 90
+						},
+						"position": {
+							"x": 2,
+							"y": 2,
+							"z": 13
+						}
 					}
 				},
 				"m_eidParent": {
@@ -1426,8 +1954,16 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
-						"position": { "x": -1.0, "y": -2.0, "z": 9.0 }
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": -1,
+							"y": -2,
+							"z": 9
+						}
 					}
 				},
 				"m_eidParent": {
@@ -1446,8 +1982,16 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
-						"position": { "x": -4.0, "y": 4.0, "z": 7.0 }
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": -4,
+							"y": 4,
+							"z": 7
+						}
 					}
 				},
 				"m_eidParent": {
@@ -1466,7 +2010,11 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": -90.0 },
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -90
+						},
 						"position": {
 							"x": -1.7765330076217651,
 							"y": -0.6921411156654358,
@@ -1490,7 +2038,11 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": 90.0 },
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 90
+						},
 						"position": {
 							"x": -3.9319589138031006,
 							"y": -0.9830499887466432,
@@ -1502,11 +2054,14 @@
 					"type": "SVector3",
 					"value": {
 						"x": 0.9172840118408204,
-						"y": 5.0,
+						"y": 5,
 						"z": 1.1512999534606934
 					}
 				},
-				"m_bDisableCulling": { "type": "bool", "value": true },
+				"m_bDisableCulling": {
+					"type": "bool",
+					"value": true
+				},
 				"m_RoomRight": {
 					"type": "SEntityTemplateReference",
 					"value": null
@@ -1522,7 +2077,11 @@
 					"postInit": true
 				}
 			},
-			"subsets": { "Gates": ["140a5977719aedc9"] }
+			"subsets": {
+				"Gates": [
+					"140a5977719aedc9"
+				]
+			}
 		},
 		"dbef75af1e644586": {
 			"parent": "140a5977719aedc9",
@@ -1533,8 +2092,16 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
-						"position": { "x": -2.0, "y": 4.0, "z": 11.0 }
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": -2,
+							"y": 4,
+							"z": 11
+						}
 					}
 				},
 				"m_eidParent": {
@@ -1553,7 +2120,11 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
 						"position": {
 							"x": -1.0060529708862305,
 							"y": -2.899717092514038,
@@ -1565,11 +2136,14 @@
 					"type": "SVector3",
 					"value": {
 						"x": 1.2727999687194824,
-						"y": 5.0,
+						"y": 5,
 						"z": 2.477570056915283
 					}
 				},
-				"m_bDisableCulling": { "type": "bool", "value": true },
+				"m_bDisableCulling": {
+					"type": "bool",
+					"value": true
+				},
 				"m_RoomRight": {
 					"type": "SEntityTemplateReference",
 					"value": null
@@ -1585,7 +2159,11 @@
 					"postInit": true
 				}
 			},
-			"subsets": { "Gates": ["140a5977719aedc9"] }
+			"subsets": {
+				"Gates": [
+					"140a5977719aedc9"
+				]
+			}
 		},
 		"eea1cab031a40f95": {
 			"parent": "140a5977719aedc9",
@@ -1596,8 +2174,16 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": -180.0 },
-						"position": { "x": -1.0, "y": 1.0, "z": 0.0 }
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -180
+						},
+						"position": {
+							"x": -1,
+							"y": 1,
+							"z": 0
+						}
 					}
 				},
 				"m_eidParent": {
@@ -1616,8 +2202,16 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
-						"position": { "x": -3.0, "y": -2.0, "z": 5.0 }
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": -3,
+							"y": -2,
+							"z": 5
+						}
 					}
 				},
 				"m_eidParent": {
@@ -1636,7 +2230,11 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": -180.0 },
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -180
+						},
 						"position": {
 							"x": -0.7765330076217651,
 							"y": -0.6921411156654358,
@@ -1660,8 +2258,16 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": -180.0 },
-						"position": { "x": 2.5, "y": -4.5, "z": 13.0 }
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -180
+						},
+						"position": {
+							"x": 2.5,
+							"y": -4.5,
+							"z": 13
+						}
 					}
 				},
 				"m_eidParent": {
@@ -1680,7 +2286,11 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": 90.0 },
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 90
+						},
 						"position": {
 							"x": 1.907938003540039,
 							"y": -0.8764389753341675,
@@ -1691,19 +2301,26 @@
 				"m_PrimitiveScale": {
 					"type": "SVector3",
 					"value": {
-						"x": 1.0,
+						"x": 1,
 						"y": 0.7533969879150391,
-						"z": 1.0
+						"z": 1
 					}
 				},
-				"m_fLODScale": { "type": "float32", "value": 1.5 },
+				"m_fLODScale": {
+					"type": "float32",
+					"value": 1.5
+				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
 					"value": "140a5977719aedc9",
 					"postInit": true
 				}
 			},
-			"subsets": { "AudioEmitters": ["140a5977719aedc9"] }
+			"subsets": {
+				"AudioEmitters": [
+					"140a5977719aedc9"
+				]
+			}
 		},
 		"4cfcb303bf3dbd0d": {
 			"parent": "140a5977719aedc9",
@@ -1714,14 +2331,30 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": -90.0 },
-						"position": { "x": 2.75, "y": -3.5, "z": 13.0 }
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -90.00002049056873
+						},
+						"position": {
+							"x": 2.743955612182617,
+							"y": -3.500669479370117,
+							"z": 13
+						}
 					}
 				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
 					"value": "140a5977719aedc9",
 					"postInit": true
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 1,
+						"y": 1,
+						"z": 0.600000011920929
+					}
 				}
 			}
 		},
@@ -1734,8 +2367,16 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": 90.0 },
-						"position": { "x": 0.0, "y": 4.0, "z": 7.0 }
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 90
+						},
+						"position": {
+							"x": 0,
+							"y": 4,
+							"z": 7
+						}
 					}
 				},
 				"m_eidParent": {
@@ -1754,13 +2395,25 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": -90.0 },
-						"position": { "x": -4.0, "y": 0.0, "z": 15.5 }
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -90
+						},
+						"position": {
+							"x": -4,
+							"y": 0,
+							"z": 15.5
+						}
 					}
 				},
 				"m_PrimitiveScale": {
 					"type": "SVector3",
-					"value": { "x": 0.5, "y": 0.5, "z": 0.5 }
+					"value": {
+						"x": 0.5,
+						"y": 0.5,
+						"z": 0.5
+					}
 				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
@@ -1778,13 +2431,25 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
-						"position": { "x": -1.0, "y": 3.0, "z": 15.5 }
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": -1,
+							"y": 3,
+							"z": 15.5
+						}
 					}
 				},
 				"m_PrimitiveScale": {
 					"type": "SVector3",
-					"value": { "x": 0.5, "y": 0.5, "z": 0.5 }
+					"value": {
+						"x": 0.5,
+						"y": 0.5,
+						"z": 0.5
+					}
 				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
@@ -1802,13 +2467,25 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": -180.0 },
-						"position": { "x": -1.0, "y": -3.0, "z": 15.5 }
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -180
+						},
+						"position": {
+							"x": -1,
+							"y": -3,
+							"z": 15.5
+						}
 					}
 				},
 				"m_PrimitiveScale": {
 					"type": "SVector3",
-					"value": { "x": 0.5, "y": 0.5, "z": 0.5 }
+					"value": {
+						"x": 0.5,
+						"y": 0.5,
+						"z": 0.5
+					}
 				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
@@ -1826,8 +2503,16 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": -90.0 },
-						"position": { "x": -5.5, "y": -2.5, "z": 13.0 }
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -90
+						},
+						"position": {
+							"x": -5.5,
+							"y": -2.5,
+							"z": 13
+						}
 					}
 				},
 				"m_eidParent": {
@@ -1846,8 +2531,16 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": -180.0 },
-						"position": { "x": 1.5, "y": -4.5, "z": 13.0 }
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -180
+						},
+						"position": {
+							"x": 1.5,
+							"y": -4.5,
+							"z": 13
+						}
 					}
 				},
 				"m_eidParent": {
@@ -1866,7 +2559,11 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
 						"position": {
 							"x": -2.7765328884124756,
 							"y": 4.307858943939209,
@@ -1890,8 +2587,16 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
-						"position": { "x": -1.0, "y": 3.0, "z": 7.0 }
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": -1,
+							"y": 3,
+							"z": 7
+						}
 					}
 				},
 				"m_eidParent": {
@@ -1910,8 +2615,16 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": -180.0 },
-						"position": { "x": -1.0, "y": 1.0, "z": 7.0 }
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -180
+						},
+						"position": {
+							"x": -1,
+							"y": 1,
+							"z": 7
+						}
 					}
 				},
 				"m_eidParent": {
@@ -1930,8 +2643,16 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
-						"position": { "x": -3.0, "y": 0.0, "z": 5.0 }
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": -3,
+							"y": 0,
+							"z": 5
+						}
 					}
 				},
 				"m_eidParent": {
@@ -1950,14 +2671,30 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
-						"position": { "x": -3.0, "y": -3.75, "z": 13.0 }
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": -3,
+							"y": -3.75,
+							"z": 13
+						}
 					}
 				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
 					"value": "140a5977719aedc9",
 					"postInit": true
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 1,
+						"y": 1,
+						"z": 0.600000011920929
+					}
 				}
 			}
 		},
@@ -1970,11 +2707,15 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": -90.0 },
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -90
+						},
 						"position": {
 							"x": -4.028456211090088,
 							"y": -2.9000000953674316,
-							"z": 5.0
+							"z": 5
 						}
 					}
 				},
@@ -1994,8 +2735,16 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
-						"position": { "x": -3.5, "y": 4.5, "z": 13.0 }
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": -3.5,
+							"y": 4.5,
+							"z": 13
+						}
 					}
 				},
 				"m_eidParent": {
@@ -2014,7 +2763,11 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": 90.0 },
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 90
+						},
 						"position": {
 							"x": 1.215105056762695,
 							"y": 3.0000009536743164,
@@ -2024,7 +2777,11 @@
 				},
 				"m_PrimitiveScale": {
 					"type": "SVector3",
-					"value": { "x": 1.0, "y": 1.0, "z": 1.0 }
+					"value": {
+						"x": 1,
+						"y": 1,
+						"z": 1
+					}
 				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
@@ -2042,7 +2799,11 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": 90.0 },
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 90
+						},
 						"position": {
 							"x": 3.2234671115875244,
 							"y": 2.307858943939209,
@@ -2066,7 +2827,11 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": 90.0 },
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 90
+						},
 						"position": {
 							"x": 2.2234671115875244,
 							"y": 5.307858943939209,
@@ -2090,8 +2855,16 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
-						"position": { "x": -3.0, "y": 3.0, "z": 11.0 }
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": -3,
+							"y": 3,
+							"z": 11
+						}
 					}
 				},
 				"m_eidParent": {
@@ -2110,8 +2883,16 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
-						"position": { "x": -4.0, "y": 4.0, "z": 11.0 }
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": -4,
+							"y": 4,
+							"z": 11
+						}
 					}
 				},
 				"m_eidParent": {
@@ -2130,8 +2911,16 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": -180.0 },
-						"position": { "x": -2.0, "y": -3.0, "z": 13.0 }
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -180
+						},
+						"position": {
+							"x": -2,
+							"y": -3,
+							"z": 13
+						}
 					}
 				},
 				"m_eidParent": {
@@ -2150,11 +2939,15 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
 						"position": {
 							"x": 2.2234671115875244,
 							"y": 0.3078589141368866,
-							"z": 0.014030460268259048
+							"z": 0.045194000005722046
 						}
 					}
 				},
@@ -2162,6 +2955,14 @@
 					"type": "SEntityTemplateReference",
 					"value": "cf49c89057597549",
 					"postInit": true
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 1,
+						"y": 1,
+						"z": 0.600000011920929
+					}
 				}
 			}
 		},
@@ -2174,14 +2975,30 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
-						"position": { "x": 1.0, "y": 3.75, "z": 13.0 }
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": 1,
+							"y": 3.75,
+							"z": 13
+						}
 					}
 				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
 					"value": "140a5977719aedc9",
 					"postInit": true
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 1,
+						"y": 1,
+						"z": 0.600000011920929
+					}
 				}
 			}
 		},
@@ -2194,8 +3011,16 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": 90.0 },
-						"position": { "x": 3.5, "y": 4.5, "z": 13.0 }
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 90
+						},
+						"position": {
+							"x": 3.5,
+							"y": 4.5,
+							"z": 13
+						}
 					}
 				},
 				"m_eidParent": {
@@ -2214,11 +3039,15 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": 90.0 },
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 90
+						},
 						"position": {
-							"x": 1.0,
+							"x": 1,
 							"y": 2.9999990463256836,
-							"z": 13.0
+							"z": 13
 						}
 					}
 				},
@@ -2238,14 +3067,30 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": -90.0 },
-						"position": { "x": -4.75, "y": 3.5, "z": 13.0 }
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -90
+						},
+						"position": {
+							"x": -4.75,
+							"y": 3.5,
+							"z": 13
+						}
 					}
 				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
 					"value": "140a5977719aedc9",
 					"postInit": true
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 1,
+						"y": 1,
+						"z": 0.600000011920929
+					}
 				}
 			}
 		},
@@ -2258,14 +3103,30 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
-						"position": { "x": -3.0, "y": 3.75, "z": 13.0 }
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": -3,
+							"y": 3.75,
+							"z": 13
+						}
 					}
 				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
 					"value": "140a5977719aedc9",
 					"postInit": true
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 1,
+						"y": 1,
+						"z": 0.600000011920929
+					}
 				}
 			}
 		},
@@ -2278,7 +3139,11 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
 						"position": {
 							"x": -1.2234669923782349,
 							"y": -2.307858943939209,
@@ -2302,10 +3167,15 @@
 						"z": 2.6303799152374268
 					}
 				},
-				"m_bCSMRoom": { "type": "bool", "value": true },
+				"m_bCSMRoom": {
+					"type": "bool",
+					"value": true
+				},
 				"m_Clients": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": []
+					"value": [
+
+					]
 				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
@@ -2313,7 +3183,11 @@
 					"postInit": true
 				}
 			},
-			"subsets": { "Rooms": ["140a5977719aedc9"] }
+			"subsets": {
+				"Rooms": [
+					"140a5977719aedc9"
+				]
+			}
 		},
 		"83fefd7ee2105af0": {
 			"parent": "140a5977719aedc9",
@@ -2324,7 +3198,11 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": 90.0 },
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 90
+						},
 						"position": {
 							"x": 1.907938003540039,
 							"y": 1.121948003768921,
@@ -2335,19 +3213,26 @@
 				"m_PrimitiveScale": {
 					"type": "SVector3",
 					"value": {
-						"x": 1.0,
+						"x": 1,
 						"y": 0.7533969879150391,
-						"z": 1.0
+						"z": 1
 					}
 				},
-				"m_fLODScale": { "type": "float32", "value": 1.5 },
+				"m_fLODScale": {
+					"type": "float32",
+					"value": 1.5
+				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
 					"value": "140a5977719aedc9",
 					"postInit": true
 				}
 			},
-			"subsets": { "AudioEmitters": ["140a5977719aedc9"] }
+			"subsets": {
+				"AudioEmitters": [
+					"140a5977719aedc9"
+				]
+			}
 		},
 		"c3e5944f2c65d712": {
 			"parent": "cf49c89057597549",
@@ -2358,7 +3243,11 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
 						"position": {
 							"x": 0.2727699875831604,
 							"y": 2.3682429790496826,
@@ -2374,7 +3263,10 @@
 						"z": 2.828310012817383
 					}
 				},
-				"m_fColorIntensity": { "type": "float32", "value": 1.0 },
+				"m_fColorIntensity": {
+					"type": "float32",
+					"value": 1
+				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
 					"value": "cf49c89057597549"
@@ -2390,7 +3282,11 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
 						"position": {
 							"x": 0.07031799852848053,
 							"y": 2.588736057281494,
@@ -2402,18 +3298,27 @@
 					"type": "ILightEntity.ELightType",
 					"value": "LT_SPOT"
 				},
-				"m_fDiffusePower": { "type": "float32", "value": 0 },
+				"m_fDiffusePower": {
+					"type": "float32",
+					"value": 0
+				},
 				"m_diffuseColor": {
 					"type": "SColorRGB",
 					"value": "#ffe2a8"
 				},
 				"m_vAngularAttenuation": {
 					"type": "SVector2",
-					"value": { "x": 0.0, "y": 1.385398030281067 }
+					"value": {
+						"x": 0,
+						"y": 1.385398030281067
+					}
 				},
 				"m_vFarAttenuation": {
 					"type": "SVector2",
-					"value": { "x": 1.0, "y": 6.0 }
+					"value": {
+						"x": 1,
+						"y": 6
+					}
 				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
@@ -2430,8 +3335,16 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": 90.0 },
-						"position": { "x": 0.0, "y": -1.0, "z": 5.0 }
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 90
+						},
+						"position": {
+							"x": 0,
+							"y": -1,
+							"z": 5
+						}
 					}
 				},
 				"m_eidParent": {
@@ -2450,8 +3363,16 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": -90.0 },
-						"position": { "x": -4.0, "y": -2.0, "z": 13.0 }
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -90
+						},
+						"position": {
+							"x": -4,
+							"y": -2,
+							"z": 13
+						}
 					}
 				},
 				"m_eidParent": {
@@ -2470,11 +3391,15 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": -90.0 },
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -90
+						},
 						"position": {
 							"x": -4.028457164764404,
 							"y": -4.900000095367432,
-							"z": 5.0
+							"z": 5
 						}
 					}
 				},
@@ -2494,14 +3419,30 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": -90.0 },
-						"position": { "x": -4.75, "y": -1.5, "z": 13.0 }
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -90
+						},
+						"position": {
+							"x": -4.75,
+							"y": -1.5,
+							"z": 13
+						}
 					}
 				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
 					"value": "140a5977719aedc9",
 					"postInit": true
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 1,
+						"y": 1,
+						"z": 0.600000011920929
+					}
 				}
 			}
 		},
@@ -2514,8 +3455,16 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": 90.0 },
-						"position": { "x": 3.5, "y": 0.5, "z": 13.0 }
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 90
+						},
+						"position": {
+							"x": 3.5,
+							"y": 0.5,
+							"z": 13
+						}
 					}
 				},
 				"m_eidParent": {
@@ -2534,16 +3483,24 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": -90.0 },
-						"position": { "x": -4.75, "y": 0.0, "z": 13.0 }
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -90.00002049056873
+						},
+						"position": {
+							"x": -4.75,
+							"y": 0,
+							"z": 13
+						}
 					}
 				},
 				"m_PrimitiveScale": {
 					"type": "SVector3",
 					"value": {
 						"x": 0.5014669895172119,
-						"y": 1.0,
-						"z": 1.0
+						"y": 1,
+						"z": 0.600000011920929
 					}
 				},
 				"m_eidParent": {
@@ -2562,7 +3519,11 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": -90.0 },
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -90
+						},
 						"position": {
 							"x": 1.9237689971923828,
 							"y": 0.971675992012024,
@@ -2578,11 +3539,14 @@
 					"type": "SVector3",
 					"value": {
 						"x": 0.9172840118408204,
-						"y": 5.0,
+						"y": 5,
 						"z": 1.1512999534606934
 					}
 				},
-				"m_bDisableCulling": { "type": "bool", "value": true },
+				"m_bDisableCulling": {
+					"type": "bool",
+					"value": true
+				},
 				"m_RoomRight": {
 					"type": "SEntityTemplateReference",
 					"value": null
@@ -2593,7 +3557,11 @@
 					"postInit": true
 				}
 			},
-			"subsets": { "Gates": ["140a5977719aedc9"] }
+			"subsets": {
+				"Gates": [
+					"140a5977719aedc9"
+				]
+			}
 		},
 		"140a5977719aedc9": {
 			"parent": null,
@@ -2604,8 +3572,16 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
-						"position": { "x": 1.0, "y": -1.0, "z": 1.0 }
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": 1,
+							"y": -1,
+							"z": 1
+						}
 					}
 				}
 			},
@@ -2653,7 +3629,11 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": 90.0 },
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 90
+						},
 						"position": {
 							"x": 3.2234671115875244,
 							"y": 4.307858943939209,
@@ -2676,11 +3656,15 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": -90.0 },
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -90
+						},
 						"position": {
 							"x": 2.75,
 							"y": 0.0012929999502375722,
-							"z": 13.0
+							"z": 13
 						}
 					}
 				},
@@ -2688,8 +3672,8 @@
 					"type": "SVector3",
 					"value": {
 						"x": 0.5014669895172119,
-						"y": 1.0,
-						"z": 1.0
+						"y": 1,
+						"z": 0.600000011920929
 					}
 				},
 				"m_eidParent": {
@@ -2707,8 +3691,16 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": -90.0 },
-						"position": { "x": -4.0, "y": -2.5, "z": 9.0 }
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -90
+						},
+						"position": {
+							"x": -4,
+							"y": -2.5,
+							"z": 9
+						}
 					}
 				},
 				"m_eidParent": {
@@ -2726,15 +3718,30 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": -90, "y": 0, "z": 0 },
-						"position": { "x": -1.0, "y": 0.8, "z": 13.0 }
+						"rotation": {
+							"x": -90,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": -1,
+							"y": 0.8,
+							"z": 13
+						}
 					}
 				},
 				"m_vPortalSize": {
 					"type": "SVector3",
-					"value": { "x": 2, "y": 3.0, "z": 3.8 }
+					"value": {
+						"x": 5,
+						"y": 3,
+						"z": 3.8
+					}
 				},
-				"m_bDisableCulling": { "type": "bool", "value": true },
+				"m_bDisableCulling": {
+					"type": "bool",
+					"value": true
+				},
 				"m_RoomRight": {
 					"type": "SEntityTemplateReference",
 					"value": null
@@ -2750,7 +3757,11 @@
 					"postInit": true
 				}
 			},
-			"subsets": { "Gates": ["140a5977719aedc9"] }
+			"subsets": {
+				"Gates": [
+					"140a5977719aedc9"
+				]
+			}
 		},
 		"cafedf0037c8ab02": {
 			"parent": "cf49c89057597549",
@@ -2761,7 +3772,11 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": -90, "y": 0.0, "z": -0.0 },
+						"rotation": {
+							"x": -90,
+							"y": 0,
+							"z": 0
+						},
 						"position": {
 							"x": -2.486533007621765,
 							"y": 5.307858943939209,
@@ -2776,7 +3791,11 @@
 				},
 				"m_PrimitiveScale": {
 					"type": "SVector3",
-					"value": { "x": 1.35, "y": 1, "z": 1.19 }
+					"value": {
+						"x": 1.35,
+						"y": 1,
+						"z": 1.19
+					}
 				}
 			}
 		},
@@ -2789,7 +3808,11 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": -90, "y": 0.0, "z": -0.0 },
+						"rotation": {
+							"x": -90,
+							"y": 0,
+							"z": 0
+						},
 						"position": {
 							"x": -2.486533007621765,
 							"y": 2.342858943939209,
@@ -2804,7 +3827,11 @@
 				},
 				"m_PrimitiveScale": {
 					"type": "SVector3",
-					"value": { "x": 1.35, "y": 1, "z": 1.19 }
+					"value": {
+						"x": 1.35,
+						"y": 1,
+						"z": 1.19
+					}
 				}
 			}
 		},
@@ -2813,66 +3840,6 @@
 			"name": "New_floor_ext",
 			"factory": "[modules:/zentity.class].pc_entitytype",
 			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
-		},
-		"cafe4f7bf1561324": {
-			"parent": "cafe180a74931138",
-			"name": "guard_tower_platform_a_21",
-			"factory": "[assembly:/_pro/environment/geometry/levels/falcon/prison_guard_tower_a.wl2?/guard_tower_platform_col_fix_a.prim].pc_entitytype",
-			"blueprint": "[assembly:/templates/geometrytemplatestaticcoll.template?/geomentity01.entitytemplate].pc_entityblueprint",
-			"properties": {
-				"m_mTransform": {
-					"type": "SMatrix43",
-					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
-						"position": { "x": 1.0, "y": -2, "z": 12.95 }
-					}
-				},
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "140a5977719aedc9",
-					"postInit": true
-				}
-			}
-		},
-		"cafe03f269e0731d": {
-			"parent": "cafe180a74931138",
-			"name": "guard_tower_platform_a_22",
-			"factory": "[assembly:/_pro/environment/geometry/levels/falcon/prison_guard_tower_a.wl2?/guard_tower_platform_col_fix_a.prim].pc_entitytype",
-			"blueprint": "[assembly:/templates/geometrytemplatestaticcoll.template?/geomentity01.entitytemplate].pc_entityblueprint",
-			"properties": {
-				"m_mTransform": {
-					"type": "SMatrix43",
-					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
-						"position": { "x": -1, "y": -2, "z": 12.95 }
-					}
-				},
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "140a5977719aedc9",
-					"postInit": true
-				}
-			}
-		},
-		"cafea44804625c62": {
-			"parent": "cafe180a74931138",
-			"name": "guard_tower_platform_a_23",
-			"factory": "[assembly:/_pro/environment/geometry/levels/falcon/prison_guard_tower_a.wl2?/guard_tower_platform_col_fix_a.prim].pc_entitytype",
-			"blueprint": "[assembly:/templates/geometrytemplatestaticcoll.template?/geomentity01.entitytemplate].pc_entityblueprint",
-			"properties": {
-				"m_mTransform": {
-					"type": "SMatrix43",
-					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
-						"position": { "x": -3, "y": -2, "z": 12.95 }
-					}
-				},
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "140a5977719aedc9",
-					"postInit": true
-				}
-			}
 		},
 		"cafe713030b1d3ab": {
 			"parent": "cafe180a74931138",
@@ -2883,54 +3850,34 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
-						"position": { "x": -3.0, "y": -0.0, "z": 12.95 }
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": 1,
+							"y": 2,
+							"z": 13
+						}
 					}
 				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
 					"value": "140a5977719aedc9",
 					"postInit": true
-				}
-			}
-		},
-		"cafe19e32985c691": {
-			"parent": "cafe180a74931138",
-			"name": "guard_tower_platform_a_25",
-			"factory": "[assembly:/_pro/environment/geometry/levels/falcon/prison_guard_tower_a.wl2?/guard_tower_platform_col_fix_a.prim].pc_entitytype",
-			"blueprint": "[assembly:/templates/geometrytemplatestaticcoll.template?/geomentity01.entitytemplate].pc_entityblueprint",
-			"properties": {
-				"m_mTransform": {
-					"type": "SMatrix43",
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
 					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
-						"position": { "x": -3, "y": 2, "z": 13 }
+						"x": 1,
+						"y": 1,
+						"z": 0.600000011920929
 					}
-				},
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "140a5977719aedc9",
-					"postInit": true
-				}
-			}
-		},
-		"cafed814de28911e": {
-			"parent": "cafe180a74931138",
-			"name": "guard_tower_platform_a_26",
-			"factory": "[assembly:/_pro/environment/geometry/levels/falcon/prison_guard_tower_a.wl2?/guard_tower_platform_col_fix_a.prim].pc_entitytype",
-			"blueprint": "[assembly:/templates/geometrytemplatestaticcoll.template?/geomentity01.entitytemplate].pc_entityblueprint",
-			"properties": {
-				"m_mTransform": {
-					"type": "SMatrix43",
-					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
-						"position": { "x": 1, "y": 2, "z": 13 }
-					}
-				},
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "140a5977719aedc9",
-					"postInit": true
 				}
 			}
 		},
@@ -2943,23 +3890,53 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
-						"position": { "x": 1, "y": 0, "z": 13 }
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": 1,
+							"y": 0,
+							"z": 13
+						}
 					}
 				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
 					"value": "140a5977719aedc9",
 					"postInit": true
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 1,
+						"y": 1,
+						"z": 0.600000011920929
+					}
 				}
 			}
 		}
 	},
-	"propertyOverrides": [],
-	"overrideDeletes": [],
-	"pinConnectionOverrides": [],
-	"pinConnectionOverrideDeletes": [],
-	"externalScenes": [],
+	"propertyOverrides": [
+
+	],
+	"overrideDeletes": [
+
+	],
+	"pinConnectionOverrides": [
+
+	],
+	"pinConnectionOverrideDeletes": [
+
+	],
+	"externalScenes": [
+
+	],
 	"subType": "template",
 	"quickEntityVersion": 3.1,
 	"extraFactoryDependencies": [
@@ -3196,6 +4173,10 @@
 			"flag": "5F"
 		}
 	],
-	"extraBlueprintDependencies": [],
-	"comments": []
+	"extraBlueprintDependencies": [
+
+	],
+	"comments": [
+
+	]
 }
