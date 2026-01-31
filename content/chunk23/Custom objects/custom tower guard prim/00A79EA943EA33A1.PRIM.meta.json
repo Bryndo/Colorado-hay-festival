@@ -1,0 +1,37 @@
+{
+    "hash_value": "00A79EA943EA33A1",
+    "hash_offset": 10392003,
+    "hash_size": 2147662189,
+    "hash_resource_type": "PRIM",
+    "hash_reference_table_size": 58,
+    "hash_reference_table_dummy": 0,
+    "hash_size_final": 514704,
+    "hash_size_in_memory": 4294967295,
+    "hash_size_in_video_memory": 4294967295,
+    "hash_reference_data": [
+        {
+            "hash": "[assembly:/_pro/environment/materials/props/industrial/water_tower_a_decals.mi].pc_mi",
+            "flag": "5F"
+        },
+        {
+            "hash": "[assembly:/_pro/environment/materials/generic/water_tower_a_metal_gate.mi].pc_mi",
+            "flag": "5F"
+        },
+        {
+            "hash": "[assembly:/_pro/environment/materials/generic/water_tower_a_support_frame.mi].pc_mi",
+            "flag": "5F"
+        },
+        {
+            "hash": "[assembly:/_pro/environment/materials/levels/falcon/concrete_falcon_a.mi].pc_mi",
+            "flag": "5F"
+        },
+        {
+            "hash": "[assembly:/_pro/environment/materials/generic/water_tower_a_support.mi].pc_mi",
+            "flag": "5F"
+        },
+        {
+            "hash": "[assembly:/_pro/environment/materials/levels/falcon/falcon_snow_alpha.mi].pc_mi",
+            "flag": "5F"
+        }
+    ]
+}

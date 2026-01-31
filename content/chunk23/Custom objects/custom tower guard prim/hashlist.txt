@@ -1,0 +1,2 @@
+00A79EA943EA33A1.PRIM,[assembly:/_pro/environment/geometry/levels/hay_fest/prison_guard_tower_a.wl2?/prison_guard_tower_a.prim].pc_prim
+00D70D91E8D07B03.ALOC,[assembly:/_pro/environment/geometry/levels/hay_fest/prison_guard_tower_a.wl2?/prison_guard_tower_a.prim].pc_coll
