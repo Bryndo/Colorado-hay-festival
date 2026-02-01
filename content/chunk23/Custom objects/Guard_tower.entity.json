@@ -1268,6 +1268,20 @@
 						}
 					}
 				},
+				"m_ResourceID": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "00A79EA943EA33A1",
+						"flag": "5F"
+					}
+				},
+				"m_CollisionResourceID": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "00D70D91E8D07B03",
+						"flag": "5F"
+					}
+				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
 					"value": "140a5977719aedc9",
