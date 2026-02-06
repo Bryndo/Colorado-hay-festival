@@ -3,7 +3,7 @@
     "id": "Bryn.HayFestival",
     "name": "Colorado Harvest Festival",
     "description": "Adds a Harvest Festival to Colorado",
-    "authors": ["Bryn"],
+    "authors": ["The Bryx"],
     "frameworkVersion": "2.33.26",
     "version": "1.0.0",
     "blobsFolders": ["blobs"],
@@ -911,7 +911,22 @@
             "runtimeID": "007EBFFF08E37D52",
             "toChunk": 23,
             "Comment": "scatter_clovers"
+        },
+        {"runtimeID": "0039BD3E9E1D7668",
+        "toChunk": 23,
+        "comment":"skatter grass"
+        },
+        {
+            "runtimeID": "00BDBDB56EAFD1EB",
+            "toChunk": 23,
+            "Comment": "scatter_data"
+        },
+        {
+            "runtimeID": "0045AD56321EDBF6",
+            "toChunk": 23,
+            "Comment": "grass skunk"
         }
+    
         
 
 
