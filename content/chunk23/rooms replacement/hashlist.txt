@@ -8,3 +8,5 @@
 00AEE85F48C32269.PRIM,[assembly:/_pro/environment/geometry/levels/colarado/colorado_farmhouse_a_rooms.wl2?/colorado_building_a_floor_first_bedroom_hay_fest.prim].pc_prim
 003C094D89E9CC71.ALOC,[assembly:/_pro/environment/geometry/levels/colarado/colorado_farmhouse_a_rooms.wl2?/colorado_building_a_floor_first_bedroom_hay_fest.prim].pc_coll
 
+0097F0E3E73A0803.PRIM,[assembly:/_pro/environment/geometry/levels/colarado/colorado_farmhouse_a_rooms.wl2?/colorado_building_a_floor_first_mainhall_hay_fest.prim].pc_prim
+006772B7888183BF.ALOC,[assembly:/_pro/environment/geometry/levels/colarado/colorado_farmhouse_a_rooms.wl2?/colorado_building_a_floor_first_mainhall_hay_fest.prim].pc_coll
