@@ -1,0 +1,57 @@
+{
+    "hash_value": "00779F892A30B8DD",
+    "hash_offset": 76648070,
+    "hash_size": 2147546046,
+    "hash_resource_type": "PRIM",
+    "hash_reference_table_size": 103,
+    "hash_reference_table_dummy": 0,
+    "hash_size_final": 94624,
+    "hash_size_in_memory": 4294967295,
+    "hash_size_in_video_memory": 4294967295,
+    "hash_reference_data": [
+        {
+            "hash": "[assembly:/_pro/environment/materials/generic/wall/wall_plaster_clean_b.mi].pc_mi",
+            "flag": "5F"
+        },
+        {
+            "hash": "[assembly:/_pro/environment/materials/generic/floor/birchwood_floor_b.mi].pc_mi",
+            "flag": "5F"
+        },
+        {
+            "hash": "[assembly:/_pro/environment/materials/generic/wall/italy_stucco_indoor_blend_b.mi].pc_mi",
+            "flag": "5F"
+        },
+        {
+            "hash": "[assembly:/_pro/environment/materials/generic/trim/trims_wood_indoor_a.mi].pc_mi",
+            "flag": "5F"
+        },
+        {
+            "hash": "[assembly:/_pro/environment/materials/generic/wall/wall_plaster_clean_f.mi].pc_mi",
+            "flag": "5F"
+        },
+        {
+            "hash": "[assembly:/_pro/environment/materials/decals/assembly/assembly_lines_a_decal_onlynormals.mi].pc_mi",
+            "flag": "5F"
+        },
+        {
+            "hash": "[assembly:/_pro/environment/materials/decals/dirt_buildings_outside_a_colorado_farmhouse.mi].pc_mi",
+            "flag": "5F"
+        },
+        {
+            "hash": "[assembly:/_pro/environment/materials/decals/edges/edge_decal_plaster_c.mi].pc_mi",
+            "flag": "5F"
+        },
+        {
+            "hash": "[assembly:/_pro/environment/materials/props/trash/ceiling_beams_a.mi].pc_mi",
+            "flag": "5F"
+        },
+        {
+            "hash": "[assembly:/_pro/environment/materials/decals/wall/decal_details_plywood_a_colorado_hard_alpha_light.mi].pc_mi",
+            "flag": "5F"
+        },
+        {
+            "hash": "[assembly:/_pro/environment/materials/generic/wall/wall_plaster_clean_a.mi].pc_mi",
+            "flag": "5F"
+        }
+    ]
+}
