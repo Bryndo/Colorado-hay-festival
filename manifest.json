@@ -32,7 +32,9 @@
     ],
     "localisedLines": {
         "00ABB863126D4EC4": "UI_SPLASHSCREEN_HAY_DESC",
-		"005423EB173BC9C6": "UI_SPLASHSCREEN_HAY_TITLE"
+		"005423EB173BC9C6": "UI_SPLASHSCREEN_HAY_TITLE",
+        "009800907602684B": "UI_TOKEN_OUTFIT_HERO_HAY_NAME",
+        "007A23A3040955B7": "UI_TOKEN_OUTFIT_HERO_HAY_DESC"
     },
     "localisation": {
         "english": {
@@ -45,7 +47,9 @@
             "NPC_D_NAME": "Target",
             "NPC_D_DESC": "Target desc",
             "UI_SPLASHSCREEN_HAY_TITLE":"False Shepards",
-            "UI_SPLASHSCREEN_HAY_DESC":"Colorado, USA"
+            "UI_SPLASHSCREEN_HAY_DESC":"Colorado, USA",
+            "UI_TOKEN_OUTFIT_HERO_HAY_NAME": "Colorado suit placeholder",
+            "UI_TOKEN_OUTFIT_HERO_HAY_DESC": "Colorado suit placeholder"
         },
         "french": {
             "UI_CONTRACT_HAY_DESC": "Good afternoon 47, Welcome the the Rusty wheel ranch Harvest festival. What seems like a great excuse to get the whole town together hides a much more sinister truth. The famous Hollywood couple David and Victoria Dyers recently bought the property and are converting it into a self sustaining ecosystem. David is also the second leader of the Keeper Cult, an organization linked to the brainwashing and exploiting of countless young adults all around the world promissing eternal life for all those who join. It seems The Cleavers have created a self sustaining ecosystem with them at the top of the pyramid. Your mission is to eliminate David and Victoria as well as to gain as much intel as possible on this organisation and the location of the final leader of the cult. Good luck 47. ",
@@ -57,7 +61,9 @@
             "NPC_D_NAME": "Target",
             "NPC_D_DESC": "Target desc",
             "UI_SPLASHSCREEN_HAY_TITLE":"False Shepards",
-            "UI_SPLASHSCREEN_HAY_DESC":"Colorado, USA"
+            "UI_SPLASHSCREEN_HAY_DESC":"Colorado, USA",
+            "UI_TOKEN_OUTFIT_HERO_HAY_NAME": "Colorado suit placeholder",
+            "UI_TOKEN_OUTFIT_HERO_HAY_DESC": "Colorado suit placeholder"
         }
     },
     "dependencies": [
@@ -858,11 +864,6 @@
             "Comment": "table_metal_plain"
         },
         {
-            "runtimeID":"002870632029F4DA",
-            "toChunk": 23,
-            "Comment": "consulate glass frosted"
-        },
-        {
             "runtimeID":"0014B75EEC2F6C84",
             "toChunk": 23,
             "Comment": "chair wicker flowers"
@@ -976,16 +977,12 @@
             "toChunk": 23,
             "Comment": "grass skunk"
         },
-        {
-            "runtimeID": "0045AD56321EDBF6",
-            "toChunk": 23,
-            "Comment": "grass skunk"
-        },
-        {
-            "runtimeID": "0045AD56321EDBF6",
-            "toChunk": 23,
-            "Comment": "grass skunk"
-        }
+    {
+        "runtimeID":"00798A8FE615B237",
+        "portFromChunk1": true,
+        "Comment": "bracelet"
+    }
+        
     
         
 

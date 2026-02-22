@@ -1,0 +1,100 @@
+{
+	"tempHash": "00C09B988C489A06",
+	"tbluHash": "00B0B89A45A5EE32",
+	"rootEntity": "cafe1f39be074eb1",
+	"entities": {
+		"cafe338b328f1506": {
+			"parent": "cafe1f39be074eb1",
+			"name": "Nude",
+			"factory": "[modules:/zcharsetcharactertype.class].pc_entitytype",
+			"blueprint": "[modules:/zcharsetcharactertype.class].pc_entityblueprint",
+			"properties": {
+				"m_aVariations": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["cafed40ea2c9f3a0"],
+					"postInit": true
+				}
+			}
+		},
+		"cafed40ea2c9f3a0": {
+			"parent": "cafe338b328f1506",
+			"name": "Var0",
+			"factory": "[modules:/zoutfitvariation.class].pc_entitytype",
+			"blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint"
+		},
+		"cafe1f39be074eb1": {
+			"parent": null,
+			"name": "CHARSET_Agent47_hay",
+			"factory": "004470A9E6A7722D",
+			"blueprint": "00E21A11EC782D9E",
+			"properties": {
+				"m_aCharacters": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						"cafe71f7295492c7",
+						"cafe338b328f1506",
+						"cafeacaf2362fc96"
+					],
+					"postInit": true
+				}
+			}
+		},
+		"cafeacaf2362fc96": {
+			"parent": "cafe1f39be074eb1",
+			"name": "HeroA",
+			"factory": "[modules:/zcharsetcharactertype.class].pc_entitytype",
+			"blueprint": "[modules:/zcharsetcharactertype.class].pc_entityblueprint",
+			"properties": {
+				"m_aVariations": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["cafe2b0c7c73898e"],
+					"postInit": true
+				}
+			}
+		},
+		"cafe71f7295492c7": {
+			"parent": "cafe1f39be074eb1",
+			"name": "Actor",
+			"factory": "[modules:/zcharsetcharactertype.class].pc_entitytype",
+			"blueprint": "[modules:/zcharsetcharactertype.class].pc_entityblueprint",
+			"properties": {
+				"m_aVariations": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["cafe341ac9e8c655"],
+					"postInit": true
+				}
+			}
+		},
+		"cafe341ac9e8c655": {
+			"parent": "cafe71f7295492c7",
+			"name": "0",
+			"factory": "[modules:/zoutfitvariation.class].pc_entitytype",
+			"blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint"
+		},
+		"cafe2b0c7c73898e": {
+			"parent": "cafeacaf2362fc96",
+			"name": "Var0",
+			"factory": "[modules:/zoutfitvariation.class].pc_entitytype",
+			"blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint",
+			"properties": {
+				"m_Outfit": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/characters/templates/hero/agent47/agent47_outfits.template?/outfit_agent47_hay_heroa_v0.entitytemplate].pc_entitytemplate",
+						"flag": "9F"
+					}
+				}
+			}
+		}
+	},
+	"propertyOverrides": [],
+	"overrideDeletes": [],
+	"pinConnectionOverrides": [],
+	"pinConnectionOverrideDeletes": [],
+	"externalScenes": [],
+	"subType": "template",
+	"quickEntityVersion": 3.1,
+	"extraFactoryDependencies": [],
+	"extraBlueprintDependencies": [],
+	"comments": []
+}
