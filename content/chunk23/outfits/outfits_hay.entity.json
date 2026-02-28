@@ -3280,6 +3280,163 @@
 			"name": "CHARSET_Amos_Dexter",
 			"factory": "[assembly:/_pro/characters/templates/colorado/char_colorado_unique.template?/charset_dexter_m.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/_pro/characters/templates/colorado/char_colorado_unique.template?/charset_dexter_m.entitytemplate].pc_entityblueprint"
+		},
+		"cafec276766ec03d": {
+			"parent": "cafef13970562e03",
+			"name": "CHARSET_worker_field_M",
+			"factory": "[assembly:/_pro/characters/templates/colorado/char_hay.template?/charset_field_worker_m.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/characters/templates/colorado/char_hay.template?/charset_field_worker_m.entitytemplate].pc_entityblueprint"
+		},
+		"cafea079fa4bd25b": {
+			"parent": "cafef13970562e03",
+			"name": "Keyword_Prof_Class_Default",
+			"factory": "[assembly:/_pro/design/gamecore/keywords/keywordgenericprofessionclasses.template?/keyword_prof_class_default.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/gamecore/keywords/keywordgenericprofessionclasses.template?/keyword_prof_class_default.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_aHolders": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["cafef13970562e03"],
+					"postInit": true
+				}
+			}
+		},
+		"cafef13970562e03": {
+			"parent": "fffffffffffffffe",
+			"name": "Hay_worker_field",
+			"factory": "[modules:/zglobaloutfitkit.class].pc_entitytype",
+			"blueprint": "[modules:/zglobaloutfitkit.class].pc_entityblueprint",
+			"properties": {
+				"m_DamageMultipliers": {
+					"type": "SBodyPartDamageMultipliers",
+					"value": {
+						"m_fHeadDamageMultiplier": 3.0,
+						"m_fFaceDamageMultiplier": 3.0,
+						"m_fArmDamageMultiplier": 1.0,
+						"m_fLArmDamageScalar": 0.0,
+						"m_fRArmDamageScalar": 0.0,
+						"m_fHandDamageMultiplier": 0.5,
+						"m_fLHandDamageScalar": 0.0,
+						"m_fRHandDamageScalar": 0.0,
+						"m_fLegDamageMultiplier": 0.6000000238418579,
+						"m_fLLegDamageScalar": 0.0,
+						"m_fRLegDamageScalar": 0.0,
+						"m_fTorsoDamageMultiplier": 1.0,
+						"m_bApplyLeftRightScalars": false
+					}
+				},
+				"m_eActorType": {
+					"type": "EActorType",
+					"value": "eAT_Civilian"
+				},
+				"m_eActorCCClass": {
+					"type": "EActorCCPreset",
+					"value": "ACCP_CivilianeMale"
+				},
+				"m_eSoundFootwearType": {
+					"type": "EHM5SoundFootwearType",
+					"value": "EFWT_BOOTS"
+				},
+				"m_aCharSets": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["cafec276766ec03d"]
+				},
+				"m_sId": {
+					"type": "ZGuid",
+					"value": "f4869f56-f514-4389-adc7-79bbfb8ce159"
+				},
+				"m_pParentOutfit": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "6736fcbbd3e73209",
+						"externalScene": "[assembly:/_pro/scenes/bricks/globaldata.brick].pc_entitytype"
+					}
+				},
+				"m_sCommonName": {
+					"type": "ZString",
+					"value": "Miami_Civilian_TouristCasual_M_PRO74780"
+				},
+				"m_sTitle": {
+					"type": "ZString",
+					"value": "Casual Tourist"
+				},
+				"m_rNameTextResource": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/localization/hitman6/conversations/ui/pro/online/repository/outfits_npcs_miami.sweetmenutext?/outfits_miami_civilian_touristcasual_m_pro74780_name_f97447b3-502c-416e-ad36-0a8ea085ada2.sweetline].pc_sweetline",
+						"flag": "5F"
+					}
+				},
+				"m_rDescriptionTextResource": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/localization/hitman6/conversations/ui/pro/online/repository/outfits_npcs_miami.sweetmenutext?/outfits_miami_civilian_touristcasual_m_pro74780_description_f97447b3-502c-416e-ad36-0a8ea085ada2.sweetline].pc_sweetline",
+						"flag": "5F"
+					}
+				},
+				"m_bHeroDisguiseAvailable": {
+					"type": "bool",
+					"value": true
+				},
+				"m_rDefaultVoiceVariations": {
+					"type": "TArray<EActorVoiceVariation>",
+					"value": [
+						"eAVV_CIVMALE01",
+						"eAVV_CIVMALE02",
+						"eAVV_CIVMALE03",
+						"eAVV_CIVMALE04",
+						"eAVV_CIVMALE05",
+						"eAVV_CIVMALE06"
+					]
+				}
+			}
+		},
+		"cafe3b9905829555": {
+			"parent": "cafef13970562e03",
+			"name": "Prof_Miami_Unique",
+			"factory": "[assembly:/_pro/design/actor/profession.template?/prof_miami_unique.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_miami_unique.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_aHolders": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["cafef13970562e03"]
+				}
+			}
+		},
+		"cafea9baa129c2b9": {
+			"parent": "cafef13970562e03",
+			"name": "Prof_Miami_Civilian_TouristCasual",
+			"factory": "[assembly:/_pro/design/actor/profession.template?/prof_miami_civilian_touristcasual.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_miami_civilian_touristcasual.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_aHolders": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["cafef13970562e03"]
+				}
+			}
+		},
+		"cafec0905651e6fe": {
+			"parent": "cafef13970562e03",
+			"name": "Keyword_FOLEY_OUTFIT_CIV_CLOTH_LIGHT",
+			"factory": "[assembly:/_pro/design/gamecore/keywords/keywordsound.template?/keyword_foley_outfit_civ_cloth_light.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/gamecore/keywords/keywordsound.template?/keyword_foley_outfit_civ_cloth_light.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_rHolder": {
+					"type": "SEntityTemplateReference",
+					"value": "cafef13970562e03"
+				}
+			}
+		},
+		"cafef293026d1635": {
+			"parent": "cafef13970562e03",
+			"name": "Prof_Colorado",
+			"factory": "[assembly:/_pro/design/actor/profession.template?/prof_miami.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_miami.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_aHolders": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["cafef13970562e03"]
+				}
+			}
 		}
 	},
 	"propertyOverrides": [],
