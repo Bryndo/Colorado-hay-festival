@@ -1,0 +1,45 @@
+{
+    "hash_value": "00722E69B5ED1E4D",
+    "hash_offset": 89759964,
+    "hash_size": 2147511589,
+    "hash_resource_type": "PRIM",
+    "hash_reference_table_size": 76,
+    "hash_reference_table_dummy": 0,
+    "hash_size_final": 53632,
+    "hash_size_in_memory": 4294967295,
+    "hash_size_in_video_memory": 4294967295,
+    "hash_reference_data": [
+        {
+            "hash": "[assembly:/_pro/environment/materials/decals/dirt_buildings_outside_b.mi].pc_mi",
+            "flag": "5F"
+        },
+        {
+            "hash": "[assembly:/_pro/environment/materials/generic/wood/wooden_boards_barn_a_weathered.mi].pc_mi",
+            "flag": "5F"
+        },
+        {
+            "hash": "[assembly:/_pro/environment/materials/generic/wall/italy_medieval_3mat_blend_type_h.mi].pc_mi",
+            "flag": "5F"
+        },
+        {
+            "hash": "[assembly:/_pro/environment/materials/decals/wall/damaged_wall_b.mi].pc_mi",
+            "flag": "5F"
+        },
+        {
+            "hash": "[assembly:/_pro/environment/materials/decals/concrete_patches_decay_a.mi].pc_mi",
+            "flag": "5F"
+        },
+        {
+            "hash": "[assembly:/_pro/environment/materials/architecture/pillars/wood_collection_a_colorado_weathered.mi].pc_mi",
+            "flag": "5F"
+        },
+        {
+            "hash": "[assembly:/_pro/environment/materials/decals/wall/decal_details_plywood_a_colorado.mi].pc_mi",
+            "flag": "5F"
+        },
+        {
+            "hash": "[assembly:/_pro/environment/materials/decals/dirt_algae_rust_decal_outside_a.mi].pc_mi",
+            "flag": "5F"
+        }
+    ]
+}
