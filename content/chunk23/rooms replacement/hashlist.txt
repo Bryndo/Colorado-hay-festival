@@ -22,3 +22,6 @@
 
 006507118650F058.TEMP,[assembly:/_pro/environment/templates/levels/colorado/outhouse_a.template?/outhouse_room_center_a_hay_fest.entitytemplate].pc_entitytype
 0099B321FDEE7F0E.TBLU,[assembly:/_pro/environment/templates/levels/colorado/outhouse_a.template?/outhouse_room_center_a_hay_fest.entitytemplate].pc_entityblueprint
+
+00722E69B5ED1E4D.PRIM,[assembly:/_pro/environment/geometry/levels/colarado/outhouse_a.wl2?/outhouse_room_storage_b_hay_fest_wall.prim].pc_prim
+00F9EFE25D32012C.ALOC,[assembly:/_pro/environment/geometry/levels/colarado/outhouse_a.wl2?/outhouse_room_storage_b_hay_fest_wall.prim].pc_coll
