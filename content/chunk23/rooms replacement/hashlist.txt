@@ -14,5 +14,11 @@
 00779F892A30B8DD.PRIM,[assembly:/_pro/environment/geometry/levels/colarado/colorado_farmhouse_a_rooms.wl2?/colorado_building_a_floor_first_mainhallend_hay_fest.prim].pc_prim
 00F1D9ECF4631076.ALOC,[assembly:/_pro/environment/geometry/levels/colarado/colorado_farmhouse_a_rooms.wl2?/colorado_building_a_floor_first_mainhallend_hay_fest.prim].pc_coll
 
+
+00F105878CDD2B44.TEMP,[assembly:/_pro/environment/templates/levels/colorado/outhouse_a.template?/outhouse_room_storage_b_hay_fest.entitytemplate].pc_entitytype
+001D7D6246BA55FF.TBLU,[assembly:/_pro/environment/templates/levels/colorado/outhouse_a.template?/outhouse_room_storage_b_hay_fest.entitytemplate].pc_entityblueprint
 00D2A8553A8865DC.PRIM,[assembly:/_pro/environment/geometry/levels/colarado/outhouse_a.wl2?/outhouse_room_storage_b_hay_fest.prim].pc_prim
 00501896A4F36489.ALOC,[assembly:/_pro/environment/geometry/levels/colarado/outhouse_a.wl2?/outhouse_room_storage_b_hay_fest.prim].pc_coll
+
+006507118650F058.TEMP,[assembly:/_pro/environment/templates/levels/colorado/outhouse_a.template?/outhouse_room_center_a_hay_fest.entitytemplate].pc_entitytype
+0099B321FDEE7F0E.TBLU,[assembly:/_pro/environment/templates/levels/colorado/outhouse_a.template?/outhouse_room_center_a_hay_fest.entitytemplate].pc_entityblueprint

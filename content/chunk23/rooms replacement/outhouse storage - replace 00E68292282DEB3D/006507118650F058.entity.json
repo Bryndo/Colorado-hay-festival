@@ -1,0 +1,207 @@
+{
+	 "tempHash": "006507118650F058",
+    "tbluHash": "0099B321FDEE7F0E",
+	"rootEntity": "7f3317fa15f6f85a",
+	"entities": {
+		"c1871ec328ea6afd": {
+			"parent": "7f3317fa15f6f85a",
+			"name": "outhouse_woodbeams_a04",
+			"factory": "[assembly:/_pro/environment/geometry/levels/colarado/outhouse_a.wl2?/outhouse_woodbeams_a.prim].pc_entitytype",
+			"blueprint": "[assembly:/templates/geometrytemplatestaticcoll.template?/geomentity01.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": -0.060155998915433884,
+							"y": -3.6016719341278076,
+							"z": 4.754496097564697
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "7f3317fa15f6f85a",
+					"postInit": true
+				}
+			}
+		},
+		"73c9934dbbfb0a1a": {
+			"parent": "7f3317fa15f6f85a",
+			"name": "outhouse_woodbeams_d",
+			"factory": "[assembly:/_pro/environment/geometry/levels/colarado/outhouse_a.wl2?/outhouse_woodbeams_d.prim].pc_entitytype",
+			"blueprint": "[assembly:/templates/geometrytemplatestaticcoll.template?/geomentity01.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": -0.004137999843806028,
+							"y": -1.3456610441207886,
+							"z": 4.745628833770752
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "7f3317fa15f6f85a",
+					"postInit": true
+				}
+			}
+		},
+		"14372c41827e6575": {
+			"parent": "7f3317fa15f6f85a",
+			"name": "outhouse_woodbeams_a05",
+			"factory": "[assembly:/_pro/environment/geometry/levels/colarado/outhouse_a.wl2?/outhouse_woodbeams_a.prim].pc_entitytype",
+			"blueprint": "[assembly:/templates/geometrytemplatestaticcoll.template?/geomentity01.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -180
+						},
+						"position": {
+							"x": -0.040734000504016876,
+							"y": 3.413130044937134,
+							"z": 4.748195171356201
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "7f3317fa15f6f85a",
+					"postInit": true
+				}
+			}
+		},
+		"0a8ccd308f84048f": {
+			"parent": "7f3317fa15f6f85a",
+			"name": "outhouse_woodbeams_a08",
+			"factory": "[assembly:/_pro/environment/geometry/levels/colarado/outhouse_a.wl2?/outhouse_woodbeams_b.prim].pc_entitytype",
+			"blueprint": "[assembly:/templates/geometrytemplatestaticcoll.template?/geomentity01.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": -0.05657900124788284,
+							"y": 0.9311599731445313,
+							"z": 4.744645118713379
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "7f3317fa15f6f85a",
+					"postInit": true
+				}
+			}
+		},
+		"7f3317fa15f6f85a": {
+			"parent": null,
+			"name": "outhouse_room_center_a",
+			"factory": "[assembly:/_pro/environment/geometry/levels/colarado/outhouse_a.wl2?/outhouse_room_center_a.prim].pc_entitytype",
+			"blueprint": "[assembly:/templates/geometrytemplatestaticcoll.template?/geomentity01.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": 5.603454113006592,
+							"y": -10.162240028381348,
+							"z": 0.6227570176124573
+						}
+					}
+				}
+			}
+		}
+	},
+	"propertyOverrides": [
+
+	],
+	"overrideDeletes": [
+
+	],
+	"pinConnectionOverrides": [
+
+	],
+	"pinConnectionOverrideDeletes": [
+
+	],
+	"externalScenes": [
+
+	],
+	"subType": "template",
+	"quickEntityVersion": 3.1,
+	"extraFactoryDependencies": [
+		{
+			"resource": "[assembly:/_pro/environment/geometry/levels/colarado/outhouse_a.wl2?/outhouse_room_center_a.prim].pc_prim",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/_pro/environment/geometry/levels/colarado/outhouse_a.wl2?/outhouse_room_center_a.prim].pc_coll",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/_pro/environment/geometry/levels/colarado/outhouse_a.wl2?/outhouse_woodbeams_a.prim].pc_prim",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/_pro/environment/geometry/levels/colarado/outhouse_a.wl2?/outhouse_woodbeams_a.prim].pc_coll",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/_pro/environment/geometry/levels/colarado/outhouse_a.wl2?/outhouse_woodbeams_b.prim].pc_prim",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/_pro/environment/geometry/levels/colarado/outhouse_a.wl2?/outhouse_woodbeams_b.prim].pc_coll",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/_pro/environment/geometry/levels/colarado/outhouse_a.wl2?/outhouse_woodbeams_d.prim].pc_prim",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/_pro/environment/geometry/levels/colarado/outhouse_a.wl2?/outhouse_woodbeams_d.prim].pc_coll",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/_pro/environment/geometry/levels/colarado/outhouse_a.wl2?/outhouse_planks_a.prim].pc_prim",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/_pro/environment/geometry/levels/colarado/outhouse_a.wl2?/outhouse_planks_a.prim].pc_coll",
+			"flag": "5F"
+		}
+	],
+	"extraBlueprintDependencies": [
+
+	],
+	"comments": [
+
+	]
+}

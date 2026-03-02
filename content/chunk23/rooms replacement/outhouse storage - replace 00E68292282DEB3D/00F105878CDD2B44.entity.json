@@ -1,0 +1,208 @@
+{
+	"tempHash": "00F105878CDD2B44",
+	"tbluHash": "001D7D6246BA55FF",
+	"rootEntity": "4932b52fbc980761",
+	"entities": {
+		"45162de816a4e743": {
+			"parent": "4932b52fbc980761",
+			"name": "outhouse_woodbeams_a06",
+			"factory": "[assembly:/_pro/environment/geometry/levels/colarado/outhouse_a.wl2?/outhouse_woodbeams_a.prim].pc_entitytype",
+			"blueprint": "[assembly:/templates/geometrytemplatestaticcoll.template?/geomentity01.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": 0.2894349992275238,
+							"y": 0.8106610178947449,
+							"z": 4.745108127593994
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "4932b52fbc980761",
+					"postInit": true
+				}
+			}
+		},
+		"494ccb5768d72c90": {
+			"parent": "4932b52fbc980761",
+			"name": "outhouse_woodbeams_a04",
+			"factory": "[assembly:/_pro/environment/geometry/levels/colarado/outhouse_a.wl2?/outhouse_woodbeams_c.prim].pc_entitytype",
+			"blueprint": "[assembly:/templates/geometrytemplatestaticcoll.template?/geomentity01.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -179.99999499104388
+						},
+						"position": {
+							"x": 0.28942999243736267,
+							"y": -1.1876840591430664,
+							"z": 4.7618608474731445
+						},
+						"scale": {
+							"x": 1.0000000000000075,
+							"y": 1.0000000000000075,
+							"z": 1
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "4932b52fbc980761",
+					"postInit": true
+				}
+			}
+		},
+		"87a29d3b618652b4": {
+			"parent": "4932b52fbc980761",
+			"name": "outhouse_woodbeams_a03",
+			"factory": "[assembly:/_pro/environment/geometry/levels/colarado/outhouse_a.wl2?/outhouse_woodbeams_b.prim].pc_entitytype",
+			"blueprint": "[assembly:/templates/geometrytemplatestaticcoll.template?/geomentity01.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -180
+						},
+						"position": {
+							"x": 0.2915459871292114,
+							"y": 3.2392609119415283,
+							"z": 4.743988990783691
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "4932b52fbc980761",
+					"postInit": true
+				}
+			}
+		},
+		"4932b52fbc980761": {
+			"parent": null,
+			"name": "outhouse_room_storage_b",
+			"factory": "[assembly:/templates/aspectdummy.aspect]([assembly:/_pro/environment/geometry/levels/colarado/outhouse_a.wl2?/outhouse_room_storage_b.prim].entitytype,[modules:/zexplosionblockeraspect.class].entitytype).pc_entitytype",
+			"blueprint": "[assembly:/templates/aspectdummy.aspect]([assembly:/templates/geometrytemplatestaticcoll.template?/geomentity01.entitytemplate].entitytype,[modules:/zexplosionblockeraspect.class].entitytype).pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": 5.260700225830078,
+							"y": -3.050689935684204,
+							"z": 0.6227189898490906
+						}
+					}
+				},
+          
+                "m_ResourceID": {
+                    "type": "ZRuntimeResourceID",
+                    "value": {
+                        "resource": "00D2A8553A8865DC",
+                        "flag": "5F"
+                    }
+                },
+                "m_CollisionResourceID": {
+                    "type": "ZRuntimeResourceID",
+                    "value": {
+                        "resource": "00501896A4F36489",
+                        "flag": "5F"
+                    }
+                }
+            
+			}
+		}
+	},
+	"propertyOverrides": [
+
+	],
+	"overrideDeletes": [
+
+	],
+	"pinConnectionOverrides": [
+
+	],
+	"pinConnectionOverrideDeletes": [
+
+	],
+	"externalScenes": [
+
+	],
+	"subType": "template",
+	"quickEntityVersion": 3.1,
+	"extraFactoryDependencies": [
+		{
+			"resource": "[assembly:/_pro/environment/geometry/levels/colarado/outhouse_a.wl2?/outhouse_room_storage_b.prim].pc_prim",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/_pro/environment/geometry/levels/colarado/outhouse_a.wl2?/outhouse_room_storage_b.prim].pc_coll",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/_pro/environment/geometry/levels/colarado/outhouse_a.wl2?/outhouse_woodbeams_a.prim].pc_prim",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/_pro/environment/geometry/levels/colarado/outhouse_a.wl2?/outhouse_woodbeams_a.prim].pc_coll",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/_pro/environment/geometry/levels/colarado/outhouse_a.wl2?/outhouse_planks_c.prim].pc_prim",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/_pro/environment/geometry/levels/colarado/outhouse_a.wl2?/outhouse_planks_c.prim].pc_coll",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/_pro/environment/geometry/levels/colarado/outhouse_a.wl2?/outhouse_planks_b.prim].pc_prim",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/_pro/environment/geometry/levels/colarado/outhouse_a.wl2?/outhouse_planks_b.prim].pc_coll",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/_pro/environment/geometry/levels/colarado/outhouse_a.wl2?/outhouse_woodbeams_c.prim].pc_prim",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/_pro/environment/geometry/levels/colarado/outhouse_a.wl2?/outhouse_woodbeams_c.prim].pc_coll",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/_pro/environment/geometry/levels/colarado/outhouse_a.wl2?/outhouse_woodbeams_b.prim].pc_prim",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/_pro/environment/geometry/levels/colarado/outhouse_a.wl2?/outhouse_woodbeams_b.prim].pc_coll",
+			"flag": "5F"
+		}
+	],
+	"extraBlueprintDependencies": [
+
+	],
+	"comments": [
+
+	]
+}
