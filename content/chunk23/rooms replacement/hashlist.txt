@@ -25,3 +25,12 @@
 
 00722E69B5ED1E4D.PRIM,[assembly:/_pro/environment/geometry/levels/colarado/outhouse_a.wl2?/outhouse_room_storage_b_hay_fest_wall.prim].pc_prim
 00F9EFE25D32012C.ALOC,[assembly:/_pro/environment/geometry/levels/colarado/outhouse_a.wl2?/outhouse_room_storage_b_hay_fest_wall.prim].pc_coll
+
+00A52D3E7FB778BE.PRIM,[assembly:/_pro/environment/geometry/levels/colarado/outhouse_a.wl2?/outhouse_room_storage_b_hay_fest_wall_b.prim].pc_prim
+001627A7BA3C1120.ALOC,[assembly:/_pro/environment/geometry/levels/colarado/outhouse_a.wl2?/outhouse_room_storage_b_hay_fest_wall_b.prim].pc_coll
+
+0081EF9AAE3087B1.PRIM,[assembly:/_pro/environment/geometry/levels/colarado/outhouse_a.wl2?/outhouse_room_storage_b_hay_fest_wall_c.prim].pc_prim
+00A9940077CA916F.ALOC,[assembly:/_pro/environment/geometry/levels/colarado/outhouse_a.wl2?/outhouse_room_storage_b_hay_fest_wall_c.prim].pc_coll
+
+00B51886B5844736.PRIM,[assembly:/_pro/environment/geometry/levels/colarado/outhouse_a.wl2?/outhouse_room_storage_b_hay_fest_wall_d.prim].pc_prim
+00AEF0725CA554F7.ALOC,[assembly:/_pro/environment/geometry/levels/colarado/outhouse_a.wl2?/outhouse_room_storage_b_hay_fest_wall_d.prim].pc_coll
