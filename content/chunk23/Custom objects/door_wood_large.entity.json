@@ -1,0 +1,555 @@
+{
+	"tempHash": "00603C1FD3AD7F43",
+	"tbluHash": "00F55C46D27A4B5C",
+	"rootEntity": "09d05c12bf097759",
+	"entities": {
+		"87b259ee96901a12": {
+			"parent": "09d05c12bf097759",
+			"name": "farmhouse_doorframe_double_a",
+			"factory": "[assembly:/_pro/environment/geometry/architecture/doors/door_fruitpackingshed_a.wl2?/fruit_packing_shed_door_frame_c.prim].pc_entitytype",
+			"blueprint": "[assembly:/templates/geometrytemplatestaticcoll.template?/geomentity01.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
+						"position": { "x": 0.2, "y": 0.0, "z": 0.0 }
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "09d05c12bf097759",
+					"postInit": true
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": { "x": 1.37, "y": 1.0, "z": 1.07 }
+				}
+			}
+		},
+		"15388d9bc1038887": {
+			"parent": "09d05c12bf097759",
+			"name": "Access_Helper_SingleDoor",
+			"factory": "[assembly:/_pro/design/gamecore/accesshelpers.template?/access_helper_singledoor.entitytemplate](sounddoorinteraction+[assembly:/templates/sound/sound_doortemplates.template?/sound_doorinteraction_template_wood_very_creaky_thin.entitytemplate].entitytype).pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/gamecore/accesshelpers.template?/access_helper_singledoor.entitytemplate](sounddoorinteraction+[assembly:/templates/sound/sound_doortemplates.template?/sound_doorinteraction_template_wood_very_creaky_thin.entitytemplate].entitytype).pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
+						"position": {
+							"x": -0.5276337265968323,
+							"y": -0.14533230662345886,
+							"z": 0.0
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "87b259ee96901a12"
+				},
+				"m_bValueUnlockIfOpened": {
+					"type": "bool",
+					"value": false
+				},
+				"m_bValueOpenFromInside": {
+					"type": "bool",
+					"value": false
+				},
+				"m_bValueOpenFromOutside": {
+					"type": "bool",
+					"value": false
+				},
+				"m_pMainEvent13": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/sound/wwise/exportedwwisedata/events/props_events/setpieces/access/turn_lock_action/play_door_key_unlock_fast.wwiseevent].pc_wwisebank",
+						"flag": "5F"
+					}
+				},
+				"CrowbarOpen": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/sound/wwise/exportedwwisedata/events/props_events/setpieces/access/door_crowbar_wood_break/play_door_crowbar_wood_open_01b.wwiseevent].pc_wwisebank",
+						"flag": "5F"
+					}
+				},
+				"m_pMainEvent54": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/sound/wwise/exportedwwisedata/events/props_events/setpieces/access/door_crowbar_wood_break/play_door_crowbar_wood_impact_01a.wwiseevent].pc_wwisebank",
+						"flag": "5F"
+					}
+				},
+				"m_pMainEvent12": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/sound/wwise/exportedwwisedata/events/props_events/setpieces/access/door_lockpick_action/play_door_lockpick_unlock_01a.wwiseevent].pc_wwisebank",
+						"flag": "5F"
+					}
+				},
+				"OverAll_Vol_InteractiveProps_ATT": {
+					"type": "float32",
+					"value": -6.0
+				},
+				"m_OpenDir": {
+					"type": "IHM5Door.EOpenDir",
+					"value": "OD_AWAY"
+				},
+				"m_bEnabled": { "type": "bool", "value": true },
+				"m_bManualClose": { "type": "bool", "value": true },
+				"m_bAutoClose": { "type": "bool", "value": true },
+				"m_bIsLocked": { "type": "bool", "value": false },
+				"m_bPathfindingObstacleEnabled": {
+					"type": "bool",
+					"value": false
+				},
+				"Reinforced": { "type": "bool", "value": false },
+				"RequireActivation": { "type": "bool", "value": false },
+				"m_InitialState": {
+					"type": "IHM5Door.EInitialState",
+					"value": "IS_CLOSED"
+				},
+				"m_fRotAngle": { "type": "float32", "value": 90.0 },
+				"m_rGateEntity": {
+					"type": "SEntityTemplateReference",
+					"value": null
+				},
+				"C_AudioCloseComplete": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/sound/wwise/exportedwwisedata/events/props_events/setpieces/access/door_wood_very_creaky/play_door_wood_very_creaky_slam.wwiseevent].pc_wwisebank",
+						"flag": "5F"
+					}
+				},
+				"B_AudioCloseMovement": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/sound/wwise/exportedwwisedata/events/props_events/setpieces/access/door_wood_very_creaky/play_door_wood_very_creaky_movement.wwiseevent].pc_wwisebank",
+						"flag": "5F"
+					}
+				},
+				"A_AudioCloseInitial": {
+					"type": "ZRuntimeResourceID",
+					"value": null
+				},
+				"B_AudioOpenMovement": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/sound/wwise/exportedwwisedata/events/props_events/setpieces/access/door_wood_very_creaky/play_door_wood_very_creaky_movement.wwiseevent].pc_wwisebank",
+						"flag": "5F"
+					}
+				},
+				"A_AudioOpenInitial": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/sound/wwise/exportedwwisedata/events/props_events/setpieces/access/door_wood_very_creaky/play_door_wood_very_creaky_open.wwiseevent].pc_wwisebank",
+						"flag": "5F"
+					}
+				},
+				"m_rDoorFrame1": {
+					"type": "SEntityTemplateReference",
+					"value": "30d6f0c1c730d19b",
+					"postInit": true
+				},
+				"m_aUIHighlightGeom": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["30d6f0c1c730d19b"],
+					"postInit": true
+				}
+			},
+			"outputCopying": {
+				"DoorOpen": { "DoorOpen": ["09d05c12bf097759"] },
+				"DoorClose": { "DoorClose": ["09d05c12bf097759"] },
+				"DoorOpenByHitmanFirst": {
+					"DoorOpenByHitmanFirst": ["09d05c12bf097759"]
+				},
+				"UnlockDoor": { "UnlockDoor": ["09d05c12bf097759"] },
+				"LockDoor": { "LockDoor": ["09d05c12bf097759"] }
+			},
+			"subsets": { "AudioEmitters": ["09d05c12bf097759"] }
+		},
+		"30d6f0c1c730d19b": {
+			"parent": "09d05c12bf097759",
+			"name": "farmhouse_door_double_a",
+			"factory": "[assembly:/_pro/environment/geometry/architecture/doors/door_fruitpackingshed_a.wl2?/fruit_packing_shed_door_c.prim].pc_entitytype",
+			"blueprint": "[assembly:/templates/geometrytemplaterigidbody.template?/geomentity01.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
+						"position": {
+							"x": 0.12,
+							"y": -0.1111219972372055,
+							"z": 0.01846200041472912
+						}
+					}
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				},
+				"m_bCastShadows": { "type": "bool", "value": true },
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": { "x": 1.38, "y": 1, "z": 1.1 }
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "09d05c12bf097759",
+					"postInit": true
+				}
+			}
+		},
+		"09d05c12bf097759": {
+			"parent": null,
+			"name": "Door_Wooden_Shed_Single",
+			"factory": "[modules:/zcompositeentity.class].pc_entitytype",
+			"blueprint": "[modules:/zcompositeentity.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
+						"position": {
+							"x": -16.254810333251953,
+							"y": 34.76557922363281,
+							"z": -9.999999974752427e-7
+						}
+					}
+				}
+			},
+			"inputCopying": {
+				"LockDoor": { "LockDoor": ["15388d9bc1038887"] },
+				"UnlockDoor": { "UnlockDoor": ["15388d9bc1038887"] },
+				"OpenDoorIn": { "OpenDoorIn": ["15388d9bc1038887"] },
+				"OpenDoorOut": { "OpenDoorOut": ["15388d9bc1038887"] },
+				"CloseDoor": { "CloseDoor": ["15388d9bc1038887"] }
+			},
+			"propertyAliases": {
+				"CrowbarOpen": [
+					{
+						"originalProperty": "CrowbarOpen",
+						"originalEntity": "15388d9bc1038887"
+					}
+				],
+				"RTPC_Door_InitialClose": [
+					{
+						"originalProperty": "RTPC_Door_InitialClose",
+						"originalEntity": "15388d9bc1038887"
+					}
+				],
+				"RTPC_Door_InitialClose_Stealth": [
+					{
+						"originalProperty": "RTPC_Door_InitialClose_Stealth",
+						"originalEntity": "15388d9bc1038887"
+					}
+				],
+				"RTPC_Door_InitialOpen": [
+					{
+						"originalProperty": "RTPC_Door_InitialOpen",
+						"originalEntity": "15388d9bc1038887"
+					}
+				],
+				"RTPC_Door_InitialOpen_Stealth": [
+					{
+						"originalProperty": "RTPC_Door_InitialOpen_Stealth",
+						"originalEntity": "15388d9bc1038887"
+					}
+				],
+				"RTPC_Door_SlamVolume": [
+					{
+						"originalProperty": "RTPC_Door_SlamVolume",
+						"originalEntity": "15388d9bc1038887"
+					}
+				],
+				"RTPC_Door_SlamVolume_Stealth": [
+					{
+						"originalProperty": "RTPC_Door_SlamVolume_Stealth",
+						"originalEntity": "15388d9bc1038887"
+					}
+				],
+				"RTPC_Door_SqueakVolume_Close": [
+					{
+						"originalProperty": "RTPC_Door_SqueakVolume_Close",
+						"originalEntity": "15388d9bc1038887"
+					}
+				],
+				"RTPC_Door_SqueakVolume_Close_Stealth": [
+					{
+						"originalProperty": "RTPC_Door_SqueakVolume_Close_Stealth",
+						"originalEntity": "15388d9bc1038887"
+					}
+				],
+				"RTPC_Door_SqueakVolume_Open": [
+					{
+						"originalProperty": "RTPC_Door_SqueakVolume_Open",
+						"originalEntity": "15388d9bc1038887"
+					}
+				],
+				"RTPC_Door_SqueakVolume_Open_Stealth": [
+					{
+						"originalProperty": "RTPC_Door_SqueakVolume_Open_Stealth",
+						"originalEntity": "15388d9bc1038887"
+					}
+				],
+				"Reinforced": [
+					{
+						"originalProperty": "Reinforced",
+						"originalEntity": "15388d9bc1038887"
+					}
+				],
+				"RequireActivation": [
+					{
+						"originalProperty": "RequireActivation",
+						"originalEntity": "15388d9bc1038887"
+					}
+				],
+				"m_InitialState": [
+					{
+						"originalProperty": "m_InitialState",
+						"originalEntity": "15388d9bc1038887"
+					}
+				],
+				"m_OpenDir": [
+					{
+						"originalProperty": "m_OpenDir",
+						"originalEntity": "15388d9bc1038887"
+					}
+				],
+				"m_bActionHasValidDisguise": [
+					{
+						"originalProperty": "m_bActionHasValidDisguise",
+						"originalEntity": "15388d9bc1038887"
+					}
+				],
+				"m_bAutoClose": [
+					{
+						"originalProperty": "m_bAutoClose",
+						"originalEntity": "15388d9bc1038887"
+					}
+				],
+				"m_bEnabled": [
+					{
+						"originalProperty": "m_bEnabled",
+						"originalEntity": "15388d9bc1038887"
+					}
+				],
+				"m_bIsLocked": [
+					{
+						"originalProperty": "m_bIsLocked",
+						"originalEntity": "15388d9bc1038887"
+					}
+				],
+				"m_bManualClose": [
+					{
+						"originalProperty": "m_bManualClose",
+						"originalEntity": "15388d9bc1038887"
+					}
+				],
+				"m_bPathfindingObstacleEnabled": [
+					{
+						"originalProperty": "m_bPathfindingObstacleEnabled",
+						"originalEntity": "15388d9bc1038887"
+					}
+				],
+				"m_bValueOpenFromInside": [
+					{
+						"originalProperty": "m_bValueOpenFromInside",
+						"originalEntity": "15388d9bc1038887"
+					}
+				],
+				"m_bValueOpenFromOutside": [
+					{
+						"originalProperty": "m_bValueOpenFromOutside",
+						"originalEntity": "15388d9bc1038887"
+					}
+				],
+				"m_bValueUnlockIfOpened": [
+					{
+						"originalProperty": "m_bValueUnlockIfOpened",
+						"originalEntity": "15388d9bc1038887"
+					}
+				],
+				"m_fRotAngle": [
+					{
+						"originalProperty": "m_fRotAngle",
+						"originalEntity": "15388d9bc1038887"
+					}
+				],
+				"m_pMainEvent1": [
+					{
+						"originalProperty": "A_AudioOpenInitial",
+						"originalEntity": "15388d9bc1038887"
+					}
+				],
+				"m_pMainEvent10": [
+					{
+						"originalProperty": "C_AudioCloseComplete",
+						"originalEntity": "15388d9bc1038887"
+					}
+				],
+				"m_pMainEvent11": [
+					{
+						"originalProperty": "m_pMainEvent11",
+						"originalEntity": "15388d9bc1038887"
+					}
+				],
+				"m_pMainEvent12": [
+					{
+						"originalProperty": "m_pMainEvent12",
+						"originalEntity": "15388d9bc1038887"
+					}
+				],
+				"m_pMainEvent13": [
+					{
+						"originalProperty": "m_pMainEvent13",
+						"originalEntity": "15388d9bc1038887"
+					}
+				],
+				"m_pMainEvent2": [
+					{
+						"originalProperty": "m_pMainEvent2",
+						"originalEntity": "15388d9bc1038887"
+					}
+				],
+				"m_pMainEvent3": [
+					{
+						"originalProperty": "A_AudioCloseInitial",
+						"originalEntity": "15388d9bc1038887"
+					}
+				],
+				"m_pMainEvent345": [
+					{
+						"originalProperty": "m_pMainEvent345",
+						"originalEntity": "15388d9bc1038887"
+					}
+				],
+				"m_pMainEvent4": [
+					{
+						"originalProperty": "m_pMainEvent4",
+						"originalEntity": "15388d9bc1038887"
+					}
+				],
+				"m_pMainEvent54": [
+					{
+						"originalProperty": "m_pMainEvent54",
+						"originalEntity": "15388d9bc1038887"
+					}
+				],
+				"m_pMainEvent6": [
+					{
+						"originalProperty": "B_AudioOpenMovement",
+						"originalEntity": "15388d9bc1038887"
+					}
+				],
+				"m_pMainEvent7": [
+					{
+						"originalProperty": "m_pMainEvent7",
+						"originalEntity": "15388d9bc1038887"
+					}
+				],
+				"m_pMainEvent8": [
+					{
+						"originalProperty": "B_AudioCloseMovement",
+						"originalEntity": "15388d9bc1038887"
+					}
+				],
+				"m_pMainEvent9": [
+					{
+						"originalProperty": "m_pMainEvent9",
+						"originalEntity": "15388d9bc1038887"
+					}
+				],
+				"m_rGateEntity": [
+					{
+						"originalProperty": "m_rGateEntity",
+						"originalEntity": "15388d9bc1038887"
+					}
+				]
+			},
+			"exposedEntities": {
+				"farmhouse_door_double_a": {
+					"isArray": false,
+					"refersTo": ["30d6f0c1c730d19b"]
+				},
+				"IsDoorLocked": {
+					"isArray": false,
+					"refersTo": [
+						{
+							"ref": "15388d9bc1038887",
+							"externalScene": null,
+							"exposedEntity": "IsDoorLocked"
+						}
+					]
+				},
+				"IsOpen": {
+					"isArray": false,
+					"refersTo": [
+						{
+							"ref": "15388d9bc1038887",
+							"externalScene": null,
+							"exposedEntity": "IsOpen"
+						}
+					]
+				},
+				"RequiredKey": {
+					"isArray": false,
+					"refersTo": [
+						{
+							"ref": "15388d9bc1038887",
+							"externalScene": null,
+							"exposedEntity": "RequiredKey"
+						}
+					]
+				},
+				"ValueBool_Simple_BrokenUp": {
+					"isArray": false,
+					"refersTo": [
+						{
+							"ref": "15388d9bc1038887",
+							"externalScene": null,
+							"exposedEntity": "ValueBool_Simple_BrokenUp"
+						}
+					]
+				}
+			},
+			"exposedInterfaces": {
+				"IHM5Door": "15388d9bc1038887",
+				"ISoundGateController": "15388d9bc1038887"
+			}
+		}
+	},
+	"propertyOverrides": [],
+	"overrideDeletes": [],
+	"pinConnectionOverrides": [],
+	"pinConnectionOverrideDeletes": [],
+	"externalScenes": [],
+	"subType": "template",
+	"quickEntityVersion": 3.1,
+	"extraFactoryDependencies": [
+		{
+			"resource": "[assembly:/localization/hitman6/conversations/ui/pro/setpieces_names.sweetmenutext?/setpieces_localization_description_door.sweetline].pc_sweetline",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/_pro/environment/geometry/architecture/doors/door_fruitpackingshed_a.wl2?/fruit_packing_shed_door_c.prim].pc_prim",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/_pro/environment/geometry/architecture/doors/door_fruitpackingshed_a.wl2?/fruit_packing_shed_door_c.prim].pc_coll",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/_pro/environment/geometry/architecture/doors/door_fruitpackingshed_a.wl2?/fruit_packing_shed_door_frame_c.prim].pc_prim",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/_pro/environment/geometry/architecture/doors/door_fruitpackingshed_a.wl2?/fruit_packing_shed_door_frame_c.prim].pc_coll",
+			"flag": "5F"
+		}
+	],
+	"extraBlueprintDependencies": [],
+	"comments": []
+}
