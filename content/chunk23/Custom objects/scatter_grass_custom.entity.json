@@ -1,0 +1,69 @@
+{
+	"tempHash": "001F03DEA9943484",
+	"tbluHash": "000A2BBBC75AFE31",
+	"rootEntity": "bf752dad354ca15f",
+	"entities": {
+		"36467fdb12855711": {
+			"parent": "bf752dad354ca15f",
+			"name": "ScatterMaterial 3",
+			"factory": "[modules:/zscattermaterialentity.class].pc_entitytype",
+			"blueprint": "[modules:/zscattermaterialentity.class].pc_entityblueprint",
+			"properties": {
+				"m_bCastShadows": { "type": "bool", "value": false },
+				"m_bBend": { "type": "bool", "value": false },
+				"m_fDensity": { "type": "float32", "value": 10 },
+				"m_fSurfaceAdherence": { "type": "float32", "value": 0 },
+				"m_fScaleBeginDistance": {
+					"type": "float32",
+					"value": 15.0
+				},
+				"m_fCutoffDistance": { "type": "float32", "value": 22.0 },
+				"m_MaterialPrimitives": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["d1a7f4477634cd9e"],
+					"postInit": true
+				}
+			}
+		},
+		"bf752dad354ca15f": {
+			"parent": null,
+			"name": "ScatterMaterial_Grass_Skunk_Modular",
+			"factory": "[modules:/zentity.class].pc_entitytype",
+			"blueprint": "[modules:/zentity.class].pc_entityblueprint",
+			"exposedInterfaces": {
+				"ZScatterMaterialEntity": "36467fdb12855711"
+			}
+		},
+		"d1a7f4477634cd9e": {
+			"parent": "bf752dad354ca15f",
+			"name": "ScatterMaterialPrimitive 3",
+			"factory": "[modules:/zscattermaterialprimitiveentity.class].pc_entitytype",
+			"blueprint": "[modules:/zscattermaterialprimitiveentity.class].pc_entityblueprint",
+			"properties": {
+				"Primitive": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/environment/geometry/foliage/grass_lawn_skunk_a.wl2?/grass_lawn_a_tuft_c.prim].pc_prim",
+						"flag": "5F"
+					}
+				},
+				"m_vRandomRotation": {
+					"type": "SVector3",
+					"value": { "x": 1.0, "y": 1.0, "z": 360.0 }
+				},
+				"m_fMinSize": { "type": "float32", "value": 0.25 },
+				"m_fMaxSize": { "type": "float32", "value": 0.5 }
+			}
+		}
+	},
+	"propertyOverrides": [],
+	"overrideDeletes": [],
+	"pinConnectionOverrides": [],
+	"pinConnectionOverrideDeletes": [],
+	"externalScenes": [],
+	"subType": "template",
+	"quickEntityVersion": 3.1,
+	"extraFactoryDependencies": [],
+	"extraBlueprintDependencies": [],
+	"comments": []
+}
