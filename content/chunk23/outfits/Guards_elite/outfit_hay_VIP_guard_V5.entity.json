@@ -1,17 +1,17 @@
 {
 	"tempHash": "0057271BE55703A3",
 	"tbluHash": "007E25E6465C4201",
-	"rootEntity": "cafe495180b78539",
+	"rootEntity": "cafe73748fdb8a23",
 	"entities": {
-		"cafe2b819e1ec614": {
-			"parent": "cafe495180b78539",
+		"cafe678c0853bab6": {
+			"parent": "cafe73748fdb8a23",
 			"name": "Shirt_Dress_Torso_BtnUp_Tkd_3open",
 			"factory": "[assembly:/_pro/characters/templates/_part_library/male_apparel/male_reg_apparel_torso_l01.template?/shirt_dress_torso_btnup_tkd_3open.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/_pro/characters/templates/_part_library/male_apparel/male_reg_apparel_torso_l01.template?/shirt_dress_torso_btnup_tkd_3open.entitytemplate].pc_entityblueprint",
 			"properties": {
 				"Diffuse_Color_01_Value": {
 					"type": "SColorRGB",
-					"value": "#8acae6"
+					"value": "#607b91"
 				},
 				"Texture2D_01": {
 					"type": "ZRuntimeResourceID",
@@ -22,24 +22,24 @@
 				},
 				"Diffuse_Color_01_Value_1": {
 					"type": "SColorRGB",
-					"value": "#425757"
+					"value": "#ffffff"
 				}
 			}
 		},
-		"cafe6081aaf1f065": {
-			"parent": "cafe495180b78539",
+		"cafe8b883b49ce0d": {
+			"parent": "cafe73748fdb8a23",
 			"name": "Shoes_Boots_H_Riding",
 			"factory": "[assembly:/_pro/characters/templates/_part_library/male_apparel/male_reg_apparel_feet.template?/shoes_boots_h_riding.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/_pro/characters/templates/_part_library/male_apparel/male_reg_apparel_feet.template?/shoes_boots_h_riding.entitytemplate].pc_entityblueprint",
 			"properties": {
 				"Diffuse_Color_01_Value": {
 					"type": "SColorRGB",
-					"value": "#3d3d3d"
+					"value": "#765d43"
 				}
 			}
 		},
-		"cafeb6bf08893c08": {
-			"parent": "cafe495180b78539",
+		"cafef09b0bee5314": {
+			"parent": "cafe73748fdb8a23",
 			"name": "Mesh_Bandana_Tied",
 			"factory": "[modules:/zbodypartentity.class].pc_entitytype",
 			"blueprint": "[modules:/zbodypartentity.class].pc_entityblueprint",
@@ -53,8 +53,8 @@
 				}
 			}
 		},
-		"cafec2b630424d20": {
-			"parent": "cafeb6bf08893c08",
+		"cafef99abe3655eb": {
+			"parent": "cafef09b0bee5314",
 			"name": "darkandstormy_scarf",
 			"factory": "[assembly:/_pro/characters/assets/individuals/italy/elusive_target_darkandstormy/materials/darkandstormy_scarf.mi].pc_entitytype",
 			"blueprint": "[assembly:/_pro/characters/assets/individuals/italy/elusive_target_darkandstormy/materials/darkandstormy_scarf.mi].pc_entityblueprint",
@@ -76,7 +76,7 @@
 				},
 				"Clients": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": ["cafeb6bf08893c08"]
+					"value": ["cafef09b0bee5314"]
 				},
 				"Texture2D_01_enab": { "type": "bool", "value": true },
 				"Texture2D_01": {
@@ -88,7 +88,7 @@
 				},
 				"ConstantColorRGB_02_Value": {
 					"type": "SColorRGB",
-					"value": "#4f4f4f"
+					"value": "#842b2b"
 				},
 				"ConstantColorRGB_02_Value_op": {
 					"type": "IRenderMaterialEntity.EModifierOperation",
@@ -117,19 +117,22 @@
 				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
-					"value": "cafe495180b78539",
+					"value": "cafe73748fdb8a23",
 					"postInit": true
-				}
+				},
+				"Override": { "type": "bool", "value": false },
+				"Global": { "type": "bool", "value": false },
+				"Active": { "type": "bool", "value": true }
 			}
 		},
-		"cafe1a9f594ced37": {
-			"parent": "cafe495180b78539",
+		"cafee7257c78e8f6": {
+			"parent": "cafe73748fdb8a23",
 			"name": "Arms_Elbow_Hand",
 			"factory": "[assembly:/_pro/characters/templates/_part_library/male_parts/male_reg_bodyparts.template?/arms_elbow_hand.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/_pro/characters/templates/_part_library/male_parts/male_reg_bodyparts.template?/arms_elbow_hand.entitytemplate].pc_entityblueprint"
 		},
-		"cafee61692e1f4b9": {
-			"parent": "cafe495180b78539",
+		"cafe22fa72d90c75": {
+			"parent": "cafe73748fdb8a23",
 			"name": "Hair_Full_Bald_MS",
 			"factory": "[assembly:/_pro/characters/templates/_part_library/male_parts/male_hair.template?/hair_full_bald_ms.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/_pro/characters/templates/_part_library/male_parts/male_hair.template?/hair_full_bald_ms.entitytemplate].pc_entityblueprint",
@@ -152,15 +155,9 @@
 				}
 			}
 		},
-		"cafebc9d75063d4e": {
-			"parent": "cafe495180b78539",
-			"name": "Beard_Cap",
-			"factory": "[assembly:/_pro/characters/templates/_part_library/male_parts/male_facialhair.template?/beard_cap.entitytemplate].pc_entitytype",
-			"blueprint": "[assembly:/_pro/characters/templates/_part_library/male_parts/male_facialhair.template?/beard_cap.entitytemplate].pc_entityblueprint"
-		},
-		"cafe495180b78539": {
+		"cafe73748fdb8a23": {
 			"parent": null,
-			"name": "OUTFIT_Hay_guard_VIP_V5",
+			"name": "OUTFIT_Hay_guard_VIP_V1",
 			"factory": "[assembly:/_pro/characters/templates/_sourcefiles/outfit.template?/outfit_base.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/_pro/characters/templates/_sourcefiles/outfit.template?/outfit_base.entitytemplate].pc_entityblueprint",
 			"properties": {
@@ -197,31 +194,31 @@
 				"m_aBodyParts": {
 					"type": "TArray<SEntityTemplateReference>",
 					"value": [
-						"cafe6081aaf1f065",
-						"cafe2b819e1ec614",
-						"cafe0a841fffc389",
-						"cafeb6bf08893c08",
-						"cafebc9d75063d4e",
-						"cafefc64f033ee85",
-						"cafe1a9f594ced37",
-						"cafee61692e1f4b9",
-						"cafe279c0f227df2",
-						"cafecd89df8d19d8",
-						"cafe590934fe7d76"
+						"cafe8b883b49ce0d",
+						"cafe678c0853bab6",
+						"cafe88844b509e30",
+						"cafef09b0bee5314",
+						"cafe132c0a0e1af1",
+						"cafee7257c78e8f6",
+						"cafe22fa72d90c75",
+						"cafefc72f20d944d",
+						"cafe997686600cc0",
+						"cafef2d3fbbe0563",
+						"cafe78da8c516469"
 					],
 					"postInit": true
 				}
 			}
 		},
-		"cafefc64f033ee85": {
-			"parent": "cafe495180b78539",
+		"cafe132c0a0e1af1": {
+			"parent": "cafe73748fdb8a23",
 			"name": "Shirt_Dress_Sleeves_Rolled",
 			"factory": "[assembly:/_pro/characters/templates/_part_library/male_apparel/male_reg_apparel_torso_l01.template?/shirt_dress_sleeves_rolled.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/_pro/characters/templates/_part_library/male_apparel/male_reg_apparel_torso_l01.template?/shirt_dress_sleeves_rolled.entitytemplate].pc_entityblueprint",
 			"properties": {
 				"Diffuse_Color_01_Value": {
 					"type": "SColorRGB",
-					"value": "#8acae6"
+					"value": "#607b91"
 				},
 				"ConstantVector1D_01_Value": {
 					"type": "float32",
@@ -236,59 +233,14 @@
 				}
 			}
 		},
-		"cafe0a841fffc389": {
-			"parent": "cafe495180b78539",
+		"cafe88844b509e30": {
+			"parent": "cafe73748fdb8a23",
 			"name": "Torso_Neck_LowCut",
 			"factory": "[assembly:/_pro/characters/templates/_part_library/male_parts/male_reg_bodyparts.template?/torso_neck_lowcut.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/_pro/characters/templates/_part_library/male_parts/male_reg_bodyparts.template?/torso_neck_lowcut.entitytemplate].pc_entityblueprint"
 		},
-		"cafe279c0f227df2": {
-			"parent": "cafe495180b78539",
-			"name": "Head_Base",
-			"factory": "[assembly:/_pro/characters/templates/_part_library/male_parts/male_heads_caucasian.template?/head_base.entitytemplate].pc_entitytype",
-			"blueprint": "[assembly:/_pro/characters/templates/_part_library/male_parts/male_heads_caucasian.template?/head_base.entitytemplate].pc_entityblueprint"
-		},
-		"cafecd89df8d19d8": {
-			"parent": "cafe495180b78539",
-			"name": "Pants_Jeans_Baggy",
-			"factory": "[assembly:/_pro/characters/templates/_part_library/male_apparel/male_reg_apparel_legs.template?/pants_jeans_baggy.entitytemplate].pc_entitytype",
-			"blueprint": "[assembly:/_pro/characters/templates/_part_library/male_apparel/male_reg_apparel_legs.template?/pants_jeans_baggy.entitytemplate].pc_entityblueprint",
-			"properties": {
-				"Diffuse_Color_01_Value": {
-					"type": "SColorRGB",
-					"value": "#57524c"
-				}
-			}
-		},
-		"cafe590934fe7d76": {
-			"parent": "cafe495180b78539",
-			"name": "Shoes_Boots",
-			"factory": "[assembly:/_pro/characters/templates/_part_library/male_apparel/male_reg_apparel_feet.template?/shoes_boots_ankle.entitytemplate].pc_entitytype",
-			"blueprint": "[assembly:/_pro/characters/templates/_part_library/male_apparel/male_reg_apparel_feet.template?/shoes_boots_ankle.entitytemplate].pc_entityblueprint",
-			"properties": {
-				"Diffuse_Color_01_Value": {
-					"type": "SColorRGB",
-					"value": "#383838"
-				},
-				"ConstantVector1D_04_Value": {
-					"type": "float32",
-					"value": 0.12999999523162842
-				},
-				"ConstantVector1D_05_Value": {
-					"type": "float32",
-					"value": 1.4700000286102295
-				},
-				"m_pMeshResource": {
-					"type": "ZRuntimeResourceID",
-					"value": {
-						"resource": "[assembly:/_pro/characters/assets/_apparel/male/volumes_l01/shoes/geometry/male_reg_shoes.wl2?/shoes_boots_cowboy_cut.weightedprim](bodypart).pc_weightedprim",
-						"flag": "5F"
-					}
-				}
-			}
-		},
-		"cafeb77e683eb471": {
-			"parent": "cafe495180b78539",
+		"cafe4a073b0c6ff2": {
+			"parent": "cafe73748fdb8a23",
 			"name": "Attacher_Head",
 			"factory": "[assembly:/templates/aspectdummy.aspect]([modules:/zcompositeentity.class].entitytype,[modules:/zboneattachaspect.class].entitytype).pc_entitytype",
 			"blueprint": "[assembly:/templates/aspectdummy.aspect]([modules:/zcompositeentity.class].entitytype,[modules:/zboneattachaspect.class].entitytype).pc_entityblueprint",
@@ -296,18 +248,18 @@
 				"m_BoneName": { "type": "ZString", "value": "Head" },
 				"m_linkedEntity": {
 					"type": "SEntityTemplateReference",
-					"value": "cafe495180b78539",
+					"value": "cafe73748fdb8a23",
 					"postInit": true
 				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
-					"value": "cafe495180b78539",
+					"value": "cafe73748fdb8a23",
 					"postInit": true
 				}
 			}
 		},
-		"cafe8e3c98ead84b": {
-			"parent": "cafeb77e683eb471",
+		"cafe5d1609068495": {
+			"parent": "cafe4a073b0c6ff2",
 			"name": "hat_cowboy",
 			"factory": "[assembly:/_pro/characters/templates/_part_library/male_apparel/male_apparel_headwear_prim.template?/hat_cowboy.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/_pro/characters/templates/_part_library/male_apparel/male_apparel_headwear_prim.template?/hat_cowboy.entitytemplate].pc_entityblueprint",
@@ -329,7 +281,7 @@
 				},
 				"Diffuse_Color_01_Value": {
 					"type": "SColorRGB",
-					"value": "#dfdfdf"
+					"value": "#dbc7aa"
 				},
 				"m_PrimitiveScale": {
 					"type": "SVector3",
@@ -341,7 +293,73 @@
 				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
-					"value": "cafeb77e683eb471"
+					"value": "cafe4a073b0c6ff2"
+				}
+			}
+		},
+		"cafefc72f20d944d": {
+			"parent": "cafe73748fdb8a23",
+			"name": "Pants_Jeans_Baggy_Cut_Boot",
+			"factory": "[assembly:/_pro/characters/templates/_part_library/male_apparel/male_reg_apparel_legs.template?/pants_jeans_baggy_cut_boot.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/characters/templates/_part_library/male_apparel/male_reg_apparel_legs.template?/pants_jeans_baggy_cut_boot.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"Diffuse_Color_01_Value": {
+					"type": "SColorRGB",
+					"value": "#cebea7"
+				}
+			}
+		},
+		"cafe997686600cc0": {
+			"parent": "cafe73748fdb8a23",
+			"name": "Head_Caucasian_40s_01",
+			"factory": "[assembly:/_pro/characters/templates/_part_library/male_parts/male_heads_caucasian.template?/head_caucasian_40s_01.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/characters/templates/_part_library/male_parts/male_heads_caucasian.template?/head_caucasian_40s_01.entitytemplate].pc_entityblueprint"
+		},
+		"cafef2d3fbbe0563": {
+			"parent": "cafe73748fdb8a23",
+			"name": "Belt_Buckle_Cowboy",
+			"factory": "[assembly:/_pro/characters/templates/_part_library/male_apparel/male_reg_apparel_waist.template?/belt_buckle_cowboy.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/characters/templates/_part_library/male_apparel/male_reg_apparel_waist.template?/belt_buckle_cowboy.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_pMeshResource": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/characters/assets/_apparel/male/volumes_l01/waist/geometry/male_reg_apparel_waist.wl2?/belt_buckle_oval_l.weightedprim](bodypart).pc_weightedprim",
+						"flag": "5F"
+					}
+				},
+				"Texture2D_01": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/characters/assets/hero/agent47_outfits/agent47_wrath/texture/male_reg_belt_buckle_wrath.texture?/diffuse_a.tex](ascolormap).pc_tex",
+						"flag": "5F"
+					}
+				},
+				"Texture2DNormal_01": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/characters/assets/hero/agent47_outfits/agent47_wrath/texture/male_reg_belt_buckle_wrath.texture?/normal_a.tex](asnormalmap).pc_tex",
+						"flag": "5F"
+					}
+				},
+				"Texture2D_03": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/characters/assets/hero/agent47_outfits/agent47_wrath/texture/male_reg_belt_buckle_wrath.texture?/specular_a.tex](ascolormap).pc_tex",
+						"flag": "5F"
+					}
+				}
+			}
+		},
+		"cafe78da8c516469": {
+			"parent": "cafe73748fdb8a23",
+			"name": "Belt_StrapBuckle",
+			"factory": "[assembly:/_pro/characters/templates/_part_library/male_apparel/male_reg_apparel_waist.template?/belt_strapbuckle.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/characters/templates/_part_library/male_apparel/male_reg_apparel_waist.template?/belt_strapbuckle.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"Diffuse_Color_01_Value": {
+					"type": "SColorRGB",
+					"value": "#47301d"
 				}
 			}
 		}

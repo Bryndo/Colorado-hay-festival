@@ -1,6 +1,6 @@
 {
-	"tempHash": "00B59871DFD3159D",
-	"tbluHash": "00DE555091FD9220",
+	"tempHash": "00710D1B96962F48",
+	"tbluHash": "0067119F713A4C94",
 	"rootEntity": "cf410a2edd96fc15",
 	"entities": {
 		"536592ea181f81be": {
@@ -18,13 +18,13 @@
 		},
 		"4d2ec30f528b5a70": {
 			"parent": "cf410a2edd96fc15",
-			"name": "Keyword_PROF_COLORADO_GUARD_EVENT_SECURITY",
+			"name": "Keyword_PROF_COLORADO_event_staff",
 			"factory": "[modules:/zkeywordentity.class].pc_entitytype",
 			"blueprint": "[modules:/zkeywordentity.class].pc_entityblueprint",
 			"properties": {
 				"m_sKeyword": {
 					"type": "ZString",
-					"value": "PROF_COLORADO_EVENT_SECURITY"
+					"value": "PROF_COLORADO_EVENT_STAFF"
 				},
 				"m_aHolders": {
 					"type": "TArray<SEntityTemplateReference>",
@@ -39,7 +39,7 @@
 		},
 		"cf410a2edd96fc15": {
 			"parent": null,
-			"name": "Prof_Colorado_Event_Security",
+			"name": "Prof_Colorado_Event_staff",
 			"factory": "[modules:/zentity.class].pc_entitytype",
 			"blueprint": "[modules:/zentity.class].pc_entityblueprint",
 			"propertyAliases": {

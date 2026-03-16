@@ -759,7 +759,7 @@
 		},
 		"cafe70e4f592090e": {
 			"parent": "fffffffffffffffe",
-			"name": "Miami_Worker_FoodStand_M_PRO74803",
+			"name": "Worker_FoodStand_M_PRO74803",
 			"factory": "[modules:/zglobaloutfitkit.class].pc_entitytype",
 			"blueprint": "[modules:/zglobaloutfitkit.class].pc_entityblueprint",
 			"properties": {
@@ -880,18 +880,6 @@
 				}
 			}
 		},
-		"cafea6f74819d302": {
-			"parent": "cafe70e4f592090e",
-			"name": "Prof_Miami_Worker",
-			"factory": "[assembly:/_pro/design/actor/profession.template?/prof_miami_worker.entitytemplate].pc_entitytype",
-			"blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_miami_worker.entitytemplate].pc_entityblueprint",
-			"properties": {
-				"m_aHolders": {
-					"type": "TArray<SEntityTemplateReference>",
-					"value": ["cafe70e4f592090e"]
-				}
-			}
-		},
 		"cafe68db32459871": {
 			"parent": "cafe70e4f592090e",
 			"name": "Keyword_FOLEY_OUTFIT_WORKER_CLOTH_MED",
@@ -904,18 +892,6 @@
 				}
 			}
 		},
-		"cafea7944d8f5ddf": {
-			"parent": "cafe70e4f592090e",
-			"name": "Prof_Miami_Worker_FoodStands",
-			"factory": "[assembly:/_pro/design/actor/profession.template?/prof_miami_worker_foodstands.entitytemplate].pc_entitytype",
-			"blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_miami_worker_foodstands.entitytemplate].pc_entityblueprint",
-			"properties": {
-				"m_aHolders": {
-					"type": "TArray<SEntityTemplateReference>",
-					"value": ["cafe70e4f592090e"]
-				}
-			}
-		},
 		"cafe2c7e8353f6ff": {
 			"parent": "cafe70e4f592090e",
 			"name": "ItemKey_Melee_KitchenKnife",
@@ -925,18 +901,6 @@
 				"m_RepositoryId": {
 					"type": "ZGuid",
 					"value": "e17172cc-bf70-4df6-9828-d9856b1a24fd"
-				}
-			}
-		},
-		"cafe125880b1c6bb": {
-			"parent": "cafe70e4f592090e",
-			"name": "Prof_Miami",
-			"factory": "[assembly:/_pro/design/actor/profession.template?/prof_miami.entitytemplate].pc_entitytype",
-			"blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_miami.entitytemplate].pc_entityblueprint",
-			"properties": {
-				"m_aHolders": {
-					"type": "TArray<SEntityTemplateReference>",
-					"value": ["cafe70e4f592090e"]
 				}
 			}
 		},
@@ -1002,45 +966,6 @@
 				}
 			}
 		},
-		"cafef4a26845c44c": {
-			"parent": "cafe0e02a895c191",
-			"name": "Prof_Miami",
-			"factory": "[assembly:/_pro/design/actor/profession.template?/prof_miami.entitytemplate].pc_entitytype",
-			"blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_miami.entitytemplate].pc_entityblueprint",
-			"properties": {
-				"m_aHolders": {
-					"type": "TArray<SEntityTemplateReference>",
-					"value": ["cafe0e02a895c191"],
-					"postInit": true
-				}
-			}
-		},
-		"cafee42bb7d45579": {
-			"parent": "cafe0e02a895c191",
-			"name": "Prof_Miami_Worker_FoodStands",
-			"factory": "[assembly:/_pro/design/actor/profession.template?/prof_miami_worker_foodstands.entitytemplate].pc_entitytype",
-			"blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_miami_worker_foodstands.entitytemplate].pc_entityblueprint",
-			"properties": {
-				"m_aHolders": {
-					"type": "TArray<SEntityTemplateReference>",
-					"value": ["cafe0e02a895c191"],
-					"postInit": true
-				}
-			}
-		},
-		"cafedaa3f19e31d8": {
-			"parent": "cafe0e02a895c191",
-			"name": "Prof_Miami_Worker",
-			"factory": "[assembly:/_pro/design/actor/profession.template?/prof_miami_worker.entitytemplate].pc_entitytype",
-			"blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_miami_worker.entitytemplate].pc_entityblueprint",
-			"properties": {
-				"m_aHolders": {
-					"type": "TArray<SEntityTemplateReference>",
-					"value": ["cafe0e02a895c191"],
-					"postInit": true
-				}
-			}
-		},
 		"cafe56b9f07be4ea": {
 			"parent": "cafe0e02a895c191",
 			"name": "Keyword_Prof_Class_Default",
@@ -1056,7 +981,7 @@
 		},
 		"cafe0e02a895c191": {
 			"parent": "fffffffffffffffe",
-			"name": "Miami_Worker_FoodStands_F_PRO74804",
+			"name": "Worker_FoodStands_F_PRO74804",
 			"factory": "[modules:/zglobaloutfitkit.class].pc_entitytype",
 			"blueprint": "[modules:/zglobaloutfitkit.class].pc_entityblueprint",
 			"properties": {
@@ -1151,8 +1076,8 @@
 		"cafea1ca07ebed4d": {
 			"parent": "cafe4d65626d37f1",
 			"name": "Prof_Skunk_Unique_PrivateSecurityOfficer",
-			"factory": "[assembly:/_pro/design/actor/profession.template?/prof_hay_guard_event_security.entitytemplate].pc_entitytype",
-			"blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_hay_guard_event_security.entitytemplate].pc_entityblueprint",
+			"factory": "[assembly:/_pro/design/actor/profession.template?/prof_hay_police.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_hay_police.entitytemplate].pc_entityblueprint",
 			"properties": {
 				"m_aHolders": {
 					"type": "TArray<SEntityTemplateReference>",
@@ -1406,50 +1331,11 @@
 				}
 			}
 		},
-		"cafe8d72b524de99": {
-			"parent": "cafe34a5d73d4f85",
-			"name": "Prof_Skunk_Worker_Server",
-			"factory": "[assembly:/_pro/design/actor/profession.template?/prof_skunk_worker_server.entitytemplate].pc_entitytype",
-			"blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_skunk_worker_server.entitytemplate].pc_entityblueprint",
-			"properties": {
-				"m_aHolders": {
-					"type": "TArray<SEntityTemplateReference>",
-					"value": ["cafe34a5d73d4f85"],
-					"postInit": true
-				}
-			}
-		},
 		"cafe0360cddd4f3a": {
 			"parent": "cafe34a5d73d4f85",
 			"name": "Keyword_Prof_Class_Default",
 			"factory": "[assembly:/_pro/design/gamecore/keywords/keywordgenericprofessionclasses.template?/keyword_prof_class_default.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/_pro/design/gamecore/keywords/keywordgenericprofessionclasses.template?/keyword_prof_class_default.entitytemplate].pc_entityblueprint",
-			"properties": {
-				"m_aHolders": {
-					"type": "TArray<SEntityTemplateReference>",
-					"value": ["cafe34a5d73d4f85"],
-					"postInit": true
-				}
-			}
-		},
-		"cafec32cb98dde60": {
-			"parent": "cafe34a5d73d4f85",
-			"name": "Prof_Skunk",
-			"factory": "[assembly:/_pro/design/actor/profession.template?/prof_skunk.entitytemplate].pc_entitytype",
-			"blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_skunk.entitytemplate].pc_entityblueprint",
-			"properties": {
-				"m_aHolders": {
-					"type": "TArray<SEntityTemplateReference>",
-					"value": ["cafe34a5d73d4f85"],
-					"postInit": true
-				}
-			}
-		},
-		"cafea5ec04bbe03a": {
-			"parent": "cafe34a5d73d4f85",
-			"name": "Prof_Skunk_Worker",
-			"factory": "[assembly:/_pro/design/actor/profession.template?/prof_skunk_worker.entitytemplate].pc_entitytype",
-			"blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_skunk_worker.entitytemplate].pc_entityblueprint",
 			"properties": {
 				"m_aHolders": {
 					"type": "TArray<SEntityTemplateReference>",
@@ -1557,19 +1443,6 @@
 			"factory": "[assembly:/_pro/characters/templates/skunk/char_skunk_workers.template?/charset_skunk_worker_apron_m.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/_pro/characters/templates/skunk/char_skunk_workers.template?/charset_skunk_worker_apron_m.entitytemplate].pc_entityblueprint"
 		},
-		"cafe933b935b6bcb": {
-			"parent": "cafeeafdd270f153",
-			"name": "Prof_Skunk",
-			"factory": "[assembly:/_pro/design/actor/profession.template?/prof_skunk.entitytemplate].pc_entitytype",
-			"blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_skunk.entitytemplate].pc_entityblueprint",
-			"properties": {
-				"m_aHolders": {
-					"type": "TArray<SEntityTemplateReference>",
-					"value": ["cafeeafdd270f153"],
-					"postInit": true
-				}
-			}
-		},
 		"cafeb99a6f82f855": {
 			"parent": "cafeeafdd270f153",
 			"name": "Keyword_FOLEY_OUTFIT_PILOT",
@@ -1601,32 +1474,6 @@
 			"name": "CHARSET_Skunk_Worker_Apron_F",
 			"factory": "[assembly:/_pro/characters/templates/skunk/char_skunk_workers.template?/charset_skunk_worker_apron_f.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/_pro/characters/templates/skunk/char_skunk_workers.template?/charset_skunk_worker_apron_f.entitytemplate].pc_entityblueprint"
-		},
-		"cafedb325b2feacc": {
-			"parent": "cafeeafdd270f153",
-			"name": "Prof_Skunk_Worker",
-			"factory": "[assembly:/_pro/design/actor/profession.template?/prof_skunk_worker.entitytemplate].pc_entitytype",
-			"blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_skunk_worker.entitytemplate].pc_entityblueprint",
-			"properties": {
-				"m_aHolders": {
-					"type": "TArray<SEntityTemplateReference>",
-					"value": ["cafeeafdd270f153"],
-					"postInit": true
-				}
-			}
-		},
-		"cafe297d79824c2e": {
-			"parent": "cafeeafdd270f153",
-			"name": "Prof_Skunk_Worker_Server",
-			"factory": "[assembly:/_pro/design/actor/profession.template?/prof_skunk_worker_server.entitytemplate].pc_entitytype",
-			"blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_skunk_worker_server.entitytemplate].pc_entityblueprint",
-			"properties": {
-				"m_aHolders": {
-					"type": "TArray<SEntityTemplateReference>",
-					"value": ["cafeeafdd270f153"],
-					"postInit": true
-				}
-			}
 		},
 		"cafeeafdd270f153": {
 			"parent": "fffffffffffffffe",
@@ -1750,7 +1597,7 @@
 		},
 		"cafece9c80c5332e": {
 			"parent": "fffffffffffffffe",
-			"name": "Miami_Guard_EventSecurity_M_PRO75012",
+			"name": "Miami_Guard_EventSecurity",
 			"factory": "[modules:/zglobaloutfitkit.class].pc_entitytype",
 			"blueprint": "[modules:/zglobaloutfitkit.class].pc_entityblueprint",
 			"properties": {
@@ -1852,18 +1699,6 @@
 				}
 			}
 		},
-		"cafef1b4e7604183": {
-			"parent": "cafece9c80c5332e",
-			"name": "Prof_Miami_Guard",
-			"factory": "[assembly:/_pro/design/actor/profession.template?/prof_miami_guard.entitytemplate].pc_entitytype",
-			"blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_miami_guard.entitytemplate].pc_entityblueprint",
-			"properties": {
-				"m_aHolders": {
-					"type": "TArray<SEntityTemplateReference>",
-					"value": ["cafece9c80c5332e"]
-				}
-			}
-		},
 		"cafe8e7d3538cea9": {
 			"parent": "cafece9c80c5332e",
 			"name": "Keyword_ITEM_SNIPER_RIFLE",
@@ -1914,9 +1749,9 @@
 		},
 		"cafef9e3ce663d0a": {
 			"parent": "cafece9c80c5332e",
-			"name": "Prof_Miami_Guard_EventSecurity",
-			"factory": "[assembly:/_pro/design/actor/profession.template?/prof_miami_guard_eventsecurity.entitytemplate].pc_entitytype",
-			"blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_miami_guard_eventsecurity.entitytemplate].pc_entityblueprint",
+			"name": "Prof_Colorado_event_security",
+			"factory": "[assembly:/_pro/design/actor/profession.template?/prof_hay_police.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_hay_police.entitytemplate].pc_entityblueprint",
 			"properties": {
 				"m_aHolders": {
 					"type": "TArray<SEntityTemplateReference>",
@@ -1929,18 +1764,6 @@
 			"name": "Keyword_Prof_Class_Default",
 			"factory": "[assembly:/_pro/design/gamecore/keywords/keywordgenericprofessionclasses.template?/keyword_prof_class_default.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/_pro/design/gamecore/keywords/keywordgenericprofessionclasses.template?/keyword_prof_class_default.entitytemplate].pc_entityblueprint",
-			"properties": {
-				"m_aHolders": {
-					"type": "TArray<SEntityTemplateReference>",
-					"value": ["cafece9c80c5332e"]
-				}
-			}
-		},
-		"cafeb7b7913c1281": {
-			"parent": "cafece9c80c5332e",
-			"name": "Prof_Miami",
-			"factory": "[assembly:/_pro/design/actor/profession.template?/prof_miami.entitytemplate].pc_entitytype",
-			"blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_miami.entitytemplate].pc_entityblueprint",
 			"properties": {
 				"m_aHolders": {
 					"type": "TArray<SEntityTemplateReference>",
@@ -2322,32 +2145,6 @@
 				}
 			}
 		},
-		"cafe764c501078c6": {
-			"parent": "cafea0973455d0a6",
-			"name": "Prof_Miami",
-			"factory": "[assembly:/_pro/design/actor/profession.template?/prof_miami.entitytemplate].pc_entitytype",
-			"blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_miami.entitytemplate].pc_entityblueprint",
-			"properties": {
-				"m_aHolders": {
-					"type": "TArray<SEntityTemplateReference>",
-					"value": ["cafea0973455d0a6"],
-					"postInit": true
-				}
-			}
-		},
-		"cafed819962de9ce": {
-			"parent": "cafea0973455d0a6",
-			"name": "Prof_Miami_Worker_Medic",
-			"factory": "[assembly:/_pro/design/actor/profession.template?/prof_miami_worker_medic.entitytemplate].pc_entitytype",
-			"blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_miami_worker_medic.entitytemplate].pc_entityblueprint",
-			"properties": {
-				"m_aHolders": {
-					"type": "TArray<SEntityTemplateReference>",
-					"value": ["cafea0973455d0a6"],
-					"postInit": true
-				}
-			}
-		},
 		"cafe2469a043ab6b": {
 			"parent": "cafea0973455d0a6",
 			"name": "Keyword_FOLEY_VR_OUTFIT_RUBBERGLOVES",
@@ -2463,9 +2260,9 @@
 		},
 		"cafe884d4f52c8a2": {
 			"parent": "cafea0973455d0a6",
-			"name": "Prof_Miami_Worker",
-			"factory": "[assembly:/_pro/design/actor/profession.template?/prof_miami_worker.entitytemplate].pc_entitytype",
-			"blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_miami_worker.entitytemplate].pc_entityblueprint",
+			"name": "Prof_Colorado_Event_staff",
+			"factory": "[assembly:/_pro/design/actor/profession.template?/prof_hay_staff.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_hay_staff.entitytemplate].pc_entityblueprint",
 			"properties": {
 				"m_aHolders": {
 					"type": "TArray<SEntityTemplateReference>",
@@ -2606,42 +2403,6 @@
 				}
 			}
 		},
-		"cafed7ebf97bcd6d": {
-			"parent": "cafe2ed4a9aa0de4",
-			"name": "Keyword_Prof_Class_Default",
-			"factory": "[assembly:/_pro/design/gamecore/keywords/keywordgenericprofessionclasses.template?/keyword_prof_class_default.entitytemplate].pc_entitytype",
-			"blueprint": "[assembly:/_pro/design/gamecore/keywords/keywordgenericprofessionclasses.template?/keyword_prof_class_default.entitytemplate].pc_entityblueprint",
-			"properties": {
-				"m_aHolders": {
-					"type": "TArray<SEntityTemplateReference>",
-					"value": ["cafe2ed4a9aa0de4"]
-				}
-			}
-		},
-		"cafed22e25cebcb4": {
-			"parent": "cafe2ed4a9aa0de4",
-			"name": "Prof_Miami_Worker",
-			"factory": "[assembly:/_pro/design/actor/profession.template?/prof_miami_worker.entitytemplate].pc_entitytype",
-			"blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_miami_worker.entitytemplate].pc_entityblueprint",
-			"properties": {
-				"m_aHolders": {
-					"type": "TArray<SEntityTemplateReference>",
-					"value": ["cafe2ed4a9aa0de4"]
-				}
-			}
-		},
-		"cafe39ad1fe2b745": {
-			"parent": "cafe2ed4a9aa0de4",
-			"name": "Prof_Miami",
-			"factory": "[assembly:/_pro/design/actor/profession.template?/prof_miami.entitytemplate].pc_entitytype",
-			"blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_miami.entitytemplate].pc_entityblueprint",
-			"properties": {
-				"m_aHolders": {
-					"type": "TArray<SEntityTemplateReference>",
-					"value": ["cafe2ed4a9aa0de4"]
-				}
-			}
-		},
 		"cafe4c155e72f66d": {
 			"parent": "cafe2ed4a9aa0de4",
 			"name": "Keyword_DIALOGUE_GENERIC_TYPE",
@@ -2702,32 +2463,6 @@
 				"m_rHolder": {
 					"type": "SEntityTemplateReference",
 					"value": "cafe9f54b6576011",
-					"postInit": true
-				}
-			}
-		},
-		"cafe3e4f6283d549": {
-			"parent": "cafe9f54b6576011",
-			"name": "Prof_Miami",
-			"factory": "[assembly:/_pro/design/actor/profession.template?/prof_miami.entitytemplate].pc_entitytype",
-			"blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_miami.entitytemplate].pc_entityblueprint",
-			"properties": {
-				"m_aHolders": {
-					"type": "TArray<SEntityTemplateReference>",
-					"value": ["cafe9f54b6576011"],
-					"postInit": true
-				}
-			}
-		},
-		"cafeb24a01db8334": {
-			"parent": "cafe9f54b6576011",
-			"name": "Prof_Miami_Unique",
-			"factory": "[assembly:/_pro/design/actor/profession.template?/prof_miami_unique.entitytemplate].pc_entitytype",
-			"blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_miami_unique.entitytemplate].pc_entityblueprint",
-			"properties": {
-				"m_aHolders": {
-					"type": "TArray<SEntityTemplateReference>",
-					"value": ["cafe9f54b6576011"],
 					"postInit": true
 				}
 			}
@@ -2952,18 +2687,6 @@
 				}
 			}
 		},
-		"cafe7751ef0a004a": {
-			"parent": "cafec189cf86f2ea",
-			"name": "Prof_Miami_Guard",
-			"factory": "[assembly:/_pro/design/actor/profession.template?/prof_miami_guard.entitytemplate].pc_entitytype",
-			"blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_miami_guard.entitytemplate].pc_entityblueprint",
-			"properties": {
-				"m_aHolders": {
-					"type": "TArray<SEntityTemplateReference>",
-					"value": ["cafec189cf86f2ea"]
-				}
-			}
-		},
 		"cafe25154e0c00c5": {
 			"parent": "cafec189cf86f2ea",
 			"name": "Keyword_ITEM_SNIPER_RIFLE",
@@ -3012,18 +2735,6 @@
 				}
 			}
 		},
-		"cafe3f6de35ed725": {
-			"parent": "cafec189cf86f2ea",
-			"name": "Prof_Miami_Guard_EventSecurity",
-			"factory": "[assembly:/_pro/design/actor/profession.template?/prof_miami_guard_eventsecurity.entitytemplate].pc_entitytype",
-			"blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_miami_guard_eventsecurity.entitytemplate].pc_entityblueprint",
-			"properties": {
-				"m_aHolders": {
-					"type": "TArray<SEntityTemplateReference>",
-					"value": ["cafec189cf86f2ea"]
-				}
-			}
-		},
 		"cafeba4f53e0a3c7": {
 			"parent": "cafec189cf86f2ea",
 			"name": "Keyword_Prof_Class_Default",
@@ -3038,9 +2749,9 @@
 		},
 		"cafe2cbc456c9eab": {
 			"parent": "cafec189cf86f2ea",
-			"name": "Prof_Miami",
-			"factory": "[assembly:/_pro/design/actor/profession.template?/prof_miami.entitytemplate].pc_entitytype",
-			"blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_miami.entitytemplate].pc_entityblueprint",
+			"name": "Prof_Elite_security",
+			"factory": "[assembly:/_pro/design/actor/profession.template?/prof_hay_elite_security.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_hay_elite_security.entitytemplate].pc_entityblueprint",
 			"properties": {
 				"m_aHolders": {
 					"type": "TArray<SEntityTemplateReference>",
@@ -3390,18 +3101,6 @@
 				}
 			}
 		},
-		"cafe3b9905829555": {
-			"parent": "cafef13970562e03",
-			"name": "Prof_Hay_Worker_Field",
-			"factory": "[assembly:/_pro/design/actor/profession.template?/prof_miami_unique.entitytemplate].pc_entitytype",
-			"blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_miami_unique.entitytemplate].pc_entityblueprint",
-			"properties": {
-				"m_aHolders": {
-					"type": "TArray<SEntityTemplateReference>",
-					"value": ["cafef13970562e03"]
-				}
-			}
-		},
 		"cafea9baa129c2b9": {
 			"parent": "cafef13970562e03",
 			"name": "Prof_Hay_Worker",
@@ -3499,8 +3198,8 @@
 		"cafe3cded8a85f97": {
 			"parent": "cafe388af7433879",
 			"name": "Prof_Hay_Worker_Field",
-			"factory": "[assembly:/_pro/design/actor/profession.template?/prof_skunk_worker_server.entitytemplate].pc_entitytype",
-			"blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_skunk_worker_server.entitytemplate].pc_entityblueprint",
+			"factory": "[assembly:/_pro/design/actor/profession.template?/prof_hay_worker_field.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_hay_worker_field.entitytemplate].pc_entityblueprint",
 			"properties": {
 				"m_aHolders": {
 					"type": "TArray<SEntityTemplateReference>",
@@ -3595,6 +3294,152 @@
 				"m_eOutfitType": {
 					"type": "EOutfitType",
 					"value": "eOT_Worker"
+				}
+			}
+		},
+		"cafe2689a9957950": {
+			"parent": "cafe2ed4a9aa0de4",
+			"name": "Prof_Colorado_Event_staff",
+			"factory": "[assembly:/_pro/design/actor/profession.template?/prof_hay_staff.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_hay_staff.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_aHolders": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["cafe2ed4a9aa0de4"]
+				}
+			}
+		},
+		"cafea0226ca865f3": {
+			"parent": "cafe2ed4a9aa0de4",
+			"name": "Keyword_Prof_Class_Default",
+			"factory": "[assembly:/_pro/design/gamecore/keywords/keywordgenericprofessionclasses.template?/keyword_prof_class_default.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/gamecore/keywords/keywordgenericprofessionclasses.template?/keyword_prof_class_default.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_aHolders": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["cafe2ed4a9aa0de4"],
+					"postInit": true
+				}
+			}
+		},
+		"cafe06f61b68a70f": {
+			"parent": "cafe34a5d73d4f85",
+			"name": "Prof_Colorado_Event_staff",
+			"factory": "[assembly:/_pro/design/actor/profession.template?/prof_hay_staff.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_hay_staff.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_aHolders": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["cafe34a5d73d4f85"]
+				}
+			}
+		},
+		"cafea021f0a0f5ce": {
+			"parent": "cafeeafdd270f153",
+			"name": "Prof_Colorado_Event_staff",
+			"factory": "[assembly:/_pro/design/actor/profession.template?/prof_hay_staff.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_hay_staff.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_aHolders": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["cafeeafdd270f153"]
+				}
+			}
+		},
+		"cafee4dca79ba973": {
+			"parent": "cafece9c80c5332e",
+			"name": "Prof_Colorado_Event_staff",
+			"factory": "[assembly:/_pro/design/actor/profession.template?/prof_hay_staff.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_hay_staff.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_aHolders": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["cafece9c80c5332e"]
+				}
+			}
+		},
+		"cafe73b85dd1d2e1": {
+			"parent": "cafe9f54b6576011",
+			"name": "Prof_Colorado_Event_staff",
+			"factory": "[assembly:/_pro/design/actor/profession.template?/prof_hay_staff.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_hay_staff.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_aHolders": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["cafe9f54b6576011"]
+				}
+			}
+		},
+		"cafe0d120787244c": {
+			"parent": "cafe70e4f592090e",
+			"name": "Prof_Colorado_Event_staff",
+			"factory": "[assembly:/_pro/design/actor/profession.template?/prof_hay_staff.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_hay_staff.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_aHolders": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["cafe70e4f592090e"]
+				}
+			}
+		},
+		"cafe677023eff913": {
+			"parent": "cafe0e02a895c191",
+			"name": "Prof_Colorado_Event_staff",
+			"factory": "[assembly:/_pro/design/actor/profession.template?/prof_hay_staff.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_hay_staff.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_aHolders": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["cafe0e02a895c191"]
+				}
+			}
+		},
+		"cafe27de06590067": {
+			"parent": "cafec189cf86f2ea",
+			"name": "Prof_Colorado_event_security",
+			"factory": "[assembly:/_pro/design/actor/profession.template?/prof_hay_police.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_hay_police.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_aHolders": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["cafec189cf86f2ea"]
+				}
+			}
+		},
+		"cafe1612490c5fb4": {
+			"parent": "cafef13970562e03",
+			"name": "Prof_Elite_security",
+			"factory": "[assembly:/_pro/design/actor/profession.template?/prof_hay_elite_security.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_hay_elite_security.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_aHolders": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["cafec189cf86f2ea"]
+				}
+			}
+		},
+		"cafe8abeb7be9b0e": {
+			"parent": "cafe388af7433879",
+			"name": "Prof_Worker_field",
+			"factory": "[assembly:/_pro/design/actor/profession.template?/prof_hay_elite_security.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_hay_elite_security.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_aHolders": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["cafec189cf86f2ea"]
+				}
+			}
+		},
+		"cafefe70ca357159": {
+			"parent": "cafef13970562e03",
+			"name": "Prof_Hay_Worker_Field",
+			"factory": "[assembly:/_pro/design/actor/profession.template?/prof_hay_worker_field.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_hay_worker_field.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_aHolders": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["cafef13970562e03"],
+					"postInit": true
 				}
 			}
 		}

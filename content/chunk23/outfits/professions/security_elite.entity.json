@@ -1,30 +1,30 @@
 {
-	"tempHash": "00B59871DFD3159D",
-	"tbluHash": "00DE555091FD9220",
-	"rootEntity": "cf410a2edd96fc15",
+	"tempHash": "00F190233D8EAFB7",
+	"tbluHash": "00D3F8CCCBE709DC",
+	"rootEntity": "cafe97d3db8edeae",
 	"entities": {
-		"536592ea181f81be": {
-			"parent": "cf410a2edd96fc15",
+		"cafe261f3ae883f4": {
+			"parent": "cafe97d3db8edeae",
 			"name": "OutfitProfession",
 			"factory": "[modules:/zoutfitprofessionentity.class].pc_entitytype",
 			"blueprint": "[modules:/zoutfitprofessionentity.class].pc_entityblueprint",
 			"properties": {
 				"m_rKeywordProfession": {
 					"type": "SEntityTemplateReference",
-					"value": "4d2ec30f528b5a70",
+					"value": "cafedfbcea3eefb5",
 					"postInit": true
 				}
 			}
 		},
-		"4d2ec30f528b5a70": {
-			"parent": "cf410a2edd96fc15",
-			"name": "Keyword_PROF_COLORADO_GUARD_EVENT_SECURITY",
+		"cafedfbcea3eefb5": {
+			"parent": "cafe97d3db8edeae",
+			"name": "Keyword_PROF_COLORADO_elite",
 			"factory": "[modules:/zkeywordentity.class].pc_entitytype",
 			"blueprint": "[modules:/zkeywordentity.class].pc_entityblueprint",
 			"properties": {
 				"m_sKeyword": {
 					"type": "ZString",
-					"value": "PROF_COLORADO_EVENT_SECURITY"
+					"value": "PROF_COLORADO_ELITE_SECURITY"
 				},
 				"m_aHolders": {
 					"type": "TArray<SEntityTemplateReference>",
@@ -32,27 +32,27 @@
 				},
 				"m_rHolder": {
 					"type": "SEntityTemplateReference",
-					"value": "cf410a2edd96fc15",
+					"value": "cafe97d3db8edeae",
 					"postInit": true
 				}
 			}
 		},
-		"cf410a2edd96fc15": {
+		"cafe97d3db8edeae": {
 			"parent": null,
-			"name": "Prof_Colorado_Event_Security",
+			"name": "Prof_Colorado_Elite_security",
 			"factory": "[modules:/zentity.class].pc_entitytype",
 			"blueprint": "[modules:/zentity.class].pc_entityblueprint",
 			"propertyAliases": {
 				"m_aHolders": [
 					{
 						"originalProperty": "m_aHolders",
-						"originalEntity": "4d2ec30f528b5a70"
+						"originalEntity": "cafedfbcea3eefb5"
 					}
 				]
 			},
 			"exposedInterfaces": {
-				"ZKeywordEntity": "4d2ec30f528b5a70",
-				"ZOutfitProfessionEntity": "536592ea181f81be"
+				"ZKeywordEntity": "cafedfbcea3eefb5",
+				"ZOutfitProfessionEntity": "cafe261f3ae883f4"
 			}
 		}
 	},
@@ -61,7 +61,7 @@
 	"pinConnectionOverrides": [],
 	"pinConnectionOverrideDeletes": [],
 	"externalScenes": [],
-	"subType": "template",
+	"subType": "scene",
 	"quickEntityVersion": 3.1,
 	"extraFactoryDependencies": [],
 	"extraBlueprintDependencies": [],

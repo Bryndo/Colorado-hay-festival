@@ -11,7 +11,15 @@
 			"properties": {
 				"m_aVariations": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": ["cafe6f10b81fdecc"],
+					"value": [
+						"cafe6f10b81fdecc",
+						"cafe07ab28eea1ee",
+						"cafeea553e212ad5",
+						"cafe156becbcbccd",
+						"cafea2d5b69b517d",
+						"cafe22d2949a0da3",
+						"cafe7bf7a2861716"
+					],
 					"postInit": true
 				}
 			}
@@ -24,7 +32,15 @@
 			"properties": {
 				"m_aVariations": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": ["cafed1afab7ac78a"],
+					"value": [
+						"cafed1afab7ac78a",
+						"cafee694cb2c2c74",
+						"cafefb17fc24fe19",
+						"cafe4acd87eefda7",
+						"cafe3c2ff249c4bc",
+						"cafea818a48a3030",
+						"cafedeb8c04d42e8"
+					],
 					"postInit": true
 				}
 			}
@@ -54,7 +70,16 @@
 			"parent": "cafe3f35679afcce",
 			"name": "Var0",
 			"factory": "[modules:/zoutfitvariation.class].pc_entitytype",
-			"blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint"
+			"blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint",
+			"properties": {
+				"m_Outfit": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/characters/templates/hero/agent47/agent47_outfits.template?/outfit_agent47_hay_elite_guard_heroa_v0.entitytemplate].pc_entitytemplate",
+						"flag": "9F"
+					}
+				}
+			}
 		},
 		"cafe6b03bde4b879": {
 			"parent": "cafe58aa692dcb91",
@@ -91,7 +116,16 @@
 			"parent": "cafe56caaff952f8",
 			"name": "Var0",
 			"factory": "[modules:/zoutfitvariation.class].pc_entitytype",
-			"blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint"
+			"blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint",
+			"properties": {
+				"m_Outfit": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/characters/templates/magpie/char_magpie_workers.template?/outfit_magpie_worker_servant_m_nude_v4.entitytemplate].pc_entitytemplate",
+						"flag": "9F"
+					}
+				}
+			}
 		},
 		"cafee4a32a52e268": {
 			"parent": "cafe58aa692dcb91",
@@ -178,6 +212,186 @@
 					"type": "ZRuntimeResourceID",
 					"value": {
 						"resource": "[assembly:/_pro/characters/templates/hay/char_hay_guard.template?/outfit_hay_guard_VIP_V6.entitytemplate].pc_entitytemplate",
+						"flag": "9F"
+					}
+				}
+			}
+		},
+		"cafedeb8c04d42e8": {
+			"parent": "cafe56caaff952f8",
+			"name": "Var6",
+			"factory": "[modules:/zoutfitvariation.class].pc_entitytype",
+			"blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint",
+			"properties": {
+				"m_Outfit": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/characters/templates/skunk/char_skunk_workers.template?/outfit_skunk_worker_construction_m_nude_v1.entitytemplate].pc_entitytemplate",
+						"flag": "9F"
+					}
+				}
+			}
+		},
+		"cafea818a48a3030": {
+			"parent": "cafe56caaff952f8",
+			"name": "Var5",
+			"factory": "[modules:/zoutfitvariation.class].pc_entitytype",
+			"blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint",
+			"properties": {
+				"m_Outfit": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/characters/templates/skunk/char_skunk_guard.template?/outfit_skunk_guard_cassidyvip_m_nude_v4.entitytemplate].pc_entitytemplate",
+						"flag": "9F"
+					}
+				}
+			}
+		},
+		"cafe3c2ff249c4bc": {
+			"parent": "cafe56caaff952f8",
+			"name": "Var4",
+			"factory": "[modules:/zoutfitvariation.class].pc_entitytype",
+			"blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint",
+			"properties": {
+				"m_Outfit": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/characters/templates/magpie/char_magpie_guards.template?/outfit_magpie_guard_guardian_m_nude_v5.entitytemplate].pc_entitytemplate",
+						"flag": "9F"
+					}
+				}
+			}
+		},
+		"cafe4acd87eefda7": {
+			"parent": "cafe56caaff952f8",
+			"name": "Var3",
+			"factory": "[modules:/zoutfitvariation.class].pc_entitytype",
+			"blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint",
+			"properties": {
+				"m_Outfit": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/characters/templates/mongoose/char_mongoose_guard.template?/outfit_mongoose_guard_bollywood_m_nude_v1.entitytemplate].pc_entitytemplate",
+						"flag": "9F"
+					}
+				}
+			}
+		},
+		"cafefb17fc24fe19": {
+			"parent": "cafe56caaff952f8",
+			"name": "Var2",
+			"factory": "[modules:/zoutfitvariation.class].pc_entitytype",
+			"blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint",
+			"properties": {
+				"m_Outfit": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/characters/templates/skunk/char_skunk_guard.template?/outfit_skunk_guard_officer_m_nude_v3.entitytemplate].pc_entitytemplate",
+						"flag": "9F"
+					}
+				}
+			}
+		},
+		"cafee694cb2c2c74": {
+			"parent": "cafe56caaff952f8",
+			"name": "Var1",
+			"factory": "[modules:/zoutfitvariation.class].pc_entitytype",
+			"blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint",
+			"properties": {
+				"m_Outfit": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/characters/templates/magpie/char_magpie_unique.template?/outfit_magpie_unique_timquinn_boxer_m_nude_v0.entitytemplate].pc_entitytemplate",
+						"flag": "9F"
+					}
+				}
+			}
+		},
+		"cafe7bf7a2861716": {
+			"parent": "cafe3f35679afcce",
+			"name": "Var6",
+			"factory": "[modules:/zoutfitvariation.class].pc_entitytype",
+			"blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint",
+			"properties": {
+				"m_Outfit": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/characters/templates/hero/agent47/agent47_outfits.template?/outfit_agent47_hay_elite_guard_heroa_v0.entitytemplate].pc_entitytemplate",
+						"flag": "9F"
+					}
+				}
+			}
+		},
+		"cafe07ab28eea1ee": {
+			"parent": "cafe3f35679afcce",
+			"name": "Var1",
+			"factory": "[modules:/zoutfitvariation.class].pc_entitytype",
+			"blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint",
+			"properties": {
+				"m_Outfit": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/characters/templates/hero/agent47/agent47_outfits.template?/outfit_agent47_hay_elite_guard_heroa_v0.entitytemplate].pc_entitytemplate",
+						"flag": "9F"
+					}
+				}
+			}
+		},
+		"cafe22d2949a0da3": {
+			"parent": "cafe3f35679afcce",
+			"name": "Var5",
+			"factory": "[modules:/zoutfitvariation.class].pc_entitytype",
+			"blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint",
+			"properties": {
+				"m_Outfit": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/characters/templates/hero/agent47/agent47_outfits.template?/outfit_agent47_hay_elite_guard_heroa_v0.entitytemplate].pc_entitytemplate",
+						"flag": "9F"
+					}
+				}
+			}
+		},
+		"cafeea553e212ad5": {
+			"parent": "cafe3f35679afcce",
+			"name": "Var2",
+			"factory": "[modules:/zoutfitvariation.class].pc_entitytype",
+			"blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint",
+			"properties": {
+				"m_Outfit": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/characters/templates/hero/agent47/agent47_outfits.template?/outfit_agent47_hay_elite_guard_heroa_v0.entitytemplate].pc_entitytemplate",
+						"flag": "9F"
+					}
+				}
+			}
+		},
+		"cafe156becbcbccd": {
+			"parent": "cafe3f35679afcce",
+			"name": "Var3",
+			"factory": "[modules:/zoutfitvariation.class].pc_entitytype",
+			"blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint",
+			"properties": {
+				"m_Outfit": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/characters/templates/hero/agent47/agent47_outfits.template?/outfit_agent47_hay_elite_guard_heroa_v0.entitytemplate].pc_entitytemplate",
+						"flag": "9F"
+					}
+				}
+			}
+		},
+		"cafea2d5b69b517d": {
+			"parent": "cafe3f35679afcce",
+			"name": "Var4",
+			"factory": "[modules:/zoutfitvariation.class].pc_entitytype",
+			"blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint",
+			"properties": {
+				"m_Outfit": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/characters/templates/hero/agent47/agent47_outfits.template?/outfit_agent47_hay_elite_guard_heroa_v0.entitytemplate].pc_entitytemplate",
 						"flag": "9F"
 					}
 				}
