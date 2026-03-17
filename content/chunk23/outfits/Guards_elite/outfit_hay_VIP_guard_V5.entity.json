@@ -3,29 +3,6 @@
 	"tbluHash": "007E25E6465C4201",
 	"rootEntity": "cafe73748fdb8a23",
 	"entities": {
-		"cafe678c0853bab6": {
-			"parent": "cafe73748fdb8a23",
-			"name": "Shirt_Dress_Torso_BtnUp_Tkd_3open",
-			"factory": "[assembly:/_pro/characters/templates/_part_library/male_apparel/male_reg_apparel_torso_l01.template?/shirt_dress_torso_btnup_tkd_3open.entitytemplate].pc_entitytype",
-			"blueprint": "[assembly:/_pro/characters/templates/_part_library/male_apparel/male_reg_apparel_torso_l01.template?/shirt_dress_torso_btnup_tkd_3open.entitytemplate].pc_entityblueprint",
-			"properties": {
-				"Diffuse_Color_01_Value": {
-					"type": "SColorRGB",
-					"value": "#607b91"
-				},
-				"Texture2D_01": {
-					"type": "ZRuntimeResourceID",
-					"value": {
-						"resource": "[assembly:/_pro/characters/assets/_apparel/male/volumes_l01/dress_shirt/textures/male_reg_dress_shirt.texture?/diffuse_a_ao.tex](ascolormap).pc_tex",
-						"flag": "5F"
-					}
-				},
-				"Diffuse_Color_01_Value_1": {
-					"type": "SColorRGB",
-					"value": "#ffffff"
-				}
-			}
-		},
 		"cafe8b883b49ce0d": {
 			"parent": "cafe73748fdb8a23",
 			"name": "Shoes_Boots_H_Riding",
@@ -195,7 +172,7 @@
 					"type": "TArray<SEntityTemplateReference>",
 					"value": [
 						"cafe8b883b49ce0d",
-						"cafe678c0853bab6",
+						"cafe101026ff58ae",
 						"cafe88844b509e30",
 						"cafef09b0bee5314",
 						"cafe132c0a0e1af1",
@@ -204,7 +181,8 @@
 						"cafefc72f20d944d",
 						"cafe997686600cc0",
 						"cafef2d3fbbe0563",
-						"cafe78da8c516469"
+						"cafe78da8c516469",
+						"cafeef65cde533d4"
 					],
 					"postInit": true
 				}
@@ -360,6 +338,183 @@
 				"Diffuse_Color_01_Value": {
 					"type": "SColorRGB",
 					"value": "#47301d"
+				}
+			}
+		},
+		"cafe6528cdc02426": {
+			"parent": "cafe1f1ce0e469fa",
+			"name": "Watch_Silver",
+			"factory": "[assembly:/_pro/characters/templates/_part_library/male_apparel/male_apparel_wristwear_prim.template?/watch_silver.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/characters/templates/_part_library/male_apparel/male_apparel_wristwear_prim.template?/watch_silver.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -1.315748358595717,
+							"y": -0.1818572144442012,
+							"z": -90.14593308683467
+						},
+						"position": {
+							"x": 0.2325170934200287,
+							"y": -0.0007590103195980191,
+							"z": 0.005127999931573868
+						}
+					}
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": { "x": 1.0, "y": 1.0, "z": 1.0 }
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe1f1ce0e469fa",
+					"postInit": true
+				}
+			}
+		},
+		"cafe1f1ce0e469fa": {
+			"parent": "cafe73748fdb8a23",
+			"name": "Attacher_Wrist_L",
+			"factory": "[assembly:/templates/aspectdummy.aspect]([modules:/zcompositeentity.class].entitytype,[modules:/zboneattachaspect.class].entitytype).pc_entitytype",
+			"blueprint": "[assembly:/templates/aspectdummy.aspect]([modules:/zcompositeentity.class].entitytype,[modules:/zboneattachaspect.class].entitytype).pc_entityblueprint",
+			"properties": {
+				"m_BoneName": { "type": "ZString", "value": "L_Forearm" },
+				"m_linkedEntity": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe73748fdb8a23"
+				},
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": -3.1805546814635168e-15
+						},
+						"position": {
+							"x": 0.0,
+							"y": 3.993158952911475e-16,
+							"z": 0.0
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe73748fdb8a23"
+				}
+			}
+		},
+		"cafeef65cde533d4": {
+			"parent": "cafe73748fdb8a23",
+			"name": "Earpiece_Wire",
+			"factory": "[assembly:/_pro/characters/templates/_part_library/male_apparel/male_apparel_headwear.template?/earpiece_wire.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/characters/templates/_part_library/male_apparel/male_apparel_headwear.template?/earpiece_wire.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"Diffuse_Hue_Shift_01_Value": {
+					"type": "float32",
+					"value": 0.0
+				}
+			}
+		},
+		"cafeb0b2ebb33439": {
+			"parent": "cafe326542e65db5",
+			"name": "Holster_Leather_WW2",
+			"factory": "[assembly:/_pro/characters/templates/_part_library/male_apparel/male_apparel_acc_prim.template?/holster_leather_ww2.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/characters/templates/_part_library/male_apparel/male_apparel_acc_prim.template?/holster_leather_ww2.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -73.78768391401739,
+							"y": 0.7718910876327256,
+							"z": -97.24604726822308
+						},
+						"position": {
+							"x": -0.07267475128173828,
+							"y": 0.0290682315826416,
+							"z": -0.16398930549621582
+						}
+					}
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 1.0499999523162842,
+						"y": 1.0499999523162842,
+						"z": 0.9492629766464232
+					}
+				},
+				"Diffuse_Saturation_01_Value": {
+					"type": "float32",
+					"value": 0.7599999904632568
+				},
+				"Diffuse_Hue_Shift_01_Value": {
+					"type": "float32",
+					"value": 0.009999999776482582
+				},
+				"ConstantVector1D_01_Value": {
+					"type": "float32",
+					"value": 0.3499999940395355
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe326542e65db5",
+					"postInit": true
+				}
+			}
+		},
+		"cafe326542e65db5": {
+			"parent": "cafe73748fdb8a23",
+			"name": "Attacher_Belt",
+			"factory": "[assembly:/templates/aspectdummy.aspect]([modules:/zcompositeentity.class].entitytype,[modules:/zboneattachaspect.class].entitytype).pc_entitytype",
+			"blueprint": "[assembly:/templates/aspectdummy.aspect]([modules:/zcompositeentity.class].entitytype,[modules:/zboneattachaspect.class].entitytype).pc_entityblueprint",
+			"properties": {
+				"m_BoneName": { "type": "ZString", "value": "Spine" },
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
+						"position": {
+							"x": -7.872426976973659e-8,
+							"y": -6.456077006333771e-9,
+							"z": 0.0
+						}
+					}
+				},
+				"m_linkedEntity": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe73748fdb8a23",
+					"postInit": true
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe73748fdb8a23",
+					"postInit": true
+				}
+			}
+		},
+		"cafe101026ff58ae": {
+			"parent": "cafe73748fdb8a23",
+			"name": "Shirt_Dress_Torso_BtnUp_Tkd_2open",
+			"factory": "[assembly:/_pro/characters/templates/_part_library/male_apparel/male_reg_apparel_torso_l01.template?/shirt_dress_torso_btnup_tkd_2open.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/characters/templates/_part_library/male_apparel/male_reg_apparel_torso_l01.template?/shirt_dress_torso_btnup_tkd_2open.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"Diffuse_Color_01_Value": {
+					"type": "SColorRGB",
+					"value": "#607b91"
+				},
+				"Texture2D_01": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/characters/assets/_apparel/male/volumes_l01/dress_shirt/textures/male_reg_dress_shirt.texture?/diffuse_a_ao.tex](ascolormap).pc_tex",
+						"flag": "5F"
+					}
+				},
+				"Diffuse_Color_01_Value_1": {
+					"type": "SColorRGB",
+					"value": "#ffffff"
 				}
 			}
 		}

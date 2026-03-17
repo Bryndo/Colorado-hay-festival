@@ -49,7 +49,8 @@
 						"cafed5917c64fcda",
 						"cafe1b1cf431f50a",
 						"cafe3255f2202e4d",
-						"cafe33a7fd9f380e"
+						"cafe33a7fd9f380e",
+						"cafee69de7c201b8"
 					],
 					"postInit": true
 				}
@@ -327,6 +328,96 @@
 						"resource": "[assembly:/_pro/characters/assets/hero/agent47_outfits/agent47_wrath/texture/male_reg_belt_buckle_wrath.texture?/specular_a.tex](ascolormap).pc_tex",
 						"flag": "5F"
 					}
+				}
+			}
+		},
+		"cafef491e68e9c41": {
+			"parent": "cafec04b08d34fe2",
+			"name": "Holster_Leather_WW2",
+			"factory": "[assembly:/_pro/characters/templates/_part_library/male_apparel/male_apparel_acc_prim.template?/holster_leather_ww2.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/characters/templates/_part_library/male_apparel/male_apparel_acc_prim.template?/holster_leather_ww2.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -73.78768391401739,
+							"y": 0.7718910876327256,
+							"z": -97.24604726822308
+						},
+						"position": {
+							"x": -0.07267475128173828,
+							"y": 0.0290682315826416,
+							"z": -0.16398930549621582
+						}
+					}
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 1.0499999523162842,
+						"y": 1.0499999523162842,
+						"z": 0.9492629766464232
+					}
+				},
+				"Diffuse_Saturation_01_Value": {
+					"type": "float32",
+					"value": 0.7599999904632568
+				},
+				"Diffuse_Hue_Shift_01_Value": {
+					"type": "float32",
+					"value": 0.009999999776482582
+				},
+				"ConstantVector1D_01_Value": {
+					"type": "float32",
+					"value": 0.3499999940395355
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafec04b08d34fe2",
+					"postInit": true
+				}
+			}
+		},
+		"cafec04b08d34fe2": {
+			"parent": "cafe91a04f3baac3",
+			"name": "Attacher_Belt",
+			"factory": "[assembly:/templates/aspectdummy.aspect]([modules:/zcompositeentity.class].entitytype,[modules:/zboneattachaspect.class].entitytype).pc_entitytype",
+			"blueprint": "[assembly:/templates/aspectdummy.aspect]([modules:/zcompositeentity.class].entitytype,[modules:/zboneattachaspect.class].entitytype).pc_entityblueprint",
+			"properties": {
+				"m_BoneName": { "type": "ZString", "value": "Spine" },
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
+						"position": {
+							"x": -7.872426976973659e-8,
+							"y": -6.456077006333771e-9,
+							"z": 0.0
+						}
+					}
+				},
+				"m_linkedEntity": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe91a04f3baac3",
+					"postInit": true
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe91a04f3baac3",
+					"postInit": true
+				}
+			}
+		},
+		"cafee69de7c201b8": {
+			"parent": "cafe91a04f3baac3",
+			"name": "Earpiece_Wire",
+			"factory": "[assembly:/_pro/characters/templates/_part_library/male_apparel/male_apparel_headwear.template?/earpiece_wire.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/characters/templates/_part_library/male_apparel/male_apparel_headwear.template?/earpiece_wire.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"Diffuse_Hue_Shift_01_Value": {
+					"type": "float32",
+					"value": 0.0
 				}
 			}
 		}

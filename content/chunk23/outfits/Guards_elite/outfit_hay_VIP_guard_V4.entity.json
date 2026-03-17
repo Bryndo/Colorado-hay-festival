@@ -3,29 +3,6 @@
 	"tbluHash": "00AD0F236DCD38FA",
 	"rootEntity": "cafe7cbb7bbc60ef",
 	"entities": {
-		"cafeb352627134a1": {
-			"parent": "cafe7cbb7bbc60ef",
-			"name": "Shirt_Dress_Torso_BtnUp_Tkd_3open",
-			"factory": "[assembly:/_pro/characters/templates/_part_library/male_apparel/male_reg_apparel_torso_l01.template?/shirt_dress_torso_btnup_tkd_3open.entitytemplate].pc_entitytype",
-			"blueprint": "[assembly:/_pro/characters/templates/_part_library/male_apparel/male_reg_apparel_torso_l01.template?/shirt_dress_torso_btnup_tkd_3open.entitytemplate].pc_entityblueprint",
-			"properties": {
-				"Diffuse_Color_01_Value": {
-					"type": "SColorRGB",
-					"value": "#607b91"
-				},
-				"Texture2D_01": {
-					"type": "ZRuntimeResourceID",
-					"value": {
-						"resource": "[assembly:/_pro/characters/assets/_apparel/male/volumes_l01/dress_shirt/textures/male_reg_dress_shirt.texture?/diffuse_a_ao.tex](ascolormap).pc_tex",
-						"flag": "5F"
-					}
-				},
-				"Diffuse_Color_01_Value_1": {
-					"type": "SColorRGB",
-					"value": "#ffffff"
-				}
-			}
-		},
 		"cafe983bcaa4d5dc": {
 			"parent": "cafe7cbb7bbc60ef",
 			"name": "Shoes_Boots_H_Riding",
@@ -157,7 +134,7 @@
 		},
 		"cafe7cbb7bbc60ef": {
 			"parent": null,
-			"name": "OUTFIT_Hay_guard_VIP_V1",
+			"name": "OUTFIT_Hay_guard_VIP_V4",
 			"factory": "[assembly:/_pro/characters/templates/_sourcefiles/outfit.template?/outfit_base.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/_pro/characters/templates/_sourcefiles/outfit.template?/outfit_base.entitytemplate].pc_entityblueprint",
 			"properties": {
@@ -195,7 +172,7 @@
 					"type": "TArray<SEntityTemplateReference>",
 					"value": [
 						"cafe983bcaa4d5dc",
-						"cafeb352627134a1",
+						"cafec0a7a7c059b5",
 						"cafec811784a9fa4",
 						"cafe858817197360",
 						"cafe93331e653acf",
@@ -204,7 +181,8 @@
 						"cafedc044bd97789",
 						"cafe811bf91c3b6e",
 						"cafe059ce4f0fb1b",
-						"cafed3344c0ff792"
+						"cafed3344c0ff792",
+						"cafeea0eb717c5dc"
 					],
 					"postInit": true
 				}
@@ -360,6 +338,119 @@
 				"Diffuse_Color_01_Value": {
 					"type": "SColorRGB",
 					"value": "#47301d"
+				}
+			}
+		},
+		"cafec0a7a7c059b5": {
+			"parent": "cafe7cbb7bbc60ef",
+			"name": "Shirt_Dress_Torso_BtnUp_Tkd_2open",
+			"factory": "[assembly:/_pro/characters/templates/_part_library/male_apparel/male_reg_apparel_torso_l01.template?/shirt_dress_torso_btnup_tkd_2open.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/characters/templates/_part_library/male_apparel/male_reg_apparel_torso_l01.template?/shirt_dress_torso_btnup_tkd_2open.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"Diffuse_Color_01_Value": {
+					"type": "SColorRGB",
+					"value": "#607b91"
+				},
+				"Texture2D_01": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/characters/assets/_apparel/male/volumes_l01/dress_shirt/textures/male_reg_dress_shirt.texture?/diffuse_a_ao.tex](ascolormap).pc_tex",
+						"flag": "5F"
+					}
+				},
+				"Diffuse_Color_01_Value_1": {
+					"type": "SColorRGB",
+					"value": "#ffffff"
+				}
+			}
+		},
+		"cafeea0eb717c5dc": {
+			"parent": "cafe7cbb7bbc60ef",
+			"name": "Earpiece_Wire",
+			"factory": "[assembly:/_pro/characters/templates/_part_library/male_apparel/male_apparel_headwear.template?/earpiece_wire.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/characters/templates/_part_library/male_apparel/male_apparel_headwear.template?/earpiece_wire.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"Diffuse_Hue_Shift_01_Value": {
+					"type": "float32",
+					"value": 0.0
+				}
+			}
+		},
+		"cafeedfde953982c": {
+			"parent": "cafe3e4c91feb55f",
+			"name": "Holster_Leather_WW2",
+			"factory": "[assembly:/_pro/characters/templates/_part_library/male_apparel/male_apparel_acc_prim.template?/holster_leather_ww2.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/characters/templates/_part_library/male_apparel/male_apparel_acc_prim.template?/holster_leather_ww2.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -73.78768391401739,
+							"y": 0.7718910876327256,
+							"z": -97.24604726822308
+						},
+						"position": {
+							"x": -0.07267475128173828,
+							"y": 0.0290682315826416,
+							"z": -0.16398930549621582
+						}
+					}
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 1.0499999523162842,
+						"y": 1.0499999523162842,
+						"z": 0.9492629766464232
+					}
+				},
+				"Diffuse_Saturation_01_Value": {
+					"type": "float32",
+					"value": 0.7599999904632568
+				},
+				"Diffuse_Hue_Shift_01_Value": {
+					"type": "float32",
+					"value": 0.009999999776482582
+				},
+				"ConstantVector1D_01_Value": {
+					"type": "float32",
+					"value": 0.3499999940395355
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe3e4c91feb55f",
+					"postInit": true
+				}
+			}
+		},
+		"cafe3e4c91feb55f": {
+			"parent": "cafe7cbb7bbc60ef",
+			"name": "Attacher_Belt",
+			"factory": "[assembly:/templates/aspectdummy.aspect]([modules:/zcompositeentity.class].entitytype,[modules:/zboneattachaspect.class].entitytype).pc_entitytype",
+			"blueprint": "[assembly:/templates/aspectdummy.aspect]([modules:/zcompositeentity.class].entitytype,[modules:/zboneattachaspect.class].entitytype).pc_entityblueprint",
+			"properties": {
+				"m_BoneName": { "type": "ZString", "value": "Spine" },
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
+						"position": {
+							"x": -7.872426976973659e-8,
+							"y": -6.456077006333771e-9,
+							"z": 0.0
+						}
+					}
+				},
+				"m_linkedEntity": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe7cbb7bbc60ef",
+					"postInit": true
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe7cbb7bbc60ef",
+					"postInit": true
 				}
 			}
 		}
