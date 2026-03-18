@@ -50,7 +50,7 @@
 						"cafe1b1cf431f50a",
 						"cafe3255f2202e4d",
 						"cafe33a7fd9f380e",
-						"cafee69de7c201b8"
+						"cafe355df4f27ada"
 					],
 					"postInit": true
 				}
@@ -409,17 +409,11 @@
 				}
 			}
 		},
-		"cafee69de7c201b8": {
+		"cafe355df4f27ada": {
 			"parent": "cafe91a04f3baac3",
-			"name": "Earpiece_Wire",
-			"factory": "[assembly:/_pro/characters/templates/_part_library/male_apparel/male_apparel_headwear.template?/earpiece_wire.entitytemplate].pc_entitytype",
-			"blueprint": "[assembly:/_pro/characters/templates/_part_library/male_apparel/male_apparel_headwear.template?/earpiece_wire.entitytemplate].pc_entityblueprint",
-			"properties": {
-				"Diffuse_Hue_Shift_01_Value": {
-					"type": "float32",
-					"value": 0.0
-				}
-			}
+			"name": "Earpiece_Wire_47",
+			"factory": "[assembly:/_pro/characters/templates/_part_library/male_apparel/male_apparel_headwear.template?/earpiece_wire_47.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/characters/templates/_part_library/male_apparel/male_apparel_headwear.template?/earpiece_wire_47.entitytemplate].pc_entityblueprint"
 		}
 	},
 	"propertyOverrides": [],

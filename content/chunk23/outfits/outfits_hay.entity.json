@@ -3442,6 +3442,170 @@
 					"postInit": true
 				}
 			}
+		},
+		"cafe274adb598a50": {
+			"parent": "cafe89c4bfae0dd1",
+			"name": "Prof_Skunk_Unique_Granny",
+			"factory": "[assembly:/_pro/design/actor/profession.template?/prof_skunk_unique_granny.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_skunk_unique_granny.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_aHolders": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["cafe89c4bfae0dd1"],
+					"postInit": true
+				}
+			}
+		},
+		"cafe89c4bfae0dd1": {
+			"parent": "fffffffffffffffe",
+			"name": "Skunk_Unique_Granny_F_PRO104723",
+			"factory": "[modules:/zglobaloutfitkit.class].pc_entitytype",
+			"blueprint": "[modules:/zglobaloutfitkit.class].pc_entityblueprint",
+			"properties": {
+				"m_DamageMultipliers": {
+					"type": "SBodyPartDamageMultipliers",
+					"value": {
+						"m_fHeadDamageMultiplier": 3.0,
+						"m_fFaceDamageMultiplier": 3.0,
+						"m_fArmDamageMultiplier": 1.0,
+						"m_fLArmDamageScalar": 0.0,
+						"m_fRArmDamageScalar": 0.0,
+						"m_fHandDamageMultiplier": 0.5,
+						"m_fLHandDamageScalar": 0.0,
+						"m_fRHandDamageScalar": 0.0,
+						"m_fLegDamageMultiplier": 0.6000000238418579,
+						"m_fLLegDamageScalar": 0.0,
+						"m_fRLegDamageScalar": 0.0,
+						"m_fTorsoDamageMultiplier": 1.0,
+						"m_bApplyLeftRightScalars": false
+					}
+				},
+				"m_eActorType": {
+					"type": "EActorType",
+					"value": "eAT_Civilian"
+				},
+				"m_bIsFemale": { "type": "bool", "value": true },
+				"m_eActorCCClass": {
+					"type": "EActorCCPreset",
+					"value": "ACCP_CivilianFemale"
+				},
+				"m_bHeroDisguiseAvailable": {
+					"type": "bool",
+					"value": false
+				},
+				"m_eSoundFootwearType": {
+					"type": "EHM5SoundFootwearType",
+					"value": "EFWT_SNEAKERS"
+				},
+				"m_sId": {
+					"type": "ZGuid",
+					"value": "a6329ab7-b26b-4352-a801-0e78342f9508"
+				},
+				"m_pParentOutfit": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "f76365f15c816405",
+						"externalScene": "[assembly:/_pro/scenes/bricks/globaldata.brick].pc_entitytype"
+					}
+				},
+				"m_sCommonName": {
+					"type": "ZString",
+					"value": "Skunk_Unique_Granny_F_PRO104723"
+				},
+				"m_sTitle": { "type": "ZString", "value": "Granny" },
+				"m_rNameTextResource": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/localization/hitman6/conversations/ui/pro/online/repository/outfits_npcs_skunk.sweetmenutext?/outfits_skunk_unique_granny_f_pro104723_name_a6329ab7-b26b-4352-a801-0e78342f9508.sweetline].pc_sweetline",
+						"flag": "5F"
+					}
+				},
+				"m_rDescriptionTextResource": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/localization/hitman6/conversations/ui/pro/online/repository/outfits_npcs_skunk.sweetmenutext?/outfits_skunk_unique_granny_f_pro104723_description_a6329ab7-b26b-4352-a801-0e78342f9508.sweetline].pc_sweetline",
+						"flag": "5F"
+					}
+				},
+				"m_rDefaultVoiceVariations": {
+					"type": "TArray<EActorVoiceVariation>",
+					"value": ["eAVV_CIVFEM09"]
+				},
+				"m_eOutfitAICategory": {
+					"type": "EOutfitAICategory",
+					"value": "OAC_Fallback"
+				},
+				"m_aCharSets": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["cafeb38f4d37d825"],
+					"postInit": true
+				},
+				"m_aAnimationSets": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["cafe057f2d800fae"],
+					"postInit": true
+				}
+			}
+		},
+		"cafe057f2d800fae": {
+			"parent": "cafe89c4bfae0dd1",
+			"name": "AnimSet_Civ_Female",
+			"factory": "[assembly:/_pro/design/actor/animvariation.template?/animset_civ_female.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/actor/animvariation.template?/animset_civ_female.entitytemplate].pc_entityblueprint"
+		},
+		"cafe754fdb204527": {
+			"parent": "cafe89c4bfae0dd1",
+			"name": "Keyword_Prof_Class_Default",
+			"factory": "[assembly:/_pro/design/gamecore/keywords/keywordgenericprofessionclasses.template?/keyword_prof_class_default.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/gamecore/keywords/keywordgenericprofessionclasses.template?/keyword_prof_class_default.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_aHolders": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["cafe89c4bfae0dd1"]
+				}
+			}
+		},
+		"cafe2ae7744b1f8e": {
+			"parent": "cafe89c4bfae0dd1",
+			"name": "Keyword_FOLEY_OUTFIT_CIV_CLOTH_LIGHT",
+			"factory": "[assembly:/_pro/design/gamecore/keywords/keywordsound.template?/keyword_foley_outfit_civ_cloth_light.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/gamecore/keywords/keywordsound.template?/keyword_foley_outfit_civ_cloth_light.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_rHolder": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe89c4bfae0dd1"
+				}
+			}
+		},
+		"cafe58d4345f23a5": {
+			"parent": "cafe89c4bfae0dd1",
+			"name": "Prof_Skunk",
+			"factory": "[assembly:/_pro/design/actor/profession.template?/prof_skunk.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_skunk.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_aHolders": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["cafe89c4bfae0dd1"]
+				}
+			}
+		},
+		"cafee88392646dd7": {
+			"parent": "cafe89c4bfae0dd1",
+			"name": "Prof_Skunk_Unique",
+			"factory": "[assembly:/_pro/design/actor/profession.template?/prof_skunk_unique.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_skunk_unique.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_aHolders": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["cafe89c4bfae0dd1"]
+				}
+			}
+		},
+		"cafeb38f4d37d825": {
+			"parent": "cafe89c4bfae0dd1",
+			"name": "CHARSET_Skunk_Unique_Granny_F",
+			"factory": "[assembly:/_pro/characters/templates/skunk/char_skunk_unique.template?/charset_skunk_unique_granny_f.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/characters/templates/skunk/char_skunk_unique.template?/charset_skunk_unique_granny_f.entitytemplate].pc_entityblueprint"
 		}
 	},
 	"propertyOverrides": [],
