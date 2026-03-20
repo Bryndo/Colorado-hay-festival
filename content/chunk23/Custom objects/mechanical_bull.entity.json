@@ -1,0 +1,691 @@
+{
+	"tempHash": "00779200D2754956",
+	"tbluHash": "00FB3B28821B00BF",
+	"rootEntity": "fb246e9e4a5aed9f",
+	"entities": {
+		"45d3e346c54c8503": {
+			"parent": "fb246e9e4a5aed9f",
+			"name": "ClothColliderPlane",
+			"factory": "[modules:/zclothplane.class].pc_entitytype",
+			"blueprint": "[modules:/zclothplane.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0.2823914443076612,
+							"y": -1.478051616276226,
+							"z": 0.2004878054566646
+						},
+						"position": {
+							"x": 0.0319489985704422,
+							"y": 0.1195560023188591,
+							"z": 0.2872920036315918
+						}
+					}
+				},
+				"m_vGlobalSize": {
+					"type": "SVector2",
+					"value": { "x": 10.0, "y": 10.0 }
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "50e9062571d183a6",
+					"postInit": true
+				}
+			}
+		},
+		"1db7742e2288c79f": {
+			"parent": "50e9062571d183a6",
+			"name": "SpatialMover",
+			"factory": "[modules:/zspatialmoverentity.class].pc_entitytype",
+			"blueprint": "[modules:/zspatialmoverentity.class].pc_entityblueprint",
+			"properties": {
+				"m_fWaitBetween": { "type": "float32", "value": 0.0 },
+				"m_fSpeed": {
+					"type": "float32",
+					"value": 0.10000000149011612
+				},
+				"m_bEnabled": { "type": "bool", "value": false },
+				"m_bLooping": { "type": "bool", "value": false },
+				"m_Start": {
+					"type": "SEntityTemplateReference",
+					"value": "992feb02d46484b3",
+					"postInit": true
+				}
+			},
+			"events": {
+				"OnPositionReached": { "Disable": ["1db7742e2288c79f"] }
+			}
+		},
+		"2a4610386f6b82bf": {
+			"parent": "50e9062571d183a6",
+			"name": "TimerSimple",
+			"factory": "[assembly:/_pro/design/logic.template?/timersimple.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/logic.template?/timersimple.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"Delay time (ms)": { "type": "int32", "value": 500 }
+			},
+			"events": { "Out": { "Enable": ["1db7742e2288c79f"] } }
+		},
+		"fd54dc6b4890dd8c": {
+			"parent": "50e9062571d183a6",
+			"name": "kids_pool_bottom_a",
+			"factory": "[assembly:/_pro/environment/geometry/props/misc/kids_pool_a.wl2?/kids_pool_bottom_a.prim].pc_entitytype",
+			"blueprint": "[assembly:/templates/geometrytemplatenocoll.template?/geomentity01.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -90.0, "y": 0.0, "z": -0.0 },
+						"position": { "x": 0.0, "y": 0.0, "z": 0.5 }
+					}
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": { "x": 1.8, "y": 1.8, "z": 1.8 }
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "50e9062571d183a6",
+					"postInit": true
+				}
+			}
+		},
+		"dd9043ff23c1decf": {
+			"parent": "fb246e9e4a5aed9f",
+			"name": "CollisionSphere",
+			"factory": "[assembly:/templates/physics/collisionvolumes.template?/collisionsphere.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/templates/physics/collisionvolumes.template?/collisionsphere.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
+						"position": {
+							"x": -0.003335000015795231,
+							"y": -0.019443999975919724,
+							"z": 0.25682300329208374
+						}
+					}
+				},
+				"m_fSphereRadius": {
+					"type": "float32",
+					"value": 1.5299999713897705
+				},
+				"m_bCollideHitman": { "type": "bool", "value": true },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "fb246e9e4a5aed9f",
+					"postInit": true
+				}
+			}
+		},
+		"992feb02d46484b3": {
+			"parent": "50e9062571d183a6",
+			"name": "Start",
+			"factory": "[modules:/zcompositeentity.class].pc_entitytype",
+			"blueprint": "[modules:/zcompositeentity.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -90.0, "y": 0.0, "z": -0.0 },
+						"position": {
+							"x": 0.0,
+							"y": 0.0,
+							"z": 0.31666299700737
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "50e9062571d183a6",
+					"postInit": true
+				}
+			}
+		},
+		"ce083e83f0042030": {
+			"parent": "fb246e9e4a5aed9f",
+			"name": "TimerSimple",
+			"factory": "[assembly:/_pro/design/logic.template?/timersimple.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/logic.template?/timersimple.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"Delay time (ms)": { "type": "int32", "value": 7000 }
+			},
+			"events": {
+				"Out": { "DisableSimulation": ["50e9062571d183a6"] }
+			}
+		},
+		"a64772d5168b5a6f": {
+			"parent": "fb246e9e4a5aed9f",
+			"name": "FX_Logic_ShotActivate",
+			"factory": "[assembly:/_pro/effects/templates/logic/fx_logic_shotactivate.template?/fx_logic_shotactivate.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/effects/templates/logic/fx_logic_shotactivate.template?/fx_logic_shotactivate.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"ShotsThreshold": { "type": "uint32", "value": 1 },
+				"m_Listener": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["50e9062571d183a6"],
+					"postInit": true
+				}
+			},
+			"events": {
+				"OnActivate": {
+					"In": ["ce083e83f0042030"],
+					"Send": ["ee091f73e373885b"],
+					"EnableSimulation": ["50e9062571d183a6"]
+				}
+			},
+			"outputCopying": {
+				"OnActivate": { "OnActivate": ["fb246e9e4a5aed9f"] }
+			}
+		},
+		"5bce6f8724415cd2": {
+			"parent": "fb246e9e4a5aed9f",
+			"name": "3DAudioEmitter",
+			"factory": "[assembly:/templates/sound/wwise/soundentities.template?/3daudioemitter.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/templates/sound/wwise/soundentities.template?/3daudioemitter.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0.28342940556224117,
+							"y": -1.4781131887635572,
+							"z": 0.20148909040503832
+						},
+						"position": {
+							"x": -1.2758209705352783,
+							"y": 5.17864990234375,
+							"z": -0.010611739940941334
+						}
+					}
+				},
+				"m_bUseRoomOcclusion": { "type": "bool", "value": false },
+				"m_bUseRaycastObstruction": {
+					"type": "bool",
+					"value": false
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "50e9062571d183a6",
+					"postInit": true
+				}
+			},
+			"subsets": { "AudioEmitters": ["fb246e9e4a5aed9f"] }
+		},
+		"ee091f73e373885b": {
+			"parent": "fb246e9e4a5aed9f",
+			"name": "play_sfx_inflatable_deflate",
+			"factory": "[modules:/zaudioevententity.class].pc_entitytype",
+			"blueprint": "[modules:/zaudioevententity.class].pc_entityblueprint",
+			"properties": {
+				"m_pEmitter": {
+					"type": "SEntityTemplateReference",
+					"value": "5bce6f8724415cd2"
+				},
+				"m_pMainEvent": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/sound/wwise/exportedwwisedata/events/props_events/play_sfx_inflatable_deflate_01.wwiseevent].pc_wwisebank",
+						"flag": "5F"
+					}
+				}
+			}
+		},
+		"ec99dee176ed90c0": {
+			"parent": "fb246e9e4a5aed9f",
+			"name": "kids_pool_a_01",
+			"factory": "[assembly:/_pro/environment/materials/props/misc/kids_pool_a.mi].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/materials/props/misc/kids_pool_a.mi].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
+						"position": {
+							"x": 7.8748250007629395,
+							"y": -33.06092834472656,
+							"z": -7.900061130523682
+						}
+					}
+				},
+				"ConstantVector1D_02_Value_op": {
+					"type": "IRenderMaterialEntity.EModifierOperation",
+					"value": "eReplace"
+				},
+				"ConstantVector1D_02_Value": {
+					"type": "float32",
+					"value": 0.0
+				},
+				"Override": { "type": "bool", "value": false },
+				"Active": { "type": "bool", "value": true },
+				"ConstantColorRGB_02_Value": {
+					"type": "SColorRGB",
+					"value": "#9d0081"
+				},
+				"ConstantColorRGB_02_Value_op": {
+					"type": "IRenderMaterialEntity.EModifierOperation",
+					"value": "eReplace"
+				},
+				"Global": { "type": "bool", "value": true },
+				"Clients": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["50e9062571d183a6"],
+					"postInit": true
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "fb246e9e4a5aed9f",
+					"postInit": true
+				}
+			}
+		},
+		"3d59702673de9394": {
+			"parent": "fb246e9e4a5aed9f",
+			"name": "Composite",
+			"factory": "[modules:/zcompositeentity.class].pc_entitytype",
+			"blueprint": "[modules:/zcompositeentity.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0.28342940556224117,
+							"y": -1.4781131887635572,
+							"z": 0.20148909040503832
+						},
+						"position": {
+							"x": -1.887652039527893,
+							"y": 5.359230995178223,
+							"z": -0.35956358909606934
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "50e9062571d183a6",
+					"postInit": true
+				}
+			}
+		},
+		"3bcb34fcf1574244": {
+			"parent": "fb246e9e4a5aed9f",
+			"name": "Sound_InteractiveProp",
+			"factory": "[assembly:/templates/sound/customsoundtemplates.template?/sound_interactiveprop.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/templates/sound/customsoundtemplates.template?/sound_interactiveprop.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0.28342940556224117,
+							"y": -1.4781131887635572,
+							"z": 0.20148909040503832
+						},
+						"position": {
+							"x": -1.8793209791183472,
+							"y": 5.360797882080078,
+							"z": -0.036928169429302216
+						}
+					}
+				},
+				"ActivateDevice_SFX_Event": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/sound/wwise/exportedwwisedata/events/props_events/props_serpienza/harbour_props/play_sfx_inflatable_deflate.wwiseevent].pc_wwisebank",
+						"flag": "5F"
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "50e9062571d183a6",
+					"postInit": true
+				}
+			},
+			"subsets": { "AudioEmitters": ["fb246e9e4a5aed9f"] }
+		},
+		"50e9062571d183a6": {
+			"parent": "fb246e9e4a5aed9f",
+			"name": "kids_pool_a",
+			"factory": "[assembly:/templates/aspectdummy.aspect]([assembly:/_pro/environment/geometry/props/misc/kids_pool_a.wl2?/kids_pool_a.prim].entitytype,[modules:/zclothcustommeshentity.class].entitytype,[modules:/zfloatingobjectsinglepointaspect.class].entitytype).pc_entitytype",
+			"blueprint": "[assembly:/templates/aspectdummy.aspect]([assembly:/templates/geometrytemplatestaticcoll.template?/geomentity01.entitytemplate].entitytype,[modules:/zclothcustommeshentity.class].entitytype,[modules:/zfloatingobjectsinglepointaspect.class].entitytype).pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
+						"position": { "x": 0.0, "y": 0.0, "z": 0.0 }
+					}
+				},
+				"m_vGravity": {
+					"type": "SVector3",
+					"value": { "x": 0.0, "y": 0.0, "z": -10.0 }
+				},
+				"m_fWindConstant": { "type": "float32", "value": 0.0 },
+				"m_LocalColliders": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["45d3e346c54c8503"]
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": { "x": 1.8, "y": 1.8, "z": 1.5 }
+				},
+				"m_bRemovePhysics": { "type": "bool", "value": false },
+				"m_flotationPoint": {
+					"type": "SEntityTemplateReference",
+					"value": "3d59702673de9394"
+				},
+				"m_bDisableLogic": { "type": "bool", "value": true },
+				"m_fFrustumFarDistanceProperty": {
+					"type": "float32",
+					"value": 500.0
+				},
+				"m_fShearStiffness": {
+					"type": "float32",
+					"value": 0.009999999776482582
+				},
+				"m_fBendStiffness": {
+					"type": "float32",
+					"value": 0.4000000059604645
+				},
+				"m_eBendConstrainType": {
+					"type": "EClothBendConstrainType",
+					"value": "eClothBendConstrainType_Stick"
+				},
+				"m_bSimulationEnabled": { "type": "bool", "value": false },
+				"m_fFrequency": { "type": "float32", "value": 30.0 },
+				"m_fDamping": {
+					"type": "float32",
+					"value": 0.20000000298023224
+				},
+				"m_bCalculateRestPose": { "type": "bool", "value": false },
+				"m_nIterations": { "type": "uint32", "value": 5 },
+				"m_bUsePerVertexSkinning": {
+					"type": "bool",
+					"value": true
+				},
+				"m_bUsePerVertexStiffness": {
+					"type": "bool",
+					"value": false
+				},
+				"m_bUseSkinningSphereConstrains": {
+					"type": "bool",
+					"value": false
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "fb246e9e4a5aed9f",
+					"postInit": true
+				}
+			},
+			"inputCopying": {
+				"EnableSimulation": { "In": ["2a4610386f6b82bf"] }
+			}
+		},
+		"fb246e9e4a5aed9f": {
+			"parent": null,
+			"name": "Mechanical_bull_a",
+			"factory": "[modules:/zcompositeentity.class].pc_entitytype",
+			"blueprint": "[modules:/zcompositeentity.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
+						"position": {
+							"x": 8.238568305969238,
+							"y": -38.95613098144531,
+							"z": -5.252295970916748
+						}
+					}
+				}
+			},
+			"inputCopying": {
+				"ForceActivate": { "ForceActivate": ["a64772d5168b5a6f"] }
+			},
+			"propertyAliases": {
+				"m_LocalColliders": [
+					{
+						"originalProperty": "m_LocalColliders",
+						"originalEntity": "50e9062571d183a6"
+					}
+				]
+			}
+		},
+		"cafec4182168b924": {
+			"parent": "fb246e9e4a5aed9f",
+			"name": "horse_equipment_leather_saddle_a",
+			"factory": "[assembly:/_pro/environment/templates/props/equipment/horse_equipment_a.template?/horse_equipment_leather_saddle_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/equipment/horse_equipment_a.template?/horse_equipment_leather_saddle_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 6, "y": 0, "z": 0 },
+						"position": { "x": -0.0, "y": -0.1, "z": 1.54 }
+					}
+				},
+				"m_bVisible": { "type": "bool", "value": true },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "fb246e9e4a5aed9f"
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": { "x": 1.1, "y": 1.1, "z": 1 }
+				}
+			}
+		},
+		"cafebd595cbb5cb2": {
+			"parent": "fb246e9e4a5aed9f",
+			"name": "Yoga_Mat_Rolled_Up_A08",
+			"factory": "[assembly:/_pro/environment/templates/props/leisure/gym_equipment_a.template?/yoga_mat_rolled_up_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/leisure/gym_equipment_a.template?/yoga_mat_rolled_up_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 90, "y": -0.0, "z": 0 },
+						"position": { "x": 0.14, "y": 0.24, "z": 1.5 }
+					}
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": { "x": 0.5, "y": 0.5, "z": 0.37 }
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "fb246e9e4a5aed9f",
+					"postInit": true
+				}
+			}
+		},
+		"cafe7607ff507eec": {
+			"parent": "fb246e9e4a5aed9f",
+			"name": "Medicineball_Leather_A04",
+			"factory": "[assembly:/_pro/environment/templates/props/leisure/gym_equipment_a.template?/medicineball_leather_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/leisure/gym_equipment_a.template?/medicineball_leather_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0.0, "z": -90 },
+						"position": { "x": 0.0, "y": -0.2, "z": 1.1 }
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "fb246e9e4a5aed9f",
+					"postInit": true
+				},
+				"m_bVisible": { "type": "bool", "value": true },
+				"m_bRemovePhysics": { "type": "bool", "value": true },
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_STATIC"
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": { "x": 4, "y": 1.5, "z": 2.0 }
+				}
+			}
+		},
+		"cafe2336911cb96b": {
+			"parent": "fb246e9e4a5aed9f",
+			"name": "Rubber_Band_Wallrack_A05",
+			"factory": "[assembly:/_pro/environment/templates/props/leisure/gym_equipment_a.template?/rubber_band_wallrack_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/leisure/gym_equipment_a.template?/rubber_band_wallrack_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0.02447086236335278,
+							"z": -0.0
+						},
+						"position": { "x": -0.0, "y": -0.0, "z": 0.5 }
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "fb246e9e4a5aed9f",
+					"postInit": true
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": { "x": 5.0, "y": 5.0, "z": 3.0 }
+				}
+			}
+		},
+		"cafee48ef573a505": {
+			"parent": "cafe0e5dce1ad714",
+			"name": "Military_Can_Plastic_A_00",
+			"factory": "[assembly:/_pro/environment/templates/props/containers/military_containers_a.template?/military_can_plastic_a_00.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/containers/military_containers_a.template?/military_can_plastic_a_00.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 90, "y": 90, "z": 90 },
+						"position": { "x": -0.4, "y": -0.23, "z": 0.18 }
+					}
+				},
+				"m_bCastShadows": { "type": "bool", "value": false },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe0e5dce1ad714",
+					"postInit": true
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": { "x": 1.1, "y": 1, "z": 1.1 }
+				}
+			}
+		},
+		"cafe0e5dce1ad714": {
+			"parent": "fb246e9e4a5aed9f",
+			"name": "tractor_engine_a",
+			"factory": "[assembly:/_pro/environment/templates/props/garage_props/colorado_vehicleparts_a.template?/tractor_engine_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/garage_props/colorado_vehicleparts_a.template?/tractor_engine_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 90, "z": 0 },
+						"position": { "x": 0.25, "y": 0, "z": 1.53 }
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "fb246e9e4a5aed9f"
+				}
+			}
+		}
+	},
+	"propertyOverrides": [],
+	"overrideDeletes": [],
+	"pinConnectionOverrides": [],
+	"pinConnectionOverrideDeletes": [],
+	"externalScenes": [],
+	"subType": "template",
+	"quickEntityVersion": 3.1,
+	"extraFactoryDependencies": [
+		{
+			"resource": "[assembly:/_pro/environment/geometry/props/misc/kids_pool_a.wl2?/kids_pool_a.prim].pc_prim",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/_pro/environment/geometry/props/misc/kids_pool_a.wl2?/kids_pool_a.prim].pc_coll",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/_pro/environment/geometry/props/misc/kids_pool_a.wl2?/kids_pool_bottom_a.prim].pc_prim",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/_pro/effects/textures/liquid/fx_decal_liquid_leakmasks_01.texture?/mask_a.tex](asheightmap).pc_tex",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/_pro/effects/textures/misc/fx_generic_flowmaps.texture?/flow_expanding.tex](asheightmap).pc_tex",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/_pro/effects/textures/water/fx_water_waves.texture?/normal_e.tex](asnormalmap).pc_tex",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/_pro/effects/textures/liquid/fx_par_liquid_ripples_01.texture?/normal_a.tex](asnormalmap).pc_tex",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/_pro/effects/geometry/water/fx_generic_water.wl2?/fx_generic_water_cylinder_16x4_segments.prim].pc_prim",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/_pro/effects/geometry/water/fx_generic_water.wl2?/fx_generic_water_cylinder_16x4_segments.prim].pc_coll",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/_pro/effects/textures/misc/fx_noise.texture?/normal_a.tex](asnormalmap).pc_tex",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/_pro/environment/textures/constants/color_black.texture?/diffuse_a.tex](ascolormap).pc_tex",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/_pro/effects/textures/water/fx_water_foam.texture?/foam_d.tex](ascolormap).pc_tex",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/_pro/effects/textures/water/fx_water_foam.texture?/foam_d_normal.tex](asnormalmap).pc_tex",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/_pro/effects/textures/misc/fx_gradients.texture?/oil.tex](ascolormap).pc_tex",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/_pro/environment/textures/props/misc/kids_pool_a.texture?/diffuse_a.tex](ascolormap).pc_tex",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/_pro/environment/textures/props/misc/kids_pool_a.texture?/normal_a.tex](asnormalmap).pc_tex",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/_pro/environment/textures/detailmaps/metal/aluminium_foil_a.texture?/detail.tex](ascompoundnormal).pc_tex",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/_pro/environment/textures/props/misc/kids_pool_a.texture?/specular_a.tex](ascolormap).pc_tex",
+			"flag": "5F"
+		}
+	],
+	"extraBlueprintDependencies": [],
+	"comments": []
+}
