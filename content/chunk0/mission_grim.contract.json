@@ -2,7 +2,7 @@
     "$schema": "http://json-schema.org/schema",
     "SMF": {
         "destinations": {
-            "addToDestinations": false,
+            "addToDestinations": true,
             "peacockIntegration": false,
             "narrativeContext": "Mission"
         }

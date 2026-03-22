@@ -528,7 +528,7 @@
 				},
 				"m_PrimitiveScale": {
 					"type": "SVector3",
-					"value": { "x": 4, "y": 1.5, "z": 2.0 }
+					"value": { "x": 3, "y": 1.45, "z": 1.8 }
 				}
 			}
 		},
@@ -603,6 +603,190 @@
 					"value": "fb246e9e4a5aed9f"
 				}
 			}
+		},
+		"cafe989eecb98369": {
+			"parent": "cafe1403a3f41def",
+			"name": "FX_PR_Smoke_Wispy_Generic_4t_8x4",
+			"factory": "[assembly:/_pro/effects/templates/particlerenderers/fx_pr_smoke.template?/fx_pr_smoke_wispy_generic_4t_8x4.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/effects/templates/particlerenderers/fx_pr_smoke.template?/fx_pr_smoke_wispy_generic_4t_8x4.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"Detail": { "type": "float32", "value": 1.0 },
+				"BumpScale": { "type": "float32", "value": 2.0 },
+				"AlphaIntersection": { "type": "float32", "value": 2.0 }
+			}
+		},
+		"cafe6ea2d5209030": {
+			"parent": "cafe1403a3f41def",
+			"name": "FX_PB_Smoke",
+			"factory": "[assembly:/_pro/effects/templates/smoke/fx_smoke.template?/fx_pb_smoke.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/effects/templates/smoke/fx_smoke.template?/fx_pb_smoke.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"SizeAddMax": { "type": "float32", "value": 100.0 },
+				"SizeAddMin": { "type": "float32", "value": 20.0 },
+				"m_fWindMultiplier": {
+					"type": "float32",
+					"value": 0.05000000074505806
+				},
+				"m_fParticleSizeMin": { "type": "float32", "value": 35.0 },
+				"AlphaCurve": {
+					"type": "ZCurve",
+					"value": {
+						"data": [
+							[
+								0.0, 0.0, 0.0, 0.0, -0.21460182964801788,
+								0.7146018147468567, 4.8090179775077144e-17,
+								0.0
+							],
+							[
+								0.08197920024394989, 0.5, 0.0, 0.0,
+								-0.21460182964801788, -0.07079632580280304,
+								0.7853981852531433, 0.5
+							],
+							[
+								0.16395840048789978, 1.0, 0.0, 0.0, 0.0,
+								0.0, 0.0, 1.0
+							],
+							[
+								0.4573027491569519, 1.0, 0.0, 0.0,
+								0.21460182964801788, -0.7146018147468567,
+								-4.8090179775077144e-17, 1.0
+							],
+							[
+								0.7286514043807983, 0.5, 0.0, 0.0,
+								0.21460182964801788, 0.07079632580280304,
+								-0.7853981852531433, 0.5
+							],
+							[1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+						]
+					}
+				},
+				"m_nMultiTrackLength": { "type": "int32", "value": 8 },
+				"m_ParticleColorRangeStart": {
+					"type": "SColorRGB",
+					"value": "#ffffff"
+				},
+				"m_ParticleColorRangeEnd": {
+					"type": "SColorRGB",
+					"value": "#9e9d9d"
+				},
+				"AnimCurve": {
+					"type": "ZCurve",
+					"value": {
+						"data": [
+							[
+								0.0, 0.0, 0.0, 0.0, 0.08102905750274658,
+								-0.32005545496940613, 0.859140932559967,
+								0.0
+							],
+							[
+								0.5, 0.6201145052909851, 0.0, 0.0,
+								0.018406450748443604, -0.10063811391592026,
+								0.46211716532707214, 0.6201145052909851
+							],
+							[1.0, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0]
+						]
+					}
+				},
+				"m_vGravity": {
+					"type": "SVector3",
+					"value": { "x": 0.0, "y": 0.0, "z": 1.0 }
+				},
+				"m_fTimeToLiveSecondsMax": {
+					"type": "float32",
+					"value": 10.0
+				},
+				"m_fTimeToLiveSecondsMin": {
+					"type": "float32",
+					"value": 4.0
+				},
+				"m_FixedAlpha": {
+					"type": "float32",
+					"value": 0.800000011920929
+				},
+				"m_fParticleSizeMax": { "type": "float32", "value": 40.0 },
+				"m_fFriction": { "type": "float32", "value": 200.0 }
+			}
+		},
+		"cafea92d5b9937ed": {
+			"parent": "cafe1403a3f41def",
+			"name": "ParticleEmitterBox",
+			"factory": "[modules:/zparticleemitterboxentity.class].pc_entitytype",
+			"blueprint": "[modules:/zparticleemitterboxentity.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -180.0, "y": -90, "z": -180.0 },
+						"position": {
+							"x": -0.1048017144203186,
+							"y": -0.15538886070251465,
+							"z": 1.4
+						}
+					}
+				},
+				"m_ParticleController": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe6ea2d5209030"
+				},
+				"m_ParticleRender": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe989eecb98369"
+				},
+				"m_fParticlesPerSecond": { "type": "float32", "value": 4 },
+				"m_vGlobalSize": {
+					"type": "SVector3",
+					"value": { "x": 1.0, "y": 0.7, "z": 0.7 }
+				},
+				"m_ParticleShaderParameters": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "cafe989eecb98369",
+						"externalScene": null,
+						"exposedEntity": "FX_PSP_Smoke_Generic"
+					}
+				},
+				"m_fEmissionCameraProximity": {
+					"type": "float32",
+					"value": 50.0
+				},
+				"m_fSpeedMin": { "type": "float32", "value": 0.4 },
+				"m_fSpeedMax": { "type": "float32", "value": 0.5 },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "fb246e9e4a5aed9f"
+				}
+			}
+		},
+		"cafe1403a3f41def": {
+			"parent": "fb246e9e4a5aed9f",
+			"name": "Smoke",
+			"factory": "[modules:/zentity.class].pc_entitytype",
+			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
+		},
+		"cafe36fc80b884bc": {
+			"parent": "cafe1403a3f41def",
+			"name": "ValueBool_Proxy",
+			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_proxy.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_proxy.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_rValueEntity": {
+					"type": "SEntityTemplateReference",
+					"value": "cafef9282cf23789",
+					"postInit": true
+				},
+				"m_bFireOnLevelStart": { "type": "bool", "value": true }
+			},
+			"events": {
+				"OnTrue": { "Activate": ["cafea92d5b9937ed"] },
+				"OnFalse": { "Deactivate": ["cafea92d5b9937ed"] }
+			}
+		},
+		"cafef9282cf23789": {
+			"parent": "cafe1403a3f41def",
+			"name": "GameEventListener",
+			"factory": "[modules:/zgameeventlistenerentity.class].pc_entitytype",
+			"blueprint": "[modules:/zgameeventlistenerentity.class].pc_entityblueprint",
+			"events": { "EventOccurred": { "SetTrue": [] } }
 		}
 	},
 	"propertyOverrides": [],
