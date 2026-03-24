@@ -1100,6 +1100,11 @@
             "runtimeID": "000743F6F3A4E0D1",
             "toChunk": 23,
             "Comment": "ranch gate"
+        },
+        {
+            "runtimeID": "00C9A281B1852A05",
+            "toChunk": 23,
+            "Comment": "old truck"
         }
     ]
 }

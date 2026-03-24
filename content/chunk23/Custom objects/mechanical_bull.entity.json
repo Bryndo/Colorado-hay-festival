@@ -719,8 +719,8 @@
 						"rotation": { "x": -180.0, "y": -90, "z": -180.0 },
 						"position": {
 							"x": -0.1048017144203186,
-							"y": -0.15538886070251465,
-							"z": 1.4
+							"y": -0.16538886070251463,
+							"z": 1.5
 						}
 					}
 				},
@@ -735,7 +735,7 @@
 				"m_fParticlesPerSecond": { "type": "float32", "value": 4 },
 				"m_vGlobalSize": {
 					"type": "SVector3",
-					"value": { "x": 1.0, "y": 0.7, "z": 0.7 }
+					"value": { "x": 0.8, "y": 0.7, "z": 0.7 }
 				},
 				"m_ParticleShaderParameters": {
 					"type": "SEntityTemplateReference",
