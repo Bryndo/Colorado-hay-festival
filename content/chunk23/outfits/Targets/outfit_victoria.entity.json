@@ -100,10 +100,10 @@
 						"cafea98739075826",
 						"cafe2e814d3a11e3",
 						"cafe8f0d63cf8310",
-						"cafebb35b0f8d48e",
 						"cafefaaeb68fa763",
 						"cafe9317f5d09bd8",
-						"cafe6d617491fceb"
+						"cafe6d617491fceb",
+						"cafe55539380767c"
 					],
 					"postInit": true
 				}
@@ -1441,22 +1441,6 @@
 				}
 			}
 		},
-		"cafebb35b0f8d48e": {
-			"parent": "cafe8d014c7d2265",
-			"name": "Head_Caucasian_30s_02",
-			"factory": "[assembly:/_pro/characters/templates/_part_library/fem_parts/fem_heads_caucasian.template?/head_caucasian_30s_02.entitytemplate].pc_entitytype",
-			"blueprint": "[assembly:/_pro/characters/templates/_part_library/fem_parts/fem_heads_caucasian.template?/head_caucasian_30s_02.entitytemplate].pc_entityblueprint",
-			"properties": {
-				"ConstantColorRGB_01_Value": {
-					"type": "SColorRGB",
-					"value": "#e8e6eb"
-				},
-				"ConstantColorRGB_02_Value": {
-					"type": "SColorRGB",
-					"value": "#e8e6eb"
-				}
-			}
-		},
 		"cafe6072514ee60f": {
 			"parent": "cafe8d014c7d2265",
 			"name": "Wrist_Attacher_L",
@@ -1557,6 +1541,59 @@
 						"originalEntity": "cafef47a74992b2f"
 					}
 				]
+			}
+		},
+		"cafe55539380767c": {
+			"parent": "cafe8d014c7d2265",
+			"name": "Head_SierraKnox_V2_01",
+			"factory": "[assembly:/_pro/characters/templates/_part_library/fem_parts/fem_heads_unique.template?/head_sierraknox_v2.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/characters/templates/_part_library/fem_parts/fem_heads_unique.template?/head_sierraknox_v2.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"ConstantColorRGB_01_Value": {
+					"type": "SColorRGB",
+					"value": "#ffffff"
+				},
+				"ConstantColorRGB_02_Value_1": {
+					"type": "SColorRGB",
+					"value": "#e3c4a3"
+				},
+				"ConstantColorRGB_05_Value": {
+					"type": "SColorRGB",
+					"value": "#fffbf5"
+				},
+				"Texture2D_01_3": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/characters/assets/individuals/flamingo/sierraknox/textures/fem_reg_sierraknox_haircap.texture?/diffuse_a.tex](ascolormap).pc_tex",
+						"flag": "5F"
+					}
+				},
+				"ConstantVector1D_06_Value": {
+					"type": "float32",
+					"value": 0.0
+				},
+				"ConstantColorRGB_02_Value": {
+					"type": "SColorRGB",
+					"value": "#ffffff"
+				},
+				"ConstantColorRGB_02_Value_2": {
+					"type": "SColorRGB",
+					"value": "#bda98f"
+				},
+				"Texture2D_03": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/characters/assets/individuals/flamingo/sierraknox/textures/fem_reg_sierraknox_head.texture?/specular_b.tex](ascolormap).pc_tex",
+						"flag": "5F"
+					}
+				},
+				"m_pMeshResource": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/characters/assets/individuals/flamingo/sierraknox/geometry/fem_reg_sierraknox_v2.wl2?/fem_reg_head.weightedprim](bodypart).pc_weightedprim",
+						"flag": "5F"
+					}
+				}
 			}
 		}
 	},

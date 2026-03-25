@@ -3606,6 +3606,379 @@
 			"name": "CHARSET_Skunk_Unique_Granny_F",
 			"factory": "[assembly:/_pro/characters/templates/skunk/char_skunk_unique.template?/charset_skunk_unique_granny_f.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/_pro/characters/templates/skunk/char_skunk_unique.template?/charset_skunk_unique_granny_f.entitytemplate].pc_entityblueprint"
+		},
+		"cafe3265f1e009b9": {
+			"parent": "fffffffffffffffe",
+			"name": "Hay_Worker_Tech_F_PRO176585",
+			"factory": "[modules:/zglobaloutfitkit.class].pc_entitytype",
+			"blueprint": "[modules:/zglobaloutfitkit.class].pc_entityblueprint",
+			"properties": {
+				"m_DamageMultipliers": {
+					"type": "SBodyPartDamageMultipliers",
+					"value": {
+						"m_fHeadDamageMultiplier": 3.0,
+						"m_fFaceDamageMultiplier": 3.0,
+						"m_fArmDamageMultiplier": 1.0,
+						"m_fLArmDamageScalar": 0.0,
+						"m_fRArmDamageScalar": 0.0,
+						"m_fHandDamageMultiplier": 0.5,
+						"m_fLHandDamageScalar": 0.0,
+						"m_fRHandDamageScalar": 0.0,
+						"m_fLegDamageMultiplier": 0.6000000238418579,
+						"m_fLLegDamageScalar": 0.0,
+						"m_fRLegDamageScalar": 0.0,
+						"m_fTorsoDamageMultiplier": 1.0,
+						"m_bApplyLeftRightScalars": false
+					}
+				},
+				"m_eActorType": {
+					"type": "EActorType",
+					"value": "eAT_Civilian"
+				},
+				"m_bIsFemale": { "type": "bool", "value": true },
+				"m_eActorCCClass": {
+					"type": "EActorCCPreset",
+					"value": "ACCP_CivilianFemale"
+				},
+				"m_eSoundFootwearType": {
+					"type": "EHM5SoundFootwearType",
+					"value": "EFWT_BOOTS"
+				},
+				"m_sId": {
+					"type": "ZGuid",
+					"value": "04b3a4ab-7d9d-4ff4-816a-df4e1e0a8741"
+				},
+				"m_pParentOutfit": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "f76365f15c816405",
+						"externalScene": "[assembly:/_pro/scenes/bricks/globaldata.brick].pc_entitytype"
+					}
+				},
+				"m_sCommonName": {
+					"type": "ZString",
+					"value": "Golden_Worker_ArtCrew_F_PRO"
+				},
+				"m_sTitle": { "type": "ZString", "value": "Art Crew" },
+				"m_rNameTextResource": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/localization/hitman6/conversations/ui/pro/online/repository/outfits_npcs_golden.sweetmenutext?/golden_worker_artcrew_f_name_04b3a4ab-7d9d-4ff4-816a-df4e1e0a8741.sweetline].pc_sweetline",
+						"flag": "5F"
+					}
+				},
+				"m_rDescriptionTextResource": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/localization/hitman6/conversations/ui/pro/online/repository/outfits_npcs_golden.sweetmenutext?/golden_worker_artcrew_f_description_04b3a4ab-7d9d-4ff4-816a-df4e1e0a8741.sweetline].pc_sweetline",
+						"flag": "5F"
+					}
+				},
+				"m_eOutfitAICategory": {
+					"type": "EOutfitAICategory",
+					"value": "OAC_Fallback"
+				},
+				"m_rDefaultVoiceVariations": {
+					"type": "TArray<EActorVoiceVariation>",
+					"value": [
+						"eAVV_GECKO_ARTTECH_F05",
+						"eAVV_GECKO_ARTTECH_F06",
+						"eAVV_GECKO_ARTTECH_F08",
+						"eAVV_GECKO_ARTTECH_F10"
+					]
+				},
+				"m_eOutfitType": {
+					"type": "EOutfitType",
+					"value": "eOT_Worker"
+				},
+				"m_aCharSets": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["cafedfd63e629f5a", "cafecb8bc5622a0b"],
+					"postInit": true
+				},
+				"m_aAnimationSets": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [],
+					"postInit": true
+				}
+			}
+		},
+		"cafe47727c98ad78": {
+			"parent": "cafe3265f1e009b9",
+			"name": "Prof_Hay_Tech",
+			"factory": "[assembly:/_pro/design/actor/profession.template?/prof_hay_tech.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_hay_tech.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_aHolders": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["cafe3265f1e009b9"]
+				}
+			}
+		},
+		"cafecb8bc5622a0b": {
+			"parent": "cafe3265f1e009b9",
+			"name": "CHARSET_Gecko_Worker_ArtistAssistant_F",
+			"factory": "[assembly:/_pro/characters/templates/gecko/char_gecko_workers.template?/charset_gecko_worker_artistassistant_f.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/characters/templates/gecko/char_gecko_workers.template?/charset_gecko_worker_artistassistant_f.entitytemplate].pc_entityblueprint"
+		},
+		"cafe875a17d079ab": {
+			"parent": "cafe3265f1e009b9",
+			"name": "Keyword_Prof_Class_Default_01",
+			"factory": "[assembly:/_pro/design/gamecore/keywords/keywordgenericprofessionclasses.template?/keyword_prof_class_default.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/gamecore/keywords/keywordgenericprofessionclasses.template?/keyword_prof_class_default.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_aHolders": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["cafe3265f1e009b9"]
+				}
+			}
+		},
+		"cafe1407f615b51d": {
+			"parent": "cafe3265f1e009b9",
+			"name": "Keyword_Prof_Class_Worker_HandyMan",
+			"factory": "[assembly:/_pro/design/gamecore/keywords/keywordgenericprofessionclasses.template?/keyword_prof_class_worker_handyman.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/gamecore/keywords/keywordgenericprofessionclasses.template?/keyword_prof_class_worker_handyman.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_aHolders": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["cafe3265f1e009b9"]
+				}
+			}
+		},
+		"cafe7ff7518e099d": {
+			"parent": "cafe3265f1e009b9",
+			"name": "Keyword_Prof_Class_Default",
+			"factory": "[assembly:/_pro/design/gamecore/keywords/keywordgenericprofessionclasses.template?/keyword_prof_class_default.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/gamecore/keywords/keywordgenericprofessionclasses.template?/keyword_prof_class_default.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_aHolders": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["cafe3265f1e009b9"]
+				}
+			}
+		},
+		"cafe73451c240476": {
+			"parent": "cafe3265f1e009b9",
+			"name": "KeywordEntity_FOLEY_OUTFIT_ENGINEER",
+			"factory": "[assembly:/_pro/design/gamecore/keywords/keywordsound.template?/keywordentity_foley_outfit_engineer.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/gamecore/keywords/keywordsound.template?/keywordentity_foley_outfit_engineer.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_rHolder": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe3265f1e009b9"
+				}
+			}
+		},
+		"cafe01ec214d899b": {
+			"parent": "cafe3265f1e009b9",
+			"name": "Keyword_Prof_Class_Worker_Service",
+			"factory": "[assembly:/_pro/design/gamecore/keywords/keywordgenericprofessionclasses.template?/keyword_prof_class_worker_service.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/gamecore/keywords/keywordgenericprofessionclasses.template?/keyword_prof_class_worker_service.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_aHolders": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["cafe3265f1e009b9"]
+				}
+			}
+		},
+		"cafedfd63e629f5a": {
+			"parent": "cafe3265f1e009b9",
+			"name": "CHARSET_Gecko_Worker_ArtTech_F",
+			"factory": "[assembly:/_pro/characters/templates/gecko/char_gecko_workers.template?/charset_gecko_worker_arttech_f.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/characters/templates/gecko/char_gecko_workers.template?/charset_gecko_worker_arttech_f.entitytemplate].pc_entityblueprint"
+		},
+		"cafeb66b2480edf5": {
+			"parent": "cafea1def6a7670a",
+			"name": "Keyword_DISPATCH_RACKCASE",
+			"factory": "[assembly:/_pro/design/gamecore/keywords/keyworddispatch.template?/keyword_dispatch_rackcase.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/gamecore/keywords/keyworddispatch.template?/keyword_dispatch_rackcase.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_aHolders": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["cafea1def6a7670a"],
+					"postInit": true
+				}
+			}
+		},
+		"cafe71e002dbf61e": {
+			"parent": "cafea1def6a7670a",
+			"name": "Keyword_Prof_Class_Default",
+			"factory": "[assembly:/_pro/design/gamecore/keywords/keywordgenericprofessionclasses.template?/keyword_prof_class_default.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/gamecore/keywords/keywordgenericprofessionclasses.template?/keyword_prof_class_default.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_aHolders": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["cafea1def6a7670a"],
+					"postInit": true
+				}
+			}
+		},
+		"cafe99652dba3b32": {
+			"parent": "cafea1def6a7670a",
+			"name": "Prof_Hay_Tech",
+			"factory": "[assembly:/_pro/design/actor/profession.template?/prof_hay_tech.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_hay_tech.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_aHolders": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["cafea1def6a7670a"],
+					"postInit": true
+				}
+			}
+		},
+		"cafea1def6a7670a": {
+			"parent": "fffffffffffffffe",
+			"name": "Hay_Worker_Tech_M_PRO176580",
+			"factory": "[modules:/zglobaloutfitkit.class].pc_entitytype",
+			"blueprint": "[modules:/zglobaloutfitkit.class].pc_entityblueprint",
+			"properties": {
+				"m_fHitPoints": { "type": "float32", "value": -1.0 },
+				"m_DamageMultipliers": {
+					"type": "SBodyPartDamageMultipliers",
+					"value": {
+						"m_fHeadDamageMultiplier": 3.0,
+						"m_fFaceDamageMultiplier": 3.0,
+						"m_fArmDamageMultiplier": 1.0,
+						"m_fLArmDamageScalar": 0.0,
+						"m_fRArmDamageScalar": 0.0,
+						"m_fHandDamageMultiplier": 0.5,
+						"m_fLHandDamageScalar": 0.0,
+						"m_fRHandDamageScalar": 0.0,
+						"m_fLegDamageMultiplier": 0.6000000238418579,
+						"m_fLLegDamageScalar": 0.0,
+						"m_fRLegDamageScalar": 0.0,
+						"m_fTorsoDamageMultiplier": 1.0,
+						"m_bApplyLeftRightScalars": false
+					}
+				},
+				"m_eActorType": {
+					"type": "EActorType",
+					"value": "eAT_Civilian"
+				},
+				"m_eActorCCClass": {
+					"type": "EActorCCPreset",
+					"value": "ACCP_CivilianeMale"
+				},
+				"m_bHeroDisguiseAvailable": {
+					"type": "bool",
+					"value": true
+				},
+				"m_eSoundFootwearType": {
+					"type": "EHM5SoundFootwearType",
+					"value": "EFWT_BOOTS"
+				},
+				"m_sId": {
+					"type": "ZGuid",
+					"value": "2c649c52-f85a-4b29-838a-31c2525cc862"
+				},
+				"m_pParentOutfit": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "6736fcbbd3e73209",
+						"externalScene": "[assembly:/_pro/scenes/bricks/globaldata.brick].pc_entitytype"
+					}
+				},
+				"m_sCommonName": {
+					"type": "ZString",
+					"value": "Golden_Worker_ArtCrew_M_PRO176580"
+				},
+				"m_sTitle": { "type": "ZString", "value": "ArtCrew" },
+				"m_eOutfitAICategory": {
+					"type": "EOutfitAICategory",
+					"value": "OAC_Crew"
+				},
+				"m_rNameTextResource": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/localization/hitman6/conversations/ui/pro/online/repository/outfits_npcs_golden.sweetmenutext?/golden_worker_artcrew_m_name_2c649c52-f85a-4b29-838a-31c2525cc862.sweetline].pc_sweetline",
+						"flag": "5F"
+					}
+				},
+				"m_rDescriptionTextResource": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/localization/hitman6/conversations/ui/pro/online/repository/outfits_npcs_golden.sweetmenutext?/golden_worker_artcrew_m_description_2c649c52-f85a-4b29-838a-31c2525cc862.sweetline].pc_sweetline",
+						"flag": "5F"
+					}
+				},
+				"m_rDefaultVoiceVariations": {
+					"type": "TArray<EActorVoiceVariation>",
+					"value": [
+						"eAVV_GECKO_ARTTECH_M05",
+						"eAVV_GECKO_ARTTECH_M06",
+						"eAVV_GECKO_ARTTECH_M08",
+						"eAVV_GECKO_ARTTECH_M09"
+					]
+				},
+				"m_eOutfitType": {
+					"type": "EOutfitType",
+					"value": "eOT_Worker"
+				},
+				"m_aCharSets": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["cafeb49fd1859f8f"],
+					"postInit": true
+				},
+				"m_aAnimationSets": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [],
+					"postInit": true
+				}
+			}
+		},
+		"cafe257ee1c40b9e": {
+			"parent": "cafea1def6a7670a",
+			"name": "KeywordEntity_FOLEY_OUTFIT_ENGINEER",
+			"factory": "[assembly:/_pro/design/gamecore/keywords/keywordsound.template?/keywordentity_foley_outfit_engineer.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/gamecore/keywords/keywordsound.template?/keywordentity_foley_outfit_engineer.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_rHolder": {
+					"type": "SEntityTemplateReference",
+					"value": "cafea1def6a7670a"
+				}
+			}
+		},
+		"cafeb2512b4cbe1b": {
+			"parent": "cafea1def6a7670a",
+			"name": "Keyword_Prof_Class_Worker_HandyMan",
+			"factory": "[assembly:/_pro/design/gamecore/keywords/keywordgenericprofessionclasses.template?/keyword_prof_class_worker_handyman.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/gamecore/keywords/keywordgenericprofessionclasses.template?/keyword_prof_class_worker_handyman.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_aHolders": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["cafea1def6a7670a"]
+				}
+			}
+		},
+		"cafeb49fd1859f8f": {
+			"parent": "cafea1def6a7670a",
+			"name": "CHARSET_Gecko_Worker_ArtTech_M",
+			"factory": "[assembly:/_pro/characters/templates/gecko/char_gecko_workers.template?/charset_gecko_worker_arttech_m.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/characters/templates/gecko/char_gecko_workers.template?/charset_gecko_worker_arttech_m.entitytemplate].pc_entityblueprint"
+		},
+		"cafef4b0c137400b": {
+			"parent": "cafea1def6a7670a",
+			"name": "Prof_Colorado_Event_staff",
+			"factory": "[assembly:/_pro/design/actor/profession.template?/prof_hay_staff.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_hay_staff.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_aHolders": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["cafea1def6a7670a"]
+				}
+			}
+		},
+		"cafe0b52351fc961": {
+			"parent": "cafe3265f1e009b9",
+			"name": "Prof_Colorado_Event_staff",
+			"factory": "[assembly:/_pro/design/actor/profession.template?/prof_hay_staff.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_hay_staff.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_aHolders": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["cafe3265f1e009b9"]
+				}
+			}
 		}
 	},
 	"propertyOverrides": [],
