@@ -10,7 +10,7 @@
 			"blueprint": "[modules:/zspatialentity.class].pc_entityblueprint"
 		},
 		"cafe9114d81a80f3": {
-			"parent": "fffffffffffffffe",
+			"parent": "cafef7e423d3f49c",
 			"name": "Dwight_Schrute",
 			"factory": "[modules:/zglobaloutfitkit.class].pc_entitytype",
 			"blueprint": "[modules:/zglobaloutfitkit.class].pc_entityblueprint",
@@ -109,7 +109,7 @@
 			}
 		},
 		"cafeef2c75b4ddb9": {
-			"parent": "fffffffffffffffe",
+			"parent": "cafee47ef2a79edf",
 			"name": "Skunk_Civilian_BBQGuest_M_PRO108108",
 			"factory": "[modules:/zglobaloutfitkit.class].pc_entitytype",
 			"blueprint": "[modules:/zglobaloutfitkit.class].pc_entityblueprint",
@@ -303,7 +303,7 @@
 			}
 		},
 		"cafea5d6c4a65ed9": {
-			"parent": "fffffffffffffffe",
+			"parent": "cafee47ef2a79edf",
 			"name": "Skunk_Civilian_BBQGuest_F_PRO108112",
 			"factory": "[modules:/zglobaloutfitkit.class].pc_entitytype",
 			"blueprint": "[modules:/zglobaloutfitkit.class].pc_entityblueprint",
@@ -510,7 +510,7 @@
 			"blueprint": "[assembly:/_pro/characters/templates/skunk/char_skunk_civilians.template?/charset_skunk_civilian_resident_f.entitytemplate].pc_entityblueprint"
 		},
 		"cafe5b702e0b32ec": {
-			"parent": "fffffffffffffffe",
+			"parent": "cafee47ef2a79edf",
 			"name": "Skunk_Civilian_PublicCivilians_F_PRO108138",
 			"factory": "[modules:/zglobaloutfitkit.class].pc_entitytype",
 			"blueprint": "[modules:/zglobaloutfitkit.class].pc_entityblueprint",
@@ -674,7 +674,7 @@
 			}
 		},
 		"cafe027496588601": {
-			"parent": "fffffffffffffffe",
+			"parent": "cafee47ef2a79edf",
 			"name": "Skunk_Civilian_PublicCivilians_M_PRO108127",
 			"factory": "[modules:/zglobaloutfitkit.class].pc_entitytype",
 			"blueprint": "[modules:/zglobaloutfitkit.class].pc_entityblueprint",
@@ -758,7 +758,7 @@
 			}
 		},
 		"cafe70e4f592090e": {
-			"parent": "fffffffffffffffe",
+			"parent": "cafe2ca6993faf37",
 			"name": "Worker_FoodStand_M_PRO74803",
 			"factory": "[modules:/zglobaloutfitkit.class].pc_entitytype",
 			"blueprint": "[modules:/zglobaloutfitkit.class].pc_entityblueprint",
@@ -980,7 +980,7 @@
 			}
 		},
 		"cafe0e02a895c191": {
-			"parent": "fffffffffffffffe",
+			"parent": "cafe2ca6993faf37",
 			"name": "Worker_FoodStands_F_PRO74804",
 			"factory": "[modules:/zglobaloutfitkit.class].pc_entitytype",
 			"blueprint": "[modules:/zglobaloutfitkit.class].pc_entityblueprint",
@@ -1345,7 +1345,7 @@
 			}
 		},
 		"cafe34a5d73d4f85": {
-			"parent": "fffffffffffffffe",
+			"parent": "cafe2ca6993faf37",
 			"name": "Skunk_Worker_Server_M_PRO108106",
 			"factory": "[modules:/zglobaloutfitkit.class].pc_entitytype",
 			"blueprint": "[modules:/zglobaloutfitkit.class].pc_entityblueprint",
@@ -1476,7 +1476,7 @@
 			"blueprint": "[assembly:/_pro/characters/templates/skunk/char_skunk_workers.template?/charset_skunk_worker_apron_f.entitytemplate].pc_entityblueprint"
 		},
 		"cafeeafdd270f153": {
-			"parent": "fffffffffffffffe",
+			"parent": "cafe2ca6993faf37",
 			"name": "Skunk_Worker_Apron_F_PRO145150",
 			"factory": "[modules:/zglobaloutfitkit.class].pc_entitytype",
 			"blueprint": "[modules:/zglobaloutfitkit.class].pc_entityblueprint",
@@ -1596,7 +1596,7 @@
 			}
 		},
 		"cafece9c80c5332e": {
-			"parent": "fffffffffffffffe",
+			"parent": "cafe4b701cd5973a",
 			"name": "Miami_Guard_EventSecurity",
 			"factory": "[modules:/zglobaloutfitkit.class].pc_entitytype",
 			"blueprint": "[modules:/zglobaloutfitkit.class].pc_entityblueprint",
@@ -1848,7 +1848,7 @@
 			}
 		},
 		"cafe2ebad965f268": {
-			"parent": "fffffffffffffffe",
+			"parent": "cafee47ef2a79edf",
 			"name": "Miami_Civilian_TouristCasual_F_PRO74773",
 			"factory": "[modules:/zglobaloutfitkit.class].pc_entitytype",
 			"blueprint": "[modules:/zglobaloutfitkit.class].pc_entityblueprint",
@@ -1976,7 +1976,7 @@
 			}
 		},
 		"cafed4b895d016d1": {
-			"parent": "fffffffffffffffe",
+			"parent": "cafee47ef2a79edf",
 			"name": "Miami_Civilian_TouristCasual_M_PRO74780",
 			"factory": "[modules:/zglobaloutfitkit.class].pc_entitytype",
 			"blueprint": "[modules:/zglobaloutfitkit.class].pc_entityblueprint",
@@ -2159,7 +2159,7 @@
 			}
 		},
 		"cafea0973455d0a6": {
-			"parent": "fffffffffffffffe",
+			"parent": "cafe2ca6993faf37",
 			"name": "Miami_Worker_Medic_M_PRO75000",
 			"factory": "[modules:/zglobaloutfitkit.class].pc_entitytype",
 			"blueprint": "[modules:/zglobaloutfitkit.class].pc_entityblueprint",
@@ -2303,7 +2303,7 @@
 			"blueprint": "[assembly:/_pro/characters/templates/flamingo/char_flamingo_workers.template?/charset_flamingo_worker_medic_f.entitytemplate].pc_entityblueprint"
 		},
 		"cafe2ed4a9aa0de4": {
-			"parent": "fffffffffffffffe",
+			"parent": "cafe2ca6993faf37",
 			"name": "Miami_Worker_Medic_F_PRO74999",
 			"factory": "[modules:/zglobaloutfitkit.class].pc_entitytype",
 			"blueprint": "[modules:/zglobaloutfitkit.class].pc_entityblueprint",
@@ -2468,7 +2468,7 @@
 			}
 		},
 		"cafe9f54b6576011": {
-			"parent": "fffffffffffffffe",
+			"parent": "cafef7e423d3f49c",
 			"name": "Miami_Unique_FloridaMan_M_PRO75019",
 			"factory": "[modules:/zglobaloutfitkit.class].pc_entitytype",
 			"blueprint": "[modules:/zglobaloutfitkit.class].pc_entityblueprint",
@@ -2584,7 +2584,7 @@
 			}
 		},
 		"cafec189cf86f2ea": {
-			"parent": "fffffffffffffffe",
+			"parent": "cafe4b701cd5973a",
 			"name": "Hay_guard_VIP",
 			"factory": "[modules:/zglobaloutfitkit.class].pc_entitytype",
 			"blueprint": "[modules:/zglobaloutfitkit.class].pc_entityblueprint",
@@ -2973,11 +2973,11 @@
 				},
 				"m_eSoundFootwearType": {
 					"type": "EHM5SoundFootwearType",
-					"value": "EFWT_LEATHER"
+					"value": "EFWT_COWBOY_BOOTS"
 				},
 				"m_rDefaultVoiceVariations": {
 					"type": "TArray<EActorVoiceVariation>",
-					"value": ["eAVV_CIVMALE01"]
+					"value": ["eAVV_CIVMALE10"]
 				},
 				"m_aCharSets": {
 					"type": "TArray<SEntityTemplateReference>",
@@ -2995,8 +2995,8 @@
 		"cafec276766ec03d": {
 			"parent": "cafef13970562e03",
 			"name": "CHARSET_worker_field_M",
-			"factory": "[assembly:/_pro/characters/templates/hippo/char_hippo_workers.template?/charset_hippo_worker_cokefield_m.entitytemplate].pc_entitytype",
-			"blueprint": "[assembly:/_pro/characters/templates/hippo/char_hippo_workers.template?/charset_hippo_worker_cokefield_m.entitytemplate].pc_entityblueprint"
+			"factory": "[assembly:/_pro/characters/templates/bulldog/char_bulldog_workers.template?/charset_bulldog_worker_gardener_m.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/characters/templates/bulldog/char_bulldog_workers.template?/charset_bulldog_worker_gardener_m.entitytemplate].pc_entityblueprint"
 		},
 		"cafea079fa4bd25b": {
 			"parent": "cafef13970562e03",
@@ -3012,7 +3012,7 @@
 			}
 		},
 		"cafef13970562e03": {
-			"parent": "fffffffffffffffe",
+			"parent": "cafe2ca6993faf37",
 			"name": "Hay_worker_field_M",
 			"factory": "[modules:/zglobaloutfitkit.class].pc_entitytype",
 			"blueprint": "[modules:/zglobaloutfitkit.class].pc_entityblueprint",
@@ -3179,8 +3179,8 @@
 		"cafeb2a5afea86ec": {
 			"parent": "cafe388af7433879",
 			"name": "CHARSET_Hay_worker_field_f",
-			"factory": "[assembly:/_pro/characters/templates/hippo/char_hippo_workers.template?/charset_hippo_worker_cokefield_f.entitytemplate].pc_entitytype",
-			"blueprint": "[assembly:/_pro/characters/templates/hippo/char_hippo_workers.template?/charset_hippo_worker_cokefield_f.entitytemplate].pc_entityblueprint"
+			"factory": "[assembly:/_pro/characters/templates/bulldog/char_bulldog_workers.template?/charset_bulldog_worker_gardener_f.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/characters/templates/bulldog/char_bulldog_workers.template?/charset_bulldog_worker_gardener_f.entitytemplate].pc_entityblueprint"
 		},
 		"cafe88f30e7b2458": {
 			"parent": "cafe388af7433879",
@@ -3209,7 +3209,7 @@
 			}
 		},
 		"cafe388af7433879": {
-			"parent": "fffffffffffffffe",
+			"parent": "cafe2ca6993faf37",
 			"name": "Hay_Worker_field_F",
 			"factory": "[modules:/zglobaloutfitkit.class].pc_entitytype",
 			"blueprint": "[modules:/zglobaloutfitkit.class].pc_entityblueprint",
@@ -3457,7 +3457,7 @@
 			}
 		},
 		"cafe89c4bfae0dd1": {
-			"parent": "fffffffffffffffe",
+			"parent": "cafe2ca6993faf37",
 			"name": "Skunk_Unique_Granny_F_PRO104723",
 			"factory": "[modules:/zglobaloutfitkit.class].pc_entitytype",
 			"blueprint": "[modules:/zglobaloutfitkit.class].pc_entityblueprint",
@@ -3608,7 +3608,7 @@
 			"blueprint": "[assembly:/_pro/characters/templates/skunk/char_skunk_unique.template?/charset_skunk_unique_granny_f.entitytemplate].pc_entityblueprint"
 		},
 		"cafe3265f1e009b9": {
-			"parent": "fffffffffffffffe",
+			"parent": "cafe2ca6993faf37",
 			"name": "Hay_Worker_Tech_F_PRO176585",
 			"factory": "[modules:/zglobaloutfitkit.class].pc_entitytype",
 			"blueprint": "[modules:/zglobaloutfitkit.class].pc_entityblueprint",
@@ -3827,7 +3827,7 @@
 			}
 		},
 		"cafea1def6a7670a": {
-			"parent": "fffffffffffffffe",
+			"parent": "cafe2ca6993faf37",
 			"name": "Hay_Worker_Tech_M_PRO176580",
 			"factory": "[modules:/zglobaloutfitkit.class].pc_entitytype",
 			"blueprint": "[modules:/zglobaloutfitkit.class].pc_entityblueprint",
@@ -3977,6 +3977,54 @@
 				"m_aHolders": {
 					"type": "TArray<SEntityTemplateReference>",
 					"value": ["cafe3265f1e009b9"]
+				}
+			}
+		},
+		"cafee47ef2a79edf": {
+			"parent": "fffffffffffffffe",
+			"name": "Civilians",
+			"factory": "[modules:/zentity.class].pc_entitytype",
+			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
+		},
+		"cafe2ca6993faf37": {
+			"parent": "fffffffffffffffe",
+			"name": "Workers",
+			"factory": "[modules:/zentity.class].pc_entitytype",
+			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
+		},
+		"cafe4b701cd5973a": {
+			"parent": "fffffffffffffffe",
+			"name": "Guards",
+			"factory": "[modules:/zentity.class].pc_entitytype",
+			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
+		},
+		"cafef7e423d3f49c": {
+			"parent": "fffffffffffffffe",
+			"name": "Unique",
+			"factory": "[modules:/zentity.class].pc_entitytype",
+			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
+		},
+		"cafe6bf2e846791b": {
+			"parent": "cafe70e4f592090e",
+			"name": "Prof_Colorado_Server",
+			"factory": "[assembly:/_pro/design/actor/profession.template?/prof_hay_server.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_hay_server.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_aHolders": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["cafe70e4f592090e"]
+				}
+			}
+		},
+		"cafe1c211cc28eec": {
+			"parent": "cafe0e02a895c191",
+			"name": "Prof_Colorado_Server",
+			"factory": "[assembly:/_pro/design/actor/profession.template?/prof_hay_server.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_hay_server.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_aHolders": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["cafe0e02a895c191"]
 				}
 			}
 		}

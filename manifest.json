@@ -1185,6 +1185,21 @@
             "runtimeID": "0080A6BBE373F0D0",
             "toChunk": 23,
             "Comment": "S2 sound stuff"
+        },
+        {
+            "runtimeID": "008B1B203C9F6275",
+            "toChunk": 23,
+            "Comment": "outfits_bulldog"
+        },
+        {
+            "runtimeID": "00D9ED85925FED78",
+            "toChunk": 23,
+            "Comment": "rake hips"
+        },
+        {
+            "runtimeID": "00F7D7BABFF10DC8",
+            "toChunk": 23,
+            "Comment": "slushy machine"
         }
 
 
