@@ -1200,6 +1200,11 @@
             "runtimeID": "00F7D7BABFF10DC8",
             "toChunk": 23,
             "Comment": "slushy machine"
+        },
+        {
+            "runtimeID": "00FE1E2F60C7CC3E",
+            "toChunk": 23,
+            "Comment": "act_fr_dance"
         }
 
 
