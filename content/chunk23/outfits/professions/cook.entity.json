@@ -1,0 +1,69 @@
+{
+	"tempHash": "000012C1223B3781",
+	"tbluHash": "002984472C30CC6C",
+	"rootEntity": "cafe6d89add7e180",
+	"entities": {
+		"cafe9b2ab6b396f4": {
+			"parent": "cafe6d89add7e180",
+			"name": "OutfitProfession",
+			"factory": "[modules:/zoutfitprofessionentity.class].pc_entitytype",
+			"blueprint": "[modules:/zoutfitprofessionentity.class].pc_entityblueprint",
+			"properties": {
+				"m_rKeywordProfession": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe639c6cb517bc",
+					"postInit": true
+				}
+			}
+		},
+		"cafe639c6cb517bc": {
+			"parent": "cafe6d89add7e180",
+			"name": "Keyword_PROF_COLORADO_event_cook",
+			"factory": "[modules:/zkeywordentity.class].pc_entitytype",
+			"blueprint": "[modules:/zkeywordentity.class].pc_entityblueprint",
+			"properties": {
+				"m_sKeyword": {
+					"type": "ZString",
+					"value": "PROF_COLORADO_COOK"
+				},
+				"m_aHolders": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": []
+				},
+				"m_rHolder": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe6d89add7e180",
+					"postInit": true
+				}
+			}
+		},
+		"cafe6d89add7e180": {
+			"parent": null,
+			"name": "Prof_Colorado_Cook",
+			"factory": "[modules:/zentity.class].pc_entitytype",
+			"blueprint": "[modules:/zentity.class].pc_entityblueprint",
+			"propertyAliases": {
+				"m_aHolders": [
+					{
+						"originalProperty": "m_aHolders",
+						"originalEntity": "cafe639c6cb517bc"
+					}
+				]
+			},
+			"exposedInterfaces": {
+				"ZKeywordEntity": "cafe639c6cb517bc",
+				"ZOutfitProfessionEntity": "cafe9b2ab6b396f4"
+			}
+		}
+	},
+	"propertyOverrides": [],
+	"overrideDeletes": [],
+	"pinConnectionOverrides": [],
+	"pinConnectionOverrideDeletes": [],
+	"externalScenes": [],
+	"subType": "template",
+	"quickEntityVersion": 3.1,
+	"extraFactoryDependencies": [],
+	"extraBlueprintDependencies": [],
+	"comments": []
+}

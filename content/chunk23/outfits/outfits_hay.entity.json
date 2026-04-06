@@ -4027,6 +4027,173 @@
 					"value": ["cafe0e02a895c191"]
 				}
 			}
+		},
+		"cafe62ad7984700e": {
+			"parent": "cafea5fc48fe8dda",
+			"name": "Keyword_Prof_Class_Worker_Kitchen",
+			"factory": "[assembly:/_pro/design/gamecore/keywords/keywordgenericprofessionclasses.template?/keyword_prof_class_worker_kitchen.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/gamecore/keywords/keywordgenericprofessionclasses.template?/keyword_prof_class_worker_kitchen.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_aHolders": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["cafea5fc48fe8dda"],
+					"postInit": true
+				}
+			}
+		},
+		"cafeb1a25b681bf5": {
+			"parent": "cafea5fc48fe8dda",
+			"name": "Prof_Cook",
+			"factory": "[assembly:/_pro/design/actor/profession.template?/prof_hay_cook.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_hay_cook.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_aHolders": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["cafea5fc48fe8dda"],
+					"postInit": true
+				}
+			}
+		},
+		"cafefc3e38a8e911": {
+			"parent": "cafea5fc48fe8dda",
+			"name": "Keyword_FOLEY_OUTFIT_WORKER_CLOTH_HEAVY",
+			"factory": "[assembly:/_pro/design/gamecore/keywords/keywordsound.template?/keyword_foley_outfit_worker_cloth_heavy.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/gamecore/keywords/keywordsound.template?/keyword_foley_outfit_worker_cloth_heavy.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_aHolders": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["cafea5fc48fe8dda"],
+					"postInit": true
+				}
+			}
+		},
+		"cafee581c401bd08": {
+			"parent": "cafea5fc48fe8dda",
+			"name": "ItemKey_Melee_Cleaver",
+			"factory": "[modules:/zitemrepositorykeyentity.class].pc_entitytype",
+			"blueprint": "[modules:/zitemrepositorykeyentity.class].pc_entityblueprint",
+			"properties": {
+				"m_RepositoryId": {
+					"type": "ZGuid",
+					"value": "1bbf0ed5-0515-4599-a4c9-454ce59cff44"
+				}
+			}
+		},
+		"cafed00feffcbedc": {
+			"parent": "cafea5fc48fe8dda",
+			"name": "Keyword_Prof_Class_Default",
+			"factory": "[assembly:/_pro/design/gamecore/keywords/keywordgenericprofessionclasses.template?/keyword_prof_class_default.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/gamecore/keywords/keywordgenericprofessionclasses.template?/keyword_prof_class_default.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_aHolders": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["cafea5fc48fe8dda"],
+					"postInit": true
+				}
+			}
+		},
+		"cafed81997890dd1": {
+			"parent": "cafea5fc48fe8dda",
+			"name": "CHARSET_MilitiaCook_M",
+			"factory": "[assembly:/_pro/characters/templates/flamingo/char_flamingo_workers.template?/charset_flamingo_worker_kitchenstaff_m.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/characters/templates/flamingo/char_flamingo_workers.template?/charset_flamingo_worker_kitchenstaff_m.entitytemplate].pc_entityblueprint"
+		},
+		"cafe0f70939bc25b": {
+			"parent": "cafea5fc48fe8dda",
+			"name": "ItemKey_Melee_KitchenKnife",
+			"factory": "[modules:/zitemrepositorykeyentity.class].pc_entitytype",
+			"blueprint": "[modules:/zitemrepositorykeyentity.class].pc_entityblueprint",
+			"properties": {
+				"m_RepositoryId": {
+					"type": "ZGuid",
+					"value": "e17172cc-bf70-4df6-9828-d9856b1a24fd"
+				}
+			}
+		},
+		"cafea5fc48fe8dda": {
+			"parent": "cafe2ca6993faf37",
+			"name": "Colorado_Guard_Cook_M_HPA2785",
+			"factory": "[modules:/zglobaloutfitkit.class].pc_entitytype",
+			"blueprint": "[modules:/zglobaloutfitkit.class].pc_entityblueprint",
+			"properties": {
+				"m_DamageMultipliers": {
+					"type": "SBodyPartDamageMultipliers",
+					"value": {
+						"m_fHeadDamageMultiplier": 3.0,
+						"m_fFaceDamageMultiplier": 3.0,
+						"m_fArmDamageMultiplier": 1.0,
+						"m_fLArmDamageScalar": 0.0,
+						"m_fRArmDamageScalar": 0.0,
+						"m_fHandDamageMultiplier": 0.5,
+						"m_fLHandDamageScalar": 0.0,
+						"m_fRHandDamageScalar": 0.0,
+						"m_fLegDamageMultiplier": 0.6000000238418579,
+						"m_fLLegDamageScalar": 0.0,
+						"m_fRLegDamageScalar": 0.0,
+						"m_fTorsoDamageMultiplier": 1.0,
+						"m_bApplyLeftRightScalars": false
+					}
+				},
+				"m_bHeroDisguiseAvailable": {
+					"type": "bool",
+					"value": true
+				},
+				"m_bWeaponsAllowed": { "type": "bool", "value": false },
+				"m_aCharSets": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["cafed81997890dd1"]
+				},
+				"m_eSoundFootwearType": {
+					"type": "EHM5SoundFootwearType",
+					"value": "EFWT_RUBBER_BOOTS"
+				},
+				"m_sId": {
+					"type": "ZGuid",
+					"value": "2a5a3dba-bafd-4a1f-8bbf-204668b32fe1"
+				},
+				"m_pParentOutfit": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "6736fcbbd3e73209",
+						"externalScene": "[assembly:/_pro/scenes/bricks/globaldata.brick].pc_entitytype"
+					}
+				},
+				"m_sCommonName": {
+					"type": "ZString",
+					"value": "Colorado_Guard_MilitiaCook_M_HPA2785"
+				},
+				"m_sTitle": { "type": "ZString", "value": "Militia Cook" },
+				"m_eOutfitAICategory": {
+					"type": "EOutfitAICategory",
+					"value": "OAC_Chef"
+				},
+				"m_rNameTextResource": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/localization/hitman6/conversations/ui/pro/online/repository/outfits_npcs_miami.sweetmenutext?/outfits_miami_worker_kitchenstaff_m_pro74997_name_2a5a3dba-bafd-4a1f-8bbf-204668b32fe1.sweetline].pc_sweetline",
+						"flag": "5F"
+					}
+				},
+				"m_rDescriptionTextResource": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/localization/hitman6/conversations/ui/pro/online/repository/outfits_npcs_miami.sweetmenutext?/outfits_miami_worker_kitchenstaff_m_pro74997_description_2a5a3dba-bafd-4a1f-8bbf-204668b32fe1.sweetline].pc_sweetline",
+						"flag": "5F"
+					}
+				}
+			}
+		},
+		"cafe815dd1af6caa": {
+			"parent": "cafea5fc48fe8dda",
+			"name": "Prof_Colorado_Event_staff",
+			"factory": "[assembly:/_pro/design/actor/profession.template?/prof_hay_staff.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_hay_staff.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_aHolders": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["cafea5fc48fe8dda"]
+				}
+			}
 		}
 	},
 	"propertyOverrides": [],
