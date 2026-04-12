@@ -2672,12 +2672,7 @@
 				},
 				"m_AvailableWeaponKeys": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"cafe158d47a81466",
-						"cafec874b14b483c",
-						"cafe1b539202d5a9",
-						"cafeb0d5c3f2c200"
-					],
+					"value": ["cafe158d47a81466", "cafe1b539202d5a9"],
 					"postInit": true
 				},
 				"m_aWeaponsAllowedExceptionKeywords": {
@@ -2701,7 +2696,7 @@
 			"properties": {
 				"m_RepositoryId": {
 					"type": "ZGuid",
-					"value": "7f31d897-a62f-448c-be0d-79d565e2faa7"
+					"value": "785c3c6b-1272-4853-94f0-a41d52f64795"
 				}
 			}
 		},
@@ -2722,18 +2717,6 @@
 			"name": "CHARSET_Hay_VIP_guard",
 			"factory": "[assembly:/_pro/characters/templates/hay/char_hay_unique.template?/charset_VIP_guards.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/_pro/characters/templates/hay/char_hay_unique.template?/charset_VIP_guards.entitytemplate].pc_entityblueprint"
-		},
-		"cafeb0d5c3f2c200": {
-			"parent": "cafec189cf86f2ea",
-			"name": "ItemKey_AssaultRifle02 NPC",
-			"factory": "[modules:/zitemrepositorykeyentity.class].pc_entitytype",
-			"blueprint": "[modules:/zitemrepositorykeyentity.class].pc_entityblueprint",
-			"properties": {
-				"m_RepositoryId": {
-					"type": "ZGuid",
-					"value": "16edb112-58cc-4069-a7dd-ebd258b14044"
-				}
-			}
 		},
 		"cafeba4f53e0a3c7": {
 			"parent": "cafec189cf86f2ea",
@@ -2756,18 +2739,6 @@
 				"m_aHolders": {
 					"type": "TArray<SEntityTemplateReference>",
 					"value": ["cafec189cf86f2ea"]
-				}
-			}
-		},
-		"cafec874b14b483c": {
-			"parent": "cafec189cf86f2ea",
-			"name": "ItemKey_SMG02 NPC",
-			"factory": "[modules:/zitemrepositorykeyentity.class].pc_entitytype",
-			"blueprint": "[modules:/zitemrepositorykeyentity.class].pc_entityblueprint",
-			"properties": {
-				"m_RepositoryId": {
-					"type": "ZGuid",
-					"value": "3fd9825d-8aa5-48e0-97a9-ec8f541f871a"
 				}
 			}
 		},
@@ -3784,8 +3755,8 @@
 		"cafedfd63e629f5a": {
 			"parent": "cafe3265f1e009b9",
 			"name": "CHARSET_Gecko_Worker_ArtTech_F",
-			"factory": "[assembly:/_pro/characters/templates/gecko/char_gecko_workers.template?/charset_gecko_worker_arttech_f.entitytemplate].pc_entitytype",
-			"blueprint": "[assembly:/_pro/characters/templates/gecko/char_gecko_workers.template?/charset_gecko_worker_arttech_f.entitytemplate].pc_entityblueprint"
+			"factory": "[assembly:/_pro/characters/templates/colorado/char_hay.template?/charset_tech_f.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/characters/templates/colorado/char_hay.template?/charset_tech_f.entitytemplate].pc_entityblueprint"
 		},
 		"cafeb66b2480edf5": {
 			"parent": "cafea1def6a7670a",
@@ -3952,9 +3923,9 @@
 		},
 		"cafeb49fd1859f8f": {
 			"parent": "cafea1def6a7670a",
-			"name": "CHARSET_Gecko_Worker_ArtTech_M",
-			"factory": "[assembly:/_pro/characters/templates/gecko/char_gecko_workers.template?/charset_gecko_worker_arttech_m.entitytemplate].pc_entitytype",
-			"blueprint": "[assembly:/_pro/characters/templates/gecko/char_gecko_workers.template?/charset_gecko_worker_arttech_m.entitytemplate].pc_entityblueprint"
+			"name": "CHARSET_Hay_Worker_Tech_M",
+			"factory": "[assembly:/_pro/characters/templates/colorado/char_hay.template?/charset_tech_m.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/characters/templates/colorado/char_hay.template?/charset_tech_m.entitytemplate].pc_entityblueprint"
 		},
 		"cafef4b0c137400b": {
 			"parent": "cafea1def6a7670a",
@@ -4194,6 +4165,97 @@
 					"value": ["cafea5fc48fe8dda"]
 				}
 			}
+		},
+		"cafe31b8f35a476f": {
+			"parent": "cafef7e423d3f49c",
+			"name": "Hay_entertainer",
+			"factory": "[modules:/zglobaloutfitkit.class].pc_entitytype",
+			"blueprint": "[modules:/zglobaloutfitkit.class].pc_entityblueprint",
+			"properties": {
+				"m_sId": {
+					"type": "ZGuid",
+					"value": "a21846e4-8731-410b-9a98-9c70e4c16e42"
+				},
+				"m_pParentOutfit": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "6736fcbbd3e73209",
+						"externalScene": "[assembly:/_pro/scenes/bricks/globaldata.brick].pc_entitytype"
+					}
+				},
+				"m_eActorCCClass": {
+					"type": "EActorCCPreset",
+					"value": "ACCP_CivilianeMale"
+				},
+				"m_bAuthorityFigure": { "type": "bool", "value": false },
+				"m_bHeroDisguiseAvailable": {
+					"type": "bool",
+					"value": true
+				},
+				"m_eActorType": {
+					"type": "EActorType",
+					"value": "eAT_Civilian"
+				},
+				"m_sCommonName": {
+					"type": "ZString",
+					"value": "Dwight Schrute"
+				},
+				"m_sTitle": {
+					"type": "ZString",
+					"value": "Dwight Schrute"
+				},
+				"m_DamageMultipliers": {
+					"type": "SBodyPartDamageMultipliers",
+					"value": {
+						"m_fHeadDamageMultiplier": 3.0,
+						"m_fFaceDamageMultiplier": 1.5,
+						"m_fArmDamageMultiplier": 1.0,
+						"m_fLArmDamageScalar": 0.0,
+						"m_fRArmDamageScalar": 0.0,
+						"m_fHandDamageMultiplier": 0.5,
+						"m_fLHandDamageScalar": 0.0,
+						"m_fRHandDamageScalar": 0.0,
+						"m_fLegDamageMultiplier": 0.6000000238418579,
+						"m_fLLegDamageScalar": 0.0,
+						"m_fRLegDamageScalar": 0.0,
+						"m_fTorsoDamageMultiplier": 1.0,
+						"m_bApplyLeftRightScalars": false
+					}
+				},
+				"m_rDescriptionTextResource": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/localization/hitman6/conversations/ui/pro/online/repository/outfits_npcs_raccoon.sweetmenutext?/outfits_raccoon_target_lieutenant_m_description_33caaba6-7e28-4e9c-ad35-8e1d9a3f58f0.sweetline].pc_sweetline",
+						"flag": "5F"
+					}
+				},
+				"m_rNameTextResource": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/localization/hitman6/conversations/ui/pro/online/repository/outfits_npcs_raccoon.sweetmenutext?/outfits_raccoon_target_lieutenant_m_name_33caaba6-7e28-4e9c-ad35-8e1d9a3f58f0.sweetline].pc_sweetline",
+						"flag": "5F"
+					}
+				},
+				"m_eSoundFootwearType": {
+					"type": "EHM5SoundFootwearType",
+					"value": "EFWT_LEATHER"
+				},
+				"m_rDefaultVoiceVariations": {
+					"type": "TArray<EActorVoiceVariation>",
+					"value": ["eAVV_CIVMALE01"]
+				},
+				"m_aCharSets": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["cafe071e88ffd278"],
+					"postInit": true
+				}
+			}
+		},
+		"cafe071e88ffd278": {
+			"parent": "cafe31b8f35a476f",
+			"name": "CHARSET_entertainer",
+			"factory": "[assembly:/_pro/characters/templates/colorado/char_hay.template?/charset_entertainer_m.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/characters/templates/colorado/char_hay.template?/charset_entertainer_m.entitytemplate].pc_entityblueprint"
 		}
 	},
 	"propertyOverrides": [],

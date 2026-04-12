@@ -1,0 +1,225 @@
+{
+	"tempHash": "0093BEC9B66BE4F4",
+	"tbluHash": "00890E7F32BD0D8F",
+	"rootEntity": "cafe2bd8ed08dae1",
+	"entities": {
+		"cafecc1b3166d180": {
+			"parent": "cafeebcfeb2d80d7",
+			"name": "Var3",
+			"factory": "[modules:/zoutfitvariation.class].pc_entitytype",
+			"blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint"
+		},
+		"cafeebcfeb2d80d7": {
+			"parent": "cafe2bd8ed08dae1",
+			"name": "Nude",
+			"factory": "[modules:/zcharsetcharactertype.class].pc_entitytype",
+			"blueprint": "[modules:/zcharsetcharactertype.class].pc_entityblueprint",
+			"properties": {
+				"m_aVariations": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						"cafeeb7bab781c59",
+						"cafe26a4edb7ec50",
+						"cafed6001b0da1a7",
+						"cafecc1b3166d180",
+						"cafe61c8750d1097"
+					],
+					"postInit": true
+				}
+			}
+		},
+		"cafeeb7bab781c59": {
+			"parent": "cafeebcfeb2d80d7",
+			"name": "Var0",
+			"factory": "[modules:/zoutfitvariation.class].pc_entitytype",
+			"blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint"
+		},
+		"cafef97abd597fa3": {
+			"parent": "cafedbe787e5a571",
+			"name": "2",
+			"factory": "[modules:/zoutfitvariation.class].pc_entitytype",
+			"blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint",
+			"properties": {
+				"m_Outfit": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/characters/templates/gecko/char_gecko_workers.template?/outfit_gecko_worker_arttech_f_actor_v2.entitytemplate].pc_entitytemplate",
+						"flag": "9F"
+					}
+				}
+			}
+		},
+		"cafedbe787e5a571": {
+			"parent": "cafe2bd8ed08dae1",
+			"name": "Actor",
+			"factory": "[modules:/zcharsetcharactertype.class].pc_entitytype",
+			"blueprint": "[modules:/zcharsetcharactertype.class].pc_entityblueprint",
+			"properties": {
+				"m_aVariations": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						"cafecc13784eeeeb",
+						"cafe518548ff862d",
+						"cafef97abd597fa3",
+						"cafe156d6137d40e",
+						"cafee5f8265aba2d"
+					],
+					"postInit": true
+				}
+			}
+		},
+		"cafe26a4edb7ec50": {
+			"parent": "cafeebcfeb2d80d7",
+			"name": "Var1",
+			"factory": "[modules:/zoutfitvariation.class].pc_entitytype",
+			"blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint"
+		},
+		"cafed6001b0da1a7": {
+			"parent": "cafeebcfeb2d80d7",
+			"name": "Var2",
+			"factory": "[modules:/zoutfitvariation.class].pc_entitytype",
+			"blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint"
+		},
+		"cafe518548ff862d": {
+			"parent": "cafedbe787e5a571",
+			"name": "1",
+			"factory": "[modules:/zoutfitvariation.class].pc_entitytype",
+			"blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint",
+			"properties": {
+				"m_Outfit": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/characters/templates/gecko/char_gecko_workers.template?/outfit_gecko_worker_arttech_f_actor_v1.entitytemplate].pc_entitytemplate",
+						"flag": "9F"
+					}
+				}
+			}
+		},
+		"cafe6ea03968d439": {
+			"parent": "cafe01d0443c0476",
+			"name": "Var2",
+			"factory": "[modules:/zoutfitvariation.class].pc_entitytype",
+			"blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint"
+		},
+		"cafee5f8265aba2d": {
+			"parent": "cafedbe787e5a571",
+			"name": "4",
+			"factory": "[modules:/zoutfitvariation.class].pc_entitytype",
+			"blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint",
+			"properties": {
+				"m_Outfit": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/characters/templates/gecko/char_gecko_workers.template?/outfit_gecko_worker_arttech_f_actor_v4.entitytemplate].pc_entitytemplate",
+						"flag": "9F"
+					}
+				}
+			}
+		},
+		"cafebb611e98181e": {
+			"parent": "cafe01d0443c0476",
+			"name": "Var4",
+			"factory": "[modules:/zoutfitvariation.class].pc_entitytype",
+			"blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint"
+		},
+		"cafe156d6137d40e": {
+			"parent": "cafedbe787e5a571",
+			"name": "3",
+			"factory": "[modules:/zoutfitvariation.class].pc_entitytype",
+			"blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint",
+			"properties": {
+				"m_Outfit": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/characters/templates/gecko/char_gecko_workers.template?/outfit_gecko_worker_arttech_f_actor_v3.entitytemplate].pc_entitytemplate",
+						"flag": "9F"
+					}
+				}
+			}
+		},
+		"cafe5d16fc7b9e1b": {
+			"parent": "cafe01d0443c0476",
+			"name": "Var3",
+			"factory": "[modules:/zoutfitvariation.class].pc_entitytype",
+			"blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint"
+		},
+		"cafec7e19c2373c1": {
+			"parent": "cafe01d0443c0476",
+			"name": "Var1",
+			"factory": "[modules:/zoutfitvariation.class].pc_entitytype",
+			"blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint"
+		},
+		"cafecc13784eeeeb": {
+			"parent": "cafedbe787e5a571",
+			"name": "0",
+			"factory": "[modules:/zoutfitvariation.class].pc_entitytype",
+			"blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint",
+			"properties": {
+				"m_Outfit": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/characters/templates/gecko/char_gecko_workers.template?/outfit_gecko_worker_arttech_f_actor_v0.entitytemplate].pc_entitytemplate",
+						"flag": "9F"
+					}
+				}
+			}
+		},
+		"cafe2bd8ed08dae1": {
+			"parent": null,
+			"name": "CHARSET_hay_Worker_Tech_F",
+			"factory": "[assembly:/_pro/characters/templates/_sourcefiles/outfit.template?/charset_base.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/characters/templates/_sourcefiles/outfit.template?/charset_base.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_aCharacters": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						"cafedbe787e5a571",
+						"cafeebcfeb2d80d7",
+						"cafe01d0443c0476"
+					],
+					"postInit": true
+				}
+			}
+		},
+		"cafe35f75c0b55ac": {
+			"parent": "cafe01d0443c0476",
+			"name": "Var0",
+			"factory": "[modules:/zoutfitvariation.class].pc_entitytype",
+			"blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint"
+		},
+		"cafe01d0443c0476": {
+			"parent": "cafe2bd8ed08dae1",
+			"name": "HeroA",
+			"factory": "[modules:/zcharsetcharactertype.class].pc_entitytype",
+			"blueprint": "[modules:/zcharsetcharactertype.class].pc_entityblueprint",
+			"properties": {
+				"m_aVariations": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						"cafe35f75c0b55ac",
+						"cafec7e19c2373c1",
+						"cafe6ea03968d439",
+						"cafe5d16fc7b9e1b",
+						"cafebb611e98181e"
+					]
+				}
+			}
+		},
+		"cafe61c8750d1097": {
+			"parent": "cafeebcfeb2d80d7",
+			"name": "Var4",
+			"factory": "[modules:/zoutfitvariation.class].pc_entitytype",
+			"blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint"
+		}
+	},
+	"propertyOverrides": [],
+	"overrideDeletes": [],
+	"pinConnectionOverrides": [],
+	"pinConnectionOverrideDeletes": [],
+	"externalScenes": [],
+	"subType": "template",
+	"quickEntityVersion": 3.1,
+	"extraFactoryDependencies": [],
+	"extraBlueprintDependencies": [],
+	"comments": []
+}
