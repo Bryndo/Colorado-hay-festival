@@ -1240,6 +1240,21 @@
             "runtimeID": "007659690A1ADD35",
             "toChunk": 23,
             "comment":"cape_eminem"
+        },
+        {
+            "runtimeID": "0005A61DC507DA77",
+            "toChunk": 23,
+            "comment": "explosive crafting bench"
+        },
+        {
+            "runtimeID": "002D42DD922C13CB",
+            "toChunk": 23,
+            "comment":"trapped crafting station"
+        },
+        {
+            "runtimeID": "0080E8A18A44BE26",
+            "toChunk": 23,
+            "comment":"bulldog poisonous flower"
         }
 
 
